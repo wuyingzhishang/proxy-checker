@@ -1,20 +1,23 @@
-# 代理质量检测结果 - 2026-01-04 22:21:51
+# 代理质量检测结果 - 2026-01-04 23:22:28
 # 总计: 30 个代理
 
+socks5://208.72.153.59:1080 [[机房] 美国 夏威夷州 檀香山 — Vultr [The Constant Company, LLC]] ❌ error: Server disconnected
+socks5://64.188.124.97:1080 [[机房] 德国 黑森州 法兰克福 [u1host ltd]] ❌ error: [Errno 104] Connection reset by peer
+socks5://64.188.90.224:1080 [[机房] 俄罗斯 莫斯科 莫斯科 [SERV.HOST GROUP LTD]] ❌ error: [Errno 104] Connection reset by peer
 socks5://13.215.24.16:1080 [[机房] 新加坡 新加坡 新加坡 — 亚马逊云 Aws [Amazon Data Services Singapore]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
 socks5://13.215.200.134:1080 [[机房] 新加坡 新加坡 新加坡 — 亚马逊云 Aws [Amazon Data Services Singapore]] ❌ error: Server disconnected
 socks5://185.202.236.78:1080 [[机房] 法国 大东部大区 — Contabo [Contabo GmbH]] ❌ timeout
 socks5://27.10.194.68:1080 [[机房] 新加坡 新加坡 新加坡 — 微软云 Azure [cloud]] ❌ error: Server disconnected
 socks5://2.58.172.126:1080 [[机房] 英国 英格兰 伦敦 [Internet Utilities Europe and Asia Limited]] ❌ error: Server disconnected
-socks5://95.237.219.72:1080 [[家宽] 意大利 阿布鲁佐 [Telecom Italia S.p.A.]] ❌ error: Server disconnected
+socks5://95.237.219.72:1080 [[家宽] 意大利 阿布鲁佐 [Telecom Italia S.p.A.]] ❌ timeout
 socks5://195.250.25.18:1080 [[家宽] 美国 德克萨斯州 达拉斯 [WHG Hosting Services Ltd]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
-socks5://5.138.252.117:1080 [[机房] 荷兰 弗莱福兰省 莱利斯塔德 [Snowd Security OU]] 【🟢🟢 广播 Netherlands Flevoland Lelystad】
+socks5://5.138.252.117:1080 [[机房] 荷兰 弗莱福兰省 莱利斯塔德 [Snowd Security OU]] ❌ timeout
 socks5://109.201.65.228:1080 [[家宽] 俄罗斯 弗拉基米尔州 弗拉基米尔 [CJSC COMSTAR-Regions]] ❌ error: Server disconnected
 socks5://193.47.60.119:52681 [[机房] 芬兰 新地区 赫尔辛基 [Baykov Ilya Sergeevich]] 【🟡🟡 广播 Finland Uusimaa Helsinki】
 socks5://91.107.177.100:52324 [[机房] 德国 萨克森州 法尔肯施泰因 — Hetzner [Hetzner Online GmbH]] ❌ HTTP 403
 socks5://90.188.112.178:1080 [[机房] 荷兰 北荷兰省 阿姆斯特丹 [HOSTKEY B.V.]] 【🟡🟡 机房 数据中心 Netherlands North Holland Amsterdam】
 socks5://204.16.174.116:1080 [[机房] 美国 弗吉尼亚州 阿什本 [CHANGEIP COM]] ❌ proxy connection error
-socks5://203.160.55.212:1080 [[机房] 日本 东京 东京 — 腾讯云 [16 COLLYER QUAY # 18-29 INCOME AT RAFFLES]] 【🟡🟡 广播 Japan Tokyo Tokyo】
+socks5://203.160.55.212:1080 [[机房] 日本 东京 东京 — 腾讯云 [16 COLLYER QUAY # 18-29 INCOME AT RAFFLES]] ❌ proxy connection error
 socks5://103.98.77.180:1080 [[机房] 孟加拉国 达卡专区 达卡 [Sam IT Park]] ❌ error: [Errno 104] Connection reset by peer
 socks5://103.98.77.181:1080 [[机房] 孟加拉国 达卡专区 达卡 [Sam IT Park]] ❌ error: [Errno 104] Connection reset by peer
 socks5://103.98.77.179:1080 [[机房] 孟加拉国 达卡专区 达卡 [Sam IT Park]] ❌ error: [Errno 104] Connection reset by peer
@@ -27,7 +30,4 @@ socks5://5.255.117.127:1080 [[机房] 荷兰 弗莱福兰省 德龙滕 [TIG]] �
 socks5://45.251.57.142:1080 [[家宽] 孟加拉国 达卡专区 达卡 [HRC Technologies Ltd]] ❌ error: [Errno 104] Connection reset by peer
 socks5://151.241.227.229:1080 [[机房] 波兰 马佐维亚省 華沙 [HOSTKEY B.V.]] ❌ error: Server disconnected
 socks5://80.64.216.101:1080 [[家宽] 英国 英格兰 伦敦 [Lumina Broadband UAB]] ❌ error: 503, message='Service Unavailable', url='socks5://
-socks5://94.176.182.165:1080 [[机房] 德国 黑森州 法兰克福 [MVPS LTD]] ❌ error: Server disconnected
-socks5://185.146.234.46:1080 [[机房] 美国 亚利桑那州 钱德勒 [GoDaddy.com, LLC]] ❌ error: Server disconnected
-socks5://103.197.241.209:1080 [[家宽] 柬埔寨 金边 金边 [Cogetel Ltd, Online ISP, Cambodia]] ❌ error: Server disconnected
-socks5://103.197.242.78:1080 [[家宽] 柬埔寨 柴楨省 [Cogetel Ltd, Online ISP, Cambodia]] ❌ timeout
+socks5://94.176.182.165:1080 [[机房] 德国 黑森州 法兰克福 [MVPS LTD]] ❌ timeout
