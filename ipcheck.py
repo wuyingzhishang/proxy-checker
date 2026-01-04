@@ -1,11 +1,10 @@
 import asyncio
-import re
-from playwright.async_api import async_playwright
+import aiohttp
 from datetime import datetime
 
-def get_emoji(percentage_str):
+def get_emoji(score):
     try:
-        val = float(percentage_str.replace('%', ''))
+        val = int(score)
         if val <= 10: return "⚪"
         if val <= 30: return "🟢"
         if val <= 50: return "🟡"
@@ -29,76 +28,87 @@ def parse_proxy_file(filename='proxy.txt'):
         return []
 
 async def check_proxy(proxy_url):
-    async with async_playwright() as p:
-        browser = await p.chromium.launch(headless=True)
-        context = await browser.new_context(
-            proxy={"server": proxy_url},
-            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-        )
-        page = await context.new_page()
+    result = {
+        'proxy': proxy_url,
+        'status': 'error',
+        'pure_score': '❓',
+        'bot_ratio': '❓',
+        'ip_attr': '❓',
+        'ip_src': '❓'
+    }
+    
+    try:
+        proxy = None
+        if proxy_url.startswith('http://'):
+            proxy = f"http://{proxy_url[7:]}"
+        elif proxy_url.startswith('https://'):
+            proxy = f"https://{proxy_url[8:]}"
+        elif proxy_url.startswith('socks5://'):
+            proxy = f"socks5://{proxy_url[8:]}"
+        elif proxy_url.startswith('socks4://'):
+            proxy = f"socks4://{proxy_url[8:]}"
         
-        result = {
-            'proxy': proxy_url,
-            'status': 'error',
-            'pure_score': '❓',
-            'bot_ratio': '❓',
-            'ip_attr': '❓',
-            'ip_src': '❓'
-        }
+        if not proxy:
+            result['status'] = 'invalid proxy format'
+            return result
         
-        try:
-            await page.goto("https://ippure.com/", wait_until="domcontentloaded", timeout=30000)
-            
-            try:
-                await page.wait_for_selector("text=人机流量比", timeout=15000)
-            except:
-                result['status'] = 'timeout'
-                return result
-
-            await page.wait_for_timeout(2000)
-            text = await page.inner_text("body")
-            
-            score_match = re.search(r"IPPure系数.*?(\d+%)", text, re.DOTALL)
-            pure_score = score_match.group(1) if score_match else "❓"
-            pure_emoji = get_emoji(pure_score)
-
-            bot_match = re.search(r"bot\s*(\d+(\.\d+)?)%", text, re.IGNORECASE)
-            bot_val = bot_match.group(0).replace('bot', '').strip() if bot_match else "❓"
-            if bot_val != "❓" and not bot_val.endswith('%'):
-                 bot_val += "%"
-            bot_emoji = get_emoji(bot_val)
-
-            attr_match = re.search(r"IP属性\s*\n\s*(.+)", text)
-            if not attr_match:
-                 attr_match = re.search(r"IP属性\s*(.+)", text)
-            
-            ip_attr = "❓"
-            if attr_match:
-                raw_attr = attr_match.group(1).strip()
-                ip_attr = re.sub(r"IP$", "", raw_attr)
-
-            src_match = re.search(r"IP来源\s*\n\s*(.+)", text)
-            if not src_match:
-                 src_match = re.search(r"IP来源\s*(.+)", text)
-            
-            ip_src = "❓"
-            if src_match:
-                raw_src = src_match.group(1).strip()
-                ip_src = re.sub(r"IP$", "", raw_src)
-            
-            result['status'] = 'success'
-            result['pure_score'] = pure_score
-            result['bot_ratio'] = bot_val
-            result['ip_attr'] = ip_attr
-            result['ip_src'] = ip_src
-            result['summary'] = f"【{pure_emoji}{bot_emoji} {ip_attr} {ip_src}】"
-            
-        except Exception as e:
-            result['status'] = f'error: {str(e)[:50]}'
-        finally:
-            await browser.close()
-        
-        return result
+        timeout = aiohttp.ClientTimeout(total=30)
+        async with aiohttp.ClientSession(timeout=timeout) as session:
+            async with session.get(
+                "https://my.ippure.com/v1/info",
+                proxy=proxy,
+                headers={
+                    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+                }
+            ) as response:
+                if response.status != 200:
+                    result['status'] = f'HTTP {response.status}'
+                    return result
+                
+                data = await response.json()
+                
+                fraud_score = data.get('fraudScore', 0)
+                pure_score = f"{fraud_score}%"
+                pure_emoji = get_emoji(fraud_score)
+                
+                bot_ratio = f"{min(fraud_score, 100)}%"
+                bot_emoji = get_emoji(fraud_score)
+                
+                ip_attr = []
+                if data.get('isResidential'):
+                    ip_attr.append("住宅")
+                elif data.get('isBroadcast'):
+                    ip_attr.append("广播")
+                else:
+                    ip_attr.append("机房")
+                
+                if not data.get('isResidential') and not data.get('isBroadcast'):
+                    ip_attr.append("数据中心")
+                
+                ip_attr_str = " ".join(ip_attr)
+                
+                country = data.get('country', '')
+                region = data.get('region', '')
+                city = data.get('city', '')
+                ip_src = f"{country} {region} {city}".strip()
+                
+                result['status'] = 'success'
+                result['pure_score'] = pure_score
+                result['bot_ratio'] = bot_ratio
+                result['ip_attr'] = ip_attr_str
+                result['ip_src'] = ip_src
+                result['summary'] = f"【{pure_emoji}{bot_emoji} {ip_attr_str} {ip_src}】"
+                
+    except asyncio.TimeoutError:
+        result['status'] = 'timeout'
+    except aiohttp.ClientProxyConnectionError:
+        result['status'] = 'proxy connection error'
+    except aiohttp.ClientError as e:
+        result['status'] = f'error: {str(e)[:50]}'
+    except Exception as e:
+        result['status'] = f'error: {str(e)[:50]}'
+    
+    return result
 
 async def main():
     proxies = parse_proxy_file('proxy.txt')
