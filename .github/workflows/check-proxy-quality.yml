@@ -1,0 +1,58 @@
+name: 检测代理质量
+
+permissions:
+  contents: write
+  actions: read
+
+on:
+  workflow_run:
+    workflows: ["更新代理列表"]
+    types:
+      - completed
+  workflow_dispatch:
+
+jobs:
+  check-proxy-quality:
+    runs-on: ubuntu-latest
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
+    
+    steps:
+    - name: 检出代码
+      uses: actions/checkout@v3
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        fetch-depth: 0
+        ref: main
+      
+    - name: 设置Python环境
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+        
+    - name: 安装依赖
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+        playwright install chromium
+        
+    - name: 等待2分钟
+      run: |
+        echo "等待2分钟后开始检测..."
+        sleep 120
+        
+    - name: 检测代理质量
+      run: |
+        echo "开始检测代理质量..."
+        python ipcheck.py
+        echo "代理质量检测完成"
+        
+    - name: 提交更新
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        git config --global user.email "action@github.com"
+        git config --global user.name "GitHub Action"
+        git remote set-url origin https://x-access-token:$GITHUB_TOKEN@github.com/${{ github.repository }}.git
+        git add proxy_checked.txt
+        git commit -m "更新代理质量检测结果" || echo "没有更改"
+        git push origin +main:main
