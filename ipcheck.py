@@ -1,6 +1,13 @@
 import asyncio
 import aiohttp
+import re
 from datetime import datetime
+
+try:
+    from aiohttp_socks import ProxyConnector
+    SOCKS_SUPPORT = True
+except ImportError:
+    SOCKS_SUPPORT = False
 
 def get_emoji(score):
     try:
@@ -27,9 +34,25 @@ def parse_proxy_file(filename='proxy.txt'):
         print(f"读取代理文件错误: {e}")
         return []
 
-async def check_proxy(proxy_url):
+def extract_ip_from_line(line):
+    match = re.search(r'(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3})', line)
+    if match:
+        return match.group(1)
+    return None
+
+def extract_protocol_and_port(line):
+    match = re.search(r'(https?|socks[45])://(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}):(\d+)', line)
+    if match:
+        protocol = match.group(1)
+        port = match.group(3)
+        return protocol, port
+    return None, None
+
+async def check_proxy(ip, protocol, port):
     result = {
-        'proxy': proxy_url,
+        'ip': ip,
+        'protocol': protocol,
+        'port': port,
         'status': 'error',
         'pure_score': '❓',
         'bot_ratio': '❓',
@@ -38,19 +61,7 @@ async def check_proxy(proxy_url):
     }
     
     try:
-        proxy = None
-        if proxy_url.startswith('http://'):
-            proxy = f"http://{proxy_url[7:]}"
-        elif proxy_url.startswith('https://'):
-            proxy = f"https://{proxy_url[8:]}"
-        elif proxy_url.startswith('socks5://'):
-            proxy = f"socks5://{proxy_url[8:]}"
-        elif proxy_url.startswith('socks4://'):
-            proxy = f"socks4://{proxy_url[8:]}"
-        
-        if not proxy:
-            result['status'] = 'invalid proxy format'
-            return result
+        proxy = f"{protocol}://{ip}:{port}"
         
         timeout = aiohttp.ClientTimeout(total=30)
         async with aiohttp.ClientSession(timeout=timeout) as session:
@@ -111,56 +122,60 @@ async def check_proxy(proxy_url):
     return result
 
 async def main():
-    proxies = parse_proxy_file('proxy.txt')
+    proxy_lines = parse_proxy_file('proxy.txt')
     
-    if not proxies:
+    if not proxy_lines:
         print("未找到代理列表")
         return
     
-    print(f"开始检测 {len(proxies)} 个代理...")
+    print(f"开始检测 {len(proxy_lines)} 个代理...")
     
     results = []
-    checked_proxies = []
     
-    for i, proxy in enumerate(proxies, 1):
-        print(f"[{i}/{len(proxies)}] 正在检测: {proxy}")
-        result = await check_proxy(proxy)
-        results.append(result)
+    for i, line in enumerate(proxy_lines, 1):
+        ip = extract_ip_from_line(line)
+        protocol, port = extract_protocol_and_port(line)
+        
+        if not ip or not protocol or not port:
+            print(f"[{i}/{len(proxy_lines)}] 跳过无效行: {line[:50]}...")
+            results.append({
+                'original_line': line,
+                'status': 'invalid format',
+                'summary': '❓ 格式错误'
+            })
+            continue
+        
+        print(f"[{i}/{len(proxy_lines)}] 正在检测: {ip}:{port}")
+        result = await check_proxy(ip, protocol, port)
+        results.append({
+            'original_line': line,
+            'ip': ip,
+            'protocol': protocol,
+            'port': port,
+            'status': result['status'],
+            'summary': result.get('summary', '❓')
+        })
         
         if result['status'] == 'success':
-            checked_proxies.append({
-                'proxy': proxy,
-                'summary': result['summary']
-            })
             print(f"  ✓ 检测成功: {result['summary']}")
         else:
             print(f"  ✗ 检测失败: {result['status']}")
         
         await asyncio.sleep(2)
     
-    print(f"\n检测完成！成功: {len(checked_proxies)}/{len(proxies)}")
+    print(f"\n检测完成！")
     
     timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
     
     with open('proxy_checked.txt', 'w', encoding='utf-8') as f:
         f.write(f"# 代理质量检测结果 - {timestamp}\n")
-        f.write(f"# 总计: {len(proxies)} 个代理 | 成功检测: {len(checked_proxies)} 个\n\n")
+        f.write(f"# 总计: {len(proxy_lines)} 个代理\n\n")
         
-        if checked_proxies:
-            f.write("# 可用代理列表\n")
-            for item in checked_proxies:
-                f.write(f"{item['proxy']} {item['summary']}\n")
-        else:
-            f.write("# 没有可用的代理\n")
-        
-        f.write(f"\n# 检测详情\n")
-        for i, result in enumerate(results, 1):
-            status_icon = "✓" if result['status'] == 'success' else "✗"
-            f.write(f"{status_icon} {result['proxy']}\n")
-            if result['status'] == 'success':
-                f.write(f"  {result['summary']}\n")
+        for item in results:
+            if item['status'] == 'success':
+                f.write(f"{item['original_line']} {item['summary']}\n")
             else:
-                f.write(f"  状态: {result['status']}\n")
+                f.write(f"{item['original_line']} ❌ {item['status']}\n")
     
     print(f"检测结果已保存到 proxy_checked.txt")
 
