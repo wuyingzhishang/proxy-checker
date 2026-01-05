@@ -1,7 +1,7 @@
-# 代理质量检测结果 - 2026-01-05 05:39:27
+# 代理质量检测结果 - 2026-01-05 06:41:20
 # 总计: 30 个代理
 
-socks5://89.47.198.171:1080 [[机房] 伊朗 德黑兰 德黑兰 [Respina Networks & Beyond PJSC]] 【🟢🟢 机房 数据中心 Iran Zanjan Zanjan】
+socks5://89.47.198.171:1080 [[机房] 伊朗 德黑兰 德黑兰 [Respina Networks & Beyond PJSC]] ❌ proxy connection error
 socks5://165.101.28.81:50161 [[机房] 中国 台湾 桃园市 [Sky Digital Co., Ltd.]] ❌ error: [Errno 104] Connection reset by peer
 socks5://149.104.11.180:50161 [[机房] 中国 香港 香港 [STARCLOUD GLOBAL PTE. LTD.]] ❌ error: [Errno 104] Connection reset by peer
 socks5://45.87.43.72:54321 [[机房] 保加利亚 索非亚首都区 索菲亚 [M247 Ltd Kazakhstan]] 【🟠🟠 广播 Bulgaria Sofia-Capital Sofia】
