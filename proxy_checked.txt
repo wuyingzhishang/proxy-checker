@@ -1,6 +1,9 @@
-# 代理质量检测结果 - 2026-01-05 16:30:08
+# 代理质量检测结果 - 2026-01-05 17:26:48
 # 总计: 30 个代理
 
+socks5://104.248.160.228:1080 [[机房] 英国 英格兰 伦敦 — DigitalOcean [DigitalOcean, LLC]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
+socks5://104.248.197.67:1080 [[机房] 荷兰 北荷兰省 阿姆斯特丹 — DigitalOcean [DigitalOcean, LLC]] ❌ error: Server disconnected
+socks5://188.166.211.102:1080 [[机房] 新加坡 新加坡 新加坡 — DigitalOcean [DIGITALOCEAN]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
 socks5://45.119.99.163:50161 [[机房] 中国 香港 香港 [SonderCloud Limited]] ❌ error: [Errno 104] Connection reset by peer
 socks5://92.241.125.147:1080 [[家宽] 俄罗斯 [Smoltelecom PPPoE (dynamic IPs for Citycomm, pool #1)]] ❌ timeout
 socks5://45.155.204.183:1080 [[机房] 俄罗斯 圣彼得堡 圣彼得堡 ["Cloud Technologies" LLC trading as Cloud.ru]] ❌ error: Server disconnected
@@ -13,8 +16,8 @@ socks5://153.34.12.118:1080 [[家宽] 日本 东京 [Stars Flying Inc]] 【🟡�
 socks5://195.201.136.188:1080 [[机房] 德国 巴伐利亚 纽伦堡 — Hetzner [Hetzner Online GmbH]] ❌ error: Server disconnected
 socks5://192.109.225.58:1080 [[家宽] 俄罗斯 布良斯克州 [GTSYSTEMS NET]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
 socks5://137.184.35.83:1080 [[机房] 美国 加州 圣克拉拉 — DigitalOcean [DigitalOcean, LLC]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
-socks5://89.47.198.171:1080 [[机房] 伊朗 德黑兰 德黑兰 [Respina Networks & Beyond PJSC]] 【⚪⚪ 机房 数据中心 Iran Tehran Tehran】
-socks5://165.101.28.81:50161 [[机房] 中国 台湾 桃园市 [Sky Digital Co., Ltd.]] ❌ error: [Errno 104] Connection reset by peer
+socks5://89.47.198.171:1080 [[机房] 伊朗 德黑兰 德黑兰 [Respina Networks & Beyond PJSC]] ❌ timeout
+socks5://165.101.28.81:50161 [[机房] 中国 台湾 桃园市 [Sky Digital Co., Ltd.]] ❌ timeout
 socks5://149.104.11.180:50161 [[机房] 中国 香港 香港 [STARCLOUD GLOBAL PTE. LTD.]] ❌ error: [Errno 104] Connection reset by peer
 socks5://45.87.43.72:54321 [[机房] 保加利亚 索非亚首都区 索菲亚 [M247 Ltd Kazakhstan]] 【🟠🟠 广播 Bulgaria Sofia-Capital Sofia】
 socks5://193.232.178.37:1080 [[机房] 瑞典 斯德哥尔摩省 斯德哥尔摩 [AEZA NETWORK STOCKHOLM]] ❌ error: Server disconnected
@@ -28,6 +31,3 @@ socks5://64.188.90.224:1080 [[机房] 俄罗斯 莫斯科 莫斯科 [SERV.HOST G
 socks5://13.215.24.16:1080 [[机房] 新加坡 新加坡 新加坡 — 亚马逊云 Aws [Amazon Data Services Singapore]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
 socks5://13.215.200.134:1080 [[机房] 新加坡 新加坡 新加坡 — 亚马逊云 Aws [Amazon Data Services Singapore]] ❌ error: Server disconnected
 socks5://185.202.236.78:1080 [[机房] 法国 大东部大区 — Contabo [Contabo GmbH]] ❌ proxy connection error
-socks5://27.10.194.68:1080 [[机房] 新加坡 新加坡 新加坡 — 微软云 Azure [cloud]] ❌ error: Server disconnected
-socks5://2.58.172.126:1080 [[机房] 英国 英格兰 伦敦 [Internet Utilities Europe and Asia Limited]] ❌ error: Server disconnected
-socks5://95.237.219.72:1080 [[家宽] 意大利 阿布鲁佐 [Telecom Italia S.p.A.]] ❌ timeout
