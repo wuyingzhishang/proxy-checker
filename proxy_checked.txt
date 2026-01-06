@@ -1,6 +1,7 @@
-# 代理质量检测结果 - 2026-01-06 15:27:47
+# 代理质量检测结果 - 2026-01-06 16:31:43
 # 总计: 30 个代理
 
+socks5://95.217.208.119:1080 [[机房] 芬兰 新地区 赫尔辛基 — Hetzner [Hetzner Online GmbH]] ❌ HTTP 403
 socks5://137.131.202.67:50161 [[机房] 巴西 圣保罗 圣保罗 — 甲骨文云 Oracle [Oracle Corporation]] ❌ error: [Errno 104] Connection reset by peer
 socks5://37.32.10.238:1080 [[机房] 伊朗 德黑兰 德黑兰 [Noyan Abr Arvan Co. ( Private Joint Stock)]] ❌ error: 400, message='Expected HTTP/, RTSP/ or ICE/:\n\n  
 socks5://114.66.54.14:1080 [[机房] 中国 台湾 彰化县 [Akari Networks (Taipei)]] ❌ error: [Errno 104] Connection reset by peer
@@ -11,7 +12,7 @@ socks5://218.64.24.64:1080 [[机房] 美国 犹他州 盐湖城 [Internet Utilit
 socks5://175.100.35.84:1080 [[家宽] 柬埔寨 金边 金边 [VIETTEL (CAMBODIA) PTE., LTD.]] ❌ error: Server disconnected
 socks5://154.197.69.137:1080 [[机房] 泰国 曼谷 曼谷 [NZ Network Enterprise CO.,LTD.]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
 socks5://47.79.43.91:1080 [[机房] 日本 东京 东京 — 阿里云 [Alibaba Cloud (Singapore) Private Limited]] ❌ error: [Errno 104] Connection reset by peer
-socks5://95.83.149.106:1080 [[家宽] 俄罗斯 图拉州 [ZAO "Electro-Com"]] ❌ proxy connection error
+socks5://95.83.149.106:1080 [[家宽] 俄罗斯 图拉州 [ZAO "Electro-Com"]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
 socks5://185.222.163.137:1080 [[机房] 伊朗 贊詹省 [Mizban Dadeh Roham Co]] 【⚫⚫ 广播 Iran Zanjan Abhar】
 socks5://188.127.225.130:1080 [[机房] 德国 黑森州 法兰克福 [GSL Networks Pty LTD - Frankfurt]] 【🟡🟡 广播 Germany Hesse Frankfurt am Main】
 socks5://185.44.66.9:1080 [[机房] 美国 纽约州 纽约 [MassiveGRID]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
@@ -20,14 +21,13 @@ socks5://198.199.76.11:1080 [[机房] 美国 新泽西州 北伯根 — DigitalO
 socks5://87.255.245.105:1080 [[机房] 俄罗斯 伊万诺沃州 伊万诺沃 [NTERCOMTEL Limited Company]] ❌ timeout
 socks5://186.90.85.42:1080 [[机房] 委内瑞拉 玻利瓦尔省 圭亞那城 [CANTV Servicios, Venezuela]] ❌ error: Server disconnected
 socks5://103.100.170.234:1080 [[家宽] 中国 香港 香港 [IPv4 Superhub Limited]] ❌ timeout
-socks5://185.40.86.232:1080 [[机房] 波兰 马佐维亚省 華沙 [HZ Hosting Ltd]] ❌ proxy connection error
+socks5://185.40.86.232:1080 [[机房] 波兰 马佐维亚省 華沙 [HZ Hosting Ltd]] ❌ error: Server disconnected
 socks5://103.197.243.244:1080 [[家宽] 柬埔寨 金边 金边 [Cogetel Ltd, Online ISP, Cambodia]] ❌ timeout
 socks5://103.119.97.241:1080 [[家宽] 柬埔寨 金边 金边 [Mega Truenet Communication Co., Ltd.]] ❌ timeout
-socks5://143.110.217.153:1080 [[机房] 加拿大 安大略 多伦多 — DigitalOcean [DigitalOcean, LLC]] ❌ proxy connection error
+socks5://143.110.217.153:1080 [[机房] 加拿大 安大略 多伦多 — DigitalOcean [DigitalOcean, LLC]] ❌ error: Server disconnected
 socks5://52.221.203.249:1080 [[机房] 新加坡 新加坡 新加坡 — 亚马逊云 Aws [Amazon Data Services Singapore]] ❌ timeout
 socks5://103.76.84.198:1080 [[机房] 日本 东京 东京 — 腾讯云 [16 COLLYER QUAY # 18-29 INCOME AT RAFFLES]] 【🟡🟡 机房 数据中心 Japan Tokyo Tokyo】
 socks5://107.149.129.215:1080 [[机房] 泰国 暖武里府 暖武里府直辖县 [ReadyIDC Co., Ltd.]] ❌ error: Server disconnected
 socks5://65.108.48.189:1080 [[机房] 芬兰 新地区 赫尔辛基 — Hetzner [Hetzner Online GmbH]] ❌ timeout
 socks5://95.165.25.176:1080 [[家宽] 俄罗斯 莫斯科 莫斯科 [Moscow Local Telephone Network (OAO MGTS)]] ❌ error: Server disconnected
 socks5://94.75.181.155:1080 [[家宽] 俄罗斯 布良斯克州 [PJSC Rostelecom, Bryansk branch]] ❌ proxy connection error
-socks5://31.207.248.245:1080 [[机房] 俄罗斯 车里雅宾斯克州 车里雅宾斯克 [Intersvyaz-2 JSC]] ❌ timeout
