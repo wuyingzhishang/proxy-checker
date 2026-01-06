@@ -1,7 +1,8 @@
-# 代理质量检测结果 - 2026-01-06 10:26:58
+# 代理质量检测结果 - 2026-01-06 11:22:43
 # 总计: 30 个代理
 
-socks5://130.185.123.85:1080 [[机房] 德国 黑森州 法兰克福 [IAAS 130 185 123 0 24]] ❌ error: Server disconnected
+socks5://37.32.10.238:1080 [[机房] 伊朗 德黑兰 德黑兰 [Noyan Abr Arvan Co. ( Private Joint Stock)]] ❌ error: Server disconnected
+socks5://130.185.123.85:1080 [[家宽] 德国 黑森州 法兰克福 [IAAS 130 185 123 0 24]] ❌ proxy connection error
 socks5://114.66.54.14:1080 [[机房] 中国 台湾 彰化县 [Akari Networks (Taipei)]] ❌ error: [Errno 104] Connection reset by peer
 socks5://143.198.90.156:9999 [[机房] 奥地利 奥地利州 维也纳 [Foundation for Applied Privacy]] ❌ error: 501, message='Tor is not an HTTP Proxy', url='sock
 socks5://109.120.133.253:9999 [[机房] 德国 柏林 柏林 [Artikel10 e.V.]] ❌ error: 501, message='Tor is not an HTTP Proxy', url='sock
@@ -12,7 +13,7 @@ socks5://154.197.69.137:1080 [[机房] 泰国 曼谷 曼谷 [NZ Network Enterpri
 socks5://47.79.43.91:1080 [[机房] 日本 东京 东京 — 阿里云 [Alibaba Cloud (Singapore) Private Limited]] ❌ error: [Errno 104] Connection reset by peer
 socks5://95.83.149.106:1080 [[家宽] 俄罗斯 图拉州 [ZAO "Electro-Com"]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
 socks5://185.222.163.137:1080 [[机房] 伊朗 贊詹省 [Mizban Dadeh Roham Co]] 【⚫⚫ 广播 Iran Zanjan Abhar】
-socks5://188.127.225.130:1080 [[机房] 德国 黑森州 法兰克福 [GSL Networks Pty LTD - Frankfurt]] 【🟢🟢 广播 Germany Hesse Frankfurt am Main】
+socks5://188.127.225.130:1080 [[机房] 德国 黑森州 法兰克福 [GSL Networks Pty LTD - Frankfurt]] 【🟡🟡 广播 Germany Hesse Frankfurt am Main】
 socks5://185.44.66.9:1080 [[机房] 美国 纽约州 纽约 [MassiveGRID]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
 socks5://185.44.66.8:1080 [[机房] 美国 纽约州 纽约 [MassiveGRID]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
 socks5://198.199.76.11:1080 [[机房] 美国 新泽西州 北伯根 — DigitalOcean [DigitalOcean, LLC]] ❌ proxy connection error
@@ -24,10 +25,9 @@ socks5://103.197.243.244:1080 [[家宽] 柬埔寨 金边 金边 [Cogetel Ltd, On
 socks5://103.119.97.241:1080 [[家宽] 柬埔寨 金边 金边 [Mega Truenet Communication Co., Ltd.]] ❌ timeout
 socks5://143.110.217.153:1080 [[机房] 加拿大 安大略 多伦多 — DigitalOcean [DigitalOcean, LLC]] ❌ error: Server disconnected
 socks5://52.221.203.249:1080 [[机房] 新加坡 新加坡 新加坡 — 亚马逊云 Aws [Amazon Data Services Singapore]] ❌ HTTP 403
-socks5://103.76.84.198:1080 [[机房] 日本 东京 东京 — 腾讯云 [16 COLLYER QUAY # 18-29 INCOME AT RAFFLES]] ❌ timeout
+socks5://103.76.84.198:1080 [[机房] 日本 东京 东京 — 腾讯云 [16 COLLYER QUAY # 18-29 INCOME AT RAFFLES]] 【🟡🟡 广播 Japan Tokyo Tokyo】
 socks5://107.149.129.215:1080 [[机房] 泰国 暖武里府 暖武里府直辖县 [ReadyIDC Co., Ltd.]] ❌ error: Server disconnected
 socks5://65.108.48.189:1080 [[机房] 芬兰 新地区 赫尔辛基 — Hetzner [Hetzner Online GmbH]] ❌ timeout
 socks5://95.165.25.176:1080 [[家宽] 俄罗斯 莫斯科 莫斯科 [Moscow Local Telephone Network (OAO MGTS)]] ❌ error: Server disconnected
 socks5://94.75.181.155:1080 [[家宽] 俄罗斯 布良斯克州 [PJSC Rostelecom, Bryansk branch]] ❌ proxy connection error
 socks5://31.207.248.245:1080 [[机房] 俄罗斯 车里雅宾斯克州 车里雅宾斯克 [Intersvyaz-2 JSC]] ❌ timeout
-socks5://104.248.160.228:1080 [[机房] 英国 英格兰 伦敦 — DigitalOcean [DigitalOcean, LLC]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
