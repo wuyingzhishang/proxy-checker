@@ -1,6 +1,12 @@
-# 代理质量检测结果 - 2026-01-06 17:29:16
+# 代理质量检测结果 - 2026-01-06 18:34:15
 # 总计: 30 个代理
 
+socks5://51.161.119.73:50161 [[机房] 加拿大 魁北克省 博阿努瓦 — OVH [OVH Hosting, Inc.]] ❌ error: [Errno 104] Connection reset by peer
+socks5://74.48.52.131:50161 [[机房] 美国 加州 洛杉矶 [MULTACOM CORPORATION]] ❌ error: [Errno 104] Connection reset by peer
+socks5://208.98.39.94:50161 [[机房] 美国 加州 洛杉矶 [Sharktech]] ❌ error: [Errno 104] Connection reset by peer
+socks5://164.152.34.60:50161 [[机房] 巴西 圣保罗 圣保罗 — 甲骨文云 Oracle [Oracle Corporation]] ❌ error: [Errno 104] Connection reset by peer
+socks5://77.221.151.207:50161 [[机房] 俄罗斯 莫斯科 莫斯科 [AEZA GROUP Ltd]] ❌ error: [Errno 104] Connection reset by peer
+socks5://47.76.104.45:50161 [[机房] 中国 香港 香港 — 阿里云 [Alibaba Cloud - HK]] ❌ error: [Errno 104] Connection reset by peer
 socks5://205.172.56.214:1080 [[机房] 美国 纽约州 纽约 [HOSTKEY]] ❌ error: Server disconnected
 socks5://95.217.208.119:1080 [[机房] 芬兰 新地区 赫尔辛基 — Hetzner [Hetzner Online GmbH]] ❌ HTTP 403
 socks5://137.131.202.67:50161 [[机房] 巴西 圣保罗 圣保罗 — 甲骨文云 Oracle [Oracle Corporation]] ❌ error: [Errno 104] Connection reset by peer
@@ -19,15 +25,9 @@ socks5://188.127.225.130:1080 [[机房] 德国 黑森州 法兰克福 [GSL Netwo
 socks5://185.44.66.9:1080 [[机房] 美国 纽约州 纽约 [MassiveGRID]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
 socks5://185.44.66.8:1080 [[机房] 美国 纽约州 纽约 [MassiveGRID]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
 socks5://198.199.76.11:1080 [[机房] 美国 新泽西州 北伯根 — DigitalOcean [DigitalOcean, LLC]] ❌ proxy connection error
-socks5://87.255.245.105:1080 [[机房] 俄罗斯 伊万诺沃州 伊万诺沃 [NTERCOMTEL Limited Company]] ❌ timeout
+socks5://87.255.245.105:1080 [[机房] 俄罗斯 伊万诺沃州 伊万诺沃 [NTERCOMTEL Limited Company]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
 socks5://186.90.85.42:1080 [[机房] 委内瑞拉 玻利瓦尔省 圭亞那城 [CANTV Servicios, Venezuela]] ❌ error: Server disconnected
 socks5://103.100.170.234:1080 [[家宽] 中国 香港 香港 [IPv4 Superhub Limited]] ❌ timeout
 socks5://185.40.86.232:1080 [[机房] 波兰 马佐维亚省 華沙 [HZ Hosting Ltd]] ❌ error: Server disconnected
 socks5://103.197.243.244:1080 [[家宽] 柬埔寨 金边 金边 [Cogetel Ltd, Online ISP, Cambodia]] ❌ timeout
 socks5://103.119.97.241:1080 [[家宽] 柬埔寨 金边 金边 [Mega Truenet Communication Co., Ltd.]] ❌ timeout
-socks5://143.110.217.153:1080 [[机房] 加拿大 安大略 多伦多 — DigitalOcean [DigitalOcean, LLC]] ❌ proxy connection error
-socks5://52.221.203.249:1080 [[机房] 新加坡 新加坡 新加坡 — 亚马逊云 Aws [Amazon Data Services Singapore]] ❌ timeout
-socks5://103.76.84.198:1080 [[机房] 日本 东京 东京 — 腾讯云 [16 COLLYER QUAY # 18-29 INCOME AT RAFFLES]] ❌ error: Cannot connect to host my.ippure.com:443 ssl:defau
-socks5://107.149.129.215:1080 [[机房] 泰国 暖武里府 暖武里府直辖县 [ReadyIDC Co., Ltd.]] ❌ error: Server disconnected
-socks5://65.108.48.189:1080 [[机房] 芬兰 新地区 赫尔辛基 — Hetzner [Hetzner Online GmbH]] ❌ timeout
-socks5://95.165.25.176:1080 [[家宽] 俄罗斯 莫斯科 莫斯科 [Moscow Local Telephone Network (OAO MGTS)]] ❌ error: Server disconnected
