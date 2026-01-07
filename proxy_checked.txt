@@ -1,6 +1,7 @@
-# 代理质量检测结果 - 2026-01-07 07:28:55
+# 代理质量检测结果 - 2026-01-07 08:32:53
 # 总计: 30 个代理
 
+socks5://91.108.242.239:1080 [[机房] 德国 黑森州 法兰克福 [Aeza International LTD]] ❌ error: [Errno 104] Connection reset by peer
 socks5://87.248.150.150:1080 [[机房] 土耳其 伊斯坦布尔 伊斯坦布尔 [BitCommand]] ❌ timeout
 socks5://87.248.153.230:1080 [[机房] 德国 巴伐利亚 纽伦堡 — Hetzner [Hetzner Online GmbH]] ❌ error: Server disconnected
 socks5://3.18.21.171:1080 [[机房] 美国 俄亥俄州 哥伦布 — 亚马逊云 Aws [Amazon.com, Inc.]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
@@ -16,9 +17,9 @@ socks5://45.138.16.95:1080 [[机房] 波兰 马佐维亚省 華沙 [1337 Service
 socks5://152.228.218.92:1080 [[机房] 法国 上法兰西大区 格拉沃利讷 — OVH [OVH SAS]] ❌ error: Server disconnected
 socks5://95.179.248.67:1080 [[机房] 德国 黑森州 法兰克福 — Vultr [Vultr Holdings LLC Frankfurt]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
 socks5://68.183.5.34:1080 [[机房] 荷兰 北荷兰省 阿姆斯特丹 — DigitalOcean [DigitalOcean, LLC]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
-socks5://43.133.59.131:1080 [[机房] 新加坡 新加坡 新加坡 — 腾讯云 [6 COLLYER QUAY]] ❌ error: Server disconnected
+socks5://43.133.59.131:1080 [[机房] 新加坡 新加坡 新加坡 — 腾讯云 [6 COLLYER QUAY]] ❌ timeout
 socks5://43.133.233.124:1080 [[机房] 韩国 首尔特别市 首尔特别市 — 腾讯云 [6 COLLYER QUAY]] ❌ timeout
-socks5://103.49.171.2:1080 [[机房] 孟加拉国 达卡专区 达卡 [Exord Online]] ❌ timeout
+socks5://103.49.171.2:1080 [[机房] 孟加拉国 达卡专区 达卡 [Exord Online]] 【🟢🟢 住宅 Bangladesh Dhaka Division Dhaka】
 socks5://82.199.134.146:1080 [[家宽] 德国 巴伐利亚 纽伦堡 [Schnellno]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
 socks5://82.199.134.145:1080 [[家宽] 德国 巴伐利亚 纽伦堡 [Schnellno]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
 socks5://82.199.134.148:1080 [[家宽] 德国 巴伐利亚 纽伦堡 [Schnellno]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
@@ -30,4 +31,3 @@ socks5://164.152.34.60:50161 [[机房] 巴西 圣保罗 圣保罗 — 甲骨文�
 socks5://77.221.151.207:50161 [[机房] 俄罗斯 莫斯科 莫斯科 [AEZA GROUP Ltd]] ❌ error: [Errno 104] Connection reset by peer
 socks5://47.76.104.45:50161 [[机房] 中国 香港 香港 — 阿里云 [Alibaba Cloud - HK]] ❌ error: [Errno 104] Connection reset by peer
 socks5://205.172.56.214:1080 [[机房] 美国 纽约州 纽约 [HOSTKEY]] ❌ error: Server disconnected
-socks5://95.217.208.119:1080 [[机房] 芬兰 新地区 赫尔辛基 — Hetzner [Hetzner Online GmbH]] ❌ HTTP 403
