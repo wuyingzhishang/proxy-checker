@@ -1,12 +1,12 @@
-# 代理质量检测结果 - 2026-01-07 21:21:44
+# 代理质量检测结果 - 2026-01-07 22:22:12
 # 总计: 30 个代理
 
-socks5://217.12.209.4:1080 [[机房] 荷兰 德伦特省 梅珀尔 [Green Floid LLC]] ❌ timeout
+socks5://217.12.209.4:1080 [[机房] 荷兰 德伦特省 梅珀尔 [Green Floid LLC]] ❌ error: Server disconnected
 socks5://104.207.139.62:1080 [[机房] 美国 伊利诺伊州 埃尔克格罗夫村 — Vultr [Vultr Holdings, LLC]] 【🟢🟢 机房 数据中心 United States Illinois Elk Grove Village】
-socks5://213.189.205.33:1080 [[机房] 荷兰 北荷兰省 阿姆斯特丹 [SERVERS TECH FZCO]] 【🟠🟠 广播 Netherlands North Holland Amsterdam】
+socks5://213.189.205.33:1080 [[机房] 荷兰 北荷兰省 阿姆斯特丹 [SERVERS TECH FZCO]] 【⚫⚫ 广播 Germany Hesse Frankfurt am Main】
 socks5://20.125.41.67:1080 [[机房] 美国 华盛顿州 雷德蒙德 [Verizon Business]] ❌ error: Server disconnected
 socks5://132.226.229.220:1080 [[机房] 新加坡 新加坡 新加坡 — DigitalOcean [DigitalOcean, LLC]] ❌ error: Server disconnected
-socks5://47.251.105.161:1080 [[机房] 美国 加州 洛杉矶 — 阿里云 [Alibaba Cloud - US]] ❌ error: [Errno 104] Connection reset by peer
+socks5://47.251.105.161:1080 [[机房] 美国 加州 洛杉矶 — 阿里云 [Alibaba Cloud - US]] ❌ timeout
 socks5://84.32.217.94:9092 [[机房] 瑞典 斯德哥尔摩省 斯德哥尔摩 [R0CKET CLOUD 2]] ❌ error: 501, message='Tor is not an HTTP Proxy', url='sock
 socks5://84.32.217.96:9092 [[机房] 德国 柏林 柏林 [CIA TRIAD SECURITY LLC]] ❌ error: 501, message='Tor is not an HTTP Proxy', url='sock
 socks5://88.198.159.178:1080 [[机房] 德国 巴登-符腾堡 海尔布隆 — Hetzner [xenhome.ru]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
@@ -23,10 +23,10 @@ socks5://94.131.118.215:50161 [[机房] 法国 法兰西岛大区 巴黎 [WorkTi
 socks5://51.89.139.171:50161 [[机房] 英国 英格兰 — OVH [OVH Ltd]] ❌ error: [Errno 104] Connection reset by peer
 socks5://192.36.27.198:32768 [[机房] 德国 柏林 柏林 [Artikel10 e.V.]] ❌ error: 501, message='Tor is not an HTTP Proxy', url='sock
 socks5://159.195.93.76:60000 [[机房] 美国 亚拉巴马州 [AT&T Enterprises, LLC]] ❌ error: 502, message='Proxy Error', url='socks5://159.195.
-socks5://95.85.239.9:60000 [[家宽] 德国 [Kabel Deutschland Breitband Customer 22]] 【⚪⚪ 住宅 Germany City state Bremen Bremen】
-socks5://95.85.239.67:60000 [[家宽] 德国 柏林 柏林 [Telefonica Germany GmbH & Co.OHG]] 【⚪⚪ 机房 数据中心 Germany Bavaria Nürnberg】
+socks5://95.85.239.9:60000 [[家宽] 德国 [Kabel Deutschland Breitband Customer 22]] ❌ error: 502, message='Proxy Error', url='socks5://95.85.23
+socks5://95.85.239.67:60000 [[家宽] 德国 柏林 柏林 [Telefonica Germany GmbH & Co.OHG]] ❌ error: 502, message='Proxy Error', url='socks5://95.85.23
 socks5://47.79.38.117:50161 [[机房] 日本 东京 东京 — 阿里云 [Alibaba Cloud LLC]] ❌ error: [Errno 104] Connection reset by peer
-socks5://95.85.236.104:60001 [[家宽] 德国 下萨克森 [HIGHSPEED FTTH]] 【⚪⚪ 住宅 Germany Lower Saxony Einbeck】
+socks5://95.85.236.104:60001 [[家宽] 德国 下萨克森 [HIGHSPEED FTTH]] ❌ error: 502, message='Proxy Error', url='socks5://95.85.23
 socks5://94.72.140.194:1234 [[机房] 保加利亚 索非亚首都区 索菲亚 [DA International Group Ltd.]] 【🟢🟢 机房 数据中心 Bulgaria Sofia-Capital Sofia】
 socks5://109.199.96.116:9050 [[机房] 瑞典 斯德哥尔摩省 斯德哥尔摩 [KeFF Networks Ltd]] ❌ error: 501, message='Tor is not an HTTP Proxy', url='sock
 socks5://199.231.235.104:7777 [[机房] 瑞典 斯德哥尔摩省 斯德哥尔摩 [R0CKET CLOUD 2]] ❌ error: 501, message='Tor is not an HTTP Proxy', url='sock
