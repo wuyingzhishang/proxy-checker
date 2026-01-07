@@ -1,10 +1,10 @@
-# 代理质量检测结果 - 2026-01-07 17:28:59
+# 代理质量检测结果 - 2026-01-07 18:31:53
 # 总计: 30 个代理
 
 socks5://185.35.187.82:40000 [[机房] 美国 加州 赫米特 [Charter Communications Inc]] 【⚪⚪ 住宅 United States California Hemet】
 socks5://20.125.41.67:1080 [[机房] 美国 华盛顿州 雷德蒙德 [Verizon Business]] ❌ error: Server disconnected
 socks5://132.226.229.220:1080 [[机房] 新加坡 新加坡 新加坡 — DigitalOcean [DigitalOcean, LLC]] ❌ error: Server disconnected
-socks5://47.251.105.161:1080 [[机房] 美国 加州 洛杉矶 — 阿里云 [Alibaba Cloud - US]] ❌ timeout
+socks5://47.251.105.161:1080 [[机房] 美国 加州 洛杉矶 — 阿里云 [Alibaba Cloud - US]] ❌ error: [Errno 104] Connection reset by peer
 socks5://84.32.217.94:9092 [[机房] 瑞典 斯德哥尔摩省 斯德哥尔摩 [R0CKET CLOUD 2]] ❌ error: 501, message='Tor is not an HTTP Proxy', url='sock
 socks5://84.32.217.96:9092 [[机房] 德国 柏林 柏林 [CIA TRIAD SECURITY LLC]] ❌ error: 501, message='Tor is not an HTTP Proxy', url='sock
 socks5://88.198.159.178:1080 [[机房] 德国 巴登-符腾堡 海尔布隆 — Hetzner [xenhome.ru]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
