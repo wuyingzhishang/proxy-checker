@@ -1,33 +1,33 @@
-# 代理质量检测结果 - 2026-01-08 12:45:40
+# 代理质量检测结果 - 2026-01-08 13:44:59
 # 总计: 30 个代理
 
+socks5://64.188.65.195:1080 [[机房] 德国 黑森州 法兰克福 [PLAY2GO INTERNATIONAL LIMITED]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
 socks5://3.96.152.189:1080 [[机房] 加拿大 魁北克省 蒙特利尔 — 亚马逊云 Aws [Amazon Data Services Canada]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
 socks5://115.127.53.114:1080 [[机房] 孟加拉国 达卡专区 达卡 [BRACNet Limited]] ❌ error: Server disconnected
 socks5://95.106.156.172:1080 [[家宽] 俄罗斯 特维尔州 特维尔 [OJSC Rostelecom, Tver branch]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
 socks5://164.77.99.83:1080 [[家宽] 智利 圣地亚哥首都大区 圣地亚哥 [Entel Chile S.A]] ❌ error: Server disconnected
 socks5://159.89.178.208:1080 [[机房] 美国 新泽西州 克利夫顿 — DigitalOcean [DigitalOcean, LLC]] ❌ timeout
 socks5://23.175.248.21:1080 [[机房] 美国 纽约州 纽约 [InfiniaHost.com]] ❌ error: Server disconnected
-socks5://101.50.122.105:1080 [[机房] 巴基斯坦 旁遮普省 拉瓦尔品第 [Naya Tel (Pvt.) Limited]] ❌ error: Server disconnected
-socks5://95.81.117.68:1080 [[机房] 美国 德克萨斯州 达拉斯 [GTELCOM LLC]] ❌ error: Cannot connect to host my.ippure.com:443 ssl:defau
+socks5://101.50.122.105:1080 [[机房] 巴基斯坦 旁遮普省 拉瓦尔品第 [Naya Tel (Pvt.) Limited]] ❌ timeout
+socks5://95.81.117.68:1080 [[机房] 美国 德克萨斯州 达拉斯 [GTELCOM LLC]] 【🟢🟢 广播 United States Texas Dallas】
 socks5://23.27.48.56:1080 [[家宽] 蒙古 [Mongolian Technical University, Computer Science Mgmt School]] ❌ error: Server disconnected
-socks5://65.108.48.189:1080 [[机房] 芬兰 新地区 赫尔辛基 — Hetzner [Hetzner Online GmbH]] ❌ HTTP 403
+socks5://65.108.48.189:1080 [[机房] 芬兰 新地区 赫尔辛基 — Hetzner [Hetzner Online GmbH]] ❌ timeout
 socks5://219.143.132.90:1080 [[家宽] 日本 东京 东京 [Streamline Servers Ltd - Tokyo]] ❌ timeout
 socks5://43.156.225.60:1080 [[机房] 新加坡 新加坡 新加坡 — 腾讯云 [6 COLLYER QUAY]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
 socks5://217.12.209.4:1080 [[机房] 荷兰 德伦特省 梅珀尔 [Green Floid LLC]] ❌ error: Server disconnected
 socks5://104.207.139.62:1080 [[机房] 美国 伊利诺伊州 埃尔克格罗夫村 — Vultr [Vultr Holdings, LLC]] 【🟢🟢 机房 数据中心 United States Illinois Elk Grove Village】
 socks5://213.189.205.33:1080 [[机房] 荷兰 北荷兰省 阿姆斯特丹 [SERVERS TECH FZCO]] 【🟡🟡 广播 Netherlands North Holland Amsterdam】
-socks5://20.125.41.67:1080 [[机房] 美国 华盛顿州 雷德蒙德 [Verizon Business]] ❌ error: Server disconnected
+socks5://20.125.41.67:1080 [[机房] 美国 华盛顿州 雷德蒙德 [Verizon Business]] ❌ proxy connection error
 socks5://132.226.229.220:1080 [[机房] 新加坡 新加坡 新加坡 — DigitalOcean [DigitalOcean, LLC]] ❌ timeout
 socks5://47.251.105.161:1080 [[机房] 美国 加州 洛杉矶 — 阿里云 [Alibaba Cloud - US]] ❌ error: [Errno 104] Connection reset by peer
 socks5://84.32.217.94:9092 [[机房] 瑞典 斯德哥尔摩省 斯德哥尔摩 [R0CKET CLOUD 2]] ❌ error: 501, message='Tor is not an HTTP Proxy', url='sock
 socks5://84.32.217.96:9092 [[机房] 德国 柏林 柏林 [CIA TRIAD SECURITY LLC]] ❌ error: 501, message='Tor is not an HTTP Proxy', url='sock
-socks5://88.198.159.178:1080 [[机房] 德国 巴登-符腾堡 海尔布隆 — Hetzner [xenhome.ru]] ❌ timeout
+socks5://88.198.159.178:1080 [[机房] 德国 巴登-符腾堡 海尔布隆 — Hetzner [xenhome.ru]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
 socks5://113.180.215.2:1080 [[机房] 越南 胡志明市 [Vietnam Posts and Telecommunications Group]] ❌ error: Server disconnected
-socks5://185.163.204.154:60000 [[机房] 美国 康乃狄克州 哈特福德 [Comcast Cable Communications, LLC]] 【⚪⚪ 机房 数据中心 United States Georgia Atlanta】
+socks5://185.163.204.154:60000 [[机房] 美国 康乃狄克州 哈特福德 [Comcast Cable Communications, LLC]] ❌ error: 502, message='Proxy Error', url='socks5://185.163.
 socks5://95.217.15.141:9080 [[机房] 奥地利 奥地利州 维也纳 [Foundation for Applied Privacy]] ❌ error: 501, message='Tor is not an HTTP Proxy', url='sock
 socks5://65.108.24.107:40000 [[机房] 中国 香港 香港 [Hong Kong Broadband Network Limited]] ❌ error: Cannot connect to host my.ippure.com:443 ssl:defau
 socks5://47.79.2.156:50161 [[机房] 新加坡 新加坡 新加坡 — 阿里云 [Alibaba Cloud LLC]] ❌ error: [Errno 104] Connection reset by peer
 socks5://138.68.146.93:50161 [[机房] 英国 英格兰 伦敦 — DigitalOcean [DigitalOcean, LLC]] ❌ error: [Errno 104] Connection reset by peer
 socks5://45.8.146.115:50161 [[机房] 美国 新泽西州 锡考克斯 [WorkTitans B.V.]] ❌ error: [Errno 104] Connection reset by peer
 socks5://171.22.120.47:50161 [[机房] 德国 黑森州 法兰克福 [WorkTitans B.V.]] ❌ error: [Errno 104] Connection reset by peer
-socks5://15.235.193.173:50161 [[机房] 新加坡 新加坡 新加坡 — OVH [OVH SINGAPOR DC]] ❌ error: [Errno 104] Connection reset by peer
