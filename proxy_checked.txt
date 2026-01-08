@@ -1,13 +1,13 @@
-# 代理质量检测结果 - 2026-01-07 23:21:55
+# 代理质量检测结果 - 2026-01-08 01:29:26
 # 总计: 30 个代理
 
 socks5://43.156.225.60:1080 [[机房] 新加坡 新加坡 新加坡 — 腾讯云 [6 COLLYER QUAY]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
 socks5://217.12.209.4:1080 [[机房] 荷兰 德伦特省 梅珀尔 [Green Floid LLC]] ❌ error: Server disconnected
 socks5://104.207.139.62:1080 [[机房] 美国 伊利诺伊州 埃尔克格罗夫村 — Vultr [Vultr Holdings, LLC]] 【🟢🟢 机房 数据中心 United States Illinois Elk Grove Village】
 socks5://213.189.205.33:1080 [[机房] 荷兰 北荷兰省 阿姆斯特丹 [SERVERS TECH FZCO]] 【🟡🟡 广播 Netherlands North Holland Amsterdam】
-socks5://20.125.41.67:1080 [[机房] 美国 华盛顿州 雷德蒙德 [Verizon Business]] ❌ proxy connection error
+socks5://20.125.41.67:1080 [[机房] 美国 华盛顿州 雷德蒙德 [Verizon Business]] ❌ error: Server disconnected
 socks5://132.226.229.220:1080 [[机房] 新加坡 新加坡 新加坡 — DigitalOcean [DigitalOcean, LLC]] ❌ error: Server disconnected
-socks5://47.251.105.161:1080 [[机房] 美国 加州 洛杉矶 — 阿里云 [Alibaba Cloud - US]] ❌ error: [Errno 104] Connection reset by peer
+socks5://47.251.105.161:1080 [[机房] 美国 加州 洛杉矶 — 阿里云 [Alibaba Cloud - US]] ❌ timeout
 socks5://84.32.217.94:9092 [[机房] 瑞典 斯德哥尔摩省 斯德哥尔摩 [R0CKET CLOUD 2]] ❌ error: 501, message='Tor is not an HTTP Proxy', url='sock
 socks5://84.32.217.96:9092 [[机房] 德国 柏林 柏林 [CIA TRIAD SECURITY LLC]] ❌ error: 501, message='Tor is not an HTTP Proxy', url='sock
 socks5://88.198.159.178:1080 [[机房] 德国 巴登-符腾堡 海尔布隆 — Hetzner [xenhome.ru]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
