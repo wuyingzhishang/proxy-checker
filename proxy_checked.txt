@@ -1,4 +1,4 @@
-# 代理质量检测结果 - 2026-01-09 06:36:40
+# 代理质量检测结果 - 2026-01-09 07:29:55
 # 总计: 30 个代理
 
 socks5://91.210.151.184:1080 [[机房] 俄罗斯 莫斯科 莫斯科 [Ltd. "Cypher"]] ❌ error: Server disconnected
@@ -16,8 +16,8 @@ socks5://44.208.161.10:1080 [[机房] 美国 弗吉尼亚州 阿什本 — 亚�
 socks5://129.212.140.134:1080 [[机房] 德国 黑森州 法兰克福 — DigitalOcean [DigitalOcean, LLC]] ❌ error: Server disconnected
 socks5://115.216.63.19:1080 [[机房] 新加坡 新加坡 新加坡 — 阿里云 [Alibaba Cloud (Singapore) Private Limited]] ❌ error: [Errno 104] Connection reset by peer
 socks5://123.19.209.140:1080 [[机房] 越南 [Vietnam Posts and Telecommunications Group]] ❌ error: Server disconnected
-socks5://45.67.138.42:1080 [[家宽] 荷兰 北荷兰省 阿姆斯特丹 [Julian Achter]] ❌ timeout
-socks5://45.67.138.22:1080 [[家宽] 荷兰 北荷兰省 阿姆斯特丹 [Julian Achter]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
+socks5://45.67.138.42:1080 [[家宽] 荷兰 北荷兰省 阿姆斯特丹 [Julian Achter]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
+socks5://45.67.138.22:1080 [[家宽] 荷兰 北荷兰省 阿姆斯特丹 [Julian Achter]] ❌ timeout
 socks5://64.188.65.195:1080 [[机房] 德国 黑森州 法兰克福 [PLAY2GO INTERNATIONAL LIMITED]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
 socks5://3.96.152.189:1080 [[机房] 加拿大 魁北克省 蒙特利尔 — 亚马逊云 Aws [Amazon Data Services Canada]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
 socks5://115.127.53.114:1080 [[机房] 孟加拉国 达卡专区 达卡 [BRACNet Limited]] ❌ timeout
@@ -25,9 +25,9 @@ socks5://95.106.156.172:1080 [[家宽] 俄罗斯 特维尔州 特维尔 [OJSC Ro
 socks5://164.77.99.83:1080 [[家宽] 智利 圣地亚哥首都大区 圣地亚哥 [Entel Chile S.A]] ❌ error: Server disconnected
 socks5://23.175.248.21:1080 [[机房] 美国 纽约州 纽约 [InfiniaHost.com]] ❌ error: Server disconnected
 socks5://101.50.122.105:1080 [[机房] 巴基斯坦 旁遮普省 拉瓦尔品第 [Naya Tel (Pvt.) Limited]] ❌ error: Server disconnected
-socks5://95.81.117.68:1080 [[机房] 美国 德克萨斯州 达拉斯 [GTELCOM LLC]] ❌ timeout
+socks5://95.81.117.68:1080 [[机房] 美国 德克萨斯州 达拉斯 [GTELCOM LLC]] ❌ error: Cannot connect to host my.ippure.com:443 ssl:defau
 socks5://23.27.48.56:1080 [[家宽] 蒙古 [Mongolian Technical University, Computer Science Mgmt School]] ❌ error: Server disconnected
 socks5://43.156.225.60:1080 [[机房] 新加坡 新加坡 新加坡 — 腾讯云 [6 COLLYER QUAY]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
-socks5://217.12.209.4:1080 [[机房] 荷兰 德伦特省 梅珀尔 [Green Floid LLC]] ❌ error: Server disconnected
-socks5://104.207.139.62:1080 [[机房] 美国 伊利诺伊州 埃尔克格罗夫村 — Vultr [Vultr Holdings, LLC]] ❌ error: Cannot connect to host my.ippure.com:443 ssl:defau
+socks5://217.12.209.4:1080 [[机房] 荷兰 德伦特省 梅珀尔 [Green Floid LLC]] ❌ timeout
+socks5://104.207.139.62:1080 [[机房] 美国 伊利诺伊州 埃尔克格罗夫村 — Vultr [Vultr Holdings, LLC]] 【🟢🟢 机房 数据中心 United States Illinois Elk Grove Village】
 socks5://213.189.205.33:1080 [[机房] 荷兰 北荷兰省 阿姆斯特丹 [SERVERS TECH FZCO]] ❌ error: Cannot connect to host my.ippure.com:443 ssl:defau
