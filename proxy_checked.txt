@@ -1,4 +1,4 @@
-# 代理质量检测结果 - 2026-01-09 03:34:24
+# 代理质量检测结果 - 2026-01-09 04:44:36
 # 总计: 30 个代理
 
 socks5://91.210.151.184:1080 [[机房] 俄罗斯 莫斯科 莫斯科 [Ltd. "Cypher"]] ❌ error: Server disconnected
@@ -9,7 +9,7 @@ socks5://52.194.248.15:1080 [[机房] 日本 东京 东京 — 亚马逊云 Aws 
 socks5://35.212.134.247:1080 [[机房] 美国 俄勒冈州 达尔斯 — 谷歌云 GCP [Google LLC]] ❌ error: Server disconnected
 socks5://35.212.250.119:1080 [[机房] 美国 俄勒冈州 达尔斯 — 谷歌云 GCP [Google LLC]] ❌ error: Server disconnected
 socks5://181.102.104.5:1080 [[机房] 美国 弗吉尼亚州 马纳萨斯 [netcup GmbH]] ❌ timeout
-socks5://181.102.226.78:1080 [[机房] 巴西 圣保罗 圣保罗 [Qnax Ltda]] ❌ proxy connection error
+socks5://181.102.226.78:1080 [[机房] 巴西 圣保罗 圣保罗 [Qnax Ltda]] ❌ timeout
 socks5://51.81.77.146:1080 [[机房] 美国 弗吉尼亚州 — OVH [OVH US LLC]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
 socks5://38.102.84.147:1080 [[机房] 加拿大 魁北克省 蒙特利尔 — servarica [Rica Web Services]] ❌ error: Server disconnected
 socks5://44.208.161.10:1080 [[机房] 美国 弗吉尼亚州 阿什本 — 亚马逊云 Aws [Amazon Data Services Northern Virginia]] ❌ error: [Errno 104] Connection reset by peer
@@ -24,10 +24,10 @@ socks5://115.127.53.114:1080 [[机房] 孟加拉国 达卡专区 达卡 [BRACNet
 socks5://95.106.156.172:1080 [[家宽] 俄罗斯 特维尔州 特维尔 [OJSC Rostelecom, Tver branch]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
 socks5://164.77.99.83:1080 [[家宽] 智利 圣地亚哥首都大区 圣地亚哥 [Entel Chile S.A]] ❌ error: Server disconnected
 socks5://23.175.248.21:1080 [[机房] 美国 纽约州 纽约 [InfiniaHost.com]] ❌ error: Server disconnected
-socks5://101.50.122.105:1080 [[机房] 巴基斯坦 旁遮普省 拉瓦尔品第 [Naya Tel (Pvt.) Limited]] ❌ timeout
+socks5://101.50.122.105:1080 [[机房] 巴基斯坦 旁遮普省 拉瓦尔品第 [Naya Tel (Pvt.) Limited]] ❌ error: Server disconnected
 socks5://95.81.117.68:1080 [[机房] 美国 德克萨斯州 达拉斯 [GTELCOM LLC]] ❌ timeout
 socks5://23.27.48.56:1080 [[家宽] 蒙古 [Mongolian Technical University, Computer Science Mgmt School]] ❌ error: Server disconnected
 socks5://43.156.225.60:1080 [[机房] 新加坡 新加坡 新加坡 — 腾讯云 [6 COLLYER QUAY]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
-socks5://217.12.209.4:1080 [[机房] 荷兰 德伦特省 梅珀尔 [Green Floid LLC]] ❌ error: Server disconnected
+socks5://217.12.209.4:1080 [[机房] 荷兰 德伦特省 梅珀尔 [Green Floid LLC]] ❌ timeout
 socks5://104.207.139.62:1080 [[机房] 美国 伊利诺伊州 埃尔克格罗夫村 — Vultr [Vultr Holdings, LLC]] 【🟢🟢 机房 数据中心 United States Illinois Elk Grove Village】
-socks5://213.189.205.33:1080 [[机房] 荷兰 北荷兰省 阿姆斯特丹 [SERVERS TECH FZCO]] 【⚫⚫ 广播 Germany Hesse Frankfurt am Main】
+socks5://213.189.205.33:1080 [[机房] 荷兰 北荷兰省 阿姆斯特丹 [SERVERS TECH FZCO]] 【🟡🟡 广播 Netherlands North Holland Amsterdam】
