@@ -1,33 +1,33 @@
-# 代理质量检测结果 - 2026-01-09 18:36:19
+# 代理质量检测结果 - 2026-01-09 19:24:02
 # 总计: 30 个代理
 
+socks5://144.76.184.226:1080 [[机房] 德国 萨克森州 法尔肯施泰因 — Hetzner [Hetzner Online GmbH]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
+socks5://144.76.94.91:1080 [[机房] 德国 萨克森州 法尔肯施泰因 — Hetzner [Hetzner Online GmbH]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
 socks5://149.28.63.55:1080 [[机房] 美国 新泽西州 皮斯卡特维镇 — Vultr [Vultr Holdings, LLC]] 【🟠🟠 机房 数据中心 United States New Jersey Piscataway】
-socks5://62.16.33.187:1080 [[家宽] 俄罗斯 彼爾姆邊疆區 彼尔姆 [For PPPoE Customers]] ❌ timeout
-socks5://5.255.17.8:1080 [[家宽] 也门 首都行政区 萨那 [YEMEN NET ADSL POOL29 3]] ❌ error: Server disconnected
-socks5://212.253.34.85:1080 [[机房] 土耳其 伊斯坦布尔 伊斯坦布尔 [TR-SOLNET-BB-VAE-ANADOLU]] ❌ timeout
+socks5://5.255.17.8:1080 [[家宽] 也门 首都行政区 萨那 [YEMEN NET ADSL POOL29 3]] ❌ timeout
 socks5://185.79.138.187:1080 [[机房] 芬兰 新地区 赫尔辛基 [Baykov Ilya Sergeevich]] ❌ error: Server disconnected
 socks5://221.143.197.147:1080 [[家宽] 韩国 首尔特别市 首尔特别市 [SK Broadband Co Ltd]] ❌ error: Server disconnected
 socks5://95.221.8.28:1080 [[家宽] 俄罗斯 摩爾曼斯克州 摩爾曼斯克 [Net By Net Holding LLC]] ❌ error: Server disconnected
-socks5://103.39.49.99:1080 [[机房] 印度尼西亚 西爪哇省 井裡汶 [PT Mega Mentari Mandiri]] ❌ error: Server disconnected
-socks5://103.39.49.103:1080 [[机房] 印度尼西亚 西爪哇省 井裡汶 [PT Mega Mentari Mandiri]] ❌ error: Server disconnected
 socks5://3.76.124.109:1080 [[机房] 德国 黑森州 法兰克福 — 亚马逊云 Aws [A100 ROW GmbH]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
 socks5://91.210.151.184:1080 [[机房] 俄罗斯 莫斯科 莫斯科 [Ltd. "Cypher"]] ❌ error: Server disconnected
 socks5://24.134.5.221:1080 [[家宽] 德国 黑森州 法兰克福 [KABEL-DEUTSCHLAND-CUSTOMER-SERVICES-28]] ❌ error: Server disconnected
 socks5://103.153.63.223:1080 [[家宽] 印度尼西亚 西爪哇省 Cikarang [PT Ikhlas Cipta Teknologi]] ❌ error: Server disconnected
-socks5://143.198.236.21:1080 [[机房] 美国 加州 圣克拉拉 — DigitalOcean [DigitalOcean, LLC]] ❌ timeout
 socks5://52.194.248.15:1080 [[机房] 日本 东京 东京 — 亚马逊云 Aws [Amazon.com, Inc.]] ❌ error: Server disconnected
 socks5://35.212.134.247:1080 [[机房] 美国 俄勒冈州 达尔斯 — 谷歌云 GCP [Google LLC]] ❌ error: Server disconnected
 socks5://35.212.250.119:1080 [[机房] 美国 俄勒冈州 达尔斯 — 谷歌云 GCP [Google LLC]] ❌ error: Server disconnected
-socks5://181.102.104.5:1080 [[机房] 美国 弗吉尼亚州 马纳萨斯 [netcup GmbH]] ❌ proxy connection error
-socks5://181.102.226.78:1080 [[机房] 巴西 圣保罗 圣保罗 [Qnax Ltda]] ❌ proxy connection error
 socks5://51.81.77.146:1080 [[机房] 美国 弗吉尼亚州 — OVH [OVH US LLC]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
 socks5://38.102.84.147:1080 [[机房] 加拿大 魁北克省 蒙特利尔 — servarica [Rica Web Services]] ❌ error: Server disconnected
 socks5://44.208.161.10:1080 [[机房] 美国 弗吉尼亚州 阿什本 — 亚马逊云 Aws [Amazon Data Services Northern Virginia]] ❌ error: [Errno 104] Connection reset by peer
 socks5://129.212.140.134:1080 [[机房] 德国 黑森州 法兰克福 — DigitalOcean [DigitalOcean, LLC]] ❌ timeout
-socks5://115.216.63.19:1080 [[机房] 新加坡 新加坡 新加坡 — 阿里云 [Alibaba Cloud (Singapore) Private Limited]] ❌ timeout
 socks5://123.19.209.140:1080 [[机房] 越南 [Vietnam Posts and Telecommunications Group]] ❌ error: Server disconnected
 socks5://45.67.138.42:1080 [[家宽] 荷兰 北荷兰省 阿姆斯特丹 [Julian Achter]] ❌ timeout
 socks5://45.67.138.22:1080 [[家宽] 荷兰 北荷兰省 阿姆斯特丹 [Julian Achter]] ❌ timeout
-socks5://64.188.65.195:1080 [[机房] 德国 黑森州 法兰克福 [PLAY2GO INTERNATIONAL LIMITED]] ❌ timeout
+socks5://64.188.65.195:1080 [[机房] 德国 黑森州 法兰克福 [PLAY2GO INTERNATIONAL LIMITED]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
 socks5://3.96.152.189:1080 [[机房] 加拿大 魁北克省 蒙特利尔 — 亚马逊云 Aws [Amazon Data Services Canada]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
-socks5://115.127.53.114:1080 [[机房] 孟加拉国 达卡专区 达卡 [BRACNet Limited]] ❌ timeout
+socks5://95.106.156.172:1080 [[家宽] 俄罗斯 特维尔州 特维尔 [OJSC Rostelecom, Tver branch]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
+socks5://164.77.99.83:1080 [[家宽] 智利 圣地亚哥首都大区 圣地亚哥 [Entel Chile S.A]] ❌ error: Server disconnected
+socks5://23.175.248.21:1080 [[机房] 美国 纽约州 纽约 [InfiniaHost.com]] ❌ error: Server disconnected
+socks5://101.50.122.105:1080 [[机房] 巴基斯坦 旁遮普省 拉瓦尔品第 [Naya Tel (Pvt.) Limited]] ❌ error: Server disconnected
+socks5://95.81.117.68:1080 [[机房] 美国 德克萨斯州 达拉斯 [GTELCOM LLC]] 【🟢🟢 广播 United States Texas Dallas】
+socks5://23.27.48.56:1080 [[家宽] 蒙古 [Mongolian Technical University, Computer Science Mgmt School]] ❌ error: Server disconnected
+socks5://43.156.225.60:1080 [[机房] 新加坡 新加坡 新加坡 — 腾讯云 [6 COLLYER QUAY]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
