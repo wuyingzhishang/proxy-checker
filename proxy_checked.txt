@@ -1,13 +1,13 @@
-# 代理质量检测结果 - 2026-01-10 04:37:10
+# 代理质量检测结果 - 2026-01-10 05:25:29
 # 总计: 30 个代理
 
 socks5://43.133.59.131:1080 [[机房] 新加坡 新加坡 新加坡 — 腾讯云 [6 COLLYER QUAY]] ❌ timeout
-socks5://168.107.29.190:6666 [[机房] 荷兰 北荷兰省 阿姆斯特丹 [TOR EXIT AND MORE]] 【🔴🔴 机房 数据中心 Norway Vestfold Sandefjord】
+socks5://168.107.29.190:6666 [[机房] 荷兰 北荷兰省 阿姆斯特丹 [TOR EXIT AND MORE]] 【⚫⚫ 机房 数据中心 United States California San Jose】
 socks5://1.53.42.1:1080 [[机房] 越南 胡志明市 胡志明市 [FPT Telecom Company]] 【⚪⚪ 住宅 Vietnam Ho Chi Minh City (HCMC) Quận Một】
 socks5://52.221.203.249:1080 [[机房] 新加坡 新加坡 新加坡 — 亚马逊云 Aws [Amazon Data Services Singapore]] ❌ HTTP 403
 socks5://185.134.148.98:1080 [[机房] 俄罗斯 萨马拉州 萨马拉 [InfoLada Ltd]] 【⚪⚪ 住宅 Russia Samara Oblast Samara】
-socks5://41.174.113.110:1080 [[机房] 津巴布韦 [Liquid Telecommunications Operations Limited]] ❌ error: [Errno 104] Connection reset by peer
-socks5://41.174.171.171:1080 [[机房] 津巴布韦 哈拉雷省 哈拉雷 [Liquid Telecommunications Operations Limited]] ❌ proxy connection error
+socks5://41.174.113.110:1080 [[机房] 津巴布韦 [Liquid Telecommunications Operations Limited]] ❌ timeout
+socks5://41.174.171.171:1080 [[机房] 津巴布韦 哈拉雷省 哈拉雷 [Liquid Telecommunications Operations Limited]] ❌ timeout
 socks5://41.174.162.161:1080 [[机房] 南非 豪登省 约翰内斯堡 [Liquid Telecommunications Operations Limited]] ❌ proxy connection error
 socks5://5.161.19.116:1080 [[机房] 加拿大 曼尼托巴 温尼伯 [Shaw Communications]] ❌ error: Server disconnected
 socks5://5.161.118.55:1080 [[机房] 加拿大 曼尼托巴 温尼伯 [Shaw Communications]] ❌ error: Server disconnected
