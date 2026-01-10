@@ -1,4 +1,4 @@
-# 代理质量检测结果 - 2026-01-10 21:20:56
+# 代理质量检测结果 - 2026-01-10 22:22:04
 # 总计: 30 个代理
 
 socks5://185.86.121.175:1080 [[家宽] 俄罗斯 伊万诺沃州 伊万诺沃 [INTERCOMTEL PPPoE 6]] ❌ error: Server disconnected
@@ -14,7 +14,7 @@ socks5://185.154.53.182:1080 [[机房] 荷兰 北荷兰省 阿姆斯特丹 [Inte
 socks5://95.217.208.119:1080 [[机房] 芬兰 新地区 赫尔辛基 — Hetzner [Hetzner Online GmbH]] ❌ HTTP 403
 socks5://109.106.244.237:1080 [[机房] 荷兰 德伦特省 梅珀尔 [Hostinger International Limited]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
 socks5://43.133.59.131:1080 [[机房] 新加坡 新加坡 新加坡 — 腾讯云 [6 COLLYER QUAY]] ❌ error: Server disconnected
-socks5://168.107.29.190:6666 [[机房] 荷兰 北荷兰省 阿姆斯特丹 [TOR EXIT AND MORE]] 【⚫⚫ 广播 Switzerland Zurich Zürich】
+socks5://168.107.29.190:6666 [[机房] 荷兰 北荷兰省 阿姆斯特丹 [TOR EXIT AND MORE]] 【⚫⚫ 机房 数据中心 United States California San Jose】
 socks5://1.53.42.1:1080 [[机房] 越南 胡志明市 胡志明市 [FPT Telecom Company]] 【⚪⚪ 住宅 Vietnam Ho Chi Minh City (HCMC) Quận Một】
 socks5://52.221.203.249:1080 [[机房] 新加坡 新加坡 新加坡 — 亚马逊云 Aws [Amazon Data Services Singapore]] ❌ HTTP 403
 socks5://185.134.148.98:1080 [[机房] 俄罗斯 萨马拉州 萨马拉 [InfoLada Ltd]] 【⚪⚪ 住宅 Russia Samara Oblast Samara】
