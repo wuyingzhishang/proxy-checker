@@ -1,13 +1,14 @@
-# 代理质量检测结果 - 2026-01-10 17:23:11
+# 代理质量检测结果 - 2026-01-10 18:32:41
 # 总计: 30 个代理
 
-socks5://91.107.189.95:1080 [[机房] 德国 萨克森州 法尔肯施泰因 — Hetzner [Hetzner Online GmbH]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
+socks5://185.86.121.175:1080 [[家宽] 俄罗斯 伊万诺沃州 伊万诺沃 [INTERCOMTEL PPPoE 6]] ❌ error: Server disconnected
+socks5://91.107.189.95:1080 [[机房] 德国 萨克森州 法尔肯施泰因 — Hetzner [Hetzner Online GmbH]] ❌ timeout
 socks5://77.105.73.105:1080 [[机房] 芬兰 新地区 波爾沃 [Loviisan Puhelin Oy | LPOnet Oy Ab]] ❌ error: Server disconnected
 socks5://185.49.69.149:1080 [[机房] 德国 黑森州 法兰克福 [KG3249 HALL]] 【🟢🟢 广播 Germany Hesse Frankfurt am Main】
 socks5://47.83.158.210:1080 [[机房] 中国 香港 香港 — 阿里云 [Alibaba Cloud LLC]] ❌ timeout
 socks5://13.209.82.132:1080 [[机房] 韩国 仁川 仁川广域市 — 亚马逊云 Aws [Amazon.com, Inc.]] ❌ error: Server disconnected
 socks5://5.180.24.144:1080 [[机房] 美国 新泽西州 锡考克斯 [WorkTitans B.V.]] ❌ error: [Errno 104] Connection reset by peer
-socks5://5.180.24.156:1080 [[机房] 美国 新泽西州 锡考克斯 [WorkTitans B.V.]] ❌ timeout
+socks5://5.180.24.156:1080 [[机房] 美国 新泽西州 锡考克斯 [WorkTitans B.V.]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
 socks5://18.184.41.17:1080 [[机房] 德国 黑森州 法兰克福 — 亚马逊云 Aws [A100 ROW GmbH]] ❌ error: Server disconnected
 socks5://23.94.107.163:1080 [[机房] 荷兰 北荷兰省 阿姆斯特丹 — RackNerd [RackNerd LLC]] ❌ timeout
 socks5://185.154.53.182:1080 [[机房] 荷兰 北荷兰省 阿姆斯特丹 [Internet Utilities Europe and Asia Limited]] ❌ error: Server disconnected
@@ -16,7 +17,7 @@ socks5://181.102.207.229:1080 [[机房] 加拿大 安大略 多伦多 — Digita
 socks5://95.217.208.119:1080 [[机房] 芬兰 新地区 赫尔辛基 — Hetzner [Hetzner Online GmbH]] ❌ HTTP 403
 socks5://109.106.244.237:1080 [[机房] 荷兰 德伦特省 梅珀尔 [Hostinger International Limited]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
 socks5://43.133.59.131:1080 [[机房] 新加坡 新加坡 新加坡 — 腾讯云 [6 COLLYER QUAY]] ❌ error: Server disconnected
-socks5://168.107.29.190:6666 [[机房] 荷兰 北荷兰省 阿姆斯特丹 [TOR EXIT AND MORE]] 【⚫⚫ 机房 数据中心 United States California San Jose】
+socks5://168.107.29.190:6666 [[机房] 荷兰 北荷兰省 阿姆斯特丹 [TOR EXIT AND MORE]] 【⚫⚫ 机房 数据中心 Germany State of Berlin Berlin】
 socks5://1.53.42.1:1080 [[机房] 越南 胡志明市 胡志明市 [FPT Telecom Company]] 【⚪⚪ 住宅 Vietnam Ho Chi Minh City (HCMC) Quận Một】
 socks5://52.221.203.249:1080 [[机房] 新加坡 新加坡 新加坡 — 亚马逊云 Aws [Amazon Data Services Singapore]] ❌ HTTP 403
 socks5://185.134.148.98:1080 [[机房] 俄罗斯 萨马拉州 萨马拉 [InfoLada Ltd]] 【⚪⚪ 住宅 Russia Samara Oblast Samara】
@@ -27,7 +28,6 @@ socks5://218.252.170.162:1080 [[家宽] 中国 香港 香港 [Hong Kong Cable Te
 socks5://149.28.63.55:1080 [[机房] 美国 新泽西州 皮斯卡特维镇 — Vultr [Vultr Holdings, LLC]] ❌ timeout
 socks5://185.79.138.187:1080 [[机房] 芬兰 新地区 赫尔辛基 [Baykov Ilya Sergeevich]] ❌ timeout
 socks5://221.143.197.147:1080 [[家宽] 韩国 首尔特别市 首尔特别市 [SK Broadband Co Ltd]] ❌ error: Server disconnected
-socks5://95.221.8.28:1080 [[家宽] 俄罗斯 摩爾曼斯克州 摩爾曼斯克 [Net By Net Holding LLC]] ❌ timeout
+socks5://95.221.8.28:1080 [[家宽] 俄罗斯 摩爾曼斯克州 摩爾曼斯克 [Net By Net Holding LLC]] ❌ error: Server disconnected
 socks5://91.210.151.184:1080 [[机房] 俄罗斯 莫斯科 莫斯科 [Ltd. "Cypher"]] ❌ error: Server disconnected
 socks5://103.153.63.223:1080 [[家宽] 印度尼西亚 西爪哇省 Cikarang [PT Ikhlas Cipta Teknologi]] ❌ error: Server disconnected
-socks5://52.194.248.15:1080 [[机房] 日本 东京 东京 — 亚马逊云 Aws [Amazon.com, Inc.]] ❌ error: Server disconnected
