@@ -1,7 +1,7 @@
-# 代理质量检测结果 - 2026-01-11 13:35:51
+# 代理质量检测结果 - 2026-01-11 14:25:16
 # 总计: 30 个代理
 
-socks5://185.236.71.132:1080 [[机房] 俄罗斯 沃洛格达州 [SKYNET NET 4]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
+socks5://185.236.71.132:1080 [[机房] 俄罗斯 沃洛格达州 [SKYNET NET 4]] ❌ timeout
 socks5://52.63.221.85:1080 [[机房] 澳大利亚 新南威尔士州 悉尼 — 亚马逊云 Aws [Amazon Technologies Inc.]] ❌ error: Server disconnected
 socks5://213.108.217.160:1080 [[机房] 挪威 西福尔郡 桑德尔福德 [GIGAHOST V6]] ❌ error: Server disconnected
 socks5://164.92.110.177:60000 [[机房] 美国 亚拉巴马州 蒙哥马利 [Charter Communications LLC]] ❌ error: 502, message='Proxy Error', url='socks5://164.92.1
@@ -19,10 +19,10 @@ socks5://185.154.53.182:1080 [[机房] 荷兰 北荷兰省 阿姆斯特丹 [Inte
 socks5://95.217.208.119:1080 [[机房] 芬兰 新地区 赫尔辛基 — Hetzner [Hetzner Online GmbH]] ❌ timeout
 socks5://109.106.244.237:1080 [[机房] 荷兰 德伦特省 梅珀尔 [Hostinger International Limited]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
 socks5://43.133.59.131:1080 [[机房] 新加坡 新加坡 新加坡 — 腾讯云 [6 COLLYER QUAY]] ❌ error: Server disconnected
-socks5://168.107.29.190:6666 [[机房] 荷兰 北荷兰省 阿姆斯特丹 [TOR EXIT AND MORE]] 【⚫⚫ 机房 数据中心 United States California San Jose】
+socks5://168.107.29.190:6666 [[机房] 荷兰 北荷兰省 阿姆斯特丹 [TOR EXIT AND MORE]] ❌ error: Cannot connect to host my.ippure.com:443 ssl:defau
 socks5://1.53.42.1:1080 [[机房] 越南 胡志明市 胡志明市 [FPT Telecom Company]] ❌ proxy connection error
 socks5://52.221.203.249:1080 [[机房] 新加坡 新加坡 新加坡 — 亚马逊云 Aws [Amazon Data Services Singapore]] ❌ timeout
-socks5://185.134.148.98:1080 [[机房] 俄罗斯 萨马拉州 萨马拉 [InfoLada Ltd]] ❌ timeout
+socks5://185.134.148.98:1080 [[机房] 俄罗斯 萨马拉州 萨马拉 [InfoLada Ltd]] 【⚪⚪ 住宅 Russia Samara Oblast Samara】
 socks5://5.161.19.116:1080 [[机房] 加拿大 曼尼托巴 温尼伯 [Shaw Communications]] ❌ error: Server disconnected
 socks5://5.161.118.55:1080 [[机房] 加拿大 曼尼托巴 温尼伯 [Shaw Communications]] ❌ error: Server disconnected
 socks5://221.143.197.147:1080 [[家宽] 韩国 首尔特别市 首尔特别市 [SK Broadband Co Ltd]] ❌ error: Server disconnected
