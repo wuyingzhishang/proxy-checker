@@ -1,6 +1,8 @@
-# 代理质量检测结果 - 2026-01-11 05:30:01
+# 代理质量检测结果 - 2026-01-11 06:34:01
 # 总计: 30 个代理
 
+socks5://8.208.83.161:1080 [[机房] 英国 英格兰 伦敦 — 阿里云 [Aliyun Computing Co.LTD]] ❌ HTTP 403
+socks5://36.50.135.18:30000 [[家宽] 德国 黑森州 法兰克福 [ByteHosting]] ❌ error: 501, message='Tor is not an HTTP Proxy', url='sock
 socks5://185.67.93.124:1080 [[家宽] 俄罗斯 圣彼得堡 圣彼得堡 [Elitel ISP clients pool]] ❌ timeout
 socks5://185.86.121.175:1080 [[家宽] 俄罗斯 伊万诺沃州 伊万诺沃 [INTERCOMTEL PPPoE 6]] ❌ timeout
 socks5://91.107.189.95:1080 [[机房] 德国 萨克森州 法尔肯施泰因 — Hetzner [Hetzner Online GmbH]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
@@ -13,9 +15,9 @@ socks5://185.154.53.182:1080 [[机房] 荷兰 北荷兰省 阿姆斯特丹 [Inte
 socks5://95.217.208.119:1080 [[机房] 芬兰 新地区 赫尔辛基 — Hetzner [Hetzner Online GmbH]] ❌ timeout
 socks5://109.106.244.237:1080 [[机房] 荷兰 德伦特省 梅珀尔 [Hostinger International Limited]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
 socks5://43.133.59.131:1080 [[机房] 新加坡 新加坡 新加坡 — 腾讯云 [6 COLLYER QUAY]] ❌ error: Server disconnected
-socks5://168.107.29.190:6666 [[机房] 荷兰 北荷兰省 阿姆斯特丹 [TOR EXIT AND MORE]] 【⚫⚫ 机房 数据中心 Ukraine Kharkivs’ka Oblast’ Kharkiv】
-socks5://1.53.42.1:1080 [[机房] 越南 胡志明市 胡志明市 [FPT Telecom Company]] ❌ timeout
-socks5://52.221.203.249:1080 [[机房] 新加坡 新加坡 新加坡 — 亚马逊云 Aws [Amazon Data Services Singapore]] ❌ timeout
+socks5://168.107.29.190:6666 [[机房] 荷兰 北荷兰省 阿姆斯特丹 [TOR EXIT AND MORE]] 【⚫⚫ 机房 数据中心 United States Pennsylvania Chesterbrook】
+socks5://1.53.42.1:1080 [[机房] 越南 胡志明市 胡志明市 [FPT Telecom Company]] 【⚪⚪ 住宅 Vietnam Ho Chi Minh City (HCMC) Quận Một】
+socks5://52.221.203.249:1080 [[机房] 新加坡 新加坡 新加坡 — 亚马逊云 Aws [Amazon Data Services Singapore]] ❌ error: 503, message='Service Unavailable', url='socks5://
 socks5://185.134.148.98:1080 [[机房] 俄罗斯 萨马拉州 萨马拉 [InfoLada Ltd]] 【⚪⚪ 住宅 Russia Samara Oblast Samara】
 socks5://5.161.19.116:1080 [[机房] 加拿大 曼尼托巴 温尼伯 [Shaw Communications]] ❌ error: Server disconnected
 socks5://5.161.118.55:1080 [[机房] 加拿大 曼尼托巴 温尼伯 [Shaw Communications]] ❌ error: Server disconnected
@@ -29,5 +31,3 @@ socks5://35.212.250.119:1080 [[机房] 美国 俄勒冈州 达尔斯 — 谷歌�
 socks5://51.81.77.146:1080 [[机房] 美国 弗吉尼亚州 — OVH [OVH US LLC]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
 socks5://38.102.84.147:1080 [[机房] 加拿大 魁北克省 蒙特利尔 — servarica [Rica Web Services]] ❌ error: Server disconnected
 socks5://44.208.161.10:1080 [[机房] 美国 弗吉尼亚州 阿什本 — 亚马逊云 Aws [Amazon Data Services Northern Virginia]] ❌ error: [Errno 104] Connection reset by peer
-socks5://129.212.140.134:1080 [[机房] 德国 黑森州 法兰克福 — DigitalOcean [DigitalOcean, LLC]] ❌ timeout
-socks5://123.19.209.140:1080 [[机房] 越南 [Vietnam Posts and Telecommunications Group]] ❌ error: Server disconnected
