@@ -1,13 +1,14 @@
-# 代理质量检测结果 - 2026-01-12 03:51:37
+# 代理质量检测结果 - 2026-01-12 04:53:02
 # 总计: 30 个代理
 
+socks5://108.66.217.58:1080 [[机房] 美国 加州 尔湾 [AT&T Enterprises, LLC]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
 socks5://143.92.57.213:1080 [[机房] 中国 香港 香港 [CTG Server Ltd.]] ❌ error: Server disconnected
-socks5://27.123.254.251:1080 [[机房] 孟加拉国 迈门辛专区 [Millennium Computers & Networking]] ❌ error: Server disconnected
-socks5://212.120.180.141:1080 [[机房] 俄罗斯 彼爾姆邊疆區 彼尔姆 [Uralcom Ltd network (Perm, Russia)]] ❌ error: Server disconnected
+socks5://27.123.254.251:1080 [[家宽] 孟加拉国 迈门辛专区 [Millennium Computers & Networking]] ❌ error: Server disconnected
+socks5://212.120.180.141:1080 [[家宽] 俄罗斯 彼爾姆邊疆區 彼尔姆 [Uralcom Ltd network (Perm, Russia)]] ❌ error: Server disconnected
 socks5://181.101.37.42:1080 [[机房] 美国 密苏里州 圣路易斯 — Contabo [Contabo Inc.]] ❌ timeout
-socks5://181.101.221.75:1080 [[机房] 美国 佛罗里达州 迈阿密 — Vultr [Vultr Holdings, LLC]] ❌ proxy connection error
+socks5://181.101.221.75:1080 [[机房] 美国 佛罗里达州 迈阿密 — Vultr [Vultr Holdings, LLC]] ❌ timeout
 socks5://8.208.83.161:1080 [[机房] 英国 英格兰 伦敦 — 阿里云 [Aliyun Computing Co.LTD]] ❌ HTTP 403
-socks5://5.180.24.156:1080 [[机房] 美国 新泽西州 锡考克斯 [WorkTitans B.V.]] ❌ timeout
+socks5://5.180.24.156:1080 [[机房] 美国 新泽西州 锡考克斯 [WorkTitans B.V.]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
 socks5://94.176.182.165:1080 [[机房] 德国 黑森州 法兰克福 [MVPS LTD]] ❌ error: Server disconnected
 socks5://8.217.214.66:50001 [[机房] 美国 亚利桑那州 凤凰城 [Cogent Communications, LLC]] ❌ proxy connection error
 socks5://192.241.156.17:1080 [[机房] 美国 新泽西州 北伯根 — DigitalOcean [DigitalOcean, LLC]] ❌ error: Server disconnected
@@ -17,17 +18,16 @@ socks5://103.206.68.241:1080 [[家宽] 柬埔寨 金边 金边 [Cogetel Ltd, Onl
 socks5://222.185.56.22:1197 [[机房] 美国 加州 圣何塞 [xTom]] 【🟠🟠 广播 United States California San Jose】
 socks5://115.127.53.114:1080 [[机房] 孟加拉国 达卡专区 达卡 [BRACNet Limited]] ❌ error: Server disconnected
 socks5://84.247.172.229:9050 [[机房] 波兰 马佐维亚省 華沙 [1337 Services GmbH]] ❌ error: 501, message='Tor is not an HTTP Proxy', url='sock
-socks5://5.255.117.127:1080 [[机房] 荷兰 弗莱福兰省 德龙滕 [TIG]] ❌ timeout
+socks5://5.255.117.127:1080 [[机房] 荷兰 弗莱福兰省 德龙滕 [TIG]] ❌ error: Server disconnected
 socks5://70.34.216.68:1080 [[机房] 美国 纽约州 纽约 [LLC "Whirl Software Ukraine"]] ❌ error: Server disconnected
 socks5://103.126.23.177:1080 [[家宽] 孟加拉国 达卡专区 达卡 [Earth Telecommunication(Pvt.)Ltd.]] ❌ error: Server disconnected
 socks5://95.221.7.46:1080 [[家宽] 俄罗斯 摩爾曼斯克州 摩爾曼斯克 [Net By Net Holding LLC]] ❌ error: Server disconnected
 socks5://64.225.107.118:1080 [[机房] 德国 黑森州 法兰克福 — DigitalOcean [DIGITALOCEAN]] ❌ error: Server disconnected
 socks5://93.123.231.129:1080 [[家宽] 俄罗斯 莫斯科州 [Infolink spec]] ❌ error: Server disconnected
-socks5://92.38.49.84:1080 [[家宽] 哈萨克斯坦 阿拉木图 阿拉木圖 [EQU Technologies LLP]] ❌ error: Server disconnected
+socks5://92.38.49.84:1080 [[家宽] 哈萨克斯坦 阿拉木图 阿拉木圖 [EQU Technologies LLP]] ❌ timeout
 socks5://92.38.212.54:1080 [[机房] 德国 黑森州 法兰克福 — DigitalOcean [DigitalOcean, LLC]] ❌ error: Server disconnected
 socks5://199.68.199.24:1080 [[机房] 瑞典 哈兰省 法尔肯贝里 [www.fornex.com, Fornex Hosting S.L.]] ❌ error: [Errno 104] Connection reset by peer
 socks5://52.63.221.85:1080 [[机房] 澳大利亚 新南威尔士州 悉尼 — 亚马逊云 Aws [Amazon Technologies Inc.]] ❌ error: Server disconnected
 socks5://213.108.217.160:1080 [[机房] 挪威 西福尔郡 桑德尔福德 [GIGAHOST V6]] ❌ error: Server disconnected
 socks5://164.92.110.177:60000 [[机房] 美国 亚拉巴马州 蒙哥马利 [Charter Communications LLC]] ❌ error: 502, message='Proxy Error', url='socks5://164.92.1
 socks5://36.50.135.18:30000 [[家宽] 德国 黑森州 法兰克福 [ByteHosting]] ❌ error: 501, message='Tor is not an HTTP Proxy', url='sock
-socks5://91.107.189.95:1080 [[机房] 德国 萨克森州 法尔肯施泰因 — Hetzner [Hetzner Online GmbH]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
