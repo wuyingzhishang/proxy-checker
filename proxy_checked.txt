@@ -1,4 +1,4 @@
-# 代理质量检测结果 - 2026-01-14 09:31:54
+# 代理质量检测结果 - 2026-01-14 10:26:46
 # 总计: 30 个代理
 
 socks5://78.85.165.96:1080 [[家宽] 俄罗斯 乌德穆尔蒂亚共和国 伊熱夫斯克 [abuse mailbox: [email protected]]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
@@ -6,8 +6,8 @@ socks5://35.237.28.196:2222 [[机房] 美国 南卡罗来纳州 北查尔斯顿 
 socks5://109.107.187.18:1080 [[机房] 荷兰 北荷兰省 阿姆斯特丹 [SERVERS TECH FZCO]] ❌ error: Server disconnected
 socks5://173.249.2.184:1080 [[机房] 法国 大东部大区 — Contabo [Contabo GmbH]] ❌ error: Server disconnected
 socks5://139.59.30.134:1080 [[机房] 印度 卡纳塔克邦 — DigitalOcean [DigitalOcean, LLC]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
-socks5://203.189.136.18:1080 [[家宽] 柬埔寨 金边 金边 [Cogetel Ltd, Online ISP, Cambodia]] ❌ timeout
-socks5://203.189.154.200:1080 [[家宽] 柬埔寨 金边 金边 [Cogetel Ltd, Online ISP, Cambodia]] ❌ timeout
+socks5://203.189.136.18:1080 [[家宽] 柬埔寨 金边 金边 [Cogetel Ltd, Online ISP, Cambodia]] ❌ error: Server disconnected
+socks5://203.189.154.200:1080 [[家宽] 柬埔寨 金边 金边 [Cogetel Ltd, Online ISP, Cambodia]] ❌ error: Server disconnected
 socks5://185.196.117.28:8080 [[机房] 荷兰 北荷兰省 阿姆斯特丹 [Timeweb.Cloud LLC]] ❌ error: Server disconnected
 socks5://15.204.196.146:1080 [[机房] 美国 弗吉尼亚州 赖斯顿 — Cloudflare CDN 节点 [CLOUDFLAREWARP]] ❌ error: Server disconnected
 socks5://65.109.182.45:1080 [[机房] 芬兰 新地区 赫尔辛基 — Hetzner [Hetzner Online GmbH]] ❌ error: [Errno 104] Connection reset by peer
@@ -21,7 +21,7 @@ socks5://49.13.67.145:4444 [[机房] 英国 英格兰 布莱奇利 [Dynamic IP A
 socks5://89.251.26.111:5555 [[机房] 中国 香港 香港 [ALICE NETWORKS LTD]] ❌ error: [Errno 104] Connection reset by peer
 socks5://49.51.51.59:5555 [[机房] 美国 加州 圣克拉拉 — 腾讯云 [Tencent cloud computing (Beijing) Co., Ltd.]] ❌ error: [Errno 104] Connection reset by peer
 socks5://118.71.233.189:1111 [[家宽] 越南 [Viettel Group]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
-socks5://92.51.37.33:1080 [[机房] 德国 黑森州 法兰克福 [Timeweb, LLP]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
+socks5://92.51.37.33:1080 [[机房] 德国 黑森州 法兰克福 [Timeweb, LLP]] ❌ timeout
 socks5://45.90.99.241:1111 [[机房] 德国 黑森州 法兰克福 [Datalix]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
 socks5://45.90.99.241:5555 [[机房] 德国 黑森州 法兰克福 [Datalix]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
 socks5://118.170.0.67:1080 [[机房] 中国 台湾 台中市 [Data Communication Business Group,]] ❌ error: 400, message='Expected HTTP/, RTSP/ or ICE/:\n\n  
