@@ -1,6 +1,7 @@
-# 代理质量检测结果 - 2026-01-14 07:28:23
+# 代理质量检测结果 - 2026-01-14 08:32:21
 # 总计: 30 个代理
 
+socks5://78.85.165.96:1080 [[家宽] 俄罗斯 乌德穆尔蒂亚共和国 伊熱夫斯克 [abuse mailbox: [email protected]]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
 socks5://35.237.28.196:2222 [[机房] 美国 南卡罗来纳州 北查尔斯顿 — 谷歌云 GCP [Google LLC]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
 socks5://109.107.187.18:1080 [[机房] 荷兰 北荷兰省 阿姆斯特丹 [SERVERS TECH FZCO]] ❌ error: Server disconnected
 socks5://173.249.2.184:1080 [[机房] 法国 大东部大区 — Contabo [Contabo GmbH]] ❌ error: Server disconnected
@@ -11,7 +12,7 @@ socks5://185.196.117.28:8080 [[机房] 荷兰 北荷兰省 阿姆斯特丹 [Time
 socks5://15.204.196.146:1080 [[机房] 美国 弗吉尼亚州 赖斯顿 — Cloudflare CDN 节点 [CLOUDFLAREWARP]] ❌ error: Server disconnected
 socks5://65.109.182.45:1080 [[机房] 芬兰 新地区 赫尔辛基 — Hetzner [Hetzner Online GmbH]] ❌ error: [Errno 104] Connection reset by peer
 socks5://77.223.141.92:1080 [[机房] 土耳其 伊斯坦布尔 伊斯坦布尔 [Netdirekt A.S.]] ❌ error: Server disconnected
-socks5://103.119.97.179:1080 [[家宽] 柬埔寨 金边 金边 [Mega Truenet Communication Co., Ltd.]] ❌ error: Server disconnected
+socks5://103.119.97.179:1080 [[家宽] 柬埔寨 金边 金边 [Mega Truenet Communication Co., Ltd.]] ❌ error: [Errno 104] Connection reset by peer
 socks5://38.47.238.47:1080 [[机房] 美国 加州 洛杉矶 [HONG KONG COMMUNICATIONS INTERNATIONAL CO.,LIMITED]] ❌ error: Server disconnected
 socks5://18.130.105.44:1080 [[机房] 新加坡 新加坡 新加坡 — 亚马逊云 Aws [Amazon Data Services Singapore]] ❌ error: [Errno 104] Connection reset by peer
 socks5://192.124.171.32:2222 [[机房] 俄罗斯 滨海边疆区 海参崴 — Ruvds [MT FINANCE LLC]] 【🟢🟢 住宅 Russia Primorye Vladivostok】
@@ -30,4 +31,3 @@ socks5://103.161.69.234:1080 [[机房] 孟加拉国 吉大港專區 [Confidence 
 socks5://185.194.177.18:8080 [[机房] 德国 黑森州 法兰克福 [FREAKHOSTING]] ❌ error: Server disconnected
 socks5://18.179.119.184:6666 [[机房] 柬埔寨 [Spidernet Co.,Ltd]] ❌ error: [Errno 104] Connection reset by peer
 socks5://31.15.16.218:1080 [[机房] 荷兰 北荷兰省 阿姆斯特丹 [CGI GLOBAL LIMITED]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
-socks5://18.179.31.59:1080 [[机房] 日本 东京 东京 — 亚马逊云 Aws [Amazon Data Services Japan]] ❌ proxy connection error
