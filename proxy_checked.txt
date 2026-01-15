@@ -1,17 +1,25 @@
-# 代理质量检测结果 - 2026-01-15 19:26:47
+# 代理质量检测结果 - 2026-01-15 20:27:12
 # 总计: 30 个代理
 
+socks5://213.148.6.11:7777 [[机房] 哈萨克斯坦 阿拉木图 阿拉木圖 [Modern Server Solutions LLP]] ❌ error: Server disconnected
+socks5://194.1.161.55:1080 [[机房] 俄罗斯 莫斯科州 契訶夫 [Transport Telecommunication Company LLC]] ❌ proxy connection error
+socks5://8.209.207.94:1080 [[机房] 日本 东京 东京 — 阿里云 [Shiodome Sumitomo Blog 1-9-2 TOKYO]] ❌ error: Server disconnected
+socks5://198.200.54.88:1080 [[机房] 美国 加州 圣何塞 [PEG TECH INC]] ❌ error: [Errno 104] Connection reset by peer
+socks5://198.200.54.89:1080 [[机房] 美国 加州 圣何塞 [PEG TECH INC]] ❌ error: [Errno 104] Connection reset by peer
+socks5://198.200.54.90:1080 [[机房] 美国 加州 圣何塞 [PEG TECH INC]] ❌ error: [Errno 104] Connection reset by peer
+socks5://198.200.54.86:1080 [[机房] 美国 加州 圣何塞 [PEG TECH INC]] ❌ error: [Errno 104] Connection reset by peer
+socks5://198.200.54.87:1080 [[机房] 美国 加州 圣何塞 [PEG TECH INC]] ❌ error: [Errno 104] Connection reset by peer
 socks5://147.139.204.53:1080 [[机房] 印度尼西亚 雅加达 雅加达 — 阿里云 [Alibaba Cloud - ID]] ❌ error: Server disconnected
-socks5://103.239.52.196:1080 [[机房] 柬埔寨 金边 金边 [Cogetel Ltd, Online ISP, Cambodia]] ❌ error: Server disconnected
+socks5://103.239.52.196:1080 [[家宽] 柬埔寨 金边 金边 [Cogetel Ltd, Online ISP, Cambodia]] ❌ error: Server disconnected
 socks5://47.79.43.6:5555 [[机房] 日本 东京 东京 — 阿里云 [Alibaba Cloud LLC]] ❌ error: [Errno 104] Connection reset by peer
 socks5://47.79.228.246:5555 [[机房] 新加坡 新加坡 新加坡 — 阿里云 [Alibaba Cloud LLC]] ❌ error: [Errno 104] Connection reset by peer
-socks5://185.233.164.159:1080 [[家宽] 土耳其 布尔萨省 布尔萨 [IPXO 1]] ❌ timeout
+socks5://185.233.164.159:1080 [[家宽] 土耳其 布尔萨省 布尔萨 [IPXO 1]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
 socks5://103.214.142.78:7777 [[家宽] 中国 香港 香港 [3rd Floor, 161-167 Des Voeux Road]] ❌ error: Server disconnected
 socks5://47.76.71.53:5555 [[机房] 中国 香港 香港 — 阿里云 [Alibaba Cloud - HK]] ❌ error: [Errno 104] Connection reset by peer
 socks5://18.234.132.106:1080 [[机房] 美国 弗吉尼亚州 阿什本 — 亚马逊云 Aws [Amazon Technologies Inc.]] ❌ error: Server disconnected
 socks5://113.22.208.10:3333 [[机房] 越南 河内 河内市 [Vietnam Internet Network Information Center (VNNIC)]] ❌ timeout
-socks5://150.241.68.178:1080 [[机房] 德国 柏林 柏林 [BIIL RU LTD]] ❌ proxy connection error
-socks5://188.32.98.192:1080 [[机房] 俄罗斯 莫斯科 莫斯科 [PJSC Rostelecom]] ❌ error: Server disconnected
+socks5://150.241.68.178:1080 [[机房] 德国 柏林 柏林 [BIIL RU LTD]] 【🟠🟠 机房 数据中心 Germany State of Berlin Berlin】
+socks5://188.32.98.192:1080 [[机房] 俄罗斯 莫斯科 莫斯科 [PJSC Rostelecom]] ❌ timeout
 socks5://147.45.193.185:1080 [[机房] 德国 黑森州 法兰克福 [DpkgSoft International Limited]] ❌ error: Server disconnected
 socks5://188.253.26.164:1080 [[机房] 荷兰 北荷兰省 阿姆斯特丹 — veesp.com [Veesp NL]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
 socks5://149.255.18.39:1080 [[家宽] 俄罗斯 伊万诺沃州 伊万诺沃 [ICMT North PPPoE 2]] ❌ error: Server disconnected
@@ -23,11 +31,3 @@ socks5://3.77.194.210:1080 [[机房] 德国 黑森州 法兰克福 — 亚马逊
 socks5://138.201.198.92:1080 [[机房] 德国 萨克森州 法尔肯施泰因 — Hetzner [Hetzner Online GmbH]] ❌ error: Server disconnected
 socks5://43.167.238.123:1080 [[机房] 美国 伊利诺伊州 埃尔克格罗夫村 [HostPapa]] ❌ error: Server disconnected
 socks5://37.19.46.149:1080 [[家宽] 俄罗斯 布良斯克州 [PJSC Rostelecom, Bryansk branch]] ❌ error: Server disconnected
-socks5://185.135.83.111:1080 [[机房] 德国 黑森州 法兰克福 [Senko Digital Ltd]] ❌ error: Server disconnected
-socks5://128.127.145.102:1080 [[机房] 俄罗斯 彼爾姆邊疆區 索利卡姆斯克 [RUBIN LLC.]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
-socks5://95.164.47.190:4444 [[机房] 德国 黑森州 法兰克福 [WorkTitans B.V.]] ❌ error: Server disconnected
-socks5://202.150.9.92:1080 [[家宽] 柬埔寨 金边 金边 [Telecom Cambodia (T.C.)]] ❌ error: Server disconnected
-socks5://185.186.25.136:1080 [[机房] 立陶宛 维尔纽斯县 维尔纽斯 [DE XTAIN 18518625]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
-socks5://151.241.217.123:1080 [[机房] 瑞士 苏黎世 苏黎世 [HOSTKEY B.V.]] ❌ error: [Errno 104] Connection reset by peer
-socks5://89.251.8.181:1080 [[机房] 土耳其 伊斯坦布尔 伊斯坦布尔 [BitCommand]] ❌ error: Server disconnected
-socks5://154.223.20.245:4444 [[机房] 中国 台湾 台北市 [Lightnode Limited]] ❌ error: Server disconnected
