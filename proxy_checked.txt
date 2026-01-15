@@ -1,7 +1,9 @@
-# 代理质量检测结果 - 2026-01-15 11:23:04
+# 代理质量检测结果 - 2026-01-15 12:45:03
 # 总计: 30 个代理
 
-socks5://109.191.57.38:1080 [[机房] 俄罗斯 车里雅宾斯克州 兹拉托乌斯特 [Intersvyaz-2 JSC]] ❌ error: Server disconnected
+socks5://188.253.26.164:1080 [[机房] 荷兰 北荷兰省 阿姆斯特丹 — veesp.com [Veesp NL]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
+socks5://149.255.18.39:1080 [[家宽] 俄罗斯 伊万诺沃州 伊万诺沃 [ICMT North PPPoE 2]] ❌ error: Server disconnected
+socks5://109.191.57.38:1080 [[机房] 俄罗斯 车里雅宾斯克州 兹拉托乌斯特 [Intersvyaz-2 JSC]] ❌ timeout
 socks5://188.246.226.175:1080 [[家宽] 俄罗斯 圣彼得堡 圣彼得堡 [Selectel]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
 socks5://37.235.53.202:6666 [[机房] 俄罗斯 莫斯科 莫斯科 [EDN Sovintel]] ❌ proxy connection error
 socks5://150.136.253.86:1080 [[机房] 美国 弗吉尼亚州 阿什本 — 甲骨文云 Oracle [Oracle Public Cloud]] ❌ error: Server disconnected
@@ -13,7 +15,7 @@ socks5://178.44.174.8:1080 [[家宽] 俄罗斯 奥伦堡州 奥伦堡 [Dynamic I
 socks5://138.201.198.92:1080 [[机房] 德国 萨克森州 法尔肯施泰因 — Hetzner [Hetzner Online GmbH]] ❌ error: Server disconnected
 socks5://43.167.238.123:1080 [[机房] 美国 伊利诺伊州 埃尔克格罗夫村 [HostPapa]] ❌ error: Server disconnected
 socks5://38.147.185.205:1080 [[机房] 中国 香港 香港 — Cloudflare CDN 节点 [Cloudflare, Inc.]] ❌ timeout
-socks5://192.18.142.14:1080 [[机房] 美国 加州 圣何塞 — 甲骨文云 Oracle [Oracle Corporation]] 【⚪⚪ 机房 数据中心 United States California San Jose】
+socks5://192.18.142.14:1080 [[机房] 美国 加州 圣何塞 — 甲骨文云 Oracle [Oracle Corporation]] 【🟢🟢 机房 数据中心 United States California San Jose】
 socks5://37.19.46.149:1080 [[家宽] 俄罗斯 布良斯克州 [PJSC Rostelecom, Bryansk branch]] ❌ error: Server disconnected
 socks5://185.135.83.111:1080 [[机房] 德国 黑森州 法兰克福 [Senko Digital Ltd]] ❌ error: Server disconnected
 socks5://154.219.104.156:1080 [[机房] 中国 香港 香港 [Vapeline Technology]] ❌ proxy connection error
@@ -29,5 +31,3 @@ socks5://154.223.20.245:4444 [[机房] 中国 台湾 台北市 [Lightnode Limite
 socks5://114.134.184.166:1080 [[机房] 中国 香港 香港 [ASIA PACIFIC COMMUNICATION HK LIMITED]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
 socks5://85.89.127.80:1080 [[机房] 荷兰 北荷兰省 阿姆斯特丹 [FIRST SERVER LIMITED]] 【🟢🟢 机房 数据中心 Netherlands North Holland Amsterdam】
 socks5://170.106.65.34:5555 [[机房] 美国 加州 圣克拉拉 — 腾讯云 [16 COLLYER QUAY]] ❌ error: [Errno 104] Connection reset by peer
-socks5://185.194.217.97:1080 [[机房] 法国 大东部大区 — Contabo [Contabo GmbH]] ❌ error: Server disconnected
-socks5://111.67.103.90:1080 [[家宽] 柬埔寨 金边 金边 [Mega Truenet Communication Co., Ltd.]] ❌ error: Server disconnected
