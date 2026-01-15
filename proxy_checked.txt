@@ -1,7 +1,9 @@
-# 代理质量检测结果 - 2026-01-15 04:42:51
+# 代理质量检测结果 - 2026-01-15 05:28:57
 # 总计: 30 个代理
 
-socks5://37.19.46.149:1080 [[机房] 俄罗斯 布良斯克州 [PJSC Rostelecom, Bryansk branch]] ❌ error: Server disconnected
+socks5://38.147.185.205:1080 [[机房] 中国 香港 香港 — Cloudflare CDN 节点 [Cloudflare, Inc.]] ❌ error: Server disconnected
+socks5://192.18.142.14:1080 [[机房] 美国 加州 圣何塞 — 甲骨文云 Oracle [Oracle Corporation]] 【⚪⚪ 机房 数据中心 United States California San Jose】
+socks5://37.19.46.149:1080 [[家宽] 俄罗斯 布良斯克州 [PJSC Rostelecom, Bryansk branch]] ❌ error: Server disconnected
 socks5://185.135.83.111:1080 [[机房] 德国 黑森州 法兰克福 [Senko Digital Ltd]] ❌ error: Server disconnected
 socks5://154.219.104.156:1080 [[机房] 中国 香港 香港 [Vapeline Technology]] 【🟡🟡 广播 Hong Kong SAR China  Hong Kong】
 socks5://128.127.145.102:1080 [[机房] 俄罗斯 彼爾姆邊疆區 索利卡姆斯克 [RUBIN LLC.]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
@@ -18,7 +20,7 @@ socks5://85.89.127.80:1080 [[机房] 荷兰 北荷兰省 阿姆斯特丹 [FIRST 
 socks5://170.106.65.34:5555 [[机房] 美国 加州 圣克拉拉 — 腾讯云 [16 COLLYER QUAY]] ❌ error: [Errno 104] Connection reset by peer
 socks5://185.194.217.97:1080 [[机房] 法国 大东部大区 — Contabo [Contabo GmbH]] ❌ error: Server disconnected
 socks5://111.67.103.90:1080 [[家宽] 柬埔寨 金边 金边 [Mega Truenet Communication Co., Ltd.]] ❌ error: Server disconnected
-socks5://159.223.53.194:1080 [[机房] 新加坡 新加坡 新加坡 — DigitalOcean [DigitalOcean, LLC]] ❌ error: Server disconnected
+socks5://159.223.53.194:1080 [[机房] 新加坡 新加坡 新加坡 — DigitalOcean [DigitalOcean, LLC]] ❌ timeout
 socks5://193.111.1.109:1080 [[家宽] 乌克兰 基辅州 基辅 [LoadMe]] ❌ error: Server disconnected
 socks5://95.81.101.171:1080 [[机房] 荷兰 北荷兰省 阿姆斯特丹 [AE CLODO 20251223]] ❌ timeout
 socks5://35.237.28.196:2222 [[机房] 美国 南卡罗来纳州 北查尔斯顿 — 谷歌云 GCP [Google LLC]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
@@ -29,5 +31,3 @@ socks5://203.189.154.200:1080 [[家宽] 柬埔寨 金边 金边 [Cogetel Ltd, On
 socks5://185.196.117.28:8080 [[机房] 荷兰 北荷兰省 阿姆斯特丹 [Timeweb.Cloud LLC]] ❌ error: Server disconnected
 socks5://15.204.196.146:1080 [[机房] 美国 弗吉尼亚州 赖斯顿 — Cloudflare CDN 节点 [CLOUDFLAREWARP]] ❌ error: Server disconnected
 socks5://65.109.182.45:1080 [[机房] 芬兰 新地区 赫尔辛基 — Hetzner [Hetzner Online GmbH]] ❌ error: [Errno 104] Connection reset by peer
-socks5://103.119.97.179:1080 [[家宽] 柬埔寨 金边 金边 [Mega Truenet Communication Co., Ltd.]] ❌ error: [Errno 104] Connection reset by peer
-socks5://38.47.238.47:1080 [[机房] 美国 加州 洛杉矶 [HONG KONG COMMUNICATIONS INTERNATIONAL CO.,LIMITED]] ❌ error: Server disconnected
