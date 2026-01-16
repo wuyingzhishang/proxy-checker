@@ -1,6 +1,11 @@
-# 代理质量检测结果 - 2026-01-16 03:33:31
+# 代理质量检测结果 - 2026-01-16 04:42:12
 # 总计: 30 个代理
 
+socks5://45.78.199.53:7777 [[机房] 新加坡 新加坡 新加坡 [BYTEPLUS]] 【🟡🟡 机房 数据中心 Singapore  Singapore】
+socks5://84.234.97.140:1080 [[机房] 罗马尼亚 多尔日县 克拉約瓦 [TIPZOR MEDIA SRL]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
+socks5://84.234.97.198:1080 [[机房] 罗马尼亚 多尔日县 克拉約瓦 [TIPZOR MEDIA SRL]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
+socks5://84.234.97.251:1080 [[机房] 罗马尼亚 多尔日县 克拉約瓦 [TIPZOR MEDIA SRL]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
+socks5://84.234.97.199:1080 [[机房] 罗马尼亚 多尔日县 克拉約瓦 [TIPZOR MEDIA SRL]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
 socks5://50.7.234.26:9999 [[机房] 荷兰 弗莱福兰省 莱利斯塔德 [FDCservers.net]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
 socks5://202.79.26.242:1080 [[机房] 柬埔寨 金边 金边 [Phnom Penh, Cambodia]] ❌ error: Server disconnected
 socks5://202.79.27.12:1080 [[机房] 柬埔寨 金边 金边 [WiCAM Corporation, LTD]] ❌ error: Server disconnected
@@ -19,15 +24,10 @@ socks5://198.200.54.90:1080 [[机房] 美国 加州 圣何塞 [PEG TECH INC]] �
 socks5://198.200.54.86:1080 [[机房] 美国 加州 圣何塞 [PEG TECH INC]] ❌ error: [Errno 104] Connection reset by peer
 socks5://198.200.54.87:1080 [[机房] 美国 加州 圣何塞 [PEG TECH INC]] ❌ error: [Errno 104] Connection reset by peer
 socks5://147.139.204.53:1080 [[机房] 印度尼西亚 雅加达 雅加达 — 阿里云 [Alibaba Cloud - ID]] ❌ proxy connection error
-socks5://103.239.52.196:1080 [[家宽] 柬埔寨 金边 金边 [Cogetel Ltd, Online ISP, Cambodia]] ❌ error: Server disconnected
+socks5://103.239.52.196:1080 [[家宽] 柬埔寨 金边 金边 [Cogetel Ltd, Online ISP, Cambodia]] ❌ error: [Errno 104] Connection reset by peer
 socks5://47.79.43.6:5555 [[机房] 日本 东京 东京 — 阿里云 [Alibaba Cloud LLC]] ❌ error: [Errno 104] Connection reset by peer
 socks5://47.79.228.246:5555 [[机房] 新加坡 新加坡 新加坡 — 阿里云 [Alibaba Cloud LLC]] ❌ error: [Errno 104] Connection reset by peer
 socks5://185.233.164.159:1080 [[家宽] 土耳其 布尔萨省 布尔萨 [IPXO 1]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
 socks5://103.214.142.78:7777 [[家宽] 中国 香港 香港 [3rd Floor, 161-167 Des Voeux Road]] ❌ error: Server disconnected
 socks5://47.76.71.53:5555 [[机房] 中国 香港 香港 — 阿里云 [Alibaba Cloud - HK]] ❌ error: [Errno 104] Connection reset by peer
-socks5://18.234.132.106:1080 [[机房] 美国 弗吉尼亚州 阿什本 — 亚马逊云 Aws [Amazon Technologies Inc.]] ❌ error: 400, message='Expected HTTP/, RTSP/ or ICE/:\n\n  
-socks5://113.22.208.10:3333 [[机房] 越南 河内 河内市 [Vietnam Internet Network Information Center (VNNIC)]] ❌ timeout
-socks5://150.241.68.178:1080 [[机房] 德国 柏林 柏林 [BIIL RU LTD]] 【🟠🟠 机房 数据中心 Germany State of Berlin Berlin】
-socks5://188.32.98.192:1080 [[机房] 俄罗斯 莫斯科 莫斯科 [PJSC Rostelecom]] ❌ timeout
-socks5://147.45.193.185:1080 [[机房] 德国 黑森州 法兰克福 [DpkgSoft International Limited]] ❌ error: Server disconnected
-socks5://188.253.26.164:1080 [[机房] 荷兰 北荷兰省 阿姆斯特丹 — veesp.com [Veesp NL]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
+socks5://18.234.132.106:1080 [[机房] 美国 弗吉尼亚州 阿什本 — 亚马逊云 Aws [Amazon Technologies Inc.]] ❌ error: Server disconnected
