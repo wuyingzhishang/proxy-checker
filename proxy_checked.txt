@@ -1,6 +1,8 @@
-# 代理质量检测结果 - 2026-01-17 07:21:27
+# 代理质量检测结果 - 2026-01-17 08:26:48
 # 总计: 30 个代理
 
+socks5://162.128.64.88:1080 [[机房] 印度尼西亚 雅加达 雅加达 — Zenlayer [Zenlayer (Singapore) PTE. LTD]] ❌ error: Server disconnected
+socks5://146.103.101.34:1080 [[机房] 荷兰 北荷兰省 阿姆斯特丹 [SERVERS TECH FZCO]] ❌ error: Server disconnected
 socks5://182.253.123.120:1080 [[家宽] 印度尼西亚 西爪哇省 万隆 [Biznet Networks]] ❌ error: Server disconnected
 socks5://27.11.97.62:1080 [[机房] 新加坡 新加坡 新加坡 — 微软云 Azure [cloud]] ❌ error: Server disconnected
 socks5://42.118.180.39:1111 [[家宽] 越南 [AdditionalIP range for 3G service of Viettel in Ha Noi]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
@@ -16,7 +18,7 @@ socks5://146.19.233.55:1080 [[机房] 德国 黑森州 法兰克福 [WorkTitans 
 socks5://146.19.56.200:1080 [[家宽] 美国 德克萨斯州 休斯顿 [LIMITED LIABILITY COMPANY "I.D.STRATEGY"]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
 socks5://146.19.56.224:1080 [[家宽] 美国 德克萨斯州 休斯顿 [LIMITED LIABILITY COMPANY "I.D.STRATEGY"]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
 socks5://146.19.56.223:1080 [[家宽] 美国 德克萨斯州 休斯顿 [LIMITED LIABILITY COMPANY "I.D.STRATEGY"]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
-socks5://108.66.217.58:1080 [[机房] 美国 加州 尔湾 [AT&T Enterprises, LLC]] ❌ timeout
+socks5://108.66.217.58:1080 [[机房] 美国 加州 尔湾 [AT&T Enterprises, LLC]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
 socks5://62.76.108.30:1080 [[机房] 俄罗斯 卡拉恰耶夫-切尔克西亚共和国 [Cybercom Ltd.]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
 socks5://44.211.98.12:1080 [[机房] 美国 弗吉尼亚州 阿什本 — 亚马逊云 Aws [Amazon Data Services Northern Virginia]] ❌ error: Server disconnected
 socks5://109.120.182.198:1080 [[机房] 荷兰 弗莱福兰省 德龙滕 [Baykov Ilya Sergeevich]] 【🟡🟡 广播 Netherlands Flevoland Dronten】
@@ -29,5 +31,3 @@ socks5://195.18.10.216:1080 [[机房] 荷兰 弗莱福兰省 莱利斯塔德 [PI
 socks5://195.18.10.35:1080 [[机房] 荷兰 弗莱福兰省 莱利斯塔德 [PIO-Hosting GmbH]] ❌ error: Server disconnected
 socks5://154.94.115.9:1080 [[机房] 泰国 曼谷 曼谷 [Bedge Co Limited]] ❌ error: Server disconnected
 socks5://8.221.141.29:9999 [[机房] 日本 东京 东京 — 阿里云 [Alibaba Cloud (Singapore) Private Limited]] ❌ error: [Errno 104] Connection reset by peer
-socks5://8.221.142.16:9999 [[机房] 日本 东京 东京 — 阿里云 [Alibaba Cloud (Singapore) Private Limited]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
-socks5://193.168.5.46:5555 [[机房] 中国 香港 香港 [Power Line (HK) Co., Limited]] ❌ error: Server disconnected
