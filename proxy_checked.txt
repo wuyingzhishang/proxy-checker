@@ -1,7 +1,7 @@
-# 代理质量检测结果 - 2026-01-17 12:38:50
+# 代理质量检测结果 - 2026-01-17 13:31:33
 # 总计: 30 个代理
 
-socks5://109.226.250.132:1080 [[机房] 俄罗斯 克拉斯诺亚尔斯克边疆区 克拉斯诺亚尔斯克 [Orion Telecom LLC]] ❌ error: Server disconnected
+socks5://109.226.250.132:1080 [[家宽] 俄罗斯 克拉斯诺亚尔斯克边疆区 克拉斯诺亚尔斯克 [Orion Telecom LLC]] ❌ error: Server disconnected
 socks5://163.5.31.128:1080 [[机房] 荷兰 弗莱福兰省 莱利斯塔德 [PIO-Hosting GmbH]] ❌ error: Server disconnected
 socks5://163.5.31.47:1080 [[机房] 荷兰 弗莱福兰省 莱利斯塔德 [PIO-Hosting GmbH]] ❌ error: Server disconnected
 socks5://62.16.33.187:1080 [[家宽] 俄罗斯 彼爾姆邊疆區 彼尔姆 [For PPPoE Customers]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
@@ -13,7 +13,7 @@ socks5://95.244.115.243:1080 [[家宽] 意大利 威尼托 维罗纳 [Telecom It
 socks5://18.185.126.44:1080 [[机房] 德国 黑森州 法兰克福 — 亚马逊云 Aws [A100 ROW GmbH]] ❌ timeout
 socks5://1.161.137.229:8080 [[机房] 中国 台湾 台北市 [Data Communication Business Group,]] ❌ error: Server disconnected
 socks5://80.89.237.30:1080 [[机房] 荷兰 北荷兰省 [NovoServe B.V.]] ❌ error: Server disconnected
-socks5://91.195.86.147:1080 [[家宽] 乌克兰 克里米亚 雅尔塔 [KNET TELECOM Ltd]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
+socks5://91.195.86.147:1080 [[家宽] 乌克兰 克里米亚 雅尔塔 [KNET TELECOM Ltd]] ❌ proxy connection error
 socks5://194.147.215.125:1080 [[机房] 德国 黑森州 法兰克福 [Snowd Security OU]] ❌ error: Server disconnected
 socks5://162.128.64.88:1080 [[机房] 印度尼西亚 雅加达 雅加达 — Zenlayer [Zenlayer (Singapore) PTE. LTD]] ❌ error: Server disconnected
 socks5://146.103.101.34:1080 [[机房] 荷兰 北荷兰省 阿姆斯特丹 [SERVERS TECH FZCO]] ❌ error: Server disconnected
