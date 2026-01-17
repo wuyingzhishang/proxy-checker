@@ -1,6 +1,10 @@
-# 代理质量检测结果 - 2026-01-16 23:21:26
+# 代理质量检测结果 - 2026-01-17 01:25:38
 # 总计: 30 个代理
 
+socks5://18.179.4.55:1080 [[机房] 日本 东京 东京 — 亚马逊云 Aws [Amazon Data Services Japan]] ❌ error: Server disconnected
+socks5://212.154.169.90:1080 [[家宽] 哈萨克斯坦 阿拉木图 阿拉木圖 [LLC ?ELECTRONIC COMMERCE CENTER?]] ❌ error: Server disconnected
+socks5://116.212.142.239:1080 [[机房] 柬埔寨 金边 金边 [MekongNet ISP/IXP]] ❌ error: Server disconnected
+socks5://109.195.20.54:1080 [[家宽] 俄罗斯 萨拉托夫州 薩拉托夫 [JSC "ER-Telecom Holding" Saratov Branch]] ❌ error: [Errno 104] Connection reset by peer
 socks5://195.18.10.32:1080 [[机房] 荷兰 弗莱福兰省 莱利斯塔德 [PIO-Hosting GmbH]] ❌ error: Server disconnected
 socks5://195.18.10.216:1080 [[机房] 荷兰 弗莱福兰省 莱利斯塔德 [PIO-Hosting GmbH]] ❌ error: Server disconnected
 socks5://195.18.10.35:1080 [[机房] 荷兰 弗莱福兰省 莱利斯塔德 [PIO-Hosting GmbH]] ❌ error: Server disconnected
@@ -27,7 +31,3 @@ socks5://193.168.5.32:5555 [[机房] 中国 香港 香港 [Power Line (HK) Co., 
 socks5://193.168.5.13:5555 [[机房] 中国 香港 香港 [Power Line (HK) Co., Limited]] ❌ error: Server disconnected
 socks5://193.168.5.30:5555 [[机房] 中国 香港 香港 [Power Line (HK) Co., Limited]] ❌ error: Server disconnected
 socks5://193.168.5.44:5555 [[机房] 中国 香港 香港 [Power Line (HK) Co., Limited]] ❌ error: Server disconnected
-socks5://193.168.5.47:5555 [[机房] 中国 香港 香港 [Power Line (HK) Co., Limited]] ❌ error: Server disconnected
-socks5://193.168.5.28:5555 [[机房] 中国 香港 香港 [Power Line (HK) Co., Limited]] ❌ error: Server disconnected
-socks5://193.168.5.17:5555 [[机房] 中国 香港 香港 [Power Line (HK) Co., Limited]] ❌ error: Server disconnected
-socks5://193.168.5.33:5555 [[机房] 中国 香港 香港 [Power Line (HK) Co., Limited]] ❌ error: Server disconnected
