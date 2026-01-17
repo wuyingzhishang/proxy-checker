@@ -1,6 +1,8 @@
-# 代理质量检测结果 - 2026-01-17 14:20:34
+# 代理质量检测结果 - 2026-01-17 15:21:33
 # 总计: 30 个代理
 
+socks5://95.142.38.208:1080 [[机房] 俄罗斯 莫斯科 莫斯科 — Cloudflare CDN 节点 [CLOUDFLAREWARP]] ❌ error: Server disconnected
+socks5://143.110.217.153:1080 [[机房] 加拿大 安大略 多伦多 — DigitalOcean [DigitalOcean, LLC]] ❌ error: Server disconnected
 socks5://36.212.4.103:1080 [[机房] 新加坡 新加坡 新加坡 — 亚马逊云 Aws [Amazon Technologies Inc.]] ❌ error: Server disconnected
 socks5://54.80.190.84:1080 [[机房] 美国 弗吉尼亚州 阿什本 — 亚马逊云 Aws [Amazon Technologies Inc.]] ❌ error: Server disconnected
 socks5://109.226.250.132:1080 [[家宽] 俄罗斯 克拉斯诺亚尔斯克边疆区 克拉斯诺亚尔斯克 [Orion Telecom LLC]] ❌ error: Server disconnected
@@ -9,13 +11,13 @@ socks5://163.5.31.47:1080 [[机房] 荷兰 弗莱福兰省 莱利斯塔德 [PIO-
 socks5://62.16.33.187:1080 [[家宽] 俄罗斯 彼爾姆邊疆區 彼尔姆 [For PPPoE Customers]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
 socks5://80.90.179.29:4444 [[机房] 荷兰 北荷兰省 阿姆斯特丹 [lease for Timeweb]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
 socks5://134.35.130.50:1080 [[家宽] 也门 [Public Telecommunication Corporation]] ❌ error: Server disconnected
-socks5://37.120.162.180:10000 [[机房] 法国 奥克西塔尼大区 [Proxad / Free SAS]] 【⚪⚪ 住宅 France Île-de-France Paris】
+socks5://37.120.162.180:10000 [[机房] 法国 奥克西塔尼大区 [Proxad / Free SAS]] 【⚪⚪ 住宅 France Île-de-France Pontoise】
 socks5://16.78.149.128:1080 [[机房] 印度尼西亚 雅加达 雅加达 — 亚马逊云 Aws [Amazon Data Services Jakarta]] ❌ error: Server disconnected
 socks5://95.244.115.243:1080 [[家宽] 意大利 威尼托 维罗纳 [Telecom Italia S.p.A.]] ❌ error: Server disconnected
 socks5://18.185.126.44:1080 [[机房] 德国 黑森州 法兰克福 — 亚马逊云 Aws [A100 ROW GmbH]] ❌ timeout
 socks5://1.161.137.229:8080 [[机房] 中国 台湾 台北市 [Data Communication Business Group,]] ❌ error: Server disconnected
 socks5://80.89.237.30:1080 [[机房] 荷兰 北荷兰省 [NovoServe B.V.]] ❌ error: Server disconnected
-socks5://91.195.86.147:1080 [[家宽] 乌克兰 克里米亚 雅尔塔 [KNET TELECOM Ltd]] ❌ proxy connection error
+socks5://91.195.86.147:1080 [[家宽] 乌克兰 克里米亚 雅尔塔 [KNET TELECOM Ltd]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
 socks5://194.147.215.125:1080 [[机房] 德国 黑森州 法兰克福 [Snowd Security OU]] ❌ error: Server disconnected
 socks5://162.128.64.88:1080 [[机房] 印度尼西亚 雅加达 雅加达 — Zenlayer [Zenlayer (Singapore) PTE. LTD]] ❌ error: Server disconnected
 socks5://146.103.101.34:1080 [[机房] 荷兰 北荷兰省 阿姆斯特丹 [SERVERS TECH FZCO]] ❌ error: Server disconnected
@@ -29,5 +31,3 @@ socks5://195.18.10.37:1080 [[机房] 荷兰 弗莱福兰省 莱利斯塔德 [PIO
 socks5://195.18.10.245:1080 [[机房] 荷兰 弗莱福兰省 莱利斯塔德 [PIO-Hosting GmbH]] ❌ error: Server disconnected
 socks5://146.19.56.201:1080 [[家宽] 美国 德克萨斯州 休斯顿 [LIMITED LIABILITY COMPANY "I.D.STRATEGY"]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
 socks5://146.19.56.222:1080 [[家宽] 美国 德克萨斯州 休斯顿 [LIMITED LIABILITY COMPANY "I.D.STRATEGY"]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
-socks5://146.19.56.216:1080 [[家宽] 美国 德克萨斯州 休斯顿 [LIMITED LIABILITY COMPANY "I.D.STRATEGY"]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
-socks5://146.19.233.55:1080 [[机房] 德国 黑森州 法兰克福 [WorkTitans B.V.]] ❌ error: [Errno 104] Connection reset by peer
