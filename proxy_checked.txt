@@ -1,6 +1,8 @@
-# 代理质量检测结果 - 2026-01-17 13:31:33
+# 代理质量检测结果 - 2026-01-17 14:20:34
 # 总计: 30 个代理
 
+socks5://36.212.4.103:1080 [[机房] 新加坡 新加坡 新加坡 — 亚马逊云 Aws [Amazon Technologies Inc.]] ❌ error: Server disconnected
+socks5://54.80.190.84:1080 [[机房] 美国 弗吉尼亚州 阿什本 — 亚马逊云 Aws [Amazon Technologies Inc.]] ❌ error: Server disconnected
 socks5://109.226.250.132:1080 [[家宽] 俄罗斯 克拉斯诺亚尔斯克边疆区 克拉斯诺亚尔斯克 [Orion Telecom LLC]] ❌ error: Server disconnected
 socks5://163.5.31.128:1080 [[机房] 荷兰 弗莱福兰省 莱利斯塔德 [PIO-Hosting GmbH]] ❌ error: Server disconnected
 socks5://163.5.31.47:1080 [[机房] 荷兰 弗莱福兰省 莱利斯塔德 [PIO-Hosting GmbH]] ❌ error: Server disconnected
@@ -29,5 +31,3 @@ socks5://146.19.56.201:1080 [[家宽] 美国 德克萨斯州 休斯顿 [LIMITED 
 socks5://146.19.56.222:1080 [[家宽] 美国 德克萨斯州 休斯顿 [LIMITED LIABILITY COMPANY "I.D.STRATEGY"]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
 socks5://146.19.56.216:1080 [[家宽] 美国 德克萨斯州 休斯顿 [LIMITED LIABILITY COMPANY "I.D.STRATEGY"]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
 socks5://146.19.233.55:1080 [[机房] 德国 黑森州 法兰克福 [WorkTitans B.V.]] ❌ error: [Errno 104] Connection reset by peer
-socks5://146.19.56.200:1080 [[家宽] 美国 德克萨斯州 休斯顿 [LIMITED LIABILITY COMPANY "I.D.STRATEGY"]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
-socks5://146.19.56.224:1080 [[家宽] 美国 德克萨斯州 休斯顿 [LIMITED LIABILITY COMPANY "I.D.STRATEGY"]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
