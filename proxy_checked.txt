@@ -1,4 +1,4 @@
-# 代理质量检测结果 - 2026-01-17 15:21:33
+# 代理质量检测结果 - 2026-01-17 16:25:09
 # 总计: 30 个代理
 
 socks5://95.142.38.208:1080 [[机房] 俄罗斯 莫斯科 莫斯科 — Cloudflare CDN 节点 [CLOUDFLAREWARP]] ❌ error: Server disconnected
@@ -8,7 +8,7 @@ socks5://54.80.190.84:1080 [[机房] 美国 弗吉尼亚州 阿什本 — 亚马
 socks5://109.226.250.132:1080 [[家宽] 俄罗斯 克拉斯诺亚尔斯克边疆区 克拉斯诺亚尔斯克 [Orion Telecom LLC]] ❌ error: Server disconnected
 socks5://163.5.31.128:1080 [[机房] 荷兰 弗莱福兰省 莱利斯塔德 [PIO-Hosting GmbH]] ❌ error: Server disconnected
 socks5://163.5.31.47:1080 [[机房] 荷兰 弗莱福兰省 莱利斯塔德 [PIO-Hosting GmbH]] ❌ error: Server disconnected
-socks5://62.16.33.187:1080 [[家宽] 俄罗斯 彼爾姆邊疆區 彼尔姆 [For PPPoE Customers]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
+socks5://62.16.33.187:1080 [[家宽] 俄罗斯 彼爾姆邊疆區 彼尔姆 [For PPPoE Customers]] ❌ timeout
 socks5://80.90.179.29:4444 [[机房] 荷兰 北荷兰省 阿姆斯特丹 [lease for Timeweb]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
 socks5://134.35.130.50:1080 [[家宽] 也门 [Public Telecommunication Corporation]] ❌ error: Server disconnected
 socks5://37.120.162.180:10000 [[机房] 法国 奥克西塔尼大区 [Proxad / Free SAS]] 【⚪⚪ 住宅 France Île-de-France Pontoise】
