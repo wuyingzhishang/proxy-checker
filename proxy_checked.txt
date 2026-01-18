@@ -1,13 +1,15 @@
-# 代理质量检测结果 - 2026-01-18 18:28:05
+# 代理质量检测结果 - 2026-01-18 19:17:13
 # 总计: 30 个代理
 
-socks5://183.81.91.49:1111 [[机房] 越南 [AdditionalIP range for 3G service of Viettel in Ha Noi]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
+socks5://103.179.44.10:1080 [[机房] 新加坡 新加坡 新加坡 [NIXI]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
+socks5://103.179.44.11:1080 [[机房] 新加坡 新加坡 新加坡 [NIXI]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
+socks5://27.69.167.180:8888 [[家宽] 越南 [Viettel Group]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
+socks5://183.81.91.49:1111 [[家宽] 越南 [AdditionalIP range for 3G service of Viettel in Ha Noi]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
 socks5://103.179.44.140:1080 [[机房] 新加坡 新加坡 新加坡 [NIXI]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
 socks5://103.179.44.16:1080 [[机房] 新加坡 新加坡 新加坡 [NIXI]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
 socks5://103.179.44.213:1080 [[机房] 新加坡 新加坡 新加坡 [NIXI]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
 socks5://141.11.42.163:1080 [[机房] 中国 台湾 彰化县 [Akari Networks (Taipei)]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
 socks5://36.73.210.41:1080 [[机房] 印度尼西亚 东爪哇省 Madiun [PT TELKOM INDONESIA]] ❌ error: Server disconnected
-socks5://107.174.222.172:1080 [[机房] 美国 加州 洛杉矶 [HostPapa]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
 socks5://45.158.220.43:5555 [[机房] 中国 香港 香港 [Power Line (HK) Co., Limited]] ❌ error: Server disconnected
 socks5://45.158.220.5:5555 [[机房] 中国 香港 香港 [Power Line (HK) Co., Limited]] ❌ error: Server disconnected
 socks5://45.158.220.20:5555 [[机房] 中国 香港 香港 [Power Line (HK) Co., Limited]] ❌ error: Server disconnected
@@ -29,5 +31,3 @@ socks5://45.158.220.27:5555 [[机房] 中国 香港 香港 [Power Line (HK) Co.,
 socks5://45.158.220.59:5555 [[机房] 中国 香港 香港 [Power Line (HK) Co., Limited]] ❌ error: Server disconnected
 socks5://45.158.220.4:5555 [[机房] 中国 香港 香港 [Power Line (HK) Co., Limited]] ❌ error: Server disconnected
 socks5://45.158.220.60:5555 [[机房] 中国 香港 香港 [Power Line (HK) Co., Limited]] ❌ error: Server disconnected
-socks5://45.158.220.3:5555 [[机房] 中国 香港 香港 [Power Line (HK) Co., Limited]] ❌ error: Server disconnected
-socks5://45.158.220.24:5555 [[机房] 中国 香港 香港 [Power Line (HK) Co., Limited]] ❌ error: Server disconnected
