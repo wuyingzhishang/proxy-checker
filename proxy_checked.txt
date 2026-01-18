@@ -1,6 +1,8 @@
-# 代理质量检测结果 - 2026-01-18 22:21:26
+# 代理质量检测结果 - 2026-01-18 23:20:36
 # 总计: 30 个代理
 
+socks5://87.121.38.30:1080 [[机房] 塞尔维亚 中塞尔维亚 贝尔格莱德 [Digital City FZE]] ❌ error: Server disconnected
+socks5://195.62.32.233:1080 [[机房] 荷兰 弗莱福兰省 莱利斯塔德 [PIO-Hosting GmbH]] ❌ error: Server disconnected
 socks5://103.127.99.99:1080 [[机房] 印度尼西亚 西爪哇省 勿加泗 [PT. PINGGA JAYA UTAMA]] 【🟡🟡 机房 数据中心 Indonesia West Java Bogor】
 socks5://34.23.10.179:1080 [[机房] 美国 南卡罗来纳州 北查尔斯顿 — 谷歌云 GCP [Google LLC]] ❌ error: Server disconnected
 socks5://154.90.49.29:1080 [[机房] 印度尼西亚 雅加达 雅加达 [Lightnode Limited]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
@@ -14,7 +16,7 @@ socks5://103.179.44.140:1080 [[机房] 新加坡 新加坡 新加坡 [NIXI]] ❌
 socks5://103.179.44.16:1080 [[机房] 新加坡 新加坡 新加坡 [NIXI]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
 socks5://103.179.44.213:1080 [[机房] 新加坡 新加坡 新加坡 [NIXI]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
 socks5://141.11.42.163:1080 [[机房] 中国 台湾 彰化县 [Akari Networks (Taipei)]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
-socks5://36.73.210.41:1080 [[机房] 印度尼西亚 东爪哇省 Madiun [PT TELKOM INDONESIA]] ❌ timeout
+socks5://36.73.210.41:1080 [[机房] 印度尼西亚 东爪哇省 Madiun [PT TELKOM INDONESIA]] ❌ error: Server disconnected
 socks5://45.158.220.43:5555 [[机房] 中国 香港 香港 [Power Line (HK) Co., Limited]] ❌ error: Server disconnected
 socks5://45.158.220.5:5555 [[机房] 中国 香港 香港 [Power Line (HK) Co., Limited]] ❌ error: Server disconnected
 socks5://45.158.220.20:5555 [[机房] 中国 香港 香港 [Power Line (HK) Co., Limited]] ❌ error: Server disconnected
@@ -29,5 +31,3 @@ socks5://45.158.220.56:5555 [[机房] 中国 香港 香港 [Power Line (HK) Co.,
 socks5://45.158.220.9:5555 [[机房] 中国 香港 香港 [Power Line (HK) Co., Limited]] ❌ error: Server disconnected
 socks5://45.158.220.39:5555 [[机房] 中国 香港 香港 [Power Line (HK) Co., Limited]] ❌ error: Server disconnected
 socks5://45.158.220.25:5555 [[机房] 中国 香港 香港 [Power Line (HK) Co., Limited]] ❌ error: Server disconnected
-socks5://45.158.220.62:5555 [[机房] 中国 香港 香港 [Power Line (HK) Co., Limited]] ❌ error: Server disconnected
-socks5://45.158.220.46:5555 [[机房] 中国 香港 香港 [Power Line (HK) Co., Limited]] ❌ error: Server disconnected
