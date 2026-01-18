@@ -1,6 +1,10 @@
-# 代理质量检测结果 - 2026-01-18 10:24:21
+# 代理质量检测结果 - 2026-01-18 11:20:17
 # 总计: 30 个代理
 
+socks5://202.79.166.50:40000 [[机房] 智利 [Telefonica del Sur S.A]] 【⚪⚪ 住宅 Chile Aysén Puerto Aysén】
+socks5://202.79.166.59:40000 [[机房] 智利 [Telefonica del Sur S.A]] 【⚪⚪ 住宅 Chile Aysén Puerto Aysén】
+socks5://157.173.201.48:40000 [[家宽] 美国 田纳西州 纳什维尔 [T-Mobile USA, Inc.]] 【⚪⚪ 机房 数据中心 United States Tennessee Nashville】
+socks5://161.248.113.160:1080 [[机房] 日本 东京 东京 [rainbow network limited]] ❌ error: [Errno 104] Connection reset by peer
 socks5://34.10.205.89:1080 [[机房] 巴西 戈亚斯州 戈亚尼亚 [THE FIBER INTERNET BANDA LARGA]] ❌ error: Server disconnected
 socks5://193.233.254.8:1080 [[机房] 德国 黑森州 法兰克福 [WAIcore Ltd]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
 socks5://193.168.5.16:5555 [[机房] 中国 香港 香港 [Power Line (HK) Co., Limited]] ❌ error: Server disconnected
@@ -15,19 +19,15 @@ socks5://192.241.156.17:1080 [[机房] 美国 新泽西州 北伯根 — Digital
 socks5://222.185.56.22:1197 [[机房] 美国 加州 圣何塞 [xTom]] 【🟠🟠 广播 United States California San Jose】
 socks5://129.212.140.134:1080 [[机房] 德国 黑森州 法兰克福 — DigitalOcean [DigitalOcean, LLC]] ❌ error: Server disconnected
 socks5://203.145.46.213:6005 [[机房] 美国 加州 莫德斯托 [AT&T Enterprises, LLC]] ❌ error: 502, message='Proxy Error', url='socks5://203.145.
-socks5://103.197.188.63:1080 [[机房] 印度尼西亚 西爪哇省 Depok — Cloudflare CDN 节点 [Cloudflare, Inc.]] ❌ proxy connection error
+socks5://103.197.188.63:1080 [[机房] 印度尼西亚 西爪哇省 Depok — Cloudflare CDN 节点 [Cloudflare, Inc.]] ❌ error: Server disconnected
 socks5://107.149.129.215:1080 [[机房] 泰国 暖武里府 暖武里府直辖县 [ReadyIDC Co., Ltd.]] ❌ error: Server disconnected
 socks5://110.232.85.196:7080 [[机房] 印度尼西亚 楠榜省 班達楠榜 [PT. Media Antar Nusa]] ❌ error: Server disconnected
 socks5://27.123.254.251:1080 [[家宽] 孟加拉国 迈门辛专区 [Millennium Computers & Networking]] ❌ error: Server disconnected
 socks5://185.202.236.78:1080 [[机房] 法国 大东部大区 — Contabo [Contabo GmbH]] ❌ proxy connection error
 socks5://38.242.229.138:1080 [[机房] 法国 大东部大区 — Contabo [Contabo GmbH]] ❌ timeout
 socks5://137.220.48.4:1080 [[机房] 美国 德克萨斯州 达拉斯 — Vultr [Vultr Holdings, LLC]] ❌ error: Server disconnected
-socks5://83.217.209.51:40000 [[机房] 美国 纽约州 纽约 [Charter Communications LLC]] 【⚪⚪ 住宅 United States New York New York City】
+socks5://83.217.209.51:40000 [[机房] 美国 纽约州 纽约 [Charter Communications LLC]] ❌ error: Cannot connect to host my.ippure.com:443 ssl:defau
 socks5://37.9.13.225:40000 [[机房] 捷克 布拉格 布拉格 [STARNET CZ]] ❌ timeout
 socks5://92.46.80.234:8080 [[家宽] 哈萨克斯坦 卡拉干达州 卡拉干达 [JSC Kazakhtelecom]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
 socks5://38.55.129.163:40000 [[机房] 韩国 釜山广域市 釜山广域市 [Korea Telecom]] 【⚪⚪ 住宅 South Korea Busan Busan】
 socks5://69.164.250.246:40000 [[机房] 美国 明尼苏达州 明尼阿波利斯 [Cogent Communications, LLC]] 【🔴🔴 机房 数据中心 United States Minnesota Minneapolis】
-socks5://182.237.1.83:10801 [[机房] 美国 加州 洛杉矶 [GTT Americas, LLC]] 【⚪⚪ 住宅 United States California Los Angeles】
-socks5://160.187.131.81:1080 [[家宽] 新加坡 新加坡 新加坡 [GOTMYHOST]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
-socks5://160.187.131.85:1080 [[家宽] 新加坡 新加坡 新加坡 [GOTMYHOST]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
-socks5://160.187.131.83:1080 [[家宽] 新加坡 新加坡 新加坡 [GOTMYHOST]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
