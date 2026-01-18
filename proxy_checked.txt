@@ -1,12 +1,13 @@
-# 代理质量检测结果 - 2026-01-18 08:28:08
+# 代理质量检测结果 - 2026-01-18 09:23:21
 # 总计: 30 个代理
 
+socks5://69.164.250.246:40000 [[机房] 美国 明尼苏达州 明尼阿波利斯 [Cogent Communications, LLC]] 【🔴🔴 机房 数据中心 United States Minnesota Minneapolis】
 socks5://182.237.1.83:10801 [[机房] 美国 加州 洛杉矶 [GTT Americas, LLC]] 【⚪⚪ 住宅 United States California Los Angeles】
-socks5://160.187.131.81:1080 [[机房] 新加坡 新加坡 新加坡 [GOTMYHOST]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
-socks5://160.187.131.85:1080 [[机房] 新加坡 新加坡 新加坡 [GOTMYHOST]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
-socks5://160.187.131.83:1080 [[机房] 新加坡 新加坡 新加坡 [GOTMYHOST]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
-socks5://160.187.131.87:1080 [[机房] 新加坡 新加坡 新加坡 [GOTMYHOST]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
-socks5://160.187.131.84:1080 [[机房] 新加坡 新加坡 新加坡 [GOTMYHOST]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
+socks5://160.187.131.81:1080 [[家宽] 新加坡 新加坡 新加坡 [GOTMYHOST]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
+socks5://160.187.131.85:1080 [[家宽] 新加坡 新加坡 新加坡 [GOTMYHOST]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
+socks5://160.187.131.83:1080 [[家宽] 新加坡 新加坡 新加坡 [GOTMYHOST]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
+socks5://160.187.131.87:1080 [[家宽] 新加坡 新加坡 新加坡 [GOTMYHOST]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
+socks5://160.187.131.84:1080 [[家宽] 新加坡 新加坡 新加坡 [GOTMYHOST]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
 socks5://23.95.3.176:1080 [[机房] 美国 纽约州 水牛城 — RackNerd [RackNerd LLC]] ❌ error: Server disconnected
 socks5://88.198.214.227:1080 [[机房] 德国 黑森州 法兰克福 — Hetzner [Hetzner Online GmbH]] ❌ error: Server disconnected
 socks5://92.241.124.199:1080 [[机房] 拉脱维亚 里加 里加 — veesp.com [Veesp datacenter clients]] 【🔴🔴 机房 数据中心 Latvia Riga Riga】
@@ -20,8 +21,8 @@ socks5://89.189.78.27:1080 [[家宽] 也门 [YemenNet ADSL Pool]] ❌ error: Ser
 socks5://89.189.78.28:1080 [[家宽] 也门 [YemenNet ADSL Pool]] ❌ error: Server disconnected
 socks5://46.203.233.104:2222 [[机房] 德国 黑森州 法兰克福 [FREAKHOSTING]] 【🟡🟡 广播 Germany Hesse Frankfurt am Main】
 socks5://43.161.216.7:1080 [[机房] 中国 香港 香港 — 腾讯云 [6 COLLYER QUAY]] 【🟡🟡 广播 Hong Kong SAR China  Hong Kong】
-socks5://154.37.219.70:1080 [[机房] 中国 香港 香港 [Cogent Communications, LLC]] ❌ error: Server disconnected
-socks5://154.37.220.253:1080 [[机房] 中国 香港 香港 [Cogent Communications, LLC]] ❌ error: Server disconnected
+socks5://154.37.219.70:1080 [[机房] 中国 香港 香港 [Cogent Communications, LLC]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
+socks5://154.37.220.253:1080 [[机房] 中国 香港 香港 [Cogent Communications, LLC]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
 socks5://78.153.139.124:1080 [[机房] 芬兰 新地区 赫尔辛基 [GLOBAL CONNECTIVITY SOLUTIONS LLP]] 【🔴🔴 广播 Finland Uusimaa Helsinki】
 socks5://94.159.96.2:4444 [[机房] 德国 黑森州 法兰克福 [H2NEXUS LTD]] ❌ error: Server disconnected
 socks5://194.67.207.11:1080 [[机房] 芬兰 新地区 赫尔辛基 [POWER-SERVERS-ROLE-ORG]] ❌ error: Server disconnected
@@ -29,5 +30,4 @@ socks5://171.245.82.206:1080 [[家宽] 越南 [Viettel Group]] ❌ error: Server
 socks5://171.245.84.209:1080 [[家宽] 越南 [Viettel Group]] ❌ error: Server disconnected
 socks5://171.245.82.186:1080 [[家宽] 越南 [Viettel Group]] ❌ error: Server disconnected
 socks5://171.245.80.161:1080 [[家宽] 越南 [Viettel Group]] ❌ timeout
-socks5://171.245.82.226:1080 [[家宽] 越南 [Viettel Group]] ❌ error: Server disconnected
-socks5://171.245.82.23:1080 [[家宽] 越南 [Viettel Group]] ❌ error: Server disconnected
+socks5://171.245.82.226:1080 [[家宽] 越南 [Viettel Group]] ❌ timeout
