@@ -1,6 +1,12 @@
-# 代理质量检测结果 - 2026-01-18 01:46:10
+# 代理质量检测结果 - 2026-01-18 03:49:11
 # 总计: 30 个代理
 
+socks5://43.161.216.7:1080 [[机房] 中国 香港 香港 — 腾讯云 [6 COLLYER QUAY]] 【🟡🟡 广播 Hong Kong SAR China  Hong Kong】
+socks5://154.37.219.70:1080 [[机房] 中国 香港 香港 [Cogent Communications, LLC]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
+socks5://154.37.220.253:1080 [[机房] 中国 香港 香港 [Cogent Communications, LLC]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
+socks5://78.153.139.124:1080 [[机房] 芬兰 新地区 赫尔辛基 [GLOBAL CONNECTIVITY SOLUTIONS LLP]] 【🔴🔴 广播 Finland Uusimaa Helsinki】
+socks5://94.159.96.2:4444 [[机房] 德国 黑森州 法兰克福 [H2NEXUS LTD]] ❌ error: Server disconnected
+socks5://194.67.207.11:1080 [[机房] 芬兰 新地区 赫尔辛基 [POWER-SERVERS-ROLE-ORG]] ❌ error: Server disconnected
 socks5://171.245.82.206:1080 [[家宽] 越南 [Viettel Group]] ❌ error: Server disconnected
 socks5://171.245.84.209:1080 [[家宽] 越南 [Viettel Group]] ❌ error: Server disconnected
 socks5://171.245.82.186:1080 [[家宽] 越南 [Viettel Group]] ❌ error: Server disconnected
@@ -25,9 +31,3 @@ socks5://113.253.50.254:1111 [[机房] 中国 香港 香港 [HGC Global Communic
 socks5://95.142.38.208:1080 [[机房] 俄罗斯 莫斯科 莫斯科 — Cloudflare CDN 节点 [CLOUDFLAREWARP]] ❌ error: Server disconnected
 socks5://143.110.217.153:1080 [[机房] 加拿大 安大略 多伦多 — DigitalOcean [DigitalOcean, LLC]] ❌ error: Server disconnected
 socks5://36.212.4.103:1080 [[机房] 新加坡 新加坡 新加坡 — 亚马逊云 Aws [Amazon Technologies Inc.]] ❌ error: Server disconnected
-socks5://163.5.31.128:1080 [[机房] 荷兰 弗莱福兰省 莱利斯塔德 [PIO-Hosting GmbH]] ❌ error: Server disconnected
-socks5://163.5.31.47:1080 [[机房] 荷兰 弗莱福兰省 莱利斯塔德 [PIO-Hosting GmbH]] ❌ error: Server disconnected
-socks5://80.90.179.29:4444 [[机房] 荷兰 北荷兰省 阿姆斯特丹 [lease for Timeweb]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
-socks5://134.35.130.50:1080 [[家宽] 也门 [Public Telecommunication Corporation]] ❌ error: Server disconnected
-socks5://37.120.162.180:10000 [[机房] 法国 奥克西塔尼大区 [Proxad / Free SAS]] 【⚪⚪ 住宅 France Île-de-France Pontoise】
-socks5://16.78.149.128:1080 [[机房] 印度尼西亚 雅加达 雅加达 — 亚马逊云 Aws [Amazon Data Services Jakarta]] ❌ error: Server disconnected
