@@ -1,7 +1,8 @@
-# 代理质量检测结果 - 2026-01-19 15:31:55
+# 代理质量检测结果 - 2026-01-19 16:33:11
 # 总计: 30 个代理
 
-socks5://152.228.132.13:60000 [[机房] 奥地利 奥地利州 维也纳 [H3G CUSTOMERS NET]] 【⚪⚪ 住宅 Austria Vienna Vienna】
+socks5://31.182.117.16:1080 [[机房] 波兰 马佐维亚省 華沙 [Toya sp. z o.o.]] ❌ error: [Errno 104] Connection reset by peer
+socks5://152.228.132.13:60000 [[机房] 奥地利 奥地利州 维也纳 [H3G CUSTOMERS NET]] 【⚪⚪ 机房 数据中心 Austria Vienna Vienna】
 socks5://94.103.92.224:1080 [[机房] 俄罗斯 莫斯科 莫斯科 [VDSINA VDS Hosting]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
 socks5://45.120.80.116:5555 [[机房] 中国 香港 香港 [7/F, TRANS ASIA CTR 18 KIN HONG ST, KWAI CHUNG HONGKONG]] ❌ error: Server disconnected
 socks5://45.120.80.115:5555 [[机房] 中国 香港 香港 [7/F, TRANS ASIA CTR 18 KIN HONG ST, KWAI CHUNG HONGKONG]] ❌ error: Server disconnected
@@ -21,13 +22,12 @@ socks5://77.35.12.184:1080 [[家宽] 俄罗斯 滨海边疆区 海参崴 [Dynami
 socks5://77.35.141.169:1080 [[家宽] 俄罗斯 滨海边疆区 海参崴 [Dynamic Broadband Clients]] ❌ error: Server disconnected
 socks5://193.17.95.210:1080 [[机房] 荷兰 弗莱福兰省 莱利斯塔德 [PIO-Hosting GmbH]] ❌ error: Server disconnected
 socks5://193.17.95.242:1080 [[机房] 荷兰 弗莱福兰省 莱利斯塔德 [PIO-Hosting GmbH]] ❌ timeout
-socks5://193.17.95.64:1080 [[机房] 荷兰 弗莱福兰省 莱利斯塔德 [PIO-Hosting GmbH]] ❌ timeout
+socks5://193.17.95.64:1080 [[机房] 荷兰 弗莱福兰省 莱利斯塔德 [PIO-Hosting GmbH]] ❌ error: Server disconnected
 socks5://193.17.95.65:1080 [[机房] 荷兰 弗莱福兰省 莱利斯塔德 [PIO-Hosting GmbH]] ❌ error: Server disconnected
 socks5://193.17.95.243:1080 [[机房] 荷兰 弗莱福兰省 莱利斯塔德 [PIO-Hosting GmbH]] ❌ error: Server disconnected
 socks5://193.17.95.220:1080 [[机房] 荷兰 弗莱福兰省 莱利斯塔德 [PIO-Hosting GmbH]] ❌ error: Server disconnected
 socks5://193.17.95.211:1080 [[机房] 荷兰 弗莱福兰省 莱利斯塔德 [PIO-Hosting GmbH]] ❌ timeout
 socks5://193.17.95.241:1080 [[机房] 荷兰 弗莱福兰省 莱利斯塔德 [PIO-Hosting GmbH]] ❌ error: Server disconnected
 socks5://193.17.95.232:1080 [[机房] 荷兰 弗莱福兰省 莱利斯塔德 [PIO-Hosting GmbH]] ❌ timeout
-socks5://38.180.203.70:1080 [[机房] 美国 伊利诺伊州 芝加哥 [3NT SOLUTIONS LLP]] ❌ error: Server disconnected
-socks5://77.73.233.88:1080 [[机房] 拉脱维亚 里加 里加 [LV BEGET]] ❌ timeout
-socks5://194.59.207.74:1080 [[机房] 美国 纽约州 纽约 [Verizon Business]] ❌ HTTP 403
+socks5://38.180.203.70:1080 [[机房] 美国 伊利诺伊州 芝加哥 [3NT SOLUTIONS LLP]] ❌ proxy connection error
+socks5://77.73.233.88:1080 [[机房] 拉脱维亚 里加 里加 [LV BEGET]] ❌ error: Server disconnected
