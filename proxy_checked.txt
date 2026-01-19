@@ -1,4 +1,4 @@
-# 代理质量检测结果 - 2026-01-19 11:25:44
+# 代理质量检测结果 - 2026-01-19 12:48:30
 # 总计: 30 个代理
 
 socks5://185.28.85.88:1080 [[机房] 俄罗斯 莫斯科 莫斯科 [Hosting VDS]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
@@ -19,12 +19,12 @@ socks5://193.17.95.211:1080 [[机房] 荷兰 弗莱福兰省 莱利斯塔德 [PI
 socks5://193.17.95.241:1080 [[机房] 荷兰 弗莱福兰省 莱利斯塔德 [PIO-Hosting GmbH]] ❌ error: Server disconnected
 socks5://193.17.95.232:1080 [[机房] 荷兰 弗莱福兰省 莱利斯塔德 [PIO-Hosting GmbH]] ❌ error: Server disconnected
 socks5://38.180.203.70:1080 [[机房] 美国 伊利诺伊州 芝加哥 [3NT SOLUTIONS LLP]] ❌ error: Server disconnected
-socks5://77.73.233.88:1080 [[机房] 拉脱维亚 里加 里加 [LV BEGET]] ❌ timeout
+socks5://77.73.233.88:1080 [[机房] 拉脱维亚 里加 里加 [LV BEGET]] ❌ error: Server disconnected
 socks5://194.59.207.74:1080 [[机房] 美国 纽约州 纽约 [Verizon Business]] ❌ HTTP 403
 socks5://47.242.12.226:1080 [[机房] 中国 香港 香港 — 阿里云 [ALIBABA CLOUD - HK]] ❌ error: Server disconnected
 socks5://114.41.143.177:1080 [[机房] 中国 台湾 台中市 [Data Communication Business Group,]] ❌ error: 400, message='Expected HTTP/, RTSP/ or ICE/:\n\n  
 socks5://156.227.28.8:5555 [[机房] 中国 台湾 台北市 [Antbox Network Limited]] ❌ error: [Errno 104] Connection reset by peer
-socks5://134.199.159.23:1080 [[机房] 澳大利亚 新南威尔士州 悉尼 — DigitalOcean [DigitalOcean, LLC]] ❌ error: Server disconnected
+socks5://134.199.159.23:1080 [[机房] 澳大利亚 新南威尔士州 悉尼 — DigitalOcean [DigitalOcean, LLC]] ❌ proxy connection error
 socks5://206.119.168.194:1080 [[机房] 美国 加州 洛杉矶 [Cogent Communications, LLC]] ❌ proxy connection error
 socks5://206.119.178.35:1080 [[机房] 中国 香港 香港 [Cogent Communications, LLC]] ❌ error: Server disconnected
 socks5://193.108.58.29:1080 [[机房] 加拿大 不列颠哥伦比亚 温哥华 [CA INETCLOUD]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
