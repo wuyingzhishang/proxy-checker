@@ -1,13 +1,13 @@
-# 代理质量检测结果 - 2026-01-19 09:37:32
+# 代理质量检测结果 - 2026-01-19 10:31:56
 # 总计: 30 个代理
 
 socks5://185.28.85.88:1080 [[机房] 俄罗斯 莫斯科 莫斯科 [Hosting VDS]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
-socks5://159.198.76.142:1080 [[机房] 美国 加州 洛杉矶 [Namecheap, Inc.]] ❌ error: Server disconnected
+socks5://159.198.76.142:1080 [[机房] 美国 加州 洛杉矶 [Namecheap, Inc.]] ❌ timeout
 socks5://78.85.189.212:1080 [[家宽] 俄罗斯 乌德穆尔蒂亚共和国 伊熱夫斯克 [abuse mailbox: [email protected]]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
 socks5://118.114.89.114:1080 [[机房] 美国 加州 洛杉矶 — 搬瓦工 [IT7 Networks Inc]] ❌ timeout
 socks5://138.128.247.245:1080 [[机房] 美国 纽约州 纽约 [Cloud Web Manage]] ❌ error: Server disconnected
-socks5://41.175.141.82:1080 [[机房] 南非 豪登省 [Liquid Telecommunications Operations Limited]] ❌ proxy connection error
-socks5://77.35.12.184:1080 [[家宽] 俄罗斯 滨海边疆区 海参崴 [Dynamic Broadband Clients]] ❌ error: Server disconnected
+socks5://41.175.141.82:1080 [[机房] 南非 豪登省 [Liquid Telecommunications Operations Limited]] ❌ error: [Errno 104] Connection reset by peer
+socks5://77.35.12.184:1080 [[家宽] 俄罗斯 滨海边疆区 海参崴 [Dynamic Broadband Clients]] ❌ timeout
 socks5://77.35.141.169:1080 [[家宽] 俄罗斯 滨海边疆区 海参崴 [Dynamic Broadband Clients]] ❌ error: Server disconnected
 socks5://193.17.95.210:1080 [[机房] 荷兰 弗莱福兰省 莱利斯塔德 [PIO-Hosting GmbH]] ❌ error: Server disconnected
 socks5://193.17.95.242:1080 [[机房] 荷兰 弗莱福兰省 莱利斯塔德 [PIO-Hosting GmbH]] ❌ error: Server disconnected
