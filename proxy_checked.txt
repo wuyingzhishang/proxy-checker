@@ -1,33 +1,33 @@
-# 代理质量检测结果 - 2026-01-19 12:48:30
+# 代理质量检测结果 - 2026-01-19 13:51:29
 # 总计: 30 个代理
 
+socks5://77.105.161.112:60000 [[机房] 越南 胡志明市 胡志明市 [FPT Telecom Company]] 【🟢🟢 住宅 Vietnam Ho Chi Minh City (HCMC) Ho Chi Minh City】
+socks5://150.107.5.109:1080 [[机房] 柬埔寨 金边 金边 [Angkor Data Communication]] ❌ error: Server disconnected
+socks5://95.80.103.217:1080 [[机房] 俄罗斯 鄂木斯克州 鄂木斯克 [Omsk Russia]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
 socks5://185.28.85.88:1080 [[机房] 俄罗斯 莫斯科 莫斯科 [Hosting VDS]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
-socks5://159.198.76.142:1080 [[机房] 美国 加州 洛杉矶 [Namecheap, Inc.]] ❌ error: Server disconnected
+socks5://159.198.76.142:1080 [[机房] 美国 加州 洛杉矶 [Namecheap, Inc.]] ❌ timeout
 socks5://78.85.189.212:1080 [[家宽] 俄罗斯 乌德穆尔蒂亚共和国 伊熱夫斯克 [abuse mailbox: [email protected]]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
 socks5://118.114.89.114:1080 [[机房] 美国 加州 洛杉矶 — 搬瓦工 [IT7 Networks Inc]] ❌ timeout
 socks5://138.128.247.245:1080 [[机房] 美国 纽约州 纽约 [Cloud Web Manage]] ❌ error: Server disconnected
 socks5://41.175.141.82:1080 [[机房] 南非 豪登省 [Liquid Telecommunications Operations Limited]] ❌ proxy connection error
 socks5://77.35.12.184:1080 [[家宽] 俄罗斯 滨海边疆区 海参崴 [Dynamic Broadband Clients]] ❌ timeout
 socks5://77.35.141.169:1080 [[家宽] 俄罗斯 滨海边疆区 海参崴 [Dynamic Broadband Clients]] ❌ error: Server disconnected
-socks5://193.17.95.210:1080 [[机房] 荷兰 弗莱福兰省 莱利斯塔德 [PIO-Hosting GmbH]] ❌ error: Server disconnected
-socks5://193.17.95.242:1080 [[机房] 荷兰 弗莱福兰省 莱利斯塔德 [PIO-Hosting GmbH]] ❌ error: Server disconnected
+socks5://193.17.95.210:1080 [[机房] 荷兰 弗莱福兰省 莱利斯塔德 [PIO-Hosting GmbH]] ❌ timeout
+socks5://193.17.95.242:1080 [[机房] 荷兰 弗莱福兰省 莱利斯塔德 [PIO-Hosting GmbH]] ❌ timeout
 socks5://193.17.95.64:1080 [[机房] 荷兰 弗莱福兰省 莱利斯塔德 [PIO-Hosting GmbH]] ❌ error: Server disconnected
 socks5://193.17.95.65:1080 [[机房] 荷兰 弗莱福兰省 莱利斯塔德 [PIO-Hosting GmbH]] ❌ error: Server disconnected
-socks5://193.17.95.243:1080 [[机房] 荷兰 弗莱福兰省 莱利斯塔德 [PIO-Hosting GmbH]] ❌ error: Server disconnected
+socks5://193.17.95.243:1080 [[机房] 荷兰 弗莱福兰省 莱利斯塔德 [PIO-Hosting GmbH]] ❌ timeout
 socks5://193.17.95.220:1080 [[机房] 荷兰 弗莱福兰省 莱利斯塔德 [PIO-Hosting GmbH]] ❌ error: Server disconnected
-socks5://193.17.95.211:1080 [[机房] 荷兰 弗莱福兰省 莱利斯塔德 [PIO-Hosting GmbH]] ❌ error: Server disconnected
-socks5://193.17.95.241:1080 [[机房] 荷兰 弗莱福兰省 莱利斯塔德 [PIO-Hosting GmbH]] ❌ error: Server disconnected
+socks5://193.17.95.211:1080 [[机房] 荷兰 弗莱福兰省 莱利斯塔德 [PIO-Hosting GmbH]] ❌ timeout
+socks5://193.17.95.241:1080 [[机房] 荷兰 弗莱福兰省 莱利斯塔德 [PIO-Hosting GmbH]] ❌ timeout
 socks5://193.17.95.232:1080 [[机房] 荷兰 弗莱福兰省 莱利斯塔德 [PIO-Hosting GmbH]] ❌ error: Server disconnected
 socks5://38.180.203.70:1080 [[机房] 美国 伊利诺伊州 芝加哥 [3NT SOLUTIONS LLP]] ❌ error: Server disconnected
-socks5://77.73.233.88:1080 [[机房] 拉脱维亚 里加 里加 [LV BEGET]] ❌ error: Server disconnected
+socks5://77.73.233.88:1080 [[机房] 拉脱维亚 里加 里加 [LV BEGET]] ❌ timeout
 socks5://194.59.207.74:1080 [[机房] 美国 纽约州 纽约 [Verizon Business]] ❌ HTTP 403
 socks5://47.242.12.226:1080 [[机房] 中国 香港 香港 — 阿里云 [ALIBABA CLOUD - HK]] ❌ error: Server disconnected
 socks5://114.41.143.177:1080 [[机房] 中国 台湾 台中市 [Data Communication Business Group,]] ❌ error: 400, message='Expected HTTP/, RTSP/ or ICE/:\n\n  
 socks5://156.227.28.8:5555 [[机房] 中国 台湾 台北市 [Antbox Network Limited]] ❌ error: [Errno 104] Connection reset by peer
-socks5://134.199.159.23:1080 [[机房] 澳大利亚 新南威尔士州 悉尼 — DigitalOcean [DigitalOcean, LLC]] ❌ proxy connection error
+socks5://134.199.159.23:1080 [[机房] 澳大利亚 新南威尔士州 悉尼 — DigitalOcean [DigitalOcean, LLC]] ❌ error: Server disconnected
 socks5://206.119.168.194:1080 [[机房] 美国 加州 洛杉矶 [Cogent Communications, LLC]] ❌ proxy connection error
 socks5://206.119.178.35:1080 [[机房] 中国 香港 香港 [Cogent Communications, LLC]] ❌ error: Server disconnected
 socks5://193.108.58.29:1080 [[机房] 加拿大 不列颠哥伦比亚 温哥华 [CA INETCLOUD]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
-socks5://87.121.38.30:1080 [[机房] 塞尔维亚 中塞尔维亚 贝尔格莱德 [Digital City FZE]] ❌ timeout
-socks5://195.62.32.233:1080 [[机房] 荷兰 弗莱福兰省 莱利斯塔德 [PIO-Hosting GmbH]] ❌ error: Server disconnected
-socks5://103.127.99.99:1080 [[机房] 印度尼西亚 西爪哇省 勿加泗 [PT. PINGGA JAYA UTAMA]] ❌ timeout
