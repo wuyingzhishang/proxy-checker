@@ -1,6 +1,16 @@
-# 代理质量检测结果 - 2026-01-19 04:53:40
+# 代理质量检测结果 - 2026-01-19 05:33:54
 # 总计: 30 个代理
 
+socks5://193.17.95.210:1080 [[机房] 荷兰 弗莱福兰省 莱利斯塔德 [PIO-Hosting GmbH]] ❌ error: Server disconnected
+socks5://193.17.95.242:1080 [[机房] 荷兰 弗莱福兰省 莱利斯塔德 [PIO-Hosting GmbH]] ❌ error: Server disconnected
+socks5://193.17.95.64:1080 [[机房] 荷兰 弗莱福兰省 莱利斯塔德 [PIO-Hosting GmbH]] ❌ error: Server disconnected
+socks5://193.17.95.65:1080 [[机房] 荷兰 弗莱福兰省 莱利斯塔德 [PIO-Hosting GmbH]] ❌ error: Server disconnected
+socks5://193.17.95.243:1080 [[机房] 荷兰 弗莱福兰省 莱利斯塔德 [PIO-Hosting GmbH]] ❌ error: Server disconnected
+socks5://193.17.95.220:1080 [[机房] 荷兰 弗莱福兰省 莱利斯塔德 [PIO-Hosting GmbH]] ❌ error: Server disconnected
+socks5://193.17.95.211:1080 [[机房] 荷兰 弗莱福兰省 莱利斯塔德 [PIO-Hosting GmbH]] ❌ error: Server disconnected
+socks5://193.17.95.241:1080 [[机房] 荷兰 弗莱福兰省 莱利斯塔德 [PIO-Hosting GmbH]] ❌ error: Server disconnected
+socks5://193.17.95.232:1080 [[机房] 荷兰 弗莱福兰省 莱利斯塔德 [PIO-Hosting GmbH]] ❌ error: Server disconnected
+socks5://38.180.203.70:1080 [[机房] 美国 伊利诺伊州 芝加哥 [3NT SOLUTIONS LLP]] ❌ error: Server disconnected
 socks5://77.73.233.88:1080 [[机房] 拉脱维亚 里加 里加 [LV BEGET]] ❌ error: Server disconnected
 socks5://194.59.207.74:1080 [[机房] 美国 纽约州 纽约 [Verizon Business]] ❌ HTTP 403
 socks5://47.242.12.226:1080 [[机房] 中国 香港 香港 — 阿里云 [ALIBABA CLOUD - HK]] ❌ error: Server disconnected
@@ -9,7 +19,7 @@ socks5://156.227.28.8:5555 [[机房] 中国 台湾 台北市 [Antbox Network Lim
 socks5://134.199.159.23:1080 [[机房] 澳大利亚 新南威尔士州 悉尼 — DigitalOcean [DigitalOcean, LLC]] ❌ error: Server disconnected
 socks5://206.119.168.194:1080 [[机房] 美国 加州 洛杉矶 [Cogent Communications, LLC]] ❌ proxy connection error
 socks5://206.119.178.35:1080 [[机房] 中国 香港 香港 [Cogent Communications, LLC]] ❌ error: Server disconnected
-socks5://193.108.58.29:1080 [[机房] 加拿大 不列颠哥伦比亚 温哥华 [CA INETCLOUD]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
+socks5://193.108.58.29:1080 [[机房] 加拿大 不列颠哥伦比亚 温哥华 [CA INETCLOUD]] ❌ timeout
 socks5://87.121.38.30:1080 [[机房] 塞尔维亚 中塞尔维亚 贝尔格莱德 [Digital City FZE]] ❌ timeout
 socks5://195.62.32.233:1080 [[机房] 荷兰 弗莱福兰省 莱利斯塔德 [PIO-Hosting GmbH]] ❌ error: Server disconnected
 socks5://103.127.99.99:1080 [[机房] 印度尼西亚 西爪哇省 勿加泗 [PT. PINGGA JAYA UTAMA]] 【🟡🟡 机房 数据中心 Indonesia West Java Bogor】
@@ -21,13 +31,3 @@ socks5://103.179.44.10:1080 [[机房] 新加坡 新加坡 新加坡 [NIXI]] ❌ 
 socks5://103.179.44.11:1080 [[机房] 新加坡 新加坡 新加坡 [NIXI]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
 socks5://27.69.167.180:8888 [[家宽] 越南 [Viettel Group]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
 socks5://183.81.91.49:1111 [[家宽] 越南 [AdditionalIP range for 3G service of Viettel in Ha Noi]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
-socks5://103.179.44.140:1080 [[机房] 新加坡 新加坡 新加坡 [NIXI]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
-socks5://103.179.44.16:1080 [[机房] 新加坡 新加坡 新加坡 [NIXI]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
-socks5://103.179.44.213:1080 [[机房] 新加坡 新加坡 新加坡 [NIXI]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
-socks5://141.11.42.163:1080 [[机房] 中国 台湾 彰化县 [Akari Networks (Taipei)]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
-socks5://36.73.210.41:1080 [[机房] 印度尼西亚 东爪哇省 Madiun [PT TELKOM INDONESIA]] ❌ error: Server disconnected
-socks5://45.158.220.43:5555 [[机房] 中国 香港 香港 [Power Line (HK) Co., Limited]] ❌ error: Server disconnected
-socks5://45.158.220.5:5555 [[机房] 中国 香港 香港 [Power Line (HK) Co., Limited]] ❌ error: Server disconnected
-socks5://45.158.220.20:5555 [[机房] 中国 香港 香港 [Power Line (HK) Co., Limited]] ❌ error: Server disconnected
-socks5://45.158.220.48:5555 [[机房] 中国 香港 香港 [Power Line (HK) Co., Limited]] ❌ error: Server disconnected
-socks5://45.158.220.11:5555 [[机房] 中国 香港 香港 [Power Line (HK) Co., Limited]] ❌ error: Server disconnected
