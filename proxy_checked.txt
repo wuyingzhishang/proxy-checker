@@ -1,15 +1,18 @@
-# 代理质量检测结果 - 2026-01-19 17:26:39
+# 代理质量检测结果 - 2026-01-19 18:34:07
 # 总计: 30 个代理
 
+socks5://31.130.131.142:1080 [[机房] 荷兰 北荷兰省 阿姆斯特丹 [Timeweb, LLP]] ❌ error: Server disconnected
+socks5://80.253.249.208:60000 [[机房] 美国 威斯康辛州 [AT&T Enterprises, LLC]] 【⚪⚪ 住宅 United States Wisconsin Kenosha】
+socks5://156.226.171.120:5555 [[机房] 中国 香港 香港 [Polarish Co]] ❌ error: [Errno 104] Connection reset by peer
 socks5://172.237.66.201:60000 [[机房] 美国 加州 维克多维尔 [Frontier Communications Corporation]] 【⚪⚪ 住宅 United States California Leona Valley】
-socks5://91.108.244.254:60000 [[家宽] 罗马尼亚 [RCS & RDS Residential CGN]] ❌ error: 502, message='Proxy Error', url='socks5://91.108.2
-socks5://43.250.54.139:60000 [[机房] 德国 汉堡市 汉堡 [Packethub S.A.]] ❌ error: 502, message='Proxy Error', url='socks5://43.250.5
+socks5://91.108.244.254:60000 [[家宽] 罗马尼亚 [RCS & RDS Residential CGN]] 【🟠🟠 机房 数据中心 Romania București Bucharest】
+socks5://43.250.54.139:60000 [[机房] 德国 汉堡市 汉堡 [Packethub S.A.]] 【⚪⚪ 住宅 United Kingdom England Hythe】
 socks5://51.79.195.217:60000 [[机房] 危地马拉 危地马拉省 危地马拉市 [Servicios Innovadores de Comunicación y Entretenimiento, S.A]] 【🟢🟢 住宅 Guatemala Guatemala Guatemala City】
 socks5://51.79.200.188:60000 [[机房] 泰国 清迈府 清迈 [TRUE BROADBAND]] 【⚪⚪ 住宅 Thailand Chiang Mai Chiang Mai】
 socks5://51.79.195.160:60000 [[家宽] 新加坡 新加坡 [SingNET Broadband]] ❌ error: 502, message='Proxy Error', url='socks5://51.79.19
-socks5://15.235.156.40:60000 [[机房] 美国 佛罗里达州 奥兰多 [AT&T Enterprises, LLC]] 【⚪⚪ 机房 数据中心 United States Florida Orlando】
+socks5://15.235.156.40:60000 [[机房] 美国 佛罗里达州 奥兰多 [AT&T Enterprises, LLC]] 【⚪⚪ 住宅 United States California San Jose】
 socks5://31.182.117.16:1080 [[机房] 波兰 马佐维亚省 華沙 [Toya sp. z o.o.]] ❌ error: [Errno 104] Connection reset by peer
-socks5://152.228.132.13:60000 [[机房] 奥地利 奥地利州 维也纳 [H3G CUSTOMERS NET]] 【⚪⚪ 机房 数据中心 Austria Upper Austria Feldkirchen an der Donau】
+socks5://152.228.132.13:60000 [[机房] 奥地利 奥地利州 维也纳 [H3G CUSTOMERS NET]] 【⚪⚪ 机房 数据中心 Austria Vienna Vienna】
 socks5://94.103.92.224:1080 [[机房] 俄罗斯 莫斯科 莫斯科 [VDSINA VDS Hosting]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
 socks5://45.120.80.116:5555 [[机房] 中国 香港 香港 [7/F, TRANS ASIA CTR 18 KIN HONG ST, KWAI CHUNG HONGKONG]] ❌ error: Server disconnected
 socks5://45.120.80.115:5555 [[机房] 中国 香港 香港 [7/F, TRANS ASIA CTR 18 KIN HONG ST, KWAI CHUNG HONGKONG]] ❌ error: Server disconnected
@@ -21,13 +24,10 @@ socks5://150.107.5.109:1080 [[机房] 柬埔寨 金边 金边 [Angkor Data Commu
 socks5://95.80.103.217:1080 [[机房] 俄罗斯 鄂木斯克州 鄂木斯克 [Omsk Russia]] ❌ timeout
 socks5://185.28.85.88:1080 [[机房] 俄罗斯 莫斯科 莫斯科 [Hosting VDS]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
 socks5://159.198.76.142:1080 [[机房] 美国 加州 洛杉矶 [Namecheap, Inc.]] ❌ error: Server disconnected
-socks5://78.85.189.212:1080 [[家宽] 俄罗斯 乌德穆尔蒂亚共和国 伊熱夫斯克 [abuse mailbox: [email protected]]] ❌ proxy connection error
+socks5://78.85.189.212:1080 [[家宽] 俄罗斯 乌德穆尔蒂亚共和国 伊熱夫斯克 [abuse mailbox: [email protected]]] ❌ timeout
 socks5://118.114.89.114:1080 [[机房] 美国 加州 洛杉矶 — 搬瓦工 [IT7 Networks Inc]] ❌ timeout
 socks5://138.128.247.245:1080 [[机房] 美国 纽约州 纽约 [Cloud Web Manage]] ❌ error: Server disconnected
 socks5://41.175.141.82:1080 [[机房] 南非 豪登省 [Liquid Telecommunications Operations Limited]] ❌ proxy connection error
 socks5://77.35.12.184:1080 [[家宽] 俄罗斯 滨海边疆区 海参崴 [Dynamic Broadband Clients]] ❌ timeout
 socks5://77.35.141.169:1080 [[家宽] 俄罗斯 滨海边疆区 海参崴 [Dynamic Broadband Clients]] ❌ error: Server disconnected
 socks5://193.17.95.210:1080 [[机房] 荷兰 弗莱福兰省 莱利斯塔德 [PIO-Hosting GmbH]] ❌ error: Server disconnected
-socks5://193.17.95.242:1080 [[机房] 荷兰 弗莱福兰省 莱利斯塔德 [PIO-Hosting GmbH]] ❌ error: Server disconnected
-socks5://193.17.95.64:1080 [[机房] 荷兰 弗莱福兰省 莱利斯塔德 [PIO-Hosting GmbH]] ❌ error: Server disconnected
-socks5://193.17.95.65:1080 [[机房] 荷兰 弗莱福兰省 莱利斯塔德 [PIO-Hosting GmbH]] ❌ error: Server disconnected
