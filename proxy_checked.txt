@@ -1,6 +1,7 @@
-# 代理质量检测结果 - 2026-01-19 03:51:48
+# 代理质量检测结果 - 2026-01-19 04:53:40
 # 总计: 30 个代理
 
+socks5://77.73.233.88:1080 [[机房] 拉脱维亚 里加 里加 [LV BEGET]] ❌ error: Server disconnected
 socks5://194.59.207.74:1080 [[机房] 美国 纽约州 纽约 [Verizon Business]] ❌ HTTP 403
 socks5://47.242.12.226:1080 [[机房] 中国 香港 香港 — 阿里云 [ALIBABA CLOUD - HK]] ❌ error: Server disconnected
 socks5://114.41.143.177:1080 [[机房] 中国 台湾 台中市 [Data Communication Business Group,]] ❌ error: Server disconnected
@@ -30,4 +31,3 @@ socks5://45.158.220.5:5555 [[机房] 中国 香港 香港 [Power Line (HK) Co., 
 socks5://45.158.220.20:5555 [[机房] 中国 香港 香港 [Power Line (HK) Co., Limited]] ❌ error: Server disconnected
 socks5://45.158.220.48:5555 [[机房] 中国 香港 香港 [Power Line (HK) Co., Limited]] ❌ error: Server disconnected
 socks5://45.158.220.11:5555 [[机房] 中国 香港 香港 [Power Line (HK) Co., Limited]] ❌ error: Server disconnected
-socks5://45.158.220.35:5555 [[机房] 中国 香港 香港 [Power Line (HK) Co., Limited]] ❌ error: Server disconnected
