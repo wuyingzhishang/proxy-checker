@@ -1,11 +1,16 @@
-# 代理质量检测结果 - 2026-01-20 14:32:16
+# 代理质量检测结果 - 2026-01-20 15:31:51
 # 总计: 30 个代理
 
+socks5://203.31.40.151:1080 [[机房] 俄罗斯 莫斯科 莫斯科 [SEBEK sp. z o.o]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
+socks5://37.235.237.94:1080 [[机房] 俄罗斯 坦波夫州 坦波夫 [LANTA Ltd]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
+socks5://140.235.10.20:1080 [[家宽] 新加坡 新加坡 新加坡 [SAKURA LTD.]] 【⚪⚪ 机房 数据中心 United States Colorado Colorado Springs】
+socks5://62.210.195.241:1080 [[机房] 美国 宾夕法尼亚州 费城 [Verizon Business]] ❌ error: [Errno 104] Connection reset by peer
+socks5://18.166.110.75:1080 [[机房] 中国 香港 香港 — 亚马逊云 Aws [Amazon Data Services Hong Kong]] ❌ error: Server disconnected
 socks5://45.61.184.128:1080 [[机房] 美国 佛罗里达州 迈阿密 — BuyVM [FranTech Solutions]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
 socks5://138.124.108.103:1080 [[机房] 德国 黑森州 法兰克福 [Aeza International LTD]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
 socks5://102.215.228.13:1080 [[机房] 德国 柏林 柏林 [DASABO OU]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
 socks5://102.215.228.9:1080 [[机房] 德国 柏林 柏林 [DASABO OU]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
-socks5://144.76.94.91:1080 [[机房] 德国 萨克森州 法尔肯施泰因 — Hetzner [Hetzner Online GmbH]] ❌ timeout
+socks5://144.76.94.91:1080 [[机房] 德国 萨克森州 法尔肯施泰因 — Hetzner [Hetzner Online GmbH]] ❌ proxy connection error
 socks5://107.172.48.70:1080 [[机房] 美国 加州 洛杉矶 — Cloudflare CDN 节点 [Cloudflare, Inc.]] 【🔴🔴 机房 数据中心 United States California Los Angeles】
 socks5://94.75.191.8:1080 [[家宽] 俄罗斯 布良斯克州 [PJSC Rostelecom, Bryansk branch]] ❌ error: Server disconnected
 socks5://35.76.216.108:1080 [[机房] 日本 东京 东京 — 亚马逊云 Aws [Amazon.com, Inc.]] ❌ HTTP 403
@@ -26,8 +31,3 @@ socks5://45.156.218.177:5555 [[机房] 中国 香港 香港 [Power Line (HK) Co.
 socks5://45.156.218.174:5555 [[机房] 中国 香港 香港 [Power Line (HK) Co., Limited]] ❌ error: Server disconnected
 socks5://45.156.216.74:5555 [[机房] 中国 香港 香港 [Power Line (HK) Co., Limited]] ❌ error: Server disconnected
 socks5://45.156.216.124:5555 [[机房] 中国 香港 香港 [Power Line (HK) Co., Limited]] ❌ error: Server disconnected
-socks5://45.156.218.144:5555 [[机房] 中国 香港 香港 [Power Line (HK) Co., Limited]] ❌ error: Server disconnected
-socks5://45.156.216.123:5555 [[机房] 中国 香港 香港 [Power Line (HK) Co., Limited]] ❌ error: Server disconnected
-socks5://45.156.218.134:5555 [[机房] 中国 香港 香港 [Power Line (HK) Co., Limited]] ❌ error: Server disconnected
-socks5://45.156.218.140:5555 [[机房] 中国 香港 香港 [Power Line (HK) Co., Limited]] ❌ error: Server disconnected
-socks5://45.156.216.105:5555 [[机房] 中国 香港 香港 [Power Line (HK) Co., Limited]] ❌ error: Server disconnected
