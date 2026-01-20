@@ -1,6 +1,7 @@
-# 代理列表更新时间: 2026-01-20 01:24:54
+# 代理列表更新时间: 2026-01-20 03:41:26
 # 总计: 30 个代理
 
+socks5://78.46.109.69:1080 [[机房] 意大利 拉齐奥大区 罗马市 [MOBILE SOUTH EAST 57]]
 socks5://185.166.196.59:1080 [[机房] 德国 黑森州 法兰克福 [Timeweb, LLP]]
 socks5://103.239.54.22:1080 [[家宽] 柬埔寨 金边 金边 [Cogetel Ltd, Online ISP, Cambodia]]
 socks5://103.239.52.157:1080 [[家宽] 柬埔寨 金边 金边 [Cogetel Ltd, Online ISP, Cambodia]]
@@ -10,10 +11,10 @@ socks5://103.229.126.5:1080 [[机房] 中国 香港 香港 [Hosted in Cloudie Li
 socks5://124.156.222.36:1080 [[机房] 阿联酋 迪拜 迪拜 [WISDOM CLOUD INTERNET TECHNOLOGY PTE. LTD]]
 socks5://146.56.165.248:1111 [[机房] 韩国 首尔特别市 — 甲骨文云 Oracle [Oracle Corporation]]
 socks5://37.112.63.173:4444 [[家宽] 俄罗斯 哈巴罗夫斯克边疆区 伯力 [JSC Rostelecom LIR]]
-socks5://117.7.80.150:1111 [[机房] 越南 [AdditionalIP range for 3G service of Viettel in Ha Noi]]
-socks5://117.7.81.125:1111 [[机房] 越南 [AdditionalIP range for 3G service of Viettel in Ha Noi]]
-socks5://117.7.86.13:1111 [[机房] 越南 [AdditionalIP range for 3G service of Viettel in Ha Noi]]
-socks5://117.7.81.57:1111 [[机房] 越南 [AdditionalIP range for 3G service of Viettel in Ha Noi]]
+socks5://117.7.80.150:1111 [[家宽] 越南 [AdditionalIP range for 3G service of Viettel in Ha Noi]]
+socks5://117.7.81.125:1111 [[家宽] 越南 [AdditionalIP range for 3G service of Viettel in Ha Noi]]
+socks5://117.7.86.13:1111 [[家宽] 越南 [AdditionalIP range for 3G service of Viettel in Ha Noi]]
+socks5://117.7.81.57:1111 [[家宽] 越南 [AdditionalIP range for 3G service of Viettel in Ha Noi]]
 socks5://176.34.40.50:1080 [[机房] 日本 东京 东京 — 亚马逊云 Aws [Amazon Data Services Japan]]
 socks5://185.185.51.104:60000 [[机房] 西班牙 加利西亚 維戈 [ggsn-internet.mundo-r.com]]
 socks5://62.60.131.156:60000 [[机房] 英国 英格兰 伦敦 [Plusnet Broadband]]
@@ -30,4 +31,3 @@ socks5://51.79.195.160:60000 [[家宽] 新加坡 新加坡 [SingNET Broadband]]
 socks5://15.235.156.40:60000 [[机房] 美国 佛罗里达州 奥兰多 [AT&T Enterprises, LLC]]
 socks5://31.182.117.16:1080 [[机房] 波兰 马佐维亚省 華沙 [Toya sp. z o.o.]]
 socks5://152.228.132.13:60000 [[机房] 奥地利 奥地利州 维也纳 [H3G CUSTOMERS NET]]
-socks5://94.103.92.224:1080 [[机房] 俄罗斯 莫斯科 莫斯科 [VDSINA VDS Hosting]]
