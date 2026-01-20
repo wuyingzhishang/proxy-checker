@@ -1,6 +1,15 @@
-# 代理质量检测结果 - 2026-01-20 20:13:41
+# 代理质量检测结果 - 2026-01-20 21:22:46
 # 总计: 30 个代理
 
+socks5://160.187.141.45:1080 [[机房] 新加坡 新加坡 新加坡 [NIXI]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
+socks5://160.187.141.64:1080 [[机房] 新加坡 新加坡 新加坡 [NIXI]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
+socks5://160.187.141.72:1080 [[机房] 新加坡 新加坡 新加坡 [NIXI]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
+socks5://160.187.141.134:1080 [[机房] 新加坡 新加坡 新加坡 [NIXI]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
+socks5://160.187.141.44:1080 [[机房] 新加坡 新加坡 新加坡 [NIXI]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
+socks5://160.187.141.77:1080 [[机房] 新加坡 新加坡 新加坡 [NIXI]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
+socks5://160.187.141.43:1080 [[机房] 新加坡 新加坡 新加坡 [NIXI]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
+socks5://160.187.141.82:1080 [[机房] 新加坡 新加坡 新加坡 [NIXI]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
+socks5://185.85.75.58:1080 [[机房] 土耳其 布尔萨省 布尔萨 [Data TR Bilisim Teknoloji Hizmetleri]] ❌ error: Server disconnected
 socks5://198.199.76.11:1080 [[机房] 美国 新泽西州 北伯根 — DigitalOcean [DigitalOcean, LLC]] ❌ error: Server disconnected
 socks5://193.221.203.111:1080 [[机房] 芬兰 新地区 赫尔辛基 [Baykov Ilya Sergeevich]] 【🟠🟠 广播 Finland Uusimaa Helsinki】
 socks5://71.19.243.68:1080 [[家宽] 加拿大 不列颠哥伦比亚 温哥华 [eSecureData]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
@@ -16,18 +25,9 @@ socks5://45.61.184.128:1080 [[机房] 美国 佛罗里达州 迈阿密 — BuyVM
 socks5://138.124.108.103:1080 [[机房] 德国 黑森州 法兰克福 [Aeza International LTD]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
 socks5://102.215.228.13:1080 [[机房] 德国 柏林 柏林 [DASABO OU]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
 socks5://102.215.228.9:1080 [[机房] 德国 柏林 柏林 [DASABO OU]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
-socks5://144.76.94.91:1080 [[机房] 德国 萨克森州 法尔肯施泰因 — Hetzner [Hetzner Online GmbH]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
+socks5://144.76.94.91:1080 [[机房] 德国 萨克森州 法尔肯施泰因 — Hetzner [Hetzner Online GmbH]] ❌ timeout
 socks5://107.172.48.70:1080 [[机房] 美国 加州 洛杉矶 — Cloudflare CDN 节点 [Cloudflare, Inc.]] 【🔴🔴 机房 数据中心 United States California Los Angeles】
 socks5://94.75.191.8:1080 [[家宽] 俄罗斯 布良斯克州 [PJSC Rostelecom, Bryansk branch]] ❌ error: Server disconnected
 socks5://35.76.216.108:1080 [[机房] 日本 东京 东京 — 亚马逊云 Aws [Amazon.com, Inc.]] ❌ HTTP 403
 socks5://45.156.218.186:5555 [[机房] 中国 香港 香港 [Power Line (HK) Co., Limited]] ❌ error: Server disconnected
 socks5://45.156.218.179:5555 [[机房] 中国 香港 香港 [Power Line (HK) Co., Limited]] ❌ error: Server disconnected
-socks5://45.156.216.66:5555 [[机房] 中国 香港 香港 [Power Line (HK) Co., Limited]] ❌ error: Server disconnected
-socks5://45.156.218.162:5555 [[机房] 中国 香港 香港 [Power Line (HK) Co., Limited]] ❌ error: Server disconnected
-socks5://45.156.218.171:5555 [[机房] 中国 香港 香港 [Power Line (HK) Co., Limited]] ❌ error: Server disconnected
-socks5://45.156.218.146:5555 [[机房] 中国 香港 香港 [Power Line (HK) Co., Limited]] ❌ error: Server disconnected
-socks5://45.156.218.185:5555 [[机房] 中国 香港 香港 [Power Line (HK) Co., Limited]] ❌ error: Server disconnected
-socks5://45.156.216.70:5555 [[机房] 中国 香港 香港 [Power Line (HK) Co., Limited]] ❌ error: Server disconnected
-socks5://45.156.218.149:5555 [[机房] 中国 香港 香港 [Power Line (HK) Co., Limited]] ❌ error: Server disconnected
-socks5://45.156.218.155:5555 [[机房] 中国 香港 香港 [Power Line (HK) Co., Limited]] ❌ error: Server disconnected
-socks5://45.156.216.78:5555 [[机房] 中国 香港 香港 [Power Line (HK) Co., Limited]] ❌ error: Server disconnected
