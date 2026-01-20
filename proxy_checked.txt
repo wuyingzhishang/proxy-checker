@@ -1,6 +1,8 @@
-# 代理质量检测结果 - 2026-01-20 09:34:15
+# 代理质量检测结果 - 2026-01-20 10:28:39
 # 总计: 30 个代理
 
+socks5://94.75.191.8:1080 [[家宽] 俄罗斯 布良斯克州 [PJSC Rostelecom, Bryansk branch]] ❌ error: Server disconnected
+socks5://35.76.216.108:1080 [[机房] 日本 东京 东京 — 亚马逊云 Aws [Amazon.com, Inc.]] ❌ HTTP 403
 socks5://45.156.218.186:5555 [[机房] 中国 香港 香港 [Power Line (HK) Co., Limited]] ❌ error: Server disconnected
 socks5://45.156.218.179:5555 [[机房] 中国 香港 香港 [Power Line (HK) Co., Limited]] ❌ error: Server disconnected
 socks5://45.156.216.66:5555 [[机房] 中国 香港 香港 [Power Line (HK) Co., Limited]] ❌ error: Server disconnected
@@ -29,5 +31,3 @@ socks5://45.156.216.85:5555 [[机房] 中国 香港 香港 [Power Line (HK) Co.,
 socks5://45.156.216.83:5555 [[机房] 中国 香港 香港 [Power Line (HK) Co., Limited]] ❌ error: Server disconnected
 socks5://45.156.216.90:5555 [[机房] 中国 香港 香港 [Power Line (HK) Co., Limited]] ❌ error: Server disconnected
 socks5://45.156.216.116:5555 [[机房] 中国 香港 香港 [Power Line (HK) Co., Limited]] ❌ error: Server disconnected
-socks5://45.156.218.130:5555 [[机房] 中国 香港 香港 [Power Line (HK) Co., Limited]] ❌ error: Server disconnected
-socks5://45.156.218.138:5555 [[机房] 中国 香港 香港 [Power Line (HK) Co., Limited]] ❌ error: Server disconnected
