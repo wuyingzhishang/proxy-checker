@@ -1,9 +1,11 @@
-# 代理质量检测结果 - 2026-01-20 13:47:31
+# 代理质量检测结果 - 2026-01-20 14:32:16
 # 总计: 30 个代理
 
+socks5://45.61.184.128:1080 [[机房] 美国 佛罗里达州 迈阿密 — BuyVM [FranTech Solutions]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
+socks5://138.124.108.103:1080 [[机房] 德国 黑森州 法兰克福 [Aeza International LTD]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
 socks5://102.215.228.13:1080 [[机房] 德国 柏林 柏林 [DASABO OU]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
 socks5://102.215.228.9:1080 [[机房] 德国 柏林 柏林 [DASABO OU]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
-socks5://144.76.94.91:1080 [[机房] 德国 萨克森州 法尔肯施泰因 — Hetzner [Hetzner Online GmbH]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
+socks5://144.76.94.91:1080 [[机房] 德国 萨克森州 法尔肯施泰因 — Hetzner [Hetzner Online GmbH]] ❌ timeout
 socks5://107.172.48.70:1080 [[机房] 美国 加州 洛杉矶 — Cloudflare CDN 节点 [Cloudflare, Inc.]] 【🔴🔴 机房 数据中心 United States California Los Angeles】
 socks5://94.75.191.8:1080 [[家宽] 俄罗斯 布良斯克州 [PJSC Rostelecom, Bryansk branch]] ❌ error: Server disconnected
 socks5://35.76.216.108:1080 [[机房] 日本 东京 东京 — 亚马逊云 Aws [Amazon.com, Inc.]] ❌ HTTP 403
@@ -29,5 +31,3 @@ socks5://45.156.216.123:5555 [[机房] 中国 香港 香港 [Power Line (HK) Co.
 socks5://45.156.218.134:5555 [[机房] 中国 香港 香港 [Power Line (HK) Co., Limited]] ❌ error: Server disconnected
 socks5://45.156.218.140:5555 [[机房] 中国 香港 香港 [Power Line (HK) Co., Limited]] ❌ error: Server disconnected
 socks5://45.156.216.105:5555 [[机房] 中国 香港 香港 [Power Line (HK) Co., Limited]] ❌ error: Server disconnected
-socks5://45.156.218.161:5555 [[机房] 中国 香港 香港 [Power Line (HK) Co., Limited]] ❌ error: Server disconnected
-socks5://45.156.218.141:5555 [[机房] 中国 香港 香港 [Power Line (HK) Co., Limited]] ❌ error: Server disconnected
