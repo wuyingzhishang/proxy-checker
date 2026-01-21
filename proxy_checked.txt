@@ -1,33 +1,33 @@
-# 代理质量检测结果 - 2026-01-21 11:32:21
+# 代理质量检测结果 - 2026-01-21 12:53:12
 # 总计: 30 个代理
 
+socks5://2.58.98.45:1080 [[机房] 拉脱维亚 里加 里加 [Beget LLC]] ❌ error: Server disconnected
+socks5://109.105.89.202:1080 [[家宽] 俄罗斯 [JSC RITC]] ❌ timeout
+socks5://172.235.26.96:1080 [[机房] 澳大利亚 西澳大利亚州 珀斯 [GSL Networks Pty LTD - Perth]] ❌ error: [Errno 104] Connection reset by peer
 socks5://103.179.44.7:1080 [[机房] 新加坡 新加坡 新加坡 [NIXI]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
 socks5://103.179.44.14:1080 [[机房] 新加坡 新加坡 新加坡 [NIXI]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
 socks5://103.179.44.22:1080 [[机房] 新加坡 新加坡 新加坡 [NIXI]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
-socks5://34.210.43.58:1080 [[机房] 美国 俄勒冈州 波特兰 — 亚马逊云 Aws [Amazon Technologies Inc.]] ❌ error: Server disconnected
-socks5://175.160.130.175:1080 [[机房] 中国 香港 香港 [NetLab Global]] 【🟠🟠 机房 数据中心 Hong Kong SAR China  Hong Kong】
+socks5://34.210.43.58:1080 [[机房] 美国 俄勒冈州 波特兰 — 亚马逊云 Aws [Amazon Technologies Inc.]] ❌ timeout
+socks5://175.160.130.175:1080 [[机房] 中国 香港 香港 [NetLab Global]] ❌ timeout
 socks5://36.73.211.9:1080 [[机房] 印度尼西亚 东爪哇省 Madiun [PT TELKOM INDONESIA]] ❌ error: Server disconnected
 socks5://111.67.103.89:1080 [[家宽] 新加坡 新加坡 新加坡 [Mega Truenet Communication Co., Ltd.]] ❌ error: Server disconnected
-socks5://182.136.208.16:1080 [[机房] 美国 加州 洛杉矶 — 搬瓦工 [IT7 Networks Inc]] ❌ timeout
+socks5://182.136.208.16:1080 [[机房] 美国 加州 洛杉矶 — 搬瓦工 [IT7 Networks Inc]] ❌ proxy connection error
 socks5://194.163.182.6:1080 [[机房] 法国 大东部大区 — Contabo [CONTABO]] ❌ error: Server disconnected
 socks5://124.248.190.47:1080 [[家宽] 柬埔寨 金边 金边 [Cogetel Ltd, Online ISP, Cambodia]] ❌ timeout
 socks5://203.189.159.120:1080 [[家宽] 柬埔寨 金边 金边 [Cogetel Ltd, Online ISP, Cambodia]] ❌ timeout
 socks5://109.120.151.87:443 [[机房] 芬兰 新地区 赫尔辛基 [AEZA NETWORK HELSINKI]] ❌ timeout
 socks5://130.185.122.199:8090 [[机房] 德国 黑森州 法兰克福 [ARVANCLOUD GLOBAL TECHNOLOGIES L.L.C]] 【🔴🔴 广播 Germany Hesse Frankfurt am Main】
 socks5://110.235.249.88:1080 [[家宽] 柬埔寨 金边 金边 [Cogetel Ltd, Online ISP, Cambodia]] ❌ timeout
-socks5://103.155.184.51:9898 [[机房] 孟加拉国 达卡专区 达卡 [BCL Online Service]] ❌ timeout
-socks5://185.54.178.193:1080 [[家宽] 俄罗斯 伊尔库茨克州 [ENPLUS TELECOM DIRECT DOMSETI]] ❌ timeout
+socks5://103.155.184.51:9898 [[机房] 孟加拉国 达卡专区 达卡 [BCL Online Service]] ❌ error: [Errno 104] Connection reset by peer
+socks5://185.54.178.193:1080 [[家宽] 俄罗斯 伊尔库茨克州 [ENPLUS TELECOM DIRECT DOMSETI]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
 socks5://70.39.193.74:1080 [[机房] 美国 加州 洛杉矶 [GTT Communications Inc.]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
 socks5://103.85.227.238:9999 [[机房] 美国 加州 洛杉矶 [Vapeline Technology]] ❌ error: Server disconnected
-socks5://181.6.91.101:1080 [[机房] 美国 佛罗里达州 迈阿密 — Vultr [Vultr Holdings, LLC]] ❌ proxy connection error
+socks5://181.6.91.101:1080 [[机房] 美国 佛罗里达州 迈阿密 — Vultr [Vultr Holdings, LLC]] ❌ timeout
 socks5://181.6.224.137:1080 [[机房] 美国 弗吉尼亚州 马纳萨斯 [US NETCUP KVM MNZ]] ❌ timeout
-socks5://181.6.12.25:1080 [[机房] 加拿大 安大略 多伦多 — DigitalOcean [DigitalOcean, LLC]] ❌ timeout
+socks5://181.6.12.25:1080 [[机房] 加拿大 安大略 多伦多 — DigitalOcean [DigitalOcean, LLC]] ❌ proxy connection error
 socks5://181.6.225.205:1080 [[机房] 美国 弗吉尼亚州 马纳萨斯 [US NETCUP KVM MNZ]] ❌ timeout
 socks5://181.6.91.172:1080 [[机房] 美国 佛罗里达州 迈阿密 — Linode [Linode]] ❌ timeout
 socks5://45.148.244.200:1080 [[机房] 荷兰 上艾瑟尔省 兹沃勒 [ALEXHOST SRL]] ❌ error: Server disconnected
 socks5://82.149.134.95:1080 [[家宽] 俄罗斯 摩爾曼斯克州 摩爾曼斯克 [Net By Net Holding LLC]] ❌ timeout
 socks5://16.170.225.251:1080 [[机房] 瑞典 斯德哥尔摩省 斯德哥尔摩 — 亚马逊云 Aws [Amazon Data Services Sweden]] ❌ error: Server disconnected
 socks5://136.244.68.67:8888 [[机房] 英国 英格兰 伦敦 — Vultr [Vultr Holdings, LLC]] ❌ error: Server disconnected
-socks5://202.58.16.236:1080 [[家宽] 柬埔寨 金边 金边 [Mega Truenet Communication Co., Ltd.]] ❌ error: Server disconnected
-socks5://94.253.1.60:1080 [[机房] 俄罗斯 莫斯科 莫斯科 [Flex inteconnection Moscow district]] ❌ timeout
-socks5://103.115.108.13:1234 [[机房] 中国 台湾 台北市 [TUCD]] 【🟢🟢 机房 数据中心 Taiwan Taiwan Taipei】
