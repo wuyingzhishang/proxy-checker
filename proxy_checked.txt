@@ -1,33 +1,33 @@
-# 代理质量检测结果 - 2026-01-21 21:33:27
+# 代理质量检测结果 - 2026-01-21 22:30:10
 # 总计: 30 个代理
 
+socks5://195.35.113.29:1080 [[机房] 荷兰 北荷兰省 阿姆斯特丹 [TerraHost AS]] ❌ error: Server disconnected
 socks5://79.112.97.193:1080 [[机房] 西班牙 马德里自治区 马德里 [DIGI SPAIN TELECOM S.L.]] ❌ error: Server disconnected
 socks5://185.218.19.234:8080 [[机房] 德国 黑森州 法兰克福 [Huize Holdings LLC]] ❌ error: Server disconnected
 socks5://38.148.249.171:1080 [[机房] 美国 加州 洛杉矶 [KURUN CLOUD INC]] ❌ error: Server disconnected
 socks5://87.255.230.139:1080 [[家宽] 俄罗斯 伊万诺沃州 伊万诺沃 [Ivanovo reginoal Internet service provider]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
 socks5://146.235.19.84:10850 [[机房] 新加坡 新加坡 — 甲骨文云 Oracle [Oracle Corporation]] ❌ error: [Errno 104] Connection reset by peer
 socks5://185.216.85.206:12345 [[机房] 荷兰 弗莱福兰省 德龙滕 [Iron Hosting Centre LTD]] ❌ error: Server disconnected
-socks5://116.105.28.89:9185 [[家宽] 越南 岘港 岘港 [Viettel Group]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
-socks5://116.105.22.23:9189 [[家宽] 越南 [Viettel Group]] ❌ timeout
+socks5://116.105.28.89:9185 [[家宽] 越南 岘港 岘港 [Viettel Group]] ❌ timeout
+socks5://116.105.22.23:9189 [[家宽] 越南 [Viettel Group]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
 socks5://116.105.24.222:9193 [[家宽] 越南 [Viettel Group]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
 socks5://116.105.27.214:9166 [[家宽] 越南 [Viettel Group]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
 socks5://8.222.160.208:3333 [[机房] 新加坡 新加坡 新加坡 — 阿里云 [Alibaba Cloud (Singapore) Private Limited]] ❌ error: Server disconnected
 socks5://82.115.49.147:1080 [[家宽] 哈萨克斯坦 阿斯塔纳市 阿斯塔纳市 [PS Internet Company LLC]] ❌ error: Server disconnected
-socks5://181.102.38.55:1080 [[机房] 美国 密苏里州 圣路易斯 — Contabo [Contabo GmbH]] ❌ error: [Errno 104] Connection reset by peer
+socks5://181.102.38.55:1080 [[机房] 美国 密苏里州 圣路易斯 — Contabo [Contabo GmbH]] ❌ timeout
 socks5://181.102.42.62:1080 [[机房] 美国 弗吉尼亚州 马纳萨斯 [US NETCUP KVM MNZ]] ❌ proxy connection error
-socks5://181.102.176.133:1080 [[机房] 美国 新泽西州 克利夫顿 — DigitalOcean [DigitalOcean, LLC]] ❌ proxy connection error
+socks5://181.102.176.133:1080 [[机房] 美国 新泽西州 克利夫顿 — DigitalOcean [DigitalOcean, LLC]] ❌ timeout
 socks5://141.98.7.14:1080 [[机房] 德国 黑森州 [PLAY2GO INTERNATIONAL LIMITED]] ❌ error: Server disconnected
-socks5://103.239.200.226:11 [[家宽] 菲律宾 国家首都区 马卡蒂 [Sky Cable Corporation]] ❌ error: Server disconnected
+socks5://103.239.200.226:11 [[家宽] 菲律宾 国家首都区 马卡蒂 [Sky Cable Corporation]] ❌ timeout
 socks5://103.195.100.154:10080 [[机房] 美国 佛罗里达州 迈阿密 [ReliableSite.Net LLC]] ❌ error: Server disconnected
 socks5://46.29.160.154:8080 [[机房] 俄罗斯 鞑靼斯坦共和国 喀山 — JustHost [BX NETWORK]] ❌ error: [Errno 104] Connection reset by peer
 socks5://172.235.26.96:1080 [[机房] 澳大利亚 西澳大利亚州 珀斯 [GSL Networks Pty LTD - Perth]] ❌ error: [Errno 104] Connection reset by peer
-socks5://103.179.44.22:1080 [[机房] 新加坡 新加坡 新加坡 [NIXI]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
+socks5://103.179.44.22:1080 [[机房] 新加坡 新加坡 新加坡 [NIXI]] ❌ timeout
 socks5://175.160.130.175:1080 [[机房] 中国 香港 香港 [NetLab Global]] 【🟢🟢 广播 Hong Kong SAR China  Hong Kong】
-socks5://36.73.211.9:1080 [[机房] 印度尼西亚 东爪哇省 Madiun [PT TELKOM INDONESIA]] ❌ timeout
-socks5://111.67.103.89:1080 [[家宽] 新加坡 新加坡 新加坡 [Mega Truenet Communication Co., Ltd.]] ❌ timeout
+socks5://36.73.211.9:1080 [[机房] 印度尼西亚 东爪哇省 Madiun [PT TELKOM INDONESIA]] ❌ error: Server disconnected
+socks5://111.67.103.89:1080 [[家宽] 新加坡 新加坡 新加坡 [Mega Truenet Communication Co., Ltd.]] ❌ error: Server disconnected
 socks5://194.163.182.6:1080 [[机房] 法国 大东部大区 — Contabo [CONTABO]] ❌ error: Server disconnected
-socks5://124.248.190.47:1080 [[家宽] 柬埔寨 金边 金边 [Cogetel Ltd, Online ISP, Cambodia]] ❌ error: Server disconnected
-socks5://203.189.159.120:1080 [[家宽] 柬埔寨 金边 金边 [Cogetel Ltd, Online ISP, Cambodia]] ❌ timeout
+socks5://124.248.190.47:1080 [[家宽] 柬埔寨 金边 金边 [Cogetel Ltd, Online ISP, Cambodia]] ❌ timeout
+socks5://203.189.159.120:1080 [[家宽] 柬埔寨 金边 金边 [Cogetel Ltd, Online ISP, Cambodia]] ❌ error: Server disconnected
 socks5://110.235.249.88:1080 [[家宽] 柬埔寨 金边 金边 [Cogetel Ltd, Online ISP, Cambodia]] ❌ timeout
 socks5://70.39.193.74:1080 [[机房] 美国 加州 洛杉矶 [GTT Communications Inc.]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
-socks5://103.85.227.238:9999 [[机房] 美国 加州 洛杉矶 [Vapeline Technology]] ❌ error: Server disconnected
