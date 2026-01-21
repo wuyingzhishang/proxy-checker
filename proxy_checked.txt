@@ -1,7 +1,17 @@
-# 代理质量检测结果 - 2026-01-21 15:38:01
+# 代理质量检测结果 - 2026-01-21 16:52:12
 # 总计: 30 个代理
 
-socks5://103.239.200.226:11 [[家宽] 菲律宾 国家首都区 马卡蒂 [Sky Cable Corporation]] ❌ error: Server disconnected
+socks5://82.115.49.147:1080 [[机房] 哈萨克斯坦 阿斯塔纳市 阿斯塔纳市 [PS Internet Company LLC]] ❌ error: Server disconnected
+socks5://181.102.101.247:1080 [[机房] 巴西 圣保罗 圣保罗 [Qnax Ltda]] ❌ timeout
+socks5://181.102.38.55:1080 [[机房] 美国 密苏里州 圣路易斯 — Contabo [Contabo GmbH]] ❌ timeout
+socks5://181.102.180.244:1080 [[机房] 美国 弗吉尼亚州 马纳萨斯 [netcup GmbH]] ❌ error: [Errno 104] Connection reset by peer
+socks5://181.102.106.23:1080 [[机房] 墨西哥 克雷塔羅州 克雷塔罗 [Latitude (former Maxihost)]] ❌ timeout
+socks5://181.102.152.249:1080 [[机房] 美国 新泽西州 克利夫顿 — DigitalOcean [DigitalOcean, LLC]] ❌ proxy connection error
+socks5://181.102.42.62:1080 [[机房] 美国 弗吉尼亚州 马纳萨斯 [US NETCUP KVM MNZ]] ❌ timeout
+socks5://181.102.102.88:1080 [[机房] 美国 弗吉尼亚州 马纳萨斯 [US NETCUP KVM MNZ]] ❌ timeout
+socks5://181.102.176.133:1080 [[机房] 美国 新泽西州 克利夫顿 — DigitalOcean [DigitalOcean, LLC]] ❌ error: [Errno 104] Connection reset by peer
+socks5://141.98.7.14:1080 [[机房] 德国 黑森州 [PLAY2GO INTERNATIONAL LIMITED]] ❌ error: Server disconnected
+socks5://103.239.200.226:11 [[家宽] 菲律宾 国家首都区 马卡蒂 [Sky Cable Corporation]] ❌ timeout
 socks5://103.195.100.154:10080 [[机房] 美国 佛罗里达州 迈阿密 [ReliableSite.Net LLC]] ❌ error: Server disconnected
 socks5://46.29.160.154:8080 [[机房] 俄罗斯 鞑靼斯坦共和国 喀山 — JustHost [BX NETWORK]] ❌ error: [Errno 104] Connection reset by peer
 socks5://2.58.98.45:1080 [[机房] 拉脱维亚 里加 里加 [Beget LLC]] ❌ error: Server disconnected
@@ -11,23 +21,13 @@ socks5://103.179.44.7:1080 [[机房] 新加坡 新加坡 新加坡 [NIXI]] ❌ e
 socks5://103.179.44.14:1080 [[机房] 新加坡 新加坡 新加坡 [NIXI]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
 socks5://103.179.44.22:1080 [[机房] 新加坡 新加坡 新加坡 [NIXI]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
 socks5://34.210.43.58:1080 [[机房] 美国 俄勒冈州 波特兰 — 亚马逊云 Aws [Amazon Technologies Inc.]] ❌ timeout
-socks5://175.160.130.175:1080 [[机房] 中国 香港 香港 [NetLab Global]] 【🟢🟢 广播 Hong Kong SAR China  Hong Kong】
+socks5://175.160.130.175:1080 [[机房] 中国 香港 香港 [NetLab Global]] ❌ error: Cannot connect to host my.ippure.com:443 ssl:defau
 socks5://36.73.211.9:1080 [[机房] 印度尼西亚 东爪哇省 Madiun [PT TELKOM INDONESIA]] ❌ error: Server disconnected
 socks5://111.67.103.89:1080 [[家宽] 新加坡 新加坡 新加坡 [Mega Truenet Communication Co., Ltd.]] ❌ error: Server disconnected
 socks5://182.136.208.16:1080 [[机房] 美国 加州 洛杉矶 — 搬瓦工 [IT7 Networks Inc]] ❌ timeout
 socks5://194.163.182.6:1080 [[机房] 法国 大东部大区 — Contabo [CONTABO]] ❌ error: Server disconnected
-socks5://124.248.190.47:1080 [[家宽] 柬埔寨 金边 金边 [Cogetel Ltd, Online ISP, Cambodia]] ❌ error: Server disconnected
-socks5://203.189.159.120:1080 [[家宽] 柬埔寨 金边 金边 [Cogetel Ltd, Online ISP, Cambodia]] ❌ error: Server disconnected
+socks5://124.248.190.47:1080 [[家宽] 柬埔寨 金边 金边 [Cogetel Ltd, Online ISP, Cambodia]] ❌ timeout
+socks5://203.189.159.120:1080 [[家宽] 柬埔寨 金边 金边 [Cogetel Ltd, Online ISP, Cambodia]] ❌ timeout
 socks5://109.120.151.87:443 [[机房] 芬兰 新地区 赫尔辛基 [AEZA NETWORK HELSINKI]] ❌ proxy connection error
 socks5://130.185.122.199:8090 [[机房] 德国 黑森州 法兰克福 [ARVANCLOUD GLOBAL TECHNOLOGIES L.L.C]] 【🔴🔴 广播 Germany Hesse Frankfurt am Main】
 socks5://110.235.249.88:1080 [[家宽] 柬埔寨 金边 金边 [Cogetel Ltd, Online ISP, Cambodia]] ❌ timeout
-socks5://103.155.184.51:9898 [[机房] 孟加拉国 达卡专区 达卡 [BCL Online Service]] ❌ timeout
-socks5://185.54.178.193:1080 [[家宽] 俄罗斯 伊尔库茨克州 [ENPLUS TELECOM DIRECT DOMSETI]] ❌ timeout
-socks5://70.39.193.74:1080 [[机房] 美国 加州 洛杉矶 [GTT Communications Inc.]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
-socks5://103.85.227.238:9999 [[机房] 美国 加州 洛杉矶 [Vapeline Technology]] ❌ error: Server disconnected
-socks5://181.6.91.101:1080 [[机房] 美国 佛罗里达州 迈阿密 — Vultr [Vultr Holdings, LLC]] ❌ timeout
-socks5://181.6.224.137:1080 [[机房] 美国 弗吉尼亚州 马纳萨斯 [US NETCUP KVM MNZ]] ❌ timeout
-socks5://181.6.12.25:1080 [[机房] 加拿大 安大略 多伦多 — DigitalOcean [DigitalOcean, LLC]] ❌ proxy connection error
-socks5://181.6.225.205:1080 [[机房] 美国 弗吉尼亚州 马纳萨斯 [US NETCUP KVM MNZ]] ❌ timeout
-socks5://181.6.91.172:1080 [[机房] 美国 佛罗里达州 迈阿密 — Linode [Linode]] ❌ timeout
-socks5://45.148.244.200:1080 [[机房] 荷兰 上艾瑟尔省 兹沃勒 [ALEXHOST SRL]] ❌ error: Server disconnected
