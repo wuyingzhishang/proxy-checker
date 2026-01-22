@@ -1,6 +1,7 @@
-# 代理质量检测结果 - 2026-01-22 20:29:57
+# 代理质量检测结果 - 2026-01-22 21:26:06
 # 总计: 30 个代理
 
+socks5://77.51.92.91:10808 [[机房] 俄罗斯 莫斯科州 梅季希 [ex-netname: CTC-DSLAM-5]] 【⚪⚪ 住宅 Russia Moscow Oblast Odintsovo】
 socks5://217.60.5.145:10808 [[机房] 法国 法兰西岛大区 巴黎 [CGI GLOBAL LIMITED]] 【🟡🟡 广播 France Île-de-France Paris】
 socks5://176.123.1.101:10808 [[机房] 摩尔多瓦 基希讷乌市 基希讷乌 [ALEXHOST SRL]] 【🟡🟡 机房 数据中心 Moldova Chișinău Municipality Chisinau】
 socks5://129.159.152.152:6666 [[机房] 以色列 耶路撒冷 耶路撒冷 — 甲骨文云 Oracle [Oracle Corporation]] ❌ error: Server disconnected
@@ -15,7 +16,7 @@ socks5://37.142.196.98:1080 [[家宽] 以色列 特拉维夫 特拉维夫 [BROAD
 socks5://103.127.133.77:1080 [[机房] 印度尼西亚 西爪哇省 茂物市 [PT. BERKAH PUTRI RAMADANI]] 【🟢🟢 机房 数据中心 Indonesia West Java Bogor】
 socks5://118.99.3.133:1111 [[家宽] 中国 香港 香港 [Forewin Telecom Group Limited, ISP at HK]] ❌ error: [Errno 104] Connection reset by peer
 socks5://103.245.255.253:1080 [[家宽] 越南 胡志明市 胡志明市 [ZINGPLAY VIETNAM COMPANY LIMITED]] ❌ error: Server disconnected
-socks5://162.243.174.9:1080 [[机房] 美国 新泽西州 北伯根 — DigitalOcean [DigitalOcean, LLC]] ❌ error: Server disconnected
+socks5://162.243.174.9:1080 [[机房] 美国 新泽西州 北伯根 — DigitalOcean [DigitalOcean, LLC]] ❌ proxy connection error
 socks5://80.242.56.225:1080 [[机房] 荷兰 北荷兰省 阿姆斯特丹 [Timeweb.Cloud LLC]] ❌ error: Server disconnected
 socks5://51.68.209.5:1080 [[机房] 英国 英格兰 伦敦 — OVH [OVH Ltd]] ❌ error: Server disconnected
 socks5://155.138.224.49:1080 [[机房] 美国 乔治亚州 亚特兰大 — Vultr [Vultr Holdings, LLC]] ❌ error: Server disconnected
@@ -26,8 +27,7 @@ socks5://37.228.117.114:1080 [[机房] 亚美尼亚 埃里温市 埃里温 [Work
 socks5://82.223.165.28:4733 [[机房] 西班牙 马德里自治区 马德里 [arsys.es]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
 socks5://8.220.194.115:1080 [[机房] 韩国 首尔特别市 首尔特别市 — 阿里云 [Alibaba Cloud (Singapore) Private Limited]] ❌ timeout
 socks5://64.227.131.240:1080 [[机房] 印度 卡纳塔克邦 — DigitalOcean [DigitalOcean, LLC]] ❌ proxy connection error
-socks5://62.60.131.203:11545 [[机房] 法国 法兰西岛大区 巴黎 — OVH [OVH SAS]] ❌ timeout
-socks5://62.60.131.178:5230 [[机房] 法国 上法兰西大区 加来 — OVH [OVH SAS]] ❌ timeout
+socks5://62.60.131.203:11545 [[机房] 法国 法兰西岛大区 巴黎 — OVH [OVH SAS]] ❌ error: Server disconnected
+socks5://62.60.131.178:5230 [[机房] 法国 上法兰西大区 加来 — OVH [OVH SAS]] ❌ error: Server disconnected
 socks5://103.146.26.237:1080 [[机房] 印度尼西亚 亚齐特别行政区 [PT Indomedia Solusi net]] ❌ error: Server disconnected
 socks5://5.255.113.177:1080 [[机房] 荷兰 弗莱福兰省 德龙滕 [TIG]] ❌ error: Server disconnected
-socks5://5.199.166.243:9064 [[机房] 瑞士 弗里堡 — BuyVM [BuyVM]] ❌ timeout
