@@ -1,33 +1,33 @@
-# 代理质量检测结果 - 2026-01-22 12:51:55
+# 代理质量检测结果 - 2026-01-22 13:54:22
 # 总计: 30 个代理
 
+socks5://109.94.67.250:1080 [[机房] 俄罗斯 特维尔州 [Annet Ltd.]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
+socks5://118.99.3.133:1111 [[机房] 中国 香港 香港 [Forewin Telecom Group Limited, ISP at HK]] ❌ error: [Errno 104] Connection reset by peer
 socks5://62.16.33.187:1080 [[家宽] 俄罗斯 彼爾姆邊疆區 彼尔姆 [For PPPoE Customers]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
 socks5://34.65.252.251:1080 [[机房] 瑞士 苏黎世 苏黎世 — 谷歌云 GCP [Google LLC]] ❌ timeout
 socks5://103.245.255.253:1080 [[家宽] 越南 胡志明市 胡志明市 [ZINGPLAY VIETNAM COMPANY LIMITED]] ❌ error: Server disconnected
 socks5://162.243.174.9:1080 [[机房] 美国 新泽西州 北伯根 — DigitalOcean [DigitalOcean, LLC]] ❌ error: Server disconnected
 socks5://43.230.192.242:1080 [[家宽] 柬埔寨 金边 金边 [Cogetel Ltd, Online ISP, Cambodia]] ❌ error: Server disconnected
 socks5://159.253.169.225:1080 [[机房] 俄罗斯 哈巴罗夫斯克边疆区 伯力 [JSC "Redcom-lnternet"]] ❌ timeout
-socks5://80.242.56.225:1080 [[机房] 荷兰 北荷兰省 阿姆斯特丹 [Timeweb.Cloud LLC]] ❌ error: Server disconnected
+socks5://80.242.56.225:1080 [[机房] 荷兰 北荷兰省 阿姆斯特丹 [Timeweb.Cloud LLC]] ❌ timeout
 socks5://51.68.209.5:1080 [[机房] 英国 英格兰 伦敦 — OVH [OVH Ltd]] ❌ error: Server disconnected
 socks5://155.138.224.49:1080 [[机房] 美国 乔治亚州 亚特兰大 — Vultr [Vultr Holdings, LLC]] ❌ error: Server disconnected
 socks5://38.196.232.245:1080 [[机房] 委内瑞拉 [Cogent Communications, LLC]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
 socks5://88.216.68.8:9077 [[机房] 美国 德克萨斯州 沃思堡 [Quintex Alliance Consulting]] ❌ timeout
 socks5://88.216.215.146:9082 [[机房] 美国 加州 圣何塞 [Emerald Onion]] ❌ timeout
-socks5://88.216.68.41:9080 [[机房] 荷兰 北荷兰省 阿姆斯特丹 [TOR EXIT AND MORE]] ❌ error: 501, message='Tor is not an HTTP Proxy', url='sock
+socks5://88.216.68.41:9080 [[机房] 荷兰 北荷兰省 阿姆斯特丹 [TOR EXIT AND MORE]] ❌ timeout
 socks5://88.216.215.144:9086 [[机房] 德国 巴伐利亚 埃尔朗根 [F3 Netze e.V.]] ❌ timeout
 socks5://37.228.117.114:1080 [[机房] 亚美尼亚 埃里温市 埃里温 [WorkTitans B.V.]] ❌ error: Server disconnected
-socks5://139.180.217.99:1080 [[机房] 新加坡 新加坡 新加坡 — Vultr [SGP_VULTR_CUST]] ❌ error: Server disconnected
+socks5://139.180.217.99:1080 [[机房] 新加坡 新加坡 新加坡 — Vultr [SGP_VULTR_CUST]] ❌ proxy connection error
 socks5://82.223.165.28:4733 [[机房] 西班牙 马德里自治区 马德里 [arsys.es]] ❌ timeout
-socks5://8.220.194.115:1080 [[机房] 韩国 首尔特别市 首尔特别市 — 阿里云 [Alibaba Cloud (Singapore) Private Limited]] ❌ timeout
-socks5://8.212.161.91:1080 [[机房] 菲律宾 国家首都区 马尼拉 — 阿里云 [Alibaba Cloud PH]] ❌ error: Server disconnected
+socks5://8.220.194.115:1080 [[机房] 韩国 首尔特别市 首尔特别市 — 阿里云 [Alibaba Cloud (Singapore) Private Limited]] ❌ error: Server disconnected
+socks5://8.212.161.91:1080 [[机房] 菲律宾 国家首都区 马尼拉 — 阿里云 [Alibaba Cloud PH]] ❌ timeout
 socks5://64.227.131.240:1080 [[机房] 印度 卡纳塔克邦 — DigitalOcean [DigitalOcean, LLC]] ❌ proxy connection error
 socks5://62.60.131.203:11545 [[机房] 法国 法兰西岛大区 巴黎 — OVH [OVH SAS]] ❌ error: Server disconnected
-socks5://62.60.131.178:5230 [[机房] 法国 上法兰西大区 加来 — OVH [OVH SAS]] ❌ error: Server disconnected
+socks5://62.60.131.178:5230 [[机房] 法国 上法兰西大区 加来 — OVH [OVH SAS]] ❌ timeout
 socks5://62.60.131.204:8888 [[机房] 美国 弗吉尼亚州 利斯堡 [DreamHost]] ❌ proxy connection error
 socks5://103.146.26.237:1080 [[机房] 印度尼西亚 亚齐特别行政区 [PT Indomedia Solusi net]] ❌ error: Server disconnected
-socks5://5.255.113.177:1080 [[机房] 荷兰 弗莱福兰省 德龙滕 [TIG]] ❌ error: Server disconnected
-socks5://5.199.166.243:9064 [[机房] 瑞士 弗里堡 — BuyVM [BuyVM]] ❌ timeout
+socks5://5.255.113.177:1080 [[机房] 荷兰 弗莱福兰省 德龙滕 [TIG]] ❌ timeout
+socks5://5.199.166.243:9064 [[机房] 瑞士 弗里堡 — BuyVM [BuyVM]] ❌ error: 501, message='Tor is not an HTTP Proxy', url='sock
 socks5://5.199.166.244:9104 [[机房] 奥地利 奥地利州 维也纳 [Foundation for Applied Privacy]] ❌ timeout
 socks5://47.83.211.225:1011 [[机房] 中国 香港 香港 — 阿里云 [Alibaba Cloud LLC]] ❌ error: [Errno 104] Connection reset by peer
-socks5://47.236.20.209:1145 [[机房] 新加坡 新加坡 新加坡 — 阿里云 [Alibaba Cloud LLC]] ❌ error: [Errno 104] Connection reset by peer
-socks5://129.151.198.68:1111 [[机房] 瑞典 斯德哥尔摩省 斯德哥尔摩 — 甲骨文云 Oracle [Oracle Corporation]] ❌ error: Server disconnected
