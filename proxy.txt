@@ -1,5 +1,5 @@
 # 代理列表 - 自动更新
-# 更新时间: 2026-01-23 19:22:06
+# 更新时间: 2026-01-23 20:22:16
 # 总计: 30 个代理
 # 来源: https://tomcat1235.nyc.mn/proxy_list
 # 格式: 协议://IP:端口 [位置]
@@ -29,8 +29,8 @@ socks5://45.12.90.43:5555 [[机房]美国 加州 洛杉矶 — CeraNetworks[Host
 socks5://47.83.231.149:50161 [[机房]中国 香港 香港 — 阿里云[Alibaba Cloud LLC]]
 socks5://5.189.201.200:1234 [[机房]俄罗斯 克拉斯诺亚尔斯克边疆区 克拉斯诺亚尔斯克[EdgeCenter LLC]]
 socks5://51.77.52.223:1080 [[机房]波兰 马佐维亚省 華沙 — OVH[OVH Sp. z o. o.]]
-socks5://79.20.161.144:1080 [[机房]意大利 伦巴第大区 米兰[NAS DHCP Pool PESCARA]]
 socks5://8.211.133.76:1234 [[机房]日本 东京 东京 — 阿里云[Alibaba Cloud (Singapore) Private Limited]]
+socks5://85.215.229.223:1080 [[机房]德国 柏林 柏林[IONOS SE]]
 socks5://94.31.176.234:10808 [[家宽]俄罗斯 斯维尔德洛夫斯克州 叶卡捷琳堡[LLC "KomTehCentr"]]
 socks5://95.106.243.139:1080 [[家宽]俄罗斯 布良斯克州[PJSC Rostelecom, Bryansk branch]]
 socks5://95.52.202.2:1080 [[家宽]俄罗斯 涅涅茨地区[Arkhangelsk branch of the PJSC "Rostelecom" North-West Region]]
