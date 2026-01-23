@@ -1,19 +1,19 @@
 # 代理质量检测报告
-# 检测时间: 2026-01-23 20:24:32
+# 检测时间: 2026-01-23 21:20:45
 # API: IPPure (https://my.ippure.com/v1/info)
 
 ## 📊 统计摘要
-# 总计: 30 | 成功: 18 | 失败: 12 | 成功率: 60.0%
+# 总计: 30 | 成功: 20 | 失败: 10 | 成功率: 66.7%
 
 ## 质量分布
-# 优秀: 7
-# 良好: 3
+# 优秀: 6
+# 良好: 4
 # 中等: 7
 # 较差: 1
 
 ## IP类型分布
 # 住宅IP: 5
-# 广播IP: 7
+# 广播IP: 9
 # 机房IP: 6
 
 ============================================================
@@ -37,11 +37,11 @@ socks5://85.215.229.223:1080 [[机房]德国 柏林 柏林[IONOS SE]]
 socks5://95.52.202.2:1080 [[家宽]俄罗斯 涅涅茨地区[Arkhangelsk branch of the PJSC "Rostelecom" North-West Region]]
   → 🌟 风险6% | 住宅IP | Russia Nenets Nar'yan-Mar (Arkhangelsk branch o...)
 
-socks5://185.35.193.38:1080 [[家宽]俄罗斯 克拉斯诺达尔边疆区 克拉斯诺达尔[Novorossiisk broadband network]]
-  → 🌟 风险9% | 住宅IP | Russia Krasnodar Krai Krasnodar (Novorossiisk broadba...)
-
 socks5://95.106.243.139:1080 [[家宽]俄罗斯 布良斯克州[PJSC Rostelecom, Bryansk branch]]
   → 🌟 风险9% | 住宅IP | Russia Bryansk Oblast Bryansk (PJSC Rostelecom, Bry...)
+
+socks5://109.248.250.25:1080 [[机房]俄罗斯 新西伯利亚州 新西伯利亚[Krek Ltd.]]
+  → 🟢 风险14% | 广播IP | Russia Novosibirsk Oblast Novosibirsk (Krek Ltd.)
 
 socks5://176.126.86.190:1080 [[机房]瑞典 斯德哥尔摩省 斯德哥尔摩 — HostHatch[HostHatch LLC]]
   → 🟢 风险22% | 广播IP | Sweden Stockholm Stockholm (HostHatch Inc)
@@ -75,19 +75,16 @@ socks5://94.31.176.234:10808 [[家宽]俄罗斯 斯维尔德洛夫斯克州 叶�
   → 🟡 风险43% | 机房IP ⚠️透明 | Netherlands Drenthe Meppel (WorkTitans B.V.)
   → 出口IP: 45.12.145.204
 
+socks5://85.208.108.12:10808 [[机房]加拿大 安大略 多伦多[WorkTitans B.V.]]
+  → 🟠 风险51% | 广播IP | Canada Ontario Toronto (WorkTitans B.V.)
+
 socks5://45.12.90.43:5555 [[机房]美国 加州 洛杉矶 — CeraNetworks[Hostsymbol Pte. Ltd.]]
   → 🟠 风险62% | 广播IP | United States California Los Angeles (Hostsymbol Pte. Ltd.)
 
-## ❌ 失败代理列表
-
 socks5://103.239.52.100:1080 [[家宽]柬埔寨 金边 金边[Cogetel Ltd, Online ISP, Cambodia]]
-  → 连接错误: [Errno 104] Connection reset by peer
+  → 🔴 风险78% | 住宅IP | Cambodia Phnom Penh Phnom Penh (Cogetel Ltd, Online ...)
 
-socks5://109.248.250.25:1080 [[机房]俄罗斯 新西伯利亚州 新西伯利亚[Krek Ltd.]]
-  → 超时
-
-socks5://110.179.81.27:1080 [[机房]新加坡 新加坡 新加坡 — Cloudflare CDN 节点[CLOUDFLAREWARP]]
-  → 连接错误: 
+## ❌ 失败代理列表
 
 socks5://114.243.102.81:10808 [[机房]日本 东京 东京 — 阿里云[Alibaba Cloud LLC]]
   → HTTP 403
@@ -107,10 +104,13 @@ socks5://18.117.90.61:1080 [[机房]美国 俄亥俄州 哥伦布 — 亚马逊�
 socks5://18.232.52.55:1080 [[机房]美国 弗吉尼亚州 阿什本 — 亚马逊云 Aws[Amazon Technologies Inc.]]
   → HTTP 403
 
-socks5://47.83.231.149:50161 [[机房]中国 香港 香港 — 阿里云[Alibaba Cloud LLC]]
+socks5://185.35.193.38:1080 [[家宽]俄罗斯 克拉斯诺达尔边疆区 克拉斯诺达尔[Novorossiisk broadband network]]
+  → 超时
+
+socks5://35.72.90.28:1080 [[机房]日本 东京 东京 — 亚马逊云 Aws[Amazon Data Services Japan]]
   → HTTP 403
 
-socks5://51.77.52.223:1080 [[机房]波兰 马佐维亚省 華沙 — OVH[OVH Sp. z o. o.]]
+socks5://47.83.231.149:50161 [[机房]中国 香港 香港 — 阿里云[Alibaba Cloud LLC]]
   → HTTP 403
 
 socks5://8.211.133.76:1234 [[机房]日本 东京 东京 — 阿里云[Alibaba Cloud (Singapore) Private Limited]]
