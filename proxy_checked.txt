@@ -1,20 +1,20 @@
 # 代理质量检测报告
-# 检测时间: 2026-01-23 17:27:00
+# 检测时间: 2026-01-23 18:31:58
 # API: IPPure (https://my.ippure.com/v1/info)
 
 ## 📊 统计摘要
 # 总计: 30 | 成功: 16 | 失败: 14 | 成功率: 53.3%
 
 ## 质量分布
-# 优秀: 4
+# 优秀: 5
 # 良好: 4
-# 中等: 5
+# 中等: 6
 # 较差: 1
 
 ## IP类型分布
-# 住宅IP: 3
+# 住宅IP: 4
 # 广播IP: 6
-# 机房IP: 7
+# 机房IP: 6
 
 ============================================================
 
@@ -27,6 +27,9 @@ socks5://147.45.96.130:10808 [[机房]德国 黑森州 法兰克福[WAIcore Ltd]
 socks5://149.104.4.88:10809 [[机房]中国 香港 香港[Converged Communications Limited]]
   → 🌟 风险0% | 机房IP ⚠️透明 | Hong Kong SAR China Eastern District Harmony Garden (RM301K,3/F,HONGKONG ...)
   → 出口IP: 2400:f880:dbf:8a82:be24:11ff:fe99:f6f7
+
+socks5://31.170.186.63:1080 [[家宽]俄罗斯[JSC "Yurgatelekom"]]
+  → 🌟 风险3% | 住宅IP | Russia Novosibirsk Oblast Novosibirsk (JSC Yurgatelekom)
 
 socks5://185.35.193.38:1080 [[家宽]俄罗斯 克拉斯诺达尔边疆区 克拉斯诺达尔[Novorossiisk broadband network]]
   → 🌟 风险9% | 住宅IP | Russia Krasnodar Krai Krasnodar (Novorossiisk broadba...)
@@ -52,6 +55,9 @@ socks5://149.104.25.109:10808 [[机房]中国 香港 香港[STARCLOUD GLOBAL PTE
 socks5://5.189.201.200:1234 [[机房]俄罗斯 克拉斯诺亚尔斯克边疆区 克拉斯诺亚尔斯克[EdgeCenter LLC]]
   → 🟡 风险39% | 机房IP | Russia Krasnoyarsk Krai Krasnoyarsk (EdgeCenter LLC)
 
+socks5://139.180.200.200:1080 [[机房]日本 东京 东京 — Vultr[TYO_VULTR_CUST]]
+  → 🟡 风险40% | 广播IP | Japan Saitama Ōi (TYO_VULTR_CUST)
+
 socks5://38.60.198.245:1080 [[机房]美国 纽约州 纽约[IT Hostline Ltd]]
   → 🟡 风险42% | 广播IP ⚠️透明 | United States New York New York City (IT Hostline Ltd)
   → 出口IP: 194.59.12.5
@@ -62,13 +68,6 @@ socks5://185.244.208.84:5555 [[机房]中国 香港 香港 — G-Core Labs[G-Cor
 socks5://94.31.176.234:10808 [[家宽]俄罗斯 斯维尔德洛夫斯克州 叶卡捷琳堡[LLC "KomTehCentr"]]
   → 🟡 风险43% | 机房IP ⚠️透明 | Netherlands Drenthe Meppel (WorkTitans B.V.)
   → 出口IP: 45.12.145.204
-
-socks5://45.12.90.43:5555 [[机房]美国 加州 洛杉矶 — CeraNetworks[Hostsymbol Pte. Ltd.]]
-  → 🟠 风险62% | 广播IP | United States California Los Angeles (Hostsymbol Pte. Ltd.)
-
-socks5://125.119.18.215:12345 [[家宽]美国 加州 洛杉矶[ZMTO]]
-  → 🟠 风险65% | 机房IP ⚠️透明 | United States California Los Angeles (ZMTO Technologies)
-  → 出口IP: 154.3.59.94
 
 socks5://103.239.52.100:1080 [[家宽]柬埔寨 金边 金边[Cogetel Ltd, Online ISP, Cambodia]]
   → 🔴 风险78% | 住宅IP | Cambodia Phnom Penh Phnom Penh (Cogetel Ltd, Online ...)
@@ -81,8 +80,8 @@ socks5://109.248.235.33:1080 [[家宽]俄罗斯 阿尔泰边疆区[Individual En
 socks5://114.243.102.81:10808 [[机房]日本 东京 东京 — 阿里云[Alibaba Cloud LLC]]
   → HTTP 403
 
-socks5://139.180.200.200:1080 [[机房]日本 东京 东京 — Vultr[TYO_VULTR_CUST]]
-  → 超时
+socks5://125.119.18.215:12345 [[家宽]美国 加州 洛杉矶[ZMTO]]
+  → HTTP 403
 
 socks5://149.129.56.184:50161 [[机房]新加坡 新加坡 新加坡 — 阿里云[1 Raffles Place, # 59-00 One Raffles Place]]
   → HTTP 403
@@ -99,9 +98,6 @@ socks5://18.232.52.55:1080 [[机房]美国 弗吉尼亚州 阿什本 — 亚马�
 socks5://185.6.229.66:1080 [[家宽]俄罗斯 普斯科夫州[KVS Ltd. Broadband customer connections (PPPoE)]]
   → 超时
 
-socks5://31.170.186.63:1080 [[家宽]俄罗斯[JSC "Yurgatelekom"]]
-  → 超时
-
 socks5://37.59.249.78:1080 [[机房]法国 上法兰西大区 鲁贝[OVH SAS]]
   → 错误: [Errno 111] Couldn't connect to proxy 37.59.249.78
 
@@ -116,3 +112,6 @@ socks5://8.211.133.76:1234 [[机房]日本 东京 东京 — 阿里云[Alibaba C
 
 socks5://91.184.253.197:1080 [[机房]荷兰 德伦特省 梅珀尔[Serverio technologijos MB]]
   → 错误: [Errno 111] Couldn't connect to proxy 91.184.253.1
+
+socks5://94.51.136.69:1080 [[机房]俄罗斯 斯维尔德洛夫斯克州 叶卡捷琳堡[PJSC Rostelecom]]
+  → 超时
