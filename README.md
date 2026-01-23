@@ -1,20 +1,25 @@
-# 代理列表与质量检测工具
+# 🌐 Proxy-Checker: 高质量代理自动检测与筛选
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-3.9+-blue?logo=python&logoColor=white" alt="Python">
-  <img src="https://img.shields.io/badge/License-MIT-green" alt="License">
-  <img src="https://img.shields.io/github/actions/workflow/status/wuyingzhishang/proxy-checker/update-proxy-list.yml?label=代理更新" alt="Proxy Update">
-  <img src="https://img.shields.io/github/actions/workflow/status/wuyingzhishang/proxy-checker/check-proxy-quality.yml?label=质量检测" alt="Quality Check">
+  <img src="https://img.shields.io/badge/Status-Active-success?style=flat-square" alt="Status">
+  <img src="https://img.shields.io/badge/Python-3.9+-blue?logo=python&logoColor=white&style=flat-square" alt="Python">
+  <img src="https://img.shields.io/github/license/wuyingzhishang/proxy-checker?style=flat-square" alt="License">
+  <br>
+  <img src="https://img.shields.io/github/actions/workflow/status/wuyingzhishang/proxy-checker/update-proxy-list.yml?label=代理列表更新&style=flat-square" alt="Proxy Update">
+  <img src="https://img.shields.io/github/actions/workflow/status/wuyingzhishang/proxy-checker/check-proxy-quality.yml?label=质量深度检测&style=flat-square" alt="Quality Check">
 </p>
 
-## 📖 项目简介
+> **🚀 自动抓取全球代理 • 深度质量评估 • 每小时实时更新**
 
-自动抓取、检测和筛选高质量代理的工具集。
+本项目是一个全自动化的代理筛选工具，致力于提供**真正可用**的高质量代理列表。
 
-- 🕷️ **自动抓取**：从 [tomcat1235.nyc.mn](https://tomcat1235.nyc.mn/) 获取最新代理列表
-- 🔍 **质量检测**：使用 [IPPure API](https://my.ippure.com/v1/info) 评估代理质量
-- ⏰ **定时更新**：GitHub Actions 每小时自动执行
-- 📊 **详细报告**：包含风险系数、IP类型、地理位置等信息
+### ✨ 核心亮点
+
+- 🔄 **自动抓取**：每小时自动从公开源获取最新代理，拒绝陈旧数据。
+- 🛡️ **深度检测**：集成 **IPPure 官方 API**，不仅检测连通性，更评估**IP纯净度**。
+- 📊 **多维评分**：提供 **风险系数 (Fraud Score)**、**IP类型** (住宅/机房/广播) 及 **ASN归属** 详情。
+- ⚡ **智能筛选**：自动过滤高延迟、高风险及透明代理，确保列表的高可用性。
+- 🌍 **全球覆盖**：支持 HTTP/HTTPS/SOCKS4/SOCKS5 协议及全球地理位置解析。
 
 ## 🚀 快速开始
 
