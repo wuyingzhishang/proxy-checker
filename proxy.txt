@@ -1,5 +1,5 @@
 # 代理列表 - 自动更新
-# 更新时间: 2026-01-23 17:23:58
+# 更新时间: 2026-01-23 18:29:11
 # 总计: 30 个代理
 # 来源: https://tomcat1235.nyc.mn/proxy_list
 # 格式: 协议://IP:端口 [位置]
@@ -26,11 +26,11 @@ socks5://185.6.229.66:1080 [[家宽]俄罗斯 普斯科夫州[KVS Ltd. Broadband
 socks5://31.170.186.63:1080 [[家宽]俄罗斯[JSC "Yurgatelekom"]]
 socks5://37.59.249.78:1080 [[机房]法国 上法兰西大区 鲁贝[OVH SAS]]
 socks5://38.60.198.245:1080 [[机房]美国 纽约州 纽约[IT Hostline Ltd]]
-socks5://45.12.90.43:5555 [[机房]美国 加州 洛杉矶 — CeraNetworks[Hostsymbol Pte. Ltd.]]
 socks5://47.83.231.149:50161 [[机房]中国 香港 香港 — 阿里云[Alibaba Cloud LLC]]
 socks5://5.189.201.200:1234 [[机房]俄罗斯 克拉斯诺亚尔斯克边疆区 克拉斯诺亚尔斯克[EdgeCenter LLC]]
 socks5://62.16.33.187:1080 [[家宽]俄罗斯 彼爾姆邊疆區 彼尔姆[For PPPoE Customers]]
 socks5://8.211.133.76:1234 [[机房]日本 东京 东京 — 阿里云[Alibaba Cloud (Singapore) Private Limited]]
 socks5://91.184.253.197:1080 [[机房]荷兰 德伦特省 梅珀尔[Serverio technologijos MB]]
 socks5://94.31.176.234:10808 [[家宽]俄罗斯 斯维尔德洛夫斯克州 叶卡捷琳堡[LLC "KomTehCentr"]]
+socks5://94.51.136.69:1080 [[机房]俄罗斯 斯维尔德洛夫斯克州 叶卡捷琳堡[PJSC Rostelecom]]
 socks5://95.106.243.139:1080 [[家宽]俄罗斯 布良斯克州[PJSC Rostelecom, Bryansk branch]]
