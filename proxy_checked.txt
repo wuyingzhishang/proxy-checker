@@ -1,33 +1,116 @@
-# 代理质量检测结果 - 2026-01-23 01:32:06
-# 总计: 30 个代理
+# 代理质量检测报告
+# 检测时间: 2026-01-23 01:43:26
+# API: IPPure (https://my.ippure.com/v1/info)
 
-socks5://8.208.83.161:1080 [[机房] 英国 英格兰 伦敦 — 阿里云 [Aliyun Computing Co.LTD]] ❌ HTTP 403
-socks5://104.219.236.127:1080 [[家宽] 美国 纽约州 水牛城 [DataWagon LLC]] ❌ error: Server disconnected
-socks5://146.103.126.134:1080 [[机房] 荷兰 北荷兰省 阿姆斯特丹 [SERVERS TECH FZCO]] 【🟡🟡 广播 Netherlands North Holland Amsterdam】
-socks5://54.172.245.153:1080 [[机房] 美国 弗吉尼亚州 阿什本 — 亚马逊云 Aws [Amazon Data Services Northern Virginia]] ❌ timeout
-socks5://3.101.134.61:1080 [[机房] 美国 加州 圣何塞 — 亚马逊云 Aws [Amazon.com, Inc.]] ❌ timeout
-socks5://77.51.92.91:10808 [[家宽] 俄罗斯 莫斯科州 梅季希 [ex-netname: CTC-DSLAM-5]] 【⚪⚪ 住宅 Russia Moscow Oblast Odintsovo】
-socks5://217.60.5.145:10808 [[机房] 法国 法兰西岛大区 巴黎 [CGI GLOBAL LIMITED]] 【🟡🟡 广播 France Île-de-France Paris】
-socks5://176.123.1.101:10808 [[机房] 摩尔多瓦 基希讷乌市 基希讷乌 [ALEXHOST SRL]] 【🟡🟡 机房 数据中心 Moldova Chișinău Municipality Chisinau】
-socks5://129.159.152.152:6666 [[机房] 以色列 耶路撒冷 耶路撒冷 — 甲骨文云 Oracle [Oracle Corporation]] ❌ error: Server disconnected
-socks5://54.36.15.110:10808 [[机房] 法国 上法兰西大区 里尔 — OVH [aldukhy Fadhil]] ❌ error: Server disconnected
-socks5://103.150.100.194:1080 [[机房] 印度尼西亚 雅加达 雅加达 [PT Biznet Gio Nusantara]] 【🟢🟢 机房 数据中心 Indonesia West Java Bogor】
-socks5://85.198.98.179:1080 [[机房] 俄罗斯 莫斯科 莫斯科 [Beget LLC]] ❌ error: Server disconnected
-socks5://103.127.133.130:1080 [[机房] 印度尼西亚 西爪哇省 茂物市 [PT. BERKAH PUTRI RAMADANI]] 【🟡🟡 机房 数据中心 Indonesia West Java Bogor】
-socks5://103.127.133.131:1080 [[机房] 印度尼西亚 西爪哇省 茂物市 [PT. BERKAH PUTRI RAMADANI]] 【🟢🟢 机房 数据中心 Indonesia West Java Bogor】
-socks5://103.127.133.132:1080 [[机房] 印度尼西亚 西爪哇省 茂物市 [PT. BERKAH PUTRI RAMADANI]] 【🟢🟢 机房 数据中心 Indonesia West Java Bogor】
-socks5://103.127.133.151:1080 [[机房] 印度尼西亚 西爪哇省 茂物市 [PT. BERKAH PUTRI RAMADANI]] 【🟢🟢 机房 数据中心 Indonesia West Java Bogor】
-socks5://37.142.196.98:1080 [[家宽] 以色列 特拉维夫 特拉维夫 [BROADBAND-CABLES]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
-socks5://103.127.133.77:1080 [[机房] 印度尼西亚 西爪哇省 茂物市 [PT. BERKAH PUTRI RAMADANI]] 【🟢🟢 机房 数据中心 Indonesia West Java Bogor】
-socks5://118.99.3.133:1111 [[家宽] 中国 香港 香港 [Forewin Telecom Group Limited, ISP at HK]] ❌ error: [Errno 104] Connection reset by peer
-socks5://103.245.255.253:1080 [[家宽] 越南 胡志明市 胡志明市 [ZINGPLAY VIETNAM COMPANY LIMITED]] ❌ error: Server disconnected
-socks5://162.243.174.9:1080 [[机房] 美国 新泽西州 北伯根 — DigitalOcean [DigitalOcean, LLC]] ❌ timeout
-socks5://80.242.56.225:1080 [[机房] 荷兰 北荷兰省 阿姆斯特丹 [Timeweb.Cloud LLC]] ❌ error: Server disconnected
-socks5://51.68.209.5:1080 [[机房] 英国 英格兰 伦敦 — OVH [OVH Ltd]] ❌ error: Server disconnected
-socks5://155.138.224.49:1080 [[机房] 美国 乔治亚州 亚特兰大 — Vultr [Vultr Holdings, LLC]] ❌ error: Server disconnected
-socks5://38.196.232.245:1080 [[机房] 委内瑞拉 [Cogent Communications, LLC]] ❌ error: 400, message="Expected HTTP/, RTSP/ or ICE/:\n\n  
-socks5://88.216.68.8:9077 [[机房] 美国 德克萨斯州 沃思堡 [Quintex Alliance Consulting]] ❌ error: 501, message='Tor is not an HTTP Proxy', url='sock
-socks5://88.216.68.41:9080 [[机房] 荷兰 北荷兰省 阿姆斯特丹 [TOR EXIT AND MORE]] ❌ error: 501, message='Tor is not an HTTP Proxy', url='sock
-socks5://37.228.117.114:1080 [[机房] 亚美尼亚 埃里温市 埃里温 [WorkTitans B.V.]] ❌ error: Server disconnected
-socks5://82.223.165.28:4733 [[机房] 西班牙 马德里自治区 马德里 [arsys.es]] ❌ timeout
-socks5://8.220.194.115:1080 [[机房] 韩国 首尔特别市 首尔特别市 — 阿里云 [Alibaba Cloud (Singapore) Private Limited]] ❌ timeout
+## 📊 统计摘要
+# 总计: 30 | 成功: 22 | 失败: 8 | 成功率: 73.3%
+
+## 质量分布
+# 优秀: 4
+# 良好: 6
+# 中等: 11
+# 较差: 1
+
+## IP类型分布
+# 住宅IP: 4
+# 广播IP: 5
+# 机房IP: 13
+
+============================================================
+
+## ✅ 可用代理列表 (按质量排序)
+
+socks5://77.51.92.91:10808 [[家宽]俄罗斯 莫斯科州 梅季希[ex-netname: CTC-DSLAM-5]]
+  → 🌟 风险0% | 住宅IP | Russia Moscow Oblast Odintsovo (ex-netname: CTC-DSLAM-5)
+
+socks5://79.20.161.144:1080 [[机房]意大利 伦巴第大区 米兰[NAS DHCP Pool PESCARA]]
+  → 🌟 风险4% | 住宅IP | Italy Lombardy Milan (NAS DHCP Pool PESCARA)
+
+socks5://37.142.196.98:1080 [[家宽]以色列 特拉维夫 特拉维夫[BROADBAND-CABLES]]
+  → 🌟 风险5% | 住宅IP | Israel Tel Aviv Tel Aviv (BROADBAND-CABLES)
+
+socks5://103.245.255.253:1080 [[家宽]越南 胡志明市 胡志明市[ZINGPLAY VIETNAM COMPANY LIMITED]]
+  → 🌟 风险8% | 机房IP | Vietnam Ho Chi Minh City (HCMC) Ho Chi Minh City (ZINGPLAY VIETNAM COM...)
+
+socks5://38.196.232.245:1080 [[机房]委内瑞拉[Cogent Communications, LLC]]
+  → 🟢 风险11% | 住宅IP ⚠️透明 | Venezuela Carabobo Bejuma (Cogent Communication...)
+  → 出口IP: 38.196.232.1
+
+socks5://103.127.133.132:1080 [[机房]印度尼西亚 西爪哇省 茂物市[PT. BERKAH PUTRI RAMADANI]]
+  → 🟢 风险21% | 机房IP | Indonesia West Java Bogor (PT Biznet Gio Nusantara)
+
+socks5://103.150.100.194:1080 [[机房]印度尼西亚 雅加达 雅加达[PT Biznet Gio Nusantara]]
+  → 🟢 风险21% | 机房IP | Indonesia West Java Bogor (PT Biznet Gio Nusantara)
+
+socks5://103.127.133.77:1080 [[机房]印度尼西亚 西爪哇省 茂物市[PT. BERKAH PUTRI RAMADANI]]
+  → 🟢 风险23% | 机房IP | Indonesia West Java Bogor (PT Biznet Gio Nusantara)
+
+socks5://103.127.133.131:1080 [[机房]印度尼西亚 西爪哇省 茂物市[PT. BERKAH PUTRI RAMADANI]]
+  → 🟢 风险28% | 机房IP | Indonesia West Java Bogor (PT Biznet Gio Nusantara)
+
+socks5://103.127.133.151:1080 [[机房]印度尼西亚 西爪哇省 茂物市[PT. BERKAH PUTRI RAMADANI]]
+  → 🟢 风险29% | 机房IP | Indonesia West Java Bogor (PT Biznet Gio Nusantara)
+
+socks5://103.127.133.130:1080 [[机房]印度尼西亚 西爪哇省 茂物市[PT. BERKAH PUTRI RAMADANI]]
+  → 🟡 风险32% | 机房IP | Indonesia West Java Bogor (PT Biznet Gio Nusantara)
+
+socks5://85.198.98.179:1080 [[机房]俄罗斯 莫斯科 莫斯科[Beget LLC]]
+  → 🟡 风险32% | 机房IP | Russia Moscow Moscow (Beget LLC)
+
+socks5://155.138.224.49:1080 [[机房]美国 乔治亚州 亚特兰大 — Vultr[Vultr Holdings, LLC]]
+  → 🟡 风险33% | 机房IP | United States Georgia Atlanta (Vultr Holdings, LLC)
+
+socks5://80.242.56.225:1080 [[机房]荷兰 北荷兰省 阿姆斯特丹[Timeweb.Cloud LLC]]
+  → 🟡 风险34% | 广播IP | Netherlands North Holland Amsterdam (Timeweb.Cloud LLC)
+
+socks5://118.99.3.133:1111 [[家宽]中国 香港 香港[Forewin Telecom Group Limited, ISP at HK]]
+  → 🟡 风险35% | 机房IP ⚠️透明 | Hong Kong SAR China Hong Kong (Forewin Telecom Grou...)
+  → 出口IP: 118.99.3.3
+
+socks5://37.228.117.114:1080 [[机房]亚美尼亚 埃里温市 埃里温[WorkTitans B.V.]]
+  → 🟡 风险37% | 机房IP ⚠️透明 | Armenia Yerevan Yerevan (WorkTitans B.V.)
+  → 出口IP: 213.159.76.79
+
+socks5://176.123.1.101:10808 [[机房]摩尔多瓦 基希讷乌市 基希讷乌[ALEXHOST SRL]]
+  → 🟡 风险38% | 机房IP | Moldova Chișinău Municipality Chisinau (ALEXHOST SRL)
+
+socks5://129.159.152.152:6666 [[机房]以色列 耶路撒冷 耶路撒冷 — 甲骨文云 Oracle[Oracle Corporation]]
+  → 🟡 风险40% | 广播IP | Israel Jerusalem Jerusalem (Oracle Corporation)
+
+socks5://89.110.82.251:1080 [[机房]荷兰 北荷兰省 阿姆斯特丹[SERVERS TECH FZCO]]
+  → 🟡 风险40% | 广播IP | Netherlands North Holland Amsterdam (Amsterdam, Netherlands)
+
+socks5://146.103.126.134:1080 [[机房]荷兰 北荷兰省 阿姆斯特丹[SERVERS TECH FZCO]]
+  → 🟡 风险45% | 广播IP | Netherlands North Holland Amsterdam (Amsterdam, Netherlands)
+
+socks5://217.60.5.145:10808 [[机房]法国 法兰西岛大区 巴黎[CGI GLOBAL LIMITED]]
+  → 🟡 风险48% | 广播IP | France Île-de-France Paris (CGI GLOBAL LIMITED)
+
+socks5://104.219.236.127:1080 [[家宽]美国 纽约州 水牛城[DataWagon LLC]]
+  → 🔴 风险72% | 机房IP | United States New York Buffalo (DataWagon LLC)
+
+## ❌ 失败代理列表
+
+socks5://162.243.174.9:1080 [[机房]美国 新泽西州 北伯根 — DigitalOcean[DigitalOcean, LLC]]
+  → 超时
+
+socks5://3.101.134.61:1080 [[机房]美国 加州 圣何塞 — 亚马逊云 Aws[Amazon.com, Inc.]]
+  → 超时
+
+socks5://51.68.209.5:1080 [[机房]英国 英格兰 伦敦 — OVH[OVH Ltd]]
+  → HTTP 403
+
+socks5://54.172.245.153:1080 [[机房]美国 弗吉尼亚州 阿什本 — 亚马逊云 Aws[Amazon Data Services Northern Virginia]]
+  → 超时
+
+socks5://54.36.15.110:10808 [[机房]法国 上法兰西大区 里尔 — OVH[aldukhy Fadhil]]
+  → HTTP 403
+
+socks5://8.208.83.161:1080 [[机房]英国 英格兰 伦敦 — 阿里云[Aliyun Computing Co.LTD]]
+  → HTTP 403
+
+socks5://88.216.68.41:9080 [[机房]荷兰 北荷兰省 阿姆斯特丹[TOR EXIT AND MORE]]
+  → 超时
+
+socks5://88.216.68.8:9077 [[机房]美国 德克萨斯州 沃思堡[Quintex Alliance Consulting]]
+  → 超时
