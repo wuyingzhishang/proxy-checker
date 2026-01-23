@@ -1,43 +1,28 @@
-# 代理列表与质量检测
+# 代理列表与质量检测工具
 
-## 项目简介
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.9+-blue?logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/License-MIT-green" alt="License">
+  <img src="https://img.shields.io/github/actions/workflow/status/wuyingzhishang/proxy-checker/update-proxy-list.yml?label=代理更新" alt="Proxy Update">
+  <img src="https://img.shields.io/github/actions/workflow/status/wuyingzhishang/proxy-checker/check-proxy-quality.yml?label=质量检测" alt="Quality Check">
+</p>
 
-发现一个在线代理网页挺好玩，代理更新比较快，我就爬来了，代理基本都是可用的，不是那种1万个代理，只有几个可以使用的垃圾。
+## 📖 项目简介
 
-网页 https://tomcat1235.nyc.mn/ 上比较全，有兴趣自己去爬爬看
+自动抓取、检测和筛选高质量代理的工具集。
 
-本项目不仅自动抓取代理列表，还会对每个代理进行质量检测，筛选出高质量的可用代理。
+- 🕷️ **自动抓取**：从 [tomcat1235.nyc.mn](https://tomcat1235.nyc.mn/) 获取最新代理列表
+- 🔍 **质量检测**：使用 [IPPure API](https://my.ippure.com/v1/info) 评估代理质量
+- ⏰ **定时更新**：GitHub Actions 每小时自动执行
+- 📊 **详细报告**：包含风险系数、IP类型、地理位置等信息
 
-## 功能特点
+## 🚀 快速开始
 
-- ⚡ 自动抓取最新代理列表
-- 🔍 使用 IPPure 官方 API 检测代理质量（风险系数、IP类型、地理位置）
-- 🔄 定时更新（每小时更新一次）
-- 📝 标准格式输出：`协议://ip:port [地址位置]`
-- 🌍 包含地理位置信息
-- 📊 支持多种代理协议（HTTP、SOCKS5等）
-- ✅ 质量评分系统，用 emoji 直观展示代理质量
-- 🚀 基于 API 检测，快速稳定
+### 安装依赖
 
-## 代理质量评分
-
-检测指标说明：
-
-| Emoji | 风险系数 (fraudScore) | 说明 |
-|-------|-----------|------|
-| ⚪ | 0-10 | 极高质量，几乎无风险 |
-| 🟢 | 10-30 | 高质量，低风险 |
-| 🟡 | 30-50 | 中等质量，中等风险 |
-| 🟠 | 50-70 | 较低质量，较高风险 |
-| 🔴 | 70-90 | 低质量，高风险 |
-| ⚫ | 90+ | 极低质量，极高风险 |
-
-**检测信息包括：**
-- **风险系数**：IPPure 评估的 IP 风险分数（0-100）
-- **IP 类型**：住宅 IP、广播 IP 或机房/数据中心 IP
-- **地理位置**：国家、地区、城市信息
-
-## 使用方法
+```bash
+pip install -r requirements.txt
+```
 
 ### 抓取代理列表
 
@@ -51,67 +36,103 @@ python generate_proxy_list.py
 python ipcheck.py
 ```
 
-### 查看结果
+## 📋 输出文件
 
-**原始代理列表**会保存在 `proxy.txt` 文件中，格式如下：
+### proxy.txt - 原始代理列表
 
 ```
-socks5://37.18.73.60:5566 [美国 加州 圣何塞]
+# 代理列表 - 自动更新
+# 更新时间: 2026-01-23 09:00:00
+# 总计: 30 个代理
+
+socks5://82.146.39.75:1080 [俄罗斯 莫斯科州 巴拉希哈]
 http://123.143.162.221:6388 [韩国 首尔特别市]
 socks5://35.183.59.99:5080 [加拿大 魁北克省 蒙特利尔]
 ```
 
-**检测结果**会保存在 `proxy_checked.txt` 文件中，格式如下：
+### proxy_checked.txt - 质量检测报告
 
 ```
-# 代理质量检测结果 - 2026-01-04 13:40:02
-# 总计: 30 个代理 | 成功检测: 25 个
+# 代理质量检测报告
+# 检测时间: 2026-01-23 09:05:00
 
-# 可用代理列表
-socks5://82.146.39.75:1080 【⚪🟢 机房 广播】
-socks5://95.181.160.149:1080 【🟡🟡 机房 数据中心】
+## 📊 统计摘要
+# 总计: 30 | 成功: 15 | 失败: 15 | 成功率: 50.0%
 
-# 检测详情
-✓ socks5://82.146.39.75:1080
-  【⚪🟢 机房 广播】
-✗ socks5://69.197.161.194:1080
-  状态: timeout
+## ✅ 可用代理列表 (按质量排序)
+socks5://82.146.39.75:1080 [俄罗斯 莫斯科州]
+  → 🌟 风险5% | 住宅IP | Russia Moscow Oblast Balashikha (JSC Datacenter)
 ```
 
-## 自动更新
+## 📊 质量评分系统
 
-本项目使用 GitHub Actions 实现自动化更新：
+| Emoji | 风险分数 | 质量等级 | 说明 |
+|:-----:|:--------:|:--------:|------|
+| 🌟 | 0-10 | 优秀 | 极低风险，高度可信 |
+| 🟢 | 10-30 | 良好 | 低风险，适合一般使用 |
+| 🟡 | 30-50 | 中等 | 中等风险，需谨慎使用 |
+| 🟠 | 50-70 | 较差 | 较高风险，可能被部分网站阻止 |
+| 🔴 | 70-90 | 差 | 高风险，大概率被阻止 |
+| ⚫ | 90+ | 极差 | 极高风险，不建议使用 |
 
-- 🕐 每小时自动运行一次
-- 📝 自动提交更新的代理列表
-- 🔍 自动检测代理质量并生成报告
-- 🔄 保持代理信息实时更新
+## 🔍 检测指标
 
-### 工作流程
+| 指标 | 说明 |
+|------|------|
+| **风险分数** (fraudScore) | IPPure 评估的 IP 风险系数 (0-100) |
+| **IP 类型** | 🏠 住宅IP / 📡 广播IP / 🏢 机房IP |
+| **透明检测** | ⚠️ 标记 = 出口IP与代理IP不匹配（透明代理） |
+| **地理位置** | 国家/地区/城市 + ASN 组织信息 |
 
-1. **更新代理列表**工作流运行（每小时执行）
-   - 从源网站抓取最新代理
-   - 生成 `proxy.txt` 文件
-   - 提交到仓库
+## ⚙️ 配置说明
 
-2. **检测代理质量**工作流自动触发（等待2分钟后执行）
-   - 读取 `proxy.txt` 中的所有代理
-   - 逐个检测每个代理的 IPPure 系数
-   - 生成 `proxy_checked.txt` 检测报告
-   - 提交到仓库
+### ipcheck.py 配置
 
-## 依赖项
-
-- requests
-- beautifulsoup4
-- aiohttp
-
-## 安装依赖
-
-```bash
-pip install -r requirements.txt
+```python
+class Config:
+    API_URL = "https://my.ippure.com/v1/info"  # 检测 API
+    CONNECT_TIMEOUT = 10   # 连接超时（秒）
+    TOTAL_TIMEOUT = 30     # 总超时（秒）
+    MAX_CONCURRENT = 5     # 最大并发数
+    REQUEST_DELAY = 1.0    # 请求间隔（秒）
+    MAX_RETRIES = 2        # 重试次数
 ```
 
-## 免责声明
+### 支持的代理协议
 
-本项目仅用于学习和研究目的，请遵守相关法律法规和网站使用条款。
+- ✅ HTTP
+- ✅ HTTPS
+- ✅ SOCKS4
+- ✅ SOCKS5
+
+> ⚠️ **重要**: SOCKS 代理支持需要安装 `aiohttp_socks`
+
+## 🤖 GitHub Actions 自动化
+
+| 工作流 | 触发条件 | 说明 |
+|--------|----------|------|
+| **更新代理列表** | 每小时整点 | 抓取最新代理，更新 `proxy.txt` |
+| **检测代理质量** | 代理列表更新后 | 检测质量，生成 `proxy_checked.txt` |
+
+支持手动触发：Repository → Actions → 选择工作流 → Run workflow
+
+## 📦 依赖项
+
+| 包名 | 用途 |
+|------|------|
+| `requests` | HTTP 请求（抓取） |
+| `beautifulsoup4` | HTML 解析 |
+| `aiohttp` | 异步 HTTP 客户端（检测） |
+| `aiohttp_socks` | SOCKS 代理支持 |
+| `lxml` | 高性能 HTML 解析（可选） |
+
+## 📄 许可证
+
+MIT License
+
+## ⚠️ 免责声明
+
+本项目仅用于学习和研究目的。使用代理时请遵守：
+- 当地法律法规
+- 目标网站的使用条款
+- 代理提供者的服务协议

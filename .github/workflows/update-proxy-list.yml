@@ -1,63 +1,73 @@
 name: 更新代理列表
 
-# 添加权限配置
 permissions:
   contents: write
   actions: read
-  pull-requests: write
-  issues: write
-  repository-projects: write
 
 on:
   schedule:
-    # 每小时更新一次代理列表（UTC时间）
+    # 每小时整点更新（UTC时间）
     - cron: '0 * * * *'
   workflow_dispatch:
-    # 允许手动触发
+    # 支持手动触发
 
 jobs:
   update-proxies:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     
     steps:
     - name: 检出代码
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
-        fetch-depth: 0
+        fetch-depth: 1
         ref: main
       
-    - name: 设置Python环境
-      uses: actions/setup-python@v4
+    - name: 设置 Python 环境
+      uses: actions/setup-python@v5
       with:
-        python-version: '3.9'
+        python-version: '3.11'
+        cache: 'pip'
         
     - name: 安装依赖
       run: |
         python -m pip install --upgrade pip
-        pip install requests beautifulsoup4
+        pip install requests beautifulsoup4 lxml
         
     - name: 抓取代理列表
+      id: scrape
       run: |
-        echo "开始抓取代理列表..."
+        echo "::group::抓取代理列表"
         python generate_proxy_list.py
-        echo "抓取完成，检查文件是否生成..."
+        echo "::endgroup::"
+        
         if [ -f proxy.txt ]; then
-          echo "proxy.txt 文件已生成"
-          echo "文件内容预览："
-          head -5 proxy.txt
+          echo "proxy_count=$(grep -c '^[^#]' proxy.txt | head -1)" >> $GITHUB_OUTPUT
+          echo "✅ proxy.txt 已生成"
         else
-          echo "proxy.txt 文件未生成"
+          echo "❌ proxy.txt 未生成"
           exit 1
         fi
         
+    - name: 检查文件变更
+      id: check_changes
+      run: |
+        git diff --quiet proxy.txt && echo "has_changes=false" >> $GITHUB_OUTPUT || echo "has_changes=true" >> $GITHUB_OUTPUT
+        
     - name: 提交更新
+      if: steps.check_changes.outputs.has_changes == 'true'
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
-        git config --global user.email "action@github.com"
-        git config --global user.name "GitHub Action"
-        git remote set-url origin https://x-access-token:$GITHUB_TOKEN@github.com/${{ github.repository }}.git
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        git config --global user.name "github-actions[bot]"
         git add proxy.txt
-        git commit -m "更新代理列表" || echo "没有更改"
-        git push origin +main:main
+        git commit -m "🔄 更新代理列表 ($(date +'%Y-%m-%d %H:%M'))"
+        git push origin main
+        echo "✅ 已提交更新"
+        
+    - name: 跳过提交（无变更）
+      if: steps.check_changes.outputs.has_changes != 'true'
+      run: |
+        echo "ℹ️ 代理列表无变化，跳过提交"

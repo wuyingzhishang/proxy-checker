@@ -10,48 +10,75 @@ on:
     types:
       - completed
   workflow_dispatch:
+    # 支持手动触发
 
 jobs:
   check-proxy-quality:
     runs-on: ubuntu-latest
-    if: ${{ github.event.workflow_run.conclusion == 'success' }}
+    timeout-minutes: 30
+    # 仅在代理列表更新成功后运行，或手动触发时无条件运行
+    if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
     
     steps:
     - name: 检出代码
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
-        fetch-depth: 0
+        fetch-depth: 1
         ref: main
+        
+    - name: 拉取最新代码
+      run: |
+        git pull origin main --rebase
       
-    - name: 设置Python环境
-      uses: actions/setup-python@v4
+    - name: 设置 Python 环境
+      uses: actions/setup-python@v5
       with:
-        python-version: '3.9'
+        python-version: '3.11'
+        cache: 'pip'
         
     - name: 安装依赖
       run: |
         python -m pip install --upgrade pip
         pip install -r requirements.txt
         
-    - name: 等待2分钟
+    - name: 等待 API 冷却
       run: |
-        echo "等待2分钟后开始检测..."
-        sleep 120
+        echo "等待 30 秒后开始检测..."
+        sleep 30
         
     - name: 检测代理质量
+      id: check
       run: |
-        echo "开始检测代理质量..."
+        echo "::group::代理质量检测"
         python ipcheck.py
-        echo "代理质量检测完成"
+        echo "::endgroup::"
         
-    - name: 提交更新
+        if [ -f proxy_checked.txt ]; then
+          echo "✅ 检测报告已生成"
+        else
+          echo "❌ 检测报告未生成"
+          exit 1
+        fi
+        
+    - name: 检查文件变更
+      id: check_changes
+      run: |
+        git diff --quiet proxy_checked.txt && echo "has_changes=false" >> $GITHUB_OUTPUT || echo "has_changes=true" >> $GITHUB_OUTPUT
+        
+    - name: 提交检测结果
+      if: steps.check_changes.outputs.has_changes == 'true'
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
-        git config --global user.email "action@github.com"
-        git config --global user.name "GitHub Action"
-        git remote set-url origin https://x-access-token:$GITHUB_TOKEN@github.com/${{ github.repository }}.git
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        git config --global user.name "github-actions[bot]"
         git add proxy_checked.txt
-        git commit -m "更新代理质量检测结果" || echo "没有更改"
-        git push origin +main:main
+        git commit -m "📊 更新代理质量检测结果 ($(date +'%Y-%m-%d %H:%M'))"
+        git push origin main
+        echo "✅ 已提交检测结果"
+        
+    - name: 跳过提交（无变更）
+      if: steps.check_changes.outputs.has_changes != 'true'
+      run: |
+        echo "ℹ️ 检测结果无变化，跳过提交"
