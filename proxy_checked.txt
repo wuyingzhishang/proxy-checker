@@ -1,19 +1,19 @@
 # 代理质量检测报告
-# 检测时间: 2026-01-23 07:25:50
+# 检测时间: 2026-01-23 08:29:11
 # API: IPPure (https://my.ippure.com/v1/info)
 
 ## 📊 统计摘要
-# 总计: 30 | 成功: 19 | 失败: 11 | 成功率: 63.3%
+# 总计: 30 | 成功: 21 | 失败: 9 | 成功率: 70.0%
 
 ## 质量分布
-# 优秀: 3
+# 优秀: 4
 # 良好: 4
-# 中等: 9
+# 中等: 10
 # 较差: 2
 
 ## IP类型分布
-# 住宅IP: 3
-# 广播IP: 8
+# 住宅IP: 4
+# 广播IP: 9
 # 机房IP: 8
 
 ============================================================
@@ -26,6 +26,9 @@ socks5://147.45.96.130:10808 [[机房]德国 黑森州 法兰克福[WAIcore Ltd]
 
 socks5://77.51.92.91:10808 [[家宽]俄罗斯 莫斯科州 梅季希[ex-netname: CTC-DSLAM-5]]
   → 🌟 风险0% | 住宅IP | Russia Moscow Oblast Odintsovo (ex-netname: CTC-DSLAM-5)
+
+socks5://31.170.186.63:1080 [[家宽]俄罗斯[JSC "Yurgatelekom"]]
+  → 🌟 风险3% | 住宅IP | Russia Novosibirsk Oblast Novosibirsk (JSC Yurgatelekom)
 
 socks5://79.20.161.144:1080 [[机房]意大利 伦巴第大区 米兰[NAS DHCP Pool PESCARA]]
   → 🌟 风险4% | 住宅IP | Italy Lombardy Milan (NAS DHCP Pool PESCARA)
@@ -54,6 +57,10 @@ socks5://34.84.179.128:1080 [[机房]日本 东京 东京 — 谷歌云 GCP[Goog
 socks5://176.123.1.101:10808 [[机房]摩尔多瓦 基希讷乌市 基希讷乌[ALEXHOST SRL]]
   → 🟡 风险38% | 机房IP | Moldova Chișinău Municipality Chisinau (ALEXHOST SRL)
 
+socks5://110.179.81.27:1080 [[机房]新加坡 新加坡 新加坡 — Cloudflare CDN 节点[CLOUDFLAREWARP]]
+  → 🟡 风险39% | 广播IP ⚠️透明 | Japan Osaka Minoh (Oracle Corporation)
+  → 出口IP: 150.230.5.126
+
 socks5://129.159.152.152:6666 [[机房]以色列 耶路撒冷 耶路撒冷 — 甲骨文云 Oracle[Oracle Corporation]]
   → 🟡 风险40% | 广播IP | Israel Jerusalem Jerusalem (Oracle Corporation)
 
@@ -80,19 +87,13 @@ socks5://103.239.52.100:1080 [[家宽]柬埔寨 金边 金边[Cogetel Ltd, Onlin
 
 ## ❌ 失败代理列表
 
-socks5://103.127.133.151:1080 [[机房]印度尼西亚 西爪哇省 茂物市[PT. BERKAH PUTRI RAMADANI]]
+socks5://125.119.18.215:12345 [[机房]美国 加州 洛杉矶[ZMTO]]
   → 超时
-
-socks5://110.179.81.27:1080 [[机房]新加坡 新加坡 新加坡 — Cloudflare CDN 节点[CLOUDFLAREWARP]]
-  → HTTP 403
 
 socks5://151.241.154.9:1080 [[家宽]巴西 圣保罗 坎皮纳斯[ALGAR TELECOM S/A]]
   → 错误: 0 bytes read on a total of 4 expected bytes
 
 socks5://3.101.134.61:1080 [[机房]美国 加州 圣何塞 — 亚马逊云 Aws[Amazon.com, Inc.]]
-  → 超时
-
-socks5://31.170.186.63:1080 [[家宽]俄罗斯[JSC "Yurgatelekom"]]
   → 超时
 
 socks5://37.59.249.78:1080 [[机房]法国 上法兰西大区 鲁贝[OVH SAS]]
@@ -108,7 +109,7 @@ socks5://54.36.15.110:10808 [[机房]法国 上法兰西大区 里尔 — OVH[al
   → HTTP 403
 
 socks5://8.208.83.161:1080 [[机房]英国 英格兰 伦敦 — 阿里云[Aliyun Computing Co.LTD]]
-  → HTTP 403
+  → 超时
 
 socks5://8.211.133.76:1234 [[机房]日本 东京 东京 — 阿里云[Alibaba Cloud (Singapore) Private Limited]]
   → HTTP 403
