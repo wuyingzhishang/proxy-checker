@@ -1,18 +1,18 @@
 # 代理质量检测报告
-# 检测时间: 2026-01-23 05:27:58
+# 检测时间: 2026-01-23 06:32:53
 # API: IPPure (https://my.ippure.com/v1/info)
 
 ## 📊 统计摘要
-# 总计: 30 | 成功: 21 | 失败: 9 | 成功率: 70.0%
+# 总计: 30 | 成功: 23 | 失败: 7 | 成功率: 76.7%
 
 ## 质量分布
 # 优秀: 5
 # 良好: 5
-# 中等: 9
-# 较差: 1
+# 中等: 10
+# 较差: 2
 
 ## IP类型分布
-# 住宅IP: 3
+# 住宅IP: 5
 # 广播IP: 8
 # 机房IP: 10
 
@@ -27,15 +27,15 @@ socks5://147.45.96.130:10808 [[机房]德国 黑森州 法兰克福[WAIcore Ltd]
 socks5://77.51.92.91:10808 [[家宽]俄罗斯 莫斯科州 梅季希[ex-netname: CTC-DSLAM-5]]
   → 🌟 风险0% | 住宅IP | Russia Moscow Oblast Odintsovo (ex-netname: CTC-DSLAM-5)
 
-socks5://110.179.81.27:1080 [[机房]新加坡 新加坡 新加坡 — Cloudflare CDN 节点[CLOUDFLAREWARP]]
-  → 🌟 风险1% | 住宅IP ⚠️透明 | Japan Kanagawa Yokohama (Japan Nation-wide Ne...)
-  → 出口IP: 126.66.85.51
+socks5://151.241.154.9:1080 [[机房]巴西 圣保罗 坎皮纳斯[ALGAR TELECOM S/A]]
+  → 🌟 风险2% | 住宅IP ⚠️透明 | Brazil São Paulo Brodowski (MAGAZINE LUIZA S/A)
+  → 出口IP: 200.174.209.226
+
+socks5://31.170.186.63:1080 [[家宽]俄罗斯[JSC "Yurgatelekom"]]
+  → 🌟 风险3% | 住宅IP | Russia Novosibirsk Oblast Novosibirsk (JSC Yurgatelekom)
 
 socks5://79.20.161.144:1080 [[机房]意大利 伦巴第大区 米兰[NAS DHCP Pool PESCARA]]
   → 🌟 风险4% | 住宅IP | Italy Lombardy Milan (NAS DHCP Pool PESCARA)
-
-socks5://103.245.255.253:1080 [[机房]越南 胡志明市 胡志明市[ZINGPLAY VIETNAM COMPANY LIMITED]]
-  → 🌟 风险8% | 机房IP | Vietnam Ho Chi Minh City (HCMC) Ho Chi Minh City (ZINGPLAY VIETNAM COM...)
 
 socks5://103.127.133.132:1080 [[机房]印度尼西亚 西爪哇省 茂物市[PT. BERKAH PUTRI RAMADANI]]
   → 🟢 风险21% | 机房IP | Indonesia West Java Bogor (PT Biznet Gio Nusantara)
@@ -58,8 +58,13 @@ socks5://103.127.133.130:1080 [[机房]印度尼西亚 西爪哇省 茂物市[PT
 socks5://85.198.98.179:1080 [[机房]俄罗斯 莫斯科 莫斯科[Beget LLC]]
   → 🟡 风险32% | 机房IP | Russia Moscow Moscow (Beget LLC)
 
-socks5://80.242.56.225:1080 [[机房]荷兰 北荷兰省 阿姆斯特丹[Timeweb.Cloud LLC]]
-  → 🟡 风险34% | 广播IP | Netherlands North Holland Amsterdam (Timeweb.Cloud LLC)
+socks5://118.99.3.133:1111 [[家宽]中国 香港 香港[Forewin Telecom Group Limited, ISP at HK]]
+  → 🟡 风险35% | 机房IP ⚠️透明 | Hong Kong SAR China Hong Kong (Forewin Telecom Grou...)
+  → 出口IP: 118.99.3.3
+
+socks5://110.179.81.27:1080 [[机房]新加坡 新加坡 新加坡 — Cloudflare CDN 节点[CLOUDFLAREWARP]]
+  → 🟡 风险37% | 广播IP ⚠️透明 | Japan Osaka Minoh (Oracle Corporation)
+  → 出口IP: 138.2.59.112
 
 socks5://34.84.179.128:1080 [[机房]日本 东京 东京 — 谷歌云 GCP[Google LLC]]
   → 🟡 风险37% | 广播IP | Japan Tokyo Tokyo (Google LLC)
@@ -85,15 +90,12 @@ socks5://45.12.90.43:5555 [[机房]美国 加州 洛杉矶 — CeraNetworks[Host
 socks5://104.219.236.127:1080 [[机房]美国 纽约州 水牛城[DataWagon LLC]]
   → 🔴 风险72% | 机房IP | United States New York Buffalo (DataWagon LLC)
 
+socks5://103.239.52.100:1080 [[家宽]柬埔寨 金边 金边[Cogetel Ltd, Online ISP, Cambodia]]
+  → 🔴 风险78% | 住宅IP | Cambodia Phnom Penh Phnom Penh (Cogetel Ltd, Online ...)
+
 ## ❌ 失败代理列表
 
 socks5://103.127.133.151:1080 [[机房]印度尼西亚 西爪哇省 茂物市[PT. BERKAH PUTRI RAMADANI]]
-  → 超时
-
-socks5://118.99.3.133:1111 [[家宽]中国 香港 香港[Forewin Telecom Group Limited, ISP at HK]]
-  → 超时
-
-socks5://162.243.174.9:1080 [[机房]美国 新泽西州 北伯根 — DigitalOcean[DigitalOcean, LLC]]
   → 超时
 
 socks5://3.101.134.61:1080 [[机房]美国 加州 圣何塞 — 亚马逊云 Aws[Amazon.com, Inc.]]
@@ -112,4 +114,4 @@ socks5://54.36.15.110:10808 [[机房]法国 上法兰西大区 里尔 — OVH[al
   → HTTP 403
 
 socks5://8.208.83.161:1080 [[机房]英国 英格兰 伦敦 — 阿里云[Aliyun Computing Co.LTD]]
-  → 超时
+  → HTTP 403
