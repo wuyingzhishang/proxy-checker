@@ -1,5 +1,5 @@
 # 代理列表 - 自动更新
-# 更新时间: 2026-01-23 04:39:43
+# 更新时间: 2026-01-23 05:25:21
 # 总计: 30 个代理
 # 来源: https://tomcat1235.nyc.mn/proxy_list
 # 格式: 协议://IP:端口 [位置]
@@ -19,12 +19,12 @@ socks5://146.103.126.134:1080 [[机房]荷兰 北荷兰省 阿姆斯特丹[SERVE
 socks5://147.45.96.130:10808 [[机房]德国 黑森州 法兰克福[WAIcore Ltd]]
 socks5://162.243.174.9:1080 [[机房]美国 新泽西州 北伯根 — DigitalOcean[DigitalOcean, LLC]]
 socks5://176.123.1.101:10808 [[机房]摩尔多瓦 基希讷乌市 基希讷乌[ALEXHOST SRL]]
+socks5://176.126.86.190:1080 [[机房]瑞典 斯德哥尔摩省 斯德哥尔摩 — HostHatch[HostHatch LLC]]
 socks5://217.60.5.145:10808 [[机房]法国 法兰西岛大区 巴黎[CGI GLOBAL LIMITED]]
 socks5://3.101.134.61:1080 [[机房]美国 加州 圣何塞 — 亚马逊云 Aws[Amazon.com, Inc.]]
 socks5://34.84.179.128:1080 [[机房]日本 东京 东京 — 谷歌云 GCP[Google LLC]]
 socks5://37.142.196.98:1080 [[家宽]以色列 特拉维夫 特拉维夫[BROADBAND-CABLES]]
 socks5://45.12.90.43:5555 [[机房]美国 加州 洛杉矶 — CeraNetworks[Hostsymbol Pte. Ltd.]]
-socks5://51.68.209.5:1080 [[机房]英国 英格兰 伦敦 — OVH[OVH Ltd]]
 socks5://51.77.52.223:1080 [[机房]波兰 马佐维亚省 華沙 — OVH[OVH Sp. z o. o.]]
 socks5://54.172.245.153:1080 [[机房]美国 弗吉尼亚州 阿什本 — 亚马逊云 Aws[Amazon Data Services Northern Virginia]]
 socks5://54.36.15.110:10808 [[机房]法国 上法兰西大区 里尔 — OVH[aldukhy Fadhil]]
