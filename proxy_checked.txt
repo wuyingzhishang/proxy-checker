@@ -1,12 +1,12 @@
 # 代理质量检测报告
-# 检测时间: 2026-01-24 06:30:10
+# 检测时间: 2026-01-24 07:20:23
 # API: IPPure (https://my.ippure.com/v1/info)
 
 ## 📊 统计摘要
-# 总计: 30 | 成功: 17 | 失败: 13 | 成功率: 56.7%
+# 总计: 30 | 成功: 16 | 失败: 14 | 成功率: 53.3%
 
 ## 质量分布
-# 优秀: 6
+# 优秀: 5
 # 良好: 3
 # 中等: 5
 # 较差: 2
@@ -15,7 +15,7 @@
 ## IP类型分布
 # 住宅IP: 4
 # 广播IP: 5
-# 机房IP: 8
+# 机房IP: 7
 
 ============================================================
 
@@ -24,10 +24,6 @@
 socks5://149.104.4.88:10809 [[机房]中国 香港 香港[Converged Communications Limited]]
   → 🌟 风险0% | 机房IP ⚠️透明 | Hong Kong SAR China Eastern District Harmony Garden (RM301K,3/F,HONGKONG ...)
   → 出口IP: 2400:f880:dbf:8a82:be24:11ff:fe99:f6f7
-
-socks5://181.101.246.35:1080 [[机房]美国 佛罗里达州 迈阿密 — Vultr[Vultr Holdings, LLC]]
-  → 🌟 风险0% | 机房IP ⚠️透明 | United States Virginia Manassas (netcup GmbH)
-  → 出口IP: 2a0a:4cc0:2000:9a4:7836:a2ff:fef5:d466
 
 socks5://85.215.229.223:1080 [[机房]德国 柏林 柏林[IONOS SE]]
   → 🌟 风险5% | 住宅IP | Germany State of Berlin Berlin (IONOS SE)
@@ -92,6 +88,9 @@ socks5://181.101.223.132:1080 [[机房]美国 新泽西州 克利夫顿 — Digi
 socks5://181.101.237.69:1080 [[机房]美国 弗吉尼亚州 马纳萨斯[netcup GmbH]]
   → 错误: [Errno 111] Couldn't connect to proxy 181.101.237.
 
+socks5://181.101.246.35:1080 [[机房]美国 佛罗里达州 迈阿密 — Vultr[Vultr Holdings, LLC]]
+  → 超时
+
 socks5://181.101.82.101:1080 [[机房]美国 德克萨斯州 达拉斯 — Vultr[Vultr Holdings, LLC]]
   → 错误: [Errno 111] Couldn't connect to proxy 181.101.82.1
 
@@ -102,7 +101,7 @@ socks5://35.72.90.28:1080 [[机房]日本 东京 东京 — 亚马逊云 Aws[Ama
   → HTTP 403
 
 socks5://36.255.98.150:4444 [[机房]德国 巴伐利亚 — Hetzner[HOS-1815598]]
-  → HTTP 403
+  → 错误: [Errno 111] Couldn't connect to proxy 36.255.98.15
 
 socks5://36.255.98.175:4444 [[机房]美国 佛罗里达州 迈阿密[Internet Names For Business Inc.]]
   → 错误: [Errno 111] Couldn't connect to proxy 36.255.98.17
