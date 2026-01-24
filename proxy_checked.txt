@@ -1,12 +1,12 @@
 # 代理质量检测报告
-# 检测时间: 2026-01-24 19:16:41
+# 检测时间: 2026-01-24 20:21:06
 # API: IPPure (https://my.ippure.com/v1/info)
 
 ## 📊 统计摘要
-# 总计: 30 | 成功: 21 | 失败: 9 | 成功率: 70.0%
+# 总计: 30 | 成功: 20 | 失败: 10 | 成功率: 66.7%
 
 ## 质量分布
-# 优秀: 6
+# 优秀: 5
 # 良好: 2
 # 中等: 9
 # 较差: 1
@@ -15,15 +15,11 @@
 ## IP类型分布
 # 住宅IP: 4
 # 广播IP: 5
-# 机房IP: 12
+# 机房IP: 11
 
 ============================================================
 
 ## ✅ 可用代理列表 (按质量排序)
-
-socks5://43.250.54.139:60000 [[家宽]英国 英格兰 谢菲尔德[BTBROADBAND-AGG-56]]
-  → 🌟 风险0% | 机房IP ⚠️透明 | United Kingdom England Barnsley (BTBROADBAND)
-  → 出口IP: 2a00:23cc:f629:b601:e88e:7706:bab3:182f
 
 socks5://62.60.217.179:1080 [[机房]德国 黑森州 法兰克福 — Cloudflare CDN 节点[CLOUDFLAREWARP]]
   → 🌟 风险0% | 机房IP ⚠️透明 | Germany Hesse Frankfurt am Main (Cloudflare London, LLC)
@@ -33,12 +29,13 @@ socks5://38.47.238.103:1080 [[机房]美国 明尼苏达州 明尼阿波利斯[C
   → 🌟 风险3% | 住宅IP ⚠️透明 | United States Minnesota Minneapolis (Cogent Communication...)
   → 出口IP: 154.17.95.0
 
-socks5://85.215.229.223:1080 [[机房]德国 柏林 柏林[IONOS SE]]
-  → 🌟 风险5% | 住宅IP | Germany State of Berlin Berlin (IONOS SE)
-
 socks5://185.185.51.104:60000 [[机房]西班牙 马德里自治区 马德里[VODAFONE ESPANA S.A.U.]]
   → 🌟 风险7% | 住宅IP ⚠️透明 | Spain Andalusia Marbella (VODAFONE ESPANA S.A.U.)
   → 出口IP: 47.63.130.209
+
+socks5://43.250.54.139:60000 [[家宽]英国 英格兰 谢菲尔德[BTBROADBAND-AGG-56]]
+  → 🌟 风险7% | 住宅IP ⚠️透明 | United Kingdom England Romford (SEVEN KINGS)
+  → 出口IP: 82.9.244.15
 
 socks5://178.170.181.118:1080 [[机房]俄罗斯 罗斯托夫州 頓涅茨克[AirLink Ltd.]]
   → 🌟 风险9% | 住宅IP | Russia Moscow Moscow (AirLink Ltd)
@@ -99,6 +96,9 @@ socks5://18.223.254.30:1080 [[机房]美国 俄亥俄州 哥伦布 — 亚马逊
 socks5://181.215.45.229:1080 [[机房]巴西 圣保罗 圣保罗[IPXO]]
   → 超时
 
+socks5://185.21.141.238:1080 [[机房]俄罗斯 莫斯科 莫斯科[Directive LLC]]
+  → 超时
+
 socks5://202.79.166.50:40000 [[家宽]丹麦 首都大区 腓特烈斯贝[TDC BB-ADSL users]]
   → 连接错误: 
 
@@ -118,4 +118,4 @@ socks5://8.208.83.161:1080 [[机房]英国 英格兰 伦敦 — 阿里云[Aliyun
   → HTTP 403
 
 socks5://8.220.194.115:1080 [[机房]韩国 首尔特别市 首尔特别市 — 阿里云[Alibaba Cloud (Singapore) Private Limited]]
-  → 超时
+  → HTTP 403
