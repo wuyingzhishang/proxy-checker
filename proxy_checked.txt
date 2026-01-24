@@ -1,44 +1,28 @@
 # 代理质量检测报告
-# 检测时间: 2026-01-24 12:38:18
+# 检测时间: 2026-01-24 13:31:47
 # API: IPPure (https://my.ippure.com/v1/info)
 
 ## 📊 统计摘要
-# 总计: 30 | 成功: 17 | 失败: 13 | 成功率: 56.7%
+# 总计: 30 | 成功: 16 | 失败: 14 | 成功率: 53.3%
 
 ## 质量分布
-# 优秀: 9
+# 优秀: 6
 # 良好: 2
-# 中等: 2
-# 较差: 3
+# 中等: 3
+# 较差: 1
 # 极差: 1
 
 ## IP类型分布
 # 住宅IP: 9
 # 广播IP: 2
-# 机房IP: 6
+# 机房IP: 5
 
 ============================================================
 
 ## ✅ 可用代理列表 (按质量排序)
 
-socks5://43.250.54.139:60000 [[家宽]英国 英格兰 谢菲尔德[BTBROADBAND-AGG-56]]
-  → 🌟 风险0% | 机房IP ⚠️透明 | United Kingdom England Helston (Wildanet Ltd)
-  → 出口IP: 2a0c:4f41:2c16:9600:67c7:2665:728b:82d8
-
-socks5://51.79.195.217:60000 [[机房]危地马拉 危地马拉省[Telgua]]
-  → 🌟 风险0% | 机房IP ⚠️透明 | Guatemala Guatemala Mixco (Telgua)
-  → 出口IP: 2800:98:1111:16f7:c9e8:f415:2866:8ac0
-
 socks5://95.80.103.217:1080 [[机房]俄罗斯 鄂木斯克州 鄂木斯克[Omsk Russia]]
   → 🌟 风险1% | 住宅IP | Russia Omsk Oblast Omsk (Omsk Russia)
-
-socks5://202.79.166.50:40000 [[家宽]丹麦 首都大区 腓特烈斯贝[TDC BB-ADSL users]]
-  → 🌟 风险2% | 住宅IP ⚠️透明 | Denmark Capital Region Copenhagen (TDC BB-ADSL users)
-  → 出口IP: 176.22.59.129
-
-socks5://202.79.166.59:40000 [[家宽]丹麦 首都大区 腓特烈斯贝[TDC BB-ADSL users]]
-  → 🌟 风险2% | 住宅IP ⚠️透明 | Denmark Capital Region Copenhagen (TDC BB-ADSL users)
-  → 出口IP: 176.22.59.129
 
 socks5://38.47.238.103:1080 [[机房]美国 明尼苏达州 明尼阿波利斯[Cogent Communications, LLC]]
   → 🌟 风险3% | 住宅IP ⚠️透明 | United States Minnesota Minneapolis (Cogent Communication...)
@@ -47,6 +31,10 @@ socks5://38.47.238.103:1080 [[机房]美国 明尼苏达州 明尼阿波利斯[C
 socks5://185.185.51.104:60000 [[机房]西班牙 马德里自治区 马德里[VODAFONE ESPANA S.A.U.]]
   → 🌟 风险7% | 住宅IP ⚠️透明 | Spain Andalusia Marbella (VODAFONE ESPANA S.A.U.)
   → 出口IP: 47.63.130.209
+
+socks5://43.250.54.139:60000 [[家宽]英国 英格兰 谢菲尔德[BTBROADBAND-AGG-56]]
+  → 🌟 风险8% | 住宅IP ⚠️透明 | United Kingdom Wales Cardiff (NORTHAMPTON)
+  → 出口IP: 86.3.199.5
 
 socks5://62.16.33.187:1080 [[家宽]俄罗斯 彼爾姆邊疆區 彼尔姆[For PPPoE Customers]]
   → 🌟 风险8% | 住宅IP | Russia Perm Krai Perm (For PPPoE Customers)
@@ -63,6 +51,9 @@ socks5://185.17.123.152:1080 [[机房]德国 黑森州 法兰克福[TK Rusteleko
 socks5://107.172.72.247:1080 [[机房]美国 弗吉尼亚州 阿什本 — RackNerd[RackNerd LLC]]
   → 🟡 风险33% | 机房IP | United States Virginia Ashburn (RackNerd LLC)
 
+socks5://114.134.185.160:1080 [[机房]中国 香港 香港[VAPELINE TECHNOLOGY(HK).,LIMITED]]
+  → 🟡 风险35% | 机房IP | Hong Kong SAR China Hong Kong (VAPELINE TECHNOLOGY(...)
+
 socks5://107.161.90.121:1080 [[机房]美国 德克萨斯州 达拉斯[HostPapa]]
   → 🟡 风险36% | 机房IP | United States Texas Dallas
 
@@ -75,6 +66,9 @@ socks5://138.68.247.51:1080 [[机房]美国 加州 圣克拉拉 — DigitalOcean
 socks5://109.94.67.250:1080 [[机房]俄罗斯 特维尔州[Annet Ltd.]]
   → 🟠 风险66% | 住宅IP | Russia Tver Oblast Tver (Annet Ltd.)
 
+socks5://203.189.154.200:1080 [[家宽]柬埔寨 金边 金边[Cogetel Ltd, Online ISP, Cambodia]]
+  → 🔴 风险73% | 住宅IP | Cambodia Phnom Penh Phnom Penh (Cogetel Ltd, Online ...)
+
 socks5://172.111.169.87:1080 [[机房]德国 黑森州 法兰克福[Internet Security - DE]]
   → ⚫ 风险100% | 广播IP | Germany Hesse Frankfurt am Main (Internet Security - DE)
 
@@ -83,17 +77,20 @@ socks5://172.111.169.87:1080 [[机房]德国 黑森州 法兰克福[Internet Sec
 socks5://109.105.89.202:1080 [[家宽]俄罗斯[JSC RITC]]
   → 超时
 
-socks5://114.134.185.160:1080 [[机房]中国 香港 香港[VAPELINE TECHNOLOGY(HK).,LIMITED]]
-  → 错误: [Errno 111] Couldn't connect to proxy 114.134.185.
-
 socks5://18.163.6.57:9999 [[机房]中国 香港 香港 — 亚马逊云 Aws[Amazon Data Services Hong Kong]]
   → HTTP 403
 
 socks5://181.101.24.205:8080 [[机房]阿根廷 圣菲省 罗萨里奥[Dattatec Corp]]
   → 超时
 
-socks5://203.189.154.200:1080 [[家宽]柬埔寨 金边 金边[Cogetel Ltd, Online ISP, Cambodia]]
+socks5://181.215.45.229:1080 [[机房]巴西 圣保罗 圣保罗[IPXO]]
   → 超时
+
+socks5://202.79.166.50:40000 [[家宽]丹麦 首都大区 腓特烈斯贝[TDC BB-ADSL users]]
+  → 连接错误: 
+
+socks5://202.79.166.59:40000 [[家宽]丹麦 首都大区 腓特烈斯贝[TDC BB-ADSL users]]
+  → 连接错误: 
 
 socks5://34.210.43.58:1080 [[机房]美国 俄勒冈州 波特兰 — 亚马逊云 Aws[Amazon Technologies Inc.]]
   → 超时
@@ -107,14 +104,14 @@ socks5://36.255.98.175:4444 [[机房]美国 佛罗里达州 迈阿密[Internet N
 socks5://47.77.192.29:1080 [[机房]美国 加州 洛杉矶 — 阿里云[Alibaba Cloud LLC]]
   → HTTP 403
 
-socks5://62.60.217.179:1080 [[机房]德国 黑森州 法兰克福 — Cloudflare CDN 节点[CLOUDFLAREWARP]]
-  → 错误: [Errno 111] Couldn't connect to proxy 62.60.217.17
+socks5://51.79.195.217:60000 [[机房]危地马拉 危地马拉省[Telgua]]
+  → 错误: [Errno 111] Couldn't connect to proxy 51.79.195.21
 
 socks5://8.208.83.161:1080 [[机房]英国 英格兰 伦敦 — 阿里云[Aliyun Computing Co.LTD]]
-  → 超时
+  → HTTP 403
 
 socks5://8.220.194.115:1080 [[机房]韩国 首尔特别市 首尔特别市 — 阿里云[Alibaba Cloud (Singapore) Private Limited]]
-  → HTTP 403
+  → 超时
 
 socks5://89.251.26.111:5555 [[机房]中国 香港 香港[ALICE NETWORKS LTD]]
   → 错误: [Errno 111] Couldn't connect to proxy 89.251.26.11
