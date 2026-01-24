@@ -1,21 +1,20 @@
 # 代理质量检测报告
-# 检测时间: 2026-01-24 08:25:57
+# 检测时间: 2026-01-24 09:20:19
 # API: IPPure (https://my.ippure.com/v1/info)
 
 ## 📊 统计摘要
-# 总计: 30 | 成功: 17 | 失败: 13 | 成功率: 56.7%
+# 总计: 30 | 成功: 15 | 失败: 15 | 成功率: 50.0%
 
 ## 质量分布
-# 优秀: 6
+# 优秀: 5
 # 良好: 3
 # 中等: 5
-# 较差: 1
 # 极差: 2
 
 ## IP类型分布
 # 住宅IP: 4
 # 广播IP: 3
-# 机房IP: 10
+# 机房IP: 8
 
 ============================================================
 
@@ -24,10 +23,6 @@
 socks5://149.104.4.88:10809 [[机房]中国 香港 香港[Converged Communications Limited]]
   → 🌟 风险0% | 机房IP ⚠️透明 | Hong Kong SAR China Eastern District Harmony Garden (RM301K,3/F,HONGKONG ...)
   → 出口IP: 2400:f880:dbf:8a82:be24:11ff:fe99:f6f7
-
-socks5://89.251.26.111:5555 [[机房]中国 香港 香港[ALICE NETWORKS LTD]]
-  → 🌟 风险0% | 机房IP ⚠️透明 | Hong Kong SAR China Tsuen Wan Tsuen Wan (ALICE NETWORKS LTD)
-  → 出口IP: 2a14:67c0:306:4e5::a
 
 socks5://38.47.238.103:1080 [[机房]美国 明尼苏达州 明尼阿波利斯[Cogent Communications, LLC]]
   → 🌟 风险3% | 住宅IP ⚠️透明 | United States Minnesota Minneapolis (Cogent Communication...)
@@ -67,9 +62,6 @@ socks5://107.161.90.121:1080 [[机房]美国 德克萨斯州 达拉斯[HostPapa]
 socks5://5.189.201.200:1234 [[机房]俄罗斯 克拉斯诺亚尔斯克边疆区 克拉斯诺亚尔斯克[EdgeCenter LLC]]
   → 🟡 风险39% | 机房IP | Russia Krasnoyarsk Krai Krasnoyarsk (EdgeCenter LLC)
 
-socks5://138.68.247.51:1080 [[机房]美国 加州 圣克拉拉 — DigitalOcean[DigitalOcean, LLC]]
-  → 🟠 风险62% | 机房IP | United States California Santa Clara (DigitalOcean, LLC)
-
 socks5://36.255.98.175:4444 [[机房]美国 佛罗里达州 迈阿密[Internet Names For Business Inc.]]
   → ⚫ 风险99% | 机房IP ⚠️透明 | United States Florida Miami (Internet Names For B...)
   → 出口IP: 66.175.44.23
@@ -82,11 +74,14 @@ socks5://172.111.169.87:1080 [[机房]德国 黑森州 法兰克福[Internet Sec
 socks5://103.175.220.58:1080 [[机房]印度尼西亚 西爪哇省 茂物市[PT Biznet Gio Nusantara]]
   → 超时
 
+socks5://138.68.247.51:1080 [[机房]美国 加州 圣克拉拉 — DigitalOcean[DigitalOcean, LLC]]
+  → 错误: 0 bytes read on a total of 2 expected bytes
+
 socks5://18.163.6.57:9999 [[机房]中国 香港 香港 — 亚马逊云 Aws[Amazon Data Services Hong Kong]]
   → HTTP 403
 
 socks5://181.101.111.97:1080 [[机房]美国 新泽西州 克利夫顿 — DigitalOcean[DigitalOcean, LLC]]
-  → 超时
+  → 错误: [Errno 111] Couldn't connect to proxy 181.101.111.
 
 socks5://181.101.223.132:1080 [[机房]美国 新泽西州 克利夫顿 — DigitalOcean[DigitalOcean, LLC]]
   → 错误: [Errno 111] Couldn't connect to proxy 181.101.223.
@@ -117,3 +112,6 @@ socks5://62.60.217.179:1080 [[机房]德国 黑森州 法兰克福 — Cloudflar
 
 socks5://85.208.108.12:10808 [[机房]加拿大 安大略 多伦多[WorkTitans B.V.]]
   → 超时
+
+socks5://89.251.26.111:5555 [[机房]中国 香港 香港[ALICE NETWORKS LTD]]
+  → 错误: [Errno 111] Couldn't connect to proxy 89.251.26.11
