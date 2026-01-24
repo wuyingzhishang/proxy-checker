@@ -1,21 +1,21 @@
 # 代理质量检测报告
-# 检测时间: 2026-01-24 07:20:23
+# 检测时间: 2026-01-24 08:25:57
 # API: IPPure (https://my.ippure.com/v1/info)
 
 ## 📊 统计摘要
-# 总计: 30 | 成功: 16 | 失败: 14 | 成功率: 53.3%
+# 总计: 30 | 成功: 17 | 失败: 13 | 成功率: 56.7%
 
 ## 质量分布
-# 优秀: 5
+# 优秀: 6
 # 良好: 3
 # 中等: 5
-# 较差: 2
-# 极差: 1
+# 较差: 1
+# 极差: 2
 
 ## IP类型分布
 # 住宅IP: 4
-# 广播IP: 5
-# 机房IP: 7
+# 广播IP: 3
+# 机房IP: 10
 
 ============================================================
 
@@ -25,6 +25,14 @@ socks5://149.104.4.88:10809 [[机房]中国 香港 香港[Converged Communicatio
   → 🌟 风险0% | 机房IP ⚠️透明 | Hong Kong SAR China Eastern District Harmony Garden (RM301K,3/F,HONGKONG ...)
   → 出口IP: 2400:f880:dbf:8a82:be24:11ff:fe99:f6f7
 
+socks5://89.251.26.111:5555 [[机房]中国 香港 香港[ALICE NETWORKS LTD]]
+  → 🌟 风险0% | 机房IP ⚠️透明 | Hong Kong SAR China Tsuen Wan Tsuen Wan (ALICE NETWORKS LTD)
+  → 出口IP: 2a14:67c0:306:4e5::a
+
+socks5://38.47.238.103:1080 [[机房]美国 明尼苏达州 明尼阿波利斯[Cogent Communications, LLC]]
+  → 🌟 风险3% | 住宅IP ⚠️透明 | United States Minnesota Minneapolis (Cogent Communication...)
+  → 出口IP: 154.17.95.0
+
 socks5://85.215.229.223:1080 [[机房]德国 柏林 柏林[IONOS SE]]
   → 🌟 风险5% | 住宅IP | Germany State of Berlin Berlin (IONOS SE)
 
@@ -33,9 +41,6 @@ socks5://95.52.202.2:1080 [[家宽]俄罗斯 涅涅茨地区[Arkhangelsk branch 
 
 socks5://178.170.181.118:1080 [[机房]俄罗斯 罗斯托夫州 頓涅茨克[AirLink Ltd.]]
   → 🌟 风险9% | 住宅IP | Russia Moscow Moscow (AirLink Ltd)
-
-socks5://95.106.243.139:1080 [[家宽]俄罗斯 布良斯克州[PJSC Rostelecom, Bryansk branch]]
-  → 🌟 风险9% | 住宅IP | Russia Bryansk Oblast Bryansk (PJSC Rostelecom, Bry...)
 
 socks5://45.88.89.65:6666 [[机房]荷兰 林堡省[Albanian Hosting SH.P.K.]]
   → 🟢 风险18% | 机房IP | Netherlands Limburg Kerkrade (AlbHost SH.P.K.)
@@ -56,17 +61,18 @@ socks5://181.101.24.205:8080 [[机房]阿根廷 圣菲省 罗萨里奥[Dattatec 
 socks5://114.134.185.160:1080 [[机房]中国 香港 香港[VAPELINE TECHNOLOGY(HK).,LIMITED]]
   → 🟡 风险35% | 机房IP | Hong Kong SAR China Hong Kong (VAPELINE TECHNOLOGY(...)
 
-socks5://149.104.25.109:10808 [[机房]中国 香港 香港[STARCLOUD GLOBAL PTE. LTD.]]
-  → 🟡 风险39% | 广播IP | Hong Kong SAR China Eastern District Harmony Garden (STARCLOUD GLOBAL PTE...)
+socks5://107.161.90.121:1080 [[机房]美国 德克萨斯州 达拉斯[HostPapa]]
+  → 🟡 风险36% | 机房IP | United States Texas Dallas
 
 socks5://5.189.201.200:1234 [[机房]俄罗斯 克拉斯诺亚尔斯克边疆区 克拉斯诺亚尔斯克[EdgeCenter LLC]]
   → 🟡 风险39% | 机房IP | Russia Krasnoyarsk Krai Krasnoyarsk (EdgeCenter LLC)
 
-socks5://85.208.108.12:10808 [[机房]加拿大 安大略 多伦多[WorkTitans B.V.]]
-  → 🟠 风险51% | 广播IP | Canada Ontario Toronto (WorkTitans B.V.)
-
 socks5://138.68.247.51:1080 [[机房]美国 加州 圣克拉拉 — DigitalOcean[DigitalOcean, LLC]]
   → 🟠 风险62% | 机房IP | United States California Santa Clara (DigitalOcean, LLC)
+
+socks5://36.255.98.175:4444 [[机房]美国 佛罗里达州 迈阿密[Internet Names For Business Inc.]]
+  → ⚫ 风险99% | 机房IP ⚠️透明 | United States Florida Miami (Internet Names For B...)
+  → 出口IP: 66.175.44.23
 
 socks5://172.111.169.87:1080 [[机房]德国 黑森州 法兰克福[Internet Security - DE]]
   → ⚫ 风险100% | 广播IP | Germany Hesse Frankfurt am Main (Internet Security - DE)
@@ -80,7 +86,7 @@ socks5://18.163.6.57:9999 [[机房]中国 香港 香港 — 亚马逊云 Aws[Ama
   → HTTP 403
 
 socks5://181.101.111.97:1080 [[机房]美国 新泽西州 克利夫顿 — DigitalOcean[DigitalOcean, LLC]]
-  → 错误: [Errno 111] Couldn't connect to proxy 181.101.111.
+  → 超时
 
 socks5://181.101.223.132:1080 [[机房]美国 新泽西州 克利夫顿 — DigitalOcean[DigitalOcean, LLC]]
   → 错误: [Errno 111] Couldn't connect to proxy 181.101.223.
@@ -103,14 +109,11 @@ socks5://35.72.90.28:1080 [[机房]日本 东京 东京 — 亚马逊云 Aws[Ama
 socks5://36.255.98.150:4444 [[机房]德国 巴伐利亚 — Hetzner[HOS-1815598]]
   → 错误: [Errno 111] Couldn't connect to proxy 36.255.98.15
 
-socks5://36.255.98.175:4444 [[机房]美国 佛罗里达州 迈阿密[Internet Names For Business Inc.]]
-  → 错误: [Errno 111] Couldn't connect to proxy 36.255.98.17
-
 socks5://47.77.192.29:1080 [[机房]美国 加州 洛杉矶 — 阿里云[Alibaba Cloud LLC]]
-  → HTTP 403
-
-socks5://47.83.231.149:50161 [[机房]中国 香港 香港 — 阿里云[Alibaba Cloud LLC]]
   → HTTP 403
 
 socks5://62.60.217.179:1080 [[机房]德国 黑森州 法兰克福 — Cloudflare CDN 节点[CLOUDFLAREWARP]]
   → 错误: [Errno 111] Couldn't connect to proxy 62.60.217.17
+
+socks5://85.208.108.12:10808 [[机房]加拿大 安大略 多伦多[WorkTitans B.V.]]
+  → 超时
