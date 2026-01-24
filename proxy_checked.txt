@@ -1,28 +1,35 @@
 # 代理质量检测报告
-# 检测时间: 2026-01-24 17:18:33
+# 检测时间: 2026-01-24 18:29:35
 # API: IPPure (https://my.ippure.com/v1/info)
 
 ## 📊 统计摘要
 # 总计: 30 | 成功: 16 | 失败: 14 | 成功率: 53.3%
 
 ## 质量分布
-# 优秀: 4
+# 优秀: 5
 # 良好: 1
 # 中等: 9
 # 较差: 1
 
 ## IP类型分布
-# 住宅IP: 4
+# 住宅IP: 3
 # 广播IP: 3
-# 机房IP: 9
+# 机房IP: 10
 
 ============================================================
 
 ## ✅ 可用代理列表 (按质量排序)
 
+socks5://109.105.89.202:1080 [[家宽]俄罗斯[JSC RITC]]
+  → 🌟 风险0% | 住宅IP | Russia Kuzbass Mezhdurechensk (JSC RITC)
+
+socks5://181.6.194.220:1080 [[机房]美国 弗吉尼亚州 马纳萨斯[US NETCUP KVM MNZ]]
+  → 🌟 风险0% | 机房IP ⚠️透明 | United States Virginia Manassas (netcup GmbH)
+  → 出口IP: 2a0a:4cc0:2000:9a4:7836:a2ff:fef5:d466
+
 socks5://43.250.54.139:60000 [[家宽]英国 英格兰 谢菲尔德[BTBROADBAND-AGG-56]]
-  → 🌟 风险1% | 住宅IP ⚠️透明 | United Kingdom England Bournemouth (POOLE)
-  → 出口IP: 86.21.248.237
+  → 🌟 风险0% | 机房IP ⚠️透明 | United Kingdom England Royal Tunbridge Wells (Vodafone Broadband)
+  → 出口IP: 2a0a:ef40:18af:5401:3d4b:c896:5d04:7b5a
 
 socks5://38.47.238.103:1080 [[机房]美国 明尼苏达州 明尼阿波利斯[Cogent Communications, LLC]]
   → 🌟 风险3% | 住宅IP ⚠️透明 | United States Minnesota Minneapolis (Cogent Communication...)
@@ -31,9 +38,6 @@ socks5://38.47.238.103:1080 [[机房]美国 明尼苏达州 明尼阿波利斯[C
 socks5://185.185.51.104:60000 [[机房]西班牙 马德里自治区 马德里[VODAFONE ESPANA S.A.U.]]
   → 🌟 风险7% | 住宅IP ⚠️透明 | Spain Andalusia Marbella (VODAFONE ESPANA S.A.U.)
   → 出口IP: 47.63.130.209
-
-socks5://178.170.181.118:1080 [[机房]俄罗斯 罗斯托夫州 頓涅茨克[AirLink Ltd.]]
-  → 🌟 风险9% | 住宅IP | Russia Moscow Moscow (AirLink Ltd)
 
 socks5://45.88.89.65:6666 [[机房]荷兰 林堡省[Albanian Hosting SH.P.K.]]
   → 🟢 风险18% | 机房IP | Netherlands Limburg Kerkrade (AlbHost SH.P.K.)
@@ -68,16 +72,10 @@ socks5://185.51.76.159:1080 [[机房]丹麦 中日德兰大区[Network assigned 
 socks5://185.51.76.119:1080 [[机房]丹麦 中日德兰大区[Network assigned to SSDVPS Customers]]
   → 🟡 风险43% | 机房IP | Denmark Central Jutland Skive (Network assigned to ...)
 
-socks5://138.68.247.51:1080 [[机房]美国 加州 圣克拉拉 — DigitalOcean[DigitalOcean, LLC]]
-  → 🟠 风险62% | 机房IP | United States California Santa Clara (DigitalOcean, LLC)
-
 socks5://38.60.195.175:8888 [[机房]马来西亚 吉隆坡 吉隆坡[Kaopu Cloud HK Limited]]
   → 🔴 风险78% | 广播IP | Malaysia Kuala Lumpur Kuala Lumpur (Kaopu Cloud HK Limited)
 
 ## ❌ 失败代理列表
-
-socks5://109.105.89.202:1080 [[家宽]俄罗斯[JSC RITC]]
-  → 超时
 
 socks5://109.94.67.250:1080 [[机房]俄罗斯 特维尔州[Annet Ltd.]]
   → 超时
@@ -91,6 +89,9 @@ socks5://18.223.254.30:1080 [[机房]美国 俄亥俄州 哥伦布 — 亚马逊
 socks5://181.215.45.229:1080 [[机房]巴西 圣保罗 圣保罗[IPXO]]
   → 超时
 
+socks5://181.6.7.126:1080 [[机房]美国 新泽西州 克利夫顿 — DigitalOcean[DigitalOcean, LLC]]
+  → 错误: [Errno 111] Couldn't connect to proxy 181.6.7.126:
+
 socks5://202.79.166.50:40000 [[家宽]丹麦 首都大区 腓特烈斯贝[TDC BB-ADSL users]]
   → 连接错误: 
 
@@ -101,7 +102,7 @@ socks5://203.189.154.200:1080 [[家宽]柬埔寨 金边 金边[Cogetel Ltd, Onli
   → 超时
 
 socks5://34.210.43.58:1080 [[机房]美国 俄勒冈州 波特兰 — 亚马逊云 Aws[Amazon Technologies Inc.]]
-  → HTTP 403
+  → 超时
 
 socks5://51.79.195.217:60000 [[机房]危地马拉 危地马拉省[Telgua]]
   → 错误: [Errno 111] Couldn't connect to proxy 51.79.195.21
