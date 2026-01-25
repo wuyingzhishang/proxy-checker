@@ -1,18 +1,18 @@
 # 代理质量检测报告
-# 检测时间: 2026-01-25 12:39:12
+# 检测时间: 2026-01-25 13:32:29
 # API: IPPure (https://my.ippure.com/v1/info)
 
 ## 📊 统计摘要
-# 总计: 30 | 成功: 22 | 失败: 8 | 成功率: 73.3%
+# 总计: 30 | 成功: 21 | 失败: 9 | 成功率: 70.0%
 
 ## 质量分布
 # 优秀: 3
 # 良好: 2
 # 中等: 13
-# 较差: 2
+# 较差: 1
 
 ## IP类型分布
-# 住宅IP: 4
+# 住宅IP: 3
 # 广播IP: 5
 # 机房IP: 13
 
@@ -86,9 +86,6 @@ socks5://37.1.209.52:8080 [[机房]美国 伊利诺伊州 芝加哥[IROKO Networ
 socks5://74.50.65.152:1080 [[机房]美国 纽约州 纽约[Host Department NJ, LLC]]
   → 🟠 风险62% | 机房IP | United States New York New York City (Host Department NJ, LLC)
 
-socks5://145.255.239.78:1080 [[机房]俄罗斯 圣彼得堡 圣彼得堡[MEGABURGER network]]
-  → 🔴 风险70% | 住宅IP | Russia St.-Petersburg Saint Petersburg (MEGABURGER network)
-
 socks5://38.60.195.175:8888 [[机房]马来西亚 吉隆坡 吉隆坡[Kaopu Cloud HK Limited]]
   → 🔴 风险78% | 广播IP | Malaysia Kuala Lumpur Kuala Lumpur (Kaopu Cloud HK Limited)
 
@@ -103,14 +100,17 @@ socks5://109.248.161.114:1080 [[机房]芬兰 新地区 赫尔辛基[CGI GLOBAL 
 socks5://109.248.64.255:1080 [[机房]俄罗斯 特维尔州[LAN-Optic, Ltd]]
   → 超时
 
-socks5://18.205.59.71:1080 [[机房]美国 弗吉尼亚州 阿什本 — 亚马逊云 Aws[Amazon Technologies Inc.]]
-  → HTTP 403
+socks5://145.255.239.78:1080 [[机房]俄罗斯 圣彼得堡 圣彼得堡[MEGABURGER network]]
+  → 错误: [Errno 111] Couldn't connect to proxy 145.255.239.
 
-socks5://18.223.254.30:1080 [[机房]美国 俄亥俄州 哥伦布 — 亚马逊云 Aws[Amazon Technologies Inc.]]
+socks5://18.205.59.71:1080 [[机房]美国 弗吉尼亚州 阿什本 — 亚马逊云 Aws[Amazon Technologies Inc.]]
   → HTTP 403
 
 socks5://193.42.62.193:1080 [[机房]法国 大东部大区 斯特拉斯堡[Racknerd]]
   → 超时
+
+socks5://195.201.60.88:1080 [[机房]德国 萨克森州 法尔肯施泰因 — Hetzner[Hetzner Online GmbH]]
+  → 错误: Unexpected SOCKS version number: 60
 
 socks5://205.198.88.186:1080 [[机房]日本 东京 东京[Eons Data Communications Limited]]
   → 超时
