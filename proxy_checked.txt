@@ -1,5 +1,5 @@
 # 代理质量检测报告
-# 检测时间: 2026-01-25 22:19:46
+# 检测时间: 2026-01-25 23:20:13
 # API: IPPure (https://my.ippure.com/v1/info)
 
 ## 📊 统计摘要
@@ -43,7 +43,7 @@ socks5://176.124.208.46:8888 [[机房]俄罗斯 莫斯科 莫斯科[JSC "TIMEWEB
   → 🟢 风险21% | 机房IP | Russia Moscow Moscow (JSC TIMEWEB)
 
 socks5://195.14.27.239:1080 [[机房]波兰 下西里西亚省[WZSERWIS]]
-  → 🟢 风险26% | 机房IP | Poland Lower Silesia Lubin (Kamil Turon trading ...)
+  → 🟢 风险25% | 机房IP | Poland Lower Silesia Lubin (Kamil Turon trading ...)
 
 socks5://209.126.81.231:1080 [[机房]美国 密苏里州 圣路易斯 — Contabo[Contabo Inc.]]
   → 🟢 风险29% | 机房IP | United States Missouri St. Louis (Contabo Inc.)
@@ -95,8 +95,8 @@ socks5://38.60.195.175:8888 [[机房]马来西亚 吉隆坡 吉隆坡[Kaopu Clou
   → 🔴 风险77% | 广播IP | Malaysia Kuala Lumpur Kuala Lumpur (Kaopu Cloud HK Limited)
 
 socks5://213.165.35.182:1111 [[机房]美国 德克萨斯州 达拉斯[Quintex Alliance Consulting]]
-  → ⚫ 风险93% | 机房IP ⚠️透明 | Sweden Stockholm Stockholm (QuxLabs AB)
-  → 出口IP: 45.84.107.172
+  → ⚫ 风险96% | 机房IP ⚠️透明 | Netherlands North Holland Amsterdam (TOR EXIT AND MORE)
+  → 出口IP: 192.42.116.177
 
 ## ❌ 失败代理列表
 
