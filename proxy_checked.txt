@@ -1,18 +1,18 @@
 # 代理质量检测报告
-# 检测时间: 2026-01-25 19:16:28
+# 检测时间: 2026-01-25 20:22:44
 # API: IPPure (https://my.ippure.com/v1/info)
 
 ## 📊 统计摘要
-# 总计: 30 | 成功: 26 | 失败: 4 | 成功率: 86.7%
+# 总计: 30 | 成功: 24 | 失败: 6 | 成功率: 80.0%
 
 ## 质量分布
-# 优秀: 5
-# 良好: 2
-# 中等: 14
-# 较差: 3
+# 优秀: 4
+# 良好: 3
+# 中等: 13
+# 较差: 2
 
 ## IP类型分布
-# 住宅IP: 5
+# 住宅IP: 3
 # 广播IP: 8
 # 机房IP: 13
 
@@ -31,9 +31,6 @@ socks5://157.20.182.49:1080 [[家宽]葡萄牙 里斯本区 里斯本[Servico de
   → 🌟 风险4% | 住宅IP ⚠️透明 | Portugal Lisbon Lisbon (Servico de Estrangei...)
   → 出口IP: 83.240.239.157
 
-socks5://77.82.233.136:1080 [[家宽]俄罗斯 堪察加半岛 堪察加的彼得巴甫洛夫斯克[Dynamic distribution IP's for broadband services]]
-  → 🌟 风险8% | 住宅IP | Russia Kamchatka Petropavlovsk-Kamchatsky (Dynamic distribution...)
-
 socks5://188.255.118.243:1080 [[家宽]荷兰 林堡省[HOSTOFF LIMITED]]
   → 🌟 风险9% | 广播IP ⚠️透明 | Netherlands Limburg Hopel (HOSTOFF infrastructu...)
   → 出口IP: 144.31.100.40
@@ -43,6 +40,9 @@ socks5://195.14.27.239:1080 [[机房]波兰 下西里西亚省[WZSERWIS]]
 
 socks5://209.126.81.231:1080 [[机房]美国 密苏里州 圣路易斯 — Contabo[Contabo Inc.]]
   → 🟢 风险29% | 机房IP | United States Missouri St. Louis (Contabo Inc.)
+
+socks5://45.43.91.145:4444 [[机房]荷兰 北荷兰省 阿姆斯特丹[FIRST SERVER LIMITED]]
+  → 🟢 风险29% | 广播IP | Netherlands North Holland Amsterdam (FIRST SERVER LIMITED)
 
 socks5://103.219.251.22:1080 [[机房]印度尼西亚 雅加达 雅加达[PT Ikubaru Indonesia]]
   → 🟡 风险32% | 机房IP | Indonesia Jakarta Jakarta (PT Ikubaru Indonesia)
@@ -78,9 +78,6 @@ socks5://185.51.76.159:1080 [[机房]丹麦 中日德兰大区[Network assigned 
 socks5://185.51.76.119:1080 [[机房]丹麦 中日德兰大区[Network assigned to SSDVPS Customers]]
   → 🟡 风险42% | 机房IP | Denmark Central Jutland Skive (Network assigned to ...)
 
-socks5://185.21.141.238:1080 [[机房]俄罗斯 莫斯科 莫斯科[Directive LLC]]
-  → 🟡 风险43% | 住宅IP | Russia Moscow Moscow (Directive LLC)
-
 socks5://37.49.228.70:1080 [[机房]荷兰 北荷兰省 阿姆斯特丹[ESTOXY OU]]
   → 🟡 风险43% | 机房IP | Netherlands North Holland Amsterdam (ESTOXY OU)
 
@@ -99,9 +96,6 @@ socks5://74.50.65.152:1080 [[机房]美国 纽约州 纽约[Host Department NJ, 
 socks5://145.255.239.78:1080 [[机房]俄罗斯 圣彼得堡 圣彼得堡[MEGABURGER network]]
   → 🔴 风险70% | 住宅IP | Russia St.-Petersburg Saint Petersburg (MEGABURGER network)
 
-socks5://181.215.45.229:1080 [[机房]巴西 圣保罗 圣保罗[IPXO]]
-  → 🔴 风险75% | 广播IP | Brazil São Paulo São Paulo (Private Customer)
-
 socks5://38.60.195.175:8888 [[机房]马来西亚 吉隆坡 吉隆坡[Kaopu Cloud HK Limited]]
   → 🔴 风险77% | 广播IP | Malaysia Kuala Lumpur Kuala Lumpur (Kaopu Cloud HK Limited)
 
@@ -116,5 +110,11 @@ socks5://18.205.59.71:1080 [[机房]美国 弗吉尼亚州 阿什本 — 亚马�
 socks5://18.223.254.30:1080 [[机房]美国 俄亥俄州 哥伦布 — 亚马逊云 Aws[Amazon Technologies Inc.]]
   → HTTP 403
 
+socks5://185.21.141.238:1080 [[机房]俄罗斯 莫斯科 莫斯科[Directive LLC]]
+  → 超时
+
 socks5://195.201.60.88:1080 [[机房]德国 萨克森州 法尔肯施泰因 — Hetzner[Hetzner Online GmbH]]
   → 错误: Unexpected SOCKS version number: 60
+
+socks5://77.82.233.136:1080 [[家宽]俄罗斯 堪察加半岛 堪察加的彼得巴甫洛夫斯克[Dynamic distribution IP's for broadband services]]
+  → 超时
