@@ -1,20 +1,20 @@
 # 代理质量检测报告
-# 检测时间: 2026-01-25 18:29:00
+# 检测时间: 2026-01-25 19:16:28
 # API: IPPure (https://my.ippure.com/v1/info)
 
 ## 📊 统计摘要
-# 总计: 30 | 成功: 21 | 失败: 9 | 成功率: 70.0%
+# 总计: 30 | 成功: 26 | 失败: 4 | 成功率: 86.7%
 
 ## 质量分布
-# 优秀: 4
-# 良好: 3
-# 中等: 11
-# 较差: 1
+# 优秀: 5
+# 良好: 2
+# 中等: 14
+# 较差: 3
 
 ## IP类型分布
-# 住宅IP: 3
-# 广播IP: 7
-# 机房IP: 11
+# 住宅IP: 5
+# 广播IP: 8
+# 机房IP: 13
 
 ============================================================
 
@@ -31,6 +31,9 @@ socks5://157.20.182.49:1080 [[家宽]葡萄牙 里斯本区 里斯本[Servico de
   → 🌟 风险4% | 住宅IP ⚠️透明 | Portugal Lisbon Lisbon (Servico de Estrangei...)
   → 出口IP: 83.240.239.157
 
+socks5://77.82.233.136:1080 [[家宽]俄罗斯 堪察加半岛 堪察加的彼得巴甫洛夫斯克[Dynamic distribution IP's for broadband services]]
+  → 🌟 风险8% | 住宅IP | Russia Kamchatka Petropavlovsk-Kamchatsky (Dynamic distribution...)
+
 socks5://188.255.118.243:1080 [[家宽]荷兰 林堡省[HOSTOFF LIMITED]]
   → 🌟 风险9% | 广播IP ⚠️透明 | Netherlands Limburg Hopel (HOSTOFF infrastructu...)
   → 出口IP: 144.31.100.40
@@ -38,14 +41,23 @@ socks5://188.255.118.243:1080 [[家宽]荷兰 林堡省[HOSTOFF LIMITED]]
 socks5://195.14.27.239:1080 [[机房]波兰 下西里西亚省[WZSERWIS]]
   → 🟢 风险26% | 机房IP | Poland Lower Silesia Lubin (Kamil Turon trading ...)
 
-socks5://103.82.246.131:1080 [[家宽]印度尼西亚 雅加达 雅加达[PT Aswatama Jaya Mandiri]]
-  → 🟢 风险28% | 机房IP | Indonesia Jakarta Jakarta (PT Aswatama Jaya Man...)
-
 socks5://209.126.81.231:1080 [[机房]美国 密苏里州 圣路易斯 — Contabo[Contabo Inc.]]
   → 🟢 风险29% | 机房IP | United States Missouri St. Louis (Contabo Inc.)
 
 socks5://103.219.251.22:1080 [[机房]印度尼西亚 雅加达 雅加达[PT Ikubaru Indonesia]]
   → 🟡 风险32% | 机房IP | Indonesia Jakarta Jakarta (PT Ikubaru Indonesia)
+
+socks5://104.243.134.218:54321 [[机房]美国 加州 洛杉矶[GCHAO LLC]]
+  → 🟡 风险32% | 机房IP ⚠️透明 | United States California Los Angeles (GCHAO LLC)
+  → 出口IP: 146.148.194.123
+
+socks5://104.243.134.220:54321 [[机房]美国 加州 洛杉矶[GCHAO LLC]]
+  → 🟡 风险32% | 机房IP ⚠️透明 | United States California Los Angeles (GCHAO LLC)
+  → 出口IP: 146.148.194.123
+
+socks5://104.243.134.221:54321 [[机房]美国 加州 洛杉矶[GCHAO LLC]]
+  → 🟡 风险32% | 机房IP ⚠️透明 | United States California Los Angeles (GCHAO LLC)
+  → 出口IP: 146.148.194.123
 
 socks5://223.240.177.2:1111 [[机房]中国 香港 香港 — 腾讯云[6 COLLYER QUAY]]
   → 🟡 风险34% | 广播IP ⚠️透明 | Hong Kong SAR China Hong Kong (6 COLLYER QUAY)
@@ -84,34 +96,25 @@ socks5://37.1.209.52:8080 [[机房]美国 伊利诺伊州 芝加哥[IROKO Networ
 socks5://74.50.65.152:1080 [[机房]美国 纽约州 纽约[Host Department NJ, LLC]]
   → 🟠 风险62% | 机房IP | United States New York New York City (Host Department NJ, LLC)
 
+socks5://145.255.239.78:1080 [[机房]俄罗斯 圣彼得堡 圣彼得堡[MEGABURGER network]]
+  → 🔴 风险70% | 住宅IP | Russia St.-Petersburg Saint Petersburg (MEGABURGER network)
+
+socks5://181.215.45.229:1080 [[机房]巴西 圣保罗 圣保罗[IPXO]]
+  → 🔴 风险75% | 广播IP | Brazil São Paulo São Paulo (Private Customer)
+
 socks5://38.60.195.175:8888 [[机房]马来西亚 吉隆坡 吉隆坡[Kaopu Cloud HK Limited]]
   → 🔴 风险77% | 广播IP | Malaysia Kuala Lumpur Kuala Lumpur (Kaopu Cloud HK Limited)
 
 ## ❌ 失败代理列表
 
-socks5://109.201.65.228:1080 [[家宽]俄罗斯 弗拉基米尔州 弗拉基米尔[CJSC COMSTAR-Regions]]
+socks5://103.82.246.131:1080 [[家宽]印度尼西亚 雅加达 雅加达[PT Aswatama Jaya Mandiri]]
   → 超时
-
-socks5://109.248.161.114:1080 [[机房]芬兰 新地区 赫尔辛基[CGI GLOBAL LIMITED]]
-  → 错误: [Errno 111] Couldn't connect to proxy 109.248.161.
-
-socks5://109.248.64.255:1080 [[机房]俄罗斯 特维尔州[LAN-Optic, Ltd]]
-  → 超时
-
-socks5://145.255.239.78:1080 [[机房]俄罗斯 圣彼得堡 圣彼得堡[MEGABURGER network]]
-  → 错误: [Errno 111] Couldn't connect to proxy 145.255.239.
 
 socks5://18.205.59.71:1080 [[机房]美国 弗吉尼亚州 阿什本 — 亚马逊云 Aws[Amazon Technologies Inc.]]
   → HTTP 403
 
-socks5://193.42.62.193:1080 [[机房]法国 大东部大区 斯特拉斯堡[Racknerd]]
-  → 超时
+socks5://18.223.254.30:1080 [[机房]美国 俄亥俄州 哥伦布 — 亚马逊云 Aws[Amazon Technologies Inc.]]
+  → HTTP 403
 
 socks5://195.201.60.88:1080 [[机房]德国 萨克森州 法尔肯施泰因 — Hetzner[Hetzner Online GmbH]]
-  → 超时
-
-socks5://37.20.184.56:1080 [[家宽]俄罗斯 伊尔库茨克州 伊爾庫茨克[JSC Rostelecom regional branch "Siberia"]]
-  → 超时
-
-socks5://77.82.233.136:1080 [[家宽]俄罗斯 堪察加半岛 堪察加的彼得巴甫洛夫斯克[Dynamic distribution IP's for broadband services]]
-  → 超时
+  → 错误: Unexpected SOCKS version number: 60
