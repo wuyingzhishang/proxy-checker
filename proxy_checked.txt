@@ -1,19 +1,19 @@
 # 代理质量检测报告
-# 检测时间: 2026-01-25 09:21:07
+# 检测时间: 2026-01-25 10:20:55
 # API: IPPure (https://my.ippure.com/v1/info)
 
 ## 📊 统计摘要
-# 总计: 30 | 成功: 23 | 失败: 7 | 成功率: 76.7%
+# 总计: 30 | 成功: 25 | 失败: 5 | 成功率: 83.3%
 
 ## 质量分布
-# 优秀: 4
+# 优秀: 5
 # 良好: 2
-# 中等: 13
+# 中等: 14
 # 较差: 2
 
 ## IP类型分布
-# 住宅IP: 6
-# 广播IP: 4
+# 住宅IP: 7
+# 广播IP: 5
 # 机房IP: 13
 
 ============================================================
@@ -29,6 +29,10 @@ socks5://125.27.149.145:9999 [[机房]泰国 班武里府[TOT Public Company Lim
 
 socks5://109.248.64.255:1080 [[机房]俄罗斯 特维尔州[LAN-Optic, Ltd]]
   → 🌟 风险4% | 住宅IP | Russia Tver Oblast Kimry (Lan-Optic Ltd)
+
+socks5://157.20.182.49:1080 [[家宽]葡萄牙 里斯本区 里斯本[Servico de Estrangeiros e Fronteiras]]
+  → 🌟 风险4% | 住宅IP ⚠️透明 | Portugal Lisbon Lisbon (Servico de Estrangei...)
+  → 出口IP: 83.240.239.157
 
 socks5://77.82.233.136:1080 [[家宽]俄罗斯 堪察加半岛 堪察加的彼得巴甫洛夫斯克[Dynamic distribution IP's for broadband services]]
   → 🌟 风险8% | 住宅IP | Russia Kamchatka Petropavlovsk-Kamchatsky (Dynamic distribution...)
@@ -82,6 +86,9 @@ socks5://37.49.228.70:1080 [[机房]荷兰 北荷兰省 阿姆斯特丹[ESTOXY O
 socks5://84.247.164.40:1080 [[机房]法国 大东部大区 — Contabo[Contabo GmbH]]
   → 🟡 风险43% | 广播IP | France Grand Est Lauterbourg (Contabo GmbH)
 
+socks5://195.248.243.67:1080 [[机房]德国 黑森州 法兰克福[BitCommand LLC]]
+  → 🟡 风险48% | 广播IP | Germany Hesse Frankfurt am Main (BitCommand LLC)
+
 socks5://37.1.209.52:8080 [[机房]美国 伊利诺伊州 芝加哥[IROKO Networks Corporation]]
   → 🟠 风险62% | 广播IP | United States Illinois Chicago (IROKO Networks Corpo...)
 
@@ -99,17 +106,11 @@ socks5://38.60.195.175:8888 [[机房]马来西亚 吉隆坡 吉隆坡[Kaopu Clou
 socks5://109.248.161.114:1080 [[机房]芬兰 新地区 赫尔辛基[CGI GLOBAL LIMITED]]
   → 错误: [Errno 111] Couldn't connect to proxy 109.248.161.
 
-socks5://157.20.182.49:1080 [[家宽]葡萄牙 里斯本区 里斯本[Servico de Estrangeiros e Fronteiras]]
-  → 错误: [Errno 111] Couldn't connect to proxy 157.20.182.4
-
 socks5://18.205.59.71:1080 [[机房]美国 弗吉尼亚州 阿什本 — 亚马逊云 Aws[Amazon Technologies Inc.]]
   → HTTP 403
 
 socks5://18.223.254.30:1080 [[机房]美国 俄亥俄州 哥伦布 — 亚马逊云 Aws[Amazon Technologies Inc.]]
   → HTTP 403
-
-socks5://181.215.45.229:1080 [[机房]巴西 圣保罗 圣保罗[IPXO]]
-  → 超时
 
 socks5://193.42.62.193:1080 [[机房]法国 大东部大区 斯特拉斯堡[Racknerd]]
   → 超时
