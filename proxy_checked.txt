@@ -1,20 +1,21 @@
 # 代理质量检测报告
-# 检测时间: 2026-01-25 21:18:46
+# 检测时间: 2026-01-25 22:19:46
 # API: IPPure (https://my.ippure.com/v1/info)
 
 ## 📊 统计摘要
 # 总计: 30 | 成功: 24 | 失败: 6 | 成功率: 80.0%
 
 ## 质量分布
-# 优秀: 4
-# 良好: 3
-# 中等: 13
+# 优秀: 5
+# 良好: 4
+# 中等: 10
 # 较差: 2
+# 极差: 1
 
 ## IP类型分布
-# 住宅IP: 3
-# 广播IP: 7
-# 机房IP: 14
+# 住宅IP: 4
+# 广播IP: 8
+# 机房IP: 12
 
 ============================================================
 
@@ -31,6 +32,9 @@ socks5://157.20.182.49:1080 [[家宽]葡萄牙 里斯本区 里斯本[Servico de
   → 🌟 风险4% | 住宅IP ⚠️透明 | Portugal Lisbon Lisbon (Servico de Estrangei...)
   → 出口IP: 83.240.239.157
 
+socks5://88.206.51.47:9999 [[机房]俄罗斯 车里雅宾斯克州 车里雅宾斯克[Intersvyaz-2 JSC]]
+  → 🌟 风险8% | 住宅IP | Russia Chelyabinsk Chelyabinsk (Intersvyaz-2 JSC)
+
 socks5://188.255.118.243:1080 [[家宽]荷兰 林堡省[HOSTOFF LIMITED]]
   → 🌟 风险9% | 广播IP ⚠️透明 | Netherlands Limburg Hopel (HOSTOFF infrastructu...)
   → 出口IP: 144.31.100.40
@@ -44,20 +48,11 @@ socks5://195.14.27.239:1080 [[机房]波兰 下西里西亚省[WZSERWIS]]
 socks5://209.126.81.231:1080 [[机房]美国 密苏里州 圣路易斯 — Contabo[Contabo Inc.]]
   → 🟢 风险29% | 机房IP | United States Missouri St. Louis (Contabo Inc.)
 
+socks5://45.43.91.145:4444 [[机房]荷兰 北荷兰省 阿姆斯特丹[FIRST SERVER LIMITED]]
+  → 🟢 风险29% | 广播IP | Netherlands North Holland Amsterdam (FIRST SERVER LIMITED)
+
 socks5://103.219.251.22:1080 [[机房]印度尼西亚 雅加达 雅加达[PT Ikubaru Indonesia]]
   → 🟡 风险32% | 机房IP | Indonesia Jakarta Jakarta (PT Ikubaru Indonesia)
-
-socks5://104.243.134.218:54321 [[机房]美国 加州 洛杉矶[GCHAO LLC]]
-  → 🟡 风险32% | 机房IP ⚠️透明 | United States California Los Angeles (GCHAO LLC)
-  → 出口IP: 146.148.194.123
-
-socks5://104.243.134.220:54321 [[机房]美国 加州 洛杉矶[GCHAO LLC]]
-  → 🟡 风险32% | 机房IP ⚠️透明 | United States California Los Angeles (GCHAO LLC)
-  → 出口IP: 146.148.194.123
-
-socks5://104.243.134.221:54321 [[机房]美国 加州 洛杉矶[GCHAO LLC]]
-  → 🟡 风险32% | 机房IP ⚠️透明 | United States California Los Angeles (GCHAO LLC)
-  → 出口IP: 146.148.194.123
 
 socks5://223.240.177.2:1111 [[机房]中国 香港 香港 — 腾讯云[6 COLLYER QUAY]]
   → 🟡 风险34% | 广播IP ⚠️透明 | Hong Kong SAR China Hong Kong (6 COLLYER QUAY)
@@ -99,7 +94,14 @@ socks5://145.255.239.78:1080 [[机房]俄罗斯 圣彼得堡 圣彼得堡[MEGABU
 socks5://38.60.195.175:8888 [[机房]马来西亚 吉隆坡 吉隆坡[Kaopu Cloud HK Limited]]
   → 🔴 风险77% | 广播IP | Malaysia Kuala Lumpur Kuala Lumpur (Kaopu Cloud HK Limited)
 
+socks5://213.165.35.182:1111 [[机房]美国 德克萨斯州 达拉斯[Quintex Alliance Consulting]]
+  → ⚫ 风险93% | 机房IP ⚠️透明 | Sweden Stockholm Stockholm (QuxLabs AB)
+  → 出口IP: 45.84.107.172
+
 ## ❌ 失败代理列表
+
+socks5://103.177.162.103:3128 [[机房]中国 香港 香港 — 腾讯云[6 COLLYER QUAY]]
+  → 超时
 
 socks5://103.82.246.131:1080 [[家宽]印度尼西亚 雅加达 雅加达[PT Aswatama Jaya Mandiri]]
   → 超时
@@ -112,9 +114,6 @@ socks5://185.21.141.238:1080 [[机房]俄罗斯 莫斯科 莫斯科[Directive LL
 
 socks5://195.201.60.88:1080 [[机房]德国 萨克森州 法尔肯施泰因 — Hetzner[Hetzner Online GmbH]]
   → 错误: Unexpected SOCKS version number: 60
-
-socks5://45.43.91.145:4444 [[机房]荷兰 北荷兰省 阿姆斯特丹[FIRST SERVER LIMITED]]
-  → 超时
 
 socks5://77.82.233.136:1080 [[家宽]俄罗斯 堪察加半岛 堪察加的彼得巴甫洛夫斯克[Dynamic distribution IP's for broadband services]]
   → 超时
