@@ -1,20 +1,20 @@
 # 代理质量检测报告
-# 检测时间: 2026-01-25 14:18:40
+# 检测时间: 2026-01-25 15:19:40
 # API: IPPure (https://my.ippure.com/v1/info)
 
 ## 📊 统计摘要
 # 总计: 30 | 成功: 24 | 失败: 6 | 成功率: 80.0%
 
 ## 质量分布
-# 优秀: 4
+# 优秀: 6
 # 良好: 3
-# 中等: 13
+# 中等: 11
 # 较差: 2
 
 ## IP类型分布
-# 住宅IP: 5
-# 广播IP: 5
-# 机房IP: 14
+# 住宅IP: 6
+# 广播IP: 6
+# 机房IP: 12
 
 ============================================================
 
@@ -31,8 +31,15 @@ socks5://157.20.182.49:1080 [[家宽]葡萄牙 里斯本区 里斯本[Servico de
   → 🌟 风险4% | 住宅IP ⚠️透明 | Portugal Lisbon Lisbon (Servico de Estrangei...)
   → 出口IP: 83.240.239.157
 
+socks5://37.20.184.56:1080 [[家宽]俄罗斯 伊尔库茨克州 伊爾庫茨克[JSC Rostelecom regional branch "Siberia"]]
+  → 🌟 风险8% | 住宅IP | Russia Irkutsk Oblast Irkutsk (JSC Rostelecom regio...)
+
 socks5://77.82.233.136:1080 [[家宽]俄罗斯 堪察加半岛 堪察加的彼得巴甫洛夫斯克[Dynamic distribution IP's for broadband services]]
   → 🌟 风险8% | 住宅IP | Russia Kamchatka Petropavlovsk-Kamchatsky (Dynamic distribution...)
+
+socks5://188.255.118.243:1080 [[家宽]荷兰 林堡省[HOSTOFF LIMITED]]
+  → 🌟 风险9% | 广播IP ⚠️透明 | Netherlands Limburg Hopel (HOSTOFF infrastructu...)
+  → 出口IP: 144.31.100.40
 
 socks5://195.14.27.239:1080 [[机房]波兰 下西里西亚省[WZSERWIS]]
   → 🟢 风险26% | 机房IP | Poland Lower Silesia Lubin (Kamil Turon trading ...)
@@ -47,14 +54,6 @@ socks5://103.219.251.22:1080 [[机房]印度尼西亚 雅加达 雅加达[PT Iku
   → 🟡 风险32% | 机房IP | Indonesia Jakarta Jakarta (PT Ikubaru Indonesia)
 
 socks5://104.243.134.218:54321 [[机房]美国 加州 洛杉矶[GCHAO LLC]]
-  → 🟡 风险32% | 机房IP ⚠️透明 | United States California Los Angeles (GCHAO LLC)
-  → 出口IP: 146.148.194.123
-
-socks5://104.243.134.220:54321 [[机房]美国 加州 洛杉矶[GCHAO LLC]]
-  → 🟡 风险32% | 机房IP ⚠️透明 | United States California Los Angeles (GCHAO LLC)
-  → 出口IP: 146.148.194.123
-
-socks5://104.243.134.221:54321 [[机房]美国 加州 洛杉矶[GCHAO LLC]]
   → 🟡 风险32% | 机房IP ⚠️透明 | United States California Los Angeles (GCHAO LLC)
   → 出口IP: 146.148.194.123
 
