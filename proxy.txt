@@ -1,5 +1,5 @@
 # 代理列表 - 自动更新
-# 更新时间: 2026-01-25 08:23:53
+# 更新时间: 2026-01-25 09:19:05
 # 总计: 30 个代理
 # 来源: https://tomcat1235.nyc.mn/proxy_list
 # 格式: 协议://IP:端口 [位置]
@@ -14,11 +14,10 @@ socks5://109.248.64.255:1080 [[机房]俄罗斯 特维尔州[LAN-Optic, Ltd]]
 socks5://125.27.149.145:9999 [[机房]泰国 班武里府[TOT Public Company Limited Bangkok]]
 socks5://145.255.239.78:1080 [[机房]俄罗斯 圣彼得堡 圣彼得堡[MEGABURGER network]]
 socks5://157.20.182.49:1080 [[家宽]葡萄牙 里斯本区 里斯本[Servico de Estrangeiros e Fronteiras]]
-socks5://176.108.254.49:1080 [[机房]瑞典 斯德哥尔摩省 斯德哥尔摩[Route64 Tunnelbroker Transport Networks Stockholm]]
+socks5://176.108.254.49:1080 [[家宽]瑞典 斯德哥尔摩省 斯德哥尔摩[Route64 Tunnelbroker Transport Networks Stockholm]]
 socks5://18.205.59.71:1080 [[机房]美国 弗吉尼亚州 阿什本 — 亚马逊云 Aws[Amazon Technologies Inc.]]
 socks5://18.223.254.30:1080 [[机房]美国 俄亥俄州 哥伦布 — 亚马逊云 Aws[Amazon Technologies Inc.]]
 socks5://181.215.45.229:1080 [[机房]巴西 圣保罗 圣保罗[IPXO]]
-socks5://185.185.51.104:60000 [[机房]西班牙 马德里自治区 马德里[VODAFONE ESPANA S.A.U.]]
 socks5://185.21.141.238:1080 [[机房]俄罗斯 莫斯科 莫斯科[Directive LLC]]
 socks5://185.51.76.119:1080 [[机房]丹麦 中日德兰大区[Network assigned to SSDVPS Customers]]
 socks5://185.51.76.159:1080 [[机房]丹麦 中日德兰大区[Network assigned to SSDVPS Customers]]
@@ -32,5 +31,6 @@ socks5://223.240.177.2:1111 [[机房]中国 香港 香港 — 腾讯云[6 COLLYE
 socks5://37.1.209.52:8080 [[机房]美国 伊利诺伊州 芝加哥[IROKO Networks Corporation]]
 socks5://37.49.228.70:1080 [[机房]荷兰 北荷兰省 阿姆斯特丹[ESTOXY OU]]
 socks5://38.60.195.175:8888 [[机房]马来西亚 吉隆坡 吉隆坡[Kaopu Cloud HK Limited]]
+socks5://74.50.65.152:1080 [[机房]美国 纽约州 纽约[Host Department NJ, LLC]]
 socks5://77.82.233.136:1080 [[家宽]俄罗斯 堪察加半岛 堪察加的彼得巴甫洛夫斯克[Dynamic distribution IP's for broadband services]]
 socks5://84.247.164.40:1080 [[机房]法国 大东部大区 — Contabo[Contabo GmbH]]
