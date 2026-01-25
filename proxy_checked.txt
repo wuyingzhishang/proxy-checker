@@ -1,5 +1,5 @@
 # 代理质量检测报告
-# 检测时间: 2026-01-25 20:22:44
+# 检测时间: 2026-01-25 21:18:46
 # API: IPPure (https://my.ippure.com/v1/info)
 
 ## 📊 统计摘要
@@ -13,8 +13,8 @@
 
 ## IP类型分布
 # 住宅IP: 3
-# 广播IP: 8
-# 机房IP: 13
+# 广播IP: 7
+# 机房IP: 14
 
 ============================================================
 
@@ -35,14 +35,14 @@ socks5://188.255.118.243:1080 [[家宽]荷兰 林堡省[HOSTOFF LIMITED]]
   → 🌟 风险9% | 广播IP ⚠️透明 | Netherlands Limburg Hopel (HOSTOFF infrastructu...)
   → 出口IP: 144.31.100.40
 
+socks5://176.124.208.46:8888 [[机房]俄罗斯 莫斯科 莫斯科[JSC "TIMEWEB"]]
+  → 🟢 风险21% | 机房IP | Russia Moscow Moscow (JSC TIMEWEB)
+
 socks5://195.14.27.239:1080 [[机房]波兰 下西里西亚省[WZSERWIS]]
   → 🟢 风险26% | 机房IP | Poland Lower Silesia Lubin (Kamil Turon trading ...)
 
 socks5://209.126.81.231:1080 [[机房]美国 密苏里州 圣路易斯 — Contabo[Contabo Inc.]]
   → 🟢 风险29% | 机房IP | United States Missouri St. Louis (Contabo Inc.)
-
-socks5://45.43.91.145:4444 [[机房]荷兰 北荷兰省 阿姆斯特丹[FIRST SERVER LIMITED]]
-  → 🟢 风险29% | 广播IP | Netherlands North Holland Amsterdam (FIRST SERVER LIMITED)
 
 socks5://103.219.251.22:1080 [[机房]印度尼西亚 雅加达 雅加达[PT Ikubaru Indonesia]]
   → 🟡 风险32% | 机房IP | Indonesia Jakarta Jakarta (PT Ikubaru Indonesia)
@@ -107,14 +107,14 @@ socks5://103.82.246.131:1080 [[家宽]印度尼西亚 雅加达 雅加达[PT Asw
 socks5://18.205.59.71:1080 [[机房]美国 弗吉尼亚州 阿什本 — 亚马逊云 Aws[Amazon Technologies Inc.]]
   → HTTP 403
 
-socks5://18.223.254.30:1080 [[机房]美国 俄亥俄州 哥伦布 — 亚马逊云 Aws[Amazon Technologies Inc.]]
-  → HTTP 403
-
 socks5://185.21.141.238:1080 [[机房]俄罗斯 莫斯科 莫斯科[Directive LLC]]
   → 超时
 
 socks5://195.201.60.88:1080 [[机房]德国 萨克森州 法尔肯施泰因 — Hetzner[Hetzner Online GmbH]]
   → 错误: Unexpected SOCKS version number: 60
+
+socks5://45.43.91.145:4444 [[机房]荷兰 北荷兰省 阿姆斯特丹[FIRST SERVER LIMITED]]
+  → 超时
 
 socks5://77.82.233.136:1080 [[家宽]俄罗斯 堪察加半岛 堪察加的彼得巴甫洛夫斯克[Dynamic distribution IP's for broadband services]]
   → 超时
