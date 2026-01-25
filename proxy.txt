@@ -1,5 +1,5 @@
 # 代理列表 - 自动更新
-# 更新时间: 2026-01-25 01:43:12
+# 更新时间: 2026-01-25 03:51:28
 # 总计: 30 个代理
 # 来源: https://tomcat1235.nyc.mn/proxy_list
 # 格式: 协议://IP:端口 [位置]
@@ -9,7 +9,6 @@ socks5://104.243.134.218:54321 [[机房]美国 加州 洛杉矶[GCHAO LLC]]
 socks5://104.243.134.220:54321 [[机房]美国 加州 洛杉矶[GCHAO LLC]]
 socks5://104.243.134.221:54321 [[机房]美国 加州 洛杉矶[GCHAO LLC]]
 socks5://107.161.90.121:1080 [[机房]美国 德克萨斯州 达拉斯[HostPapa]]
-socks5://107.172.72.247:1080 [[机房]美国 弗吉尼亚州 阿什本 — RackNerd[RackNerd LLC]]
 socks5://138.68.247.51:1080 [[机房]美国 加州 圣克拉拉 — DigitalOcean[DigitalOcean, LLC]]
 socks5://172.111.169.87:1080 [[机房]德国 黑森州 法兰克福[Internet Security - DE]]
 socks5://178.170.181.118:1080 [[机房]俄罗斯 罗斯托夫州 頓涅茨克[AirLink Ltd.]]
@@ -26,11 +25,12 @@ socks5://202.79.166.50:40000 [[家宽]丹麦 首都大区 腓特烈斯贝[TDC BB
 socks5://202.79.166.59:40000 [[家宽]丹麦 首都大区 腓特烈斯贝[TDC BB-ADSL users]]
 socks5://205.198.88.186:1080 [[机房]日本 东京 东京[Eons Data Communications Limited]]
 socks5://34.210.43.58:1080 [[机房]美国 俄勒冈州 波特兰 — 亚马逊云 Aws[Amazon Technologies Inc.]]
-socks5://37.49.228.70:1080 [[家宽]荷兰 北荷兰省 阿姆斯特丹[ESTOXY OU]]
+socks5://37.49.228.70:1080 [[机房]荷兰 北荷兰省 阿姆斯特丹[ESTOXY OU]]
 socks5://38.47.238.103:1080 [[机房]美国 明尼苏达州 明尼阿波利斯[Cogent Communications, LLC]]
 socks5://38.60.195.175:8888 [[机房]马来西亚 吉隆坡 吉隆坡[Kaopu Cloud HK Limited]]
 socks5://43.250.54.139:60000 [[家宽]英国 英格兰 谢菲尔德[BTBROADBAND-AGG-56]]
 socks5://45.88.89.65:6666 [[机房]荷兰 林堡省[Albanian Hosting SH.P.K.]]
 socks5://47.77.192.29:1080 [[机房]美国 加州 洛杉矶 — 阿里云[Alibaba Cloud LLC]]
+socks5://77.82.233.136:1080 [[家宽]俄罗斯 堪察加半岛 堪察加的彼得巴甫洛夫斯克[Dynamic distribution IP's for broadband services]]
 socks5://8.208.83.161:1080 [[机房]英国 英格兰 伦敦 — 阿里云[Aliyun Computing Co.LTD]]
 socks5://8.220.194.115:1080 [[机房]韩国 首尔特别市 首尔特别市 — 阿里云[Alibaba Cloud (Singapore) Private Limited]]
