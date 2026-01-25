@@ -1,18 +1,18 @@
 # 代理质量检测报告
-# 检测时间: 2026-01-25 11:17:27
+# 检测时间: 2026-01-25 12:39:12
 # API: IPPure (https://my.ippure.com/v1/info)
 
 ## 📊 统计摘要
-# 总计: 30 | 成功: 25 | 失败: 5 | 成功率: 83.3%
+# 总计: 30 | 成功: 22 | 失败: 8 | 成功率: 73.3%
 
 ## 质量分布
-# 优秀: 5
+# 优秀: 3
 # 良好: 2
-# 中等: 14
+# 中等: 13
 # 较差: 2
 
 ## IP类型分布
-# 住宅IP: 7
+# 住宅IP: 4
 # 广播IP: 5
 # 机房IP: 13
 
@@ -27,15 +27,9 @@ socks5://176.108.254.49:1080 [[家宽]瑞典 斯德哥尔摩省 斯德哥尔摩[
 socks5://125.27.149.145:9999 [[机房]泰国 班武里府[TOT Public Company Limited Bangkok]]
   → 🌟 风险1% | 住宅IP | Thailand Prachuap Khiri Khan Hua Hin (TOT Public Company L...)
 
-socks5://109.248.64.255:1080 [[机房]俄罗斯 特维尔州[LAN-Optic, Ltd]]
-  → 🌟 风险4% | 住宅IP | Russia Tver Oblast Kimry (Lan-Optic Ltd)
-
 socks5://157.20.182.49:1080 [[家宽]葡萄牙 里斯本区 里斯本[Servico de Estrangeiros e Fronteiras]]
   → 🌟 风险4% | 住宅IP ⚠️透明 | Portugal Lisbon Lisbon (Servico de Estrangei...)
   → 出口IP: 83.240.239.157
-
-socks5://77.82.233.136:1080 [[家宽]俄罗斯 堪察加半岛 堪察加的彼得巴甫洛夫斯克[Dynamic distribution IP's for broadband services]]
-  → 🌟 风险8% | 住宅IP | Russia Kamchatka Petropavlovsk-Kamchatsky (Dynamic distribution...)
 
 socks5://195.14.27.239:1080 [[机房]波兰 下西里西亚省[WZSERWIS]]
   → 🟢 风险26% | 机房IP | Poland Lower Silesia Lubin (Kamil Turon trading ...)
@@ -67,9 +61,6 @@ socks5://185.51.76.160:1080 [[机房]丹麦 中日德兰大区[Network assigned 
 
 socks5://209.126.0.235:1080 [[机房]美国 密苏里州 圣路易斯 — Contabo[Contabo Inc.]]
   → 🟡 风险36% | 机房IP | United States Missouri St. Louis (Contabo Inc.)
-
-socks5://109.201.65.228:1080 [[家宽]俄罗斯 弗拉基米尔州 弗拉基米尔[CJSC COMSTAR-Regions]]
-  → 🟡 风险41% | 住宅IP | Russia Vladimir Oblast Vladimir (CJSC ZHANR LIR Infra...)
 
 socks5://185.51.76.159:1080 [[机房]丹麦 中日德兰大区[Network assigned to SSDVPS Customers]]
   → 🟡 风险41% | 机房IP | Denmark Central Jutland Skive (Network assigned to ...)
@@ -103,8 +94,14 @@ socks5://38.60.195.175:8888 [[机房]马来西亚 吉隆坡 吉隆坡[Kaopu Clou
 
 ## ❌ 失败代理列表
 
+socks5://109.201.65.228:1080 [[家宽]俄罗斯 弗拉基米尔州 弗拉基米尔[CJSC COMSTAR-Regions]]
+  → 超时
+
 socks5://109.248.161.114:1080 [[机房]芬兰 新地区 赫尔辛基[CGI GLOBAL LIMITED]]
   → 错误: [Errno 111] Couldn't connect to proxy 109.248.161.
+
+socks5://109.248.64.255:1080 [[机房]俄罗斯 特维尔州[LAN-Optic, Ltd]]
+  → 超时
 
 socks5://18.205.59.71:1080 [[机房]美国 弗吉尼亚州 阿什本 — 亚马逊云 Aws[Amazon Technologies Inc.]]
   → HTTP 403
@@ -117,3 +114,6 @@ socks5://193.42.62.193:1080 [[机房]法国 大东部大区 斯特拉斯堡[Rack
 
 socks5://205.198.88.186:1080 [[机房]日本 东京 东京[Eons Data Communications Limited]]
   → 超时
+
+socks5://77.82.233.136:1080 [[家宽]俄罗斯 堪察加半岛 堪察加的彼得巴甫洛夫斯克[Dynamic distribution IP's for broadband services]]
+  → 连接错误: [Errno 1] [SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv
