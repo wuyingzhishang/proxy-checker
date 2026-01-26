@@ -1,5 +1,5 @@
 # 代理列表 - 自动更新
-# 更新时间: 2026-01-26 07:25:18
+# 更新时间: 2026-01-26 08:28:39
 # 总计: 30 个代理
 # 来源: https://tomcat1235.nyc.mn/proxy_list
 # 格式: 协议://IP:端口 [位置]
@@ -11,10 +11,10 @@ socks5://125.27.149.145:9999 [[机房]泰国 班武里府[TOT Public Company Lim
 socks5://145.255.239.78:1080 [[机房]俄罗斯 圣彼得堡 圣彼得堡[MEGABURGER network]]
 socks5://157.20.182.49:1080 [[家宽]葡萄牙 里斯本区 里斯本[Servico de Estrangeiros e Fronteiras]]
 socks5://160.30.55.108:1111 [[家宽]越南 河内 河内市[A2T TECHNOLOGY JOINT STOCK COMPANY]]
+socks5://173.242.53.143:1080 [[机房]乌克兰 基辅州 基辅[Hosting Ukraine LTD]]
 socks5://176.108.254.49:1080 [[家宽]瑞典 斯德哥尔摩省 斯德哥尔摩[Route64 Tunnelbroker Transport Networks Stockholm]]
 socks5://176.124.208.46:8888 [[机房]俄罗斯 莫斯科 莫斯科[JSC "TIMEWEB"]]
 socks5://18.205.59.71:1080 [[机房]美国 弗吉尼亚州 阿什本 — 亚马逊云 Aws[Amazon Technologies Inc.]]
-socks5://185.21.141.238:1080 [[机房]俄罗斯 莫斯科 莫斯科[Directive LLC]]
 socks5://185.217.197.215:54321 [[机房]芬兰 新地区 赫尔辛基[FIRST SERVER LIMITED]]
 socks5://188.255.118.243:1080 [[家宽]荷兰 林堡省[HOSTOFF LIMITED]]
 socks5://195.14.27.239:1080 [[机房]波兰 下西里西亚省[WZSERWIS]]
