@@ -1,25 +1,29 @@
 # 代理质量检测报告
-# 检测时间: 2026-01-26 17:29:54
+# 检测时间: 2026-01-26 18:33:54
 # API: IPPure (https://my.ippure.com/v1/info)
 
 ## 📊 统计摘要
 # 总计: 30 | 成功: 20 | 失败: 10 | 成功率: 66.7%
 
 ## 质量分布
-# 优秀: 3
-# 良好: 3
-# 中等: 9
-# 较差: 2
-# 极差: 1
+# 优秀: 4
+# 良好: 5
+# 中等: 6
+# 较差: 1
+# 极差: 2
 
 ## IP类型分布
-# 住宅IP: 4
+# 住宅IP: 3
 # 广播IP: 8
-# 机房IP: 8
+# 机房IP: 9
 
 ============================================================
 
 ## ✅ 可用代理列表 (按质量排序)
+
+socks5://103.197.188.63:1080 [[机房]印度尼西亚 西爪哇省 Depok — Cloudflare CDN 节点[Cloudflare, Inc.]]
+  → 🌟 风险0% | 机房IP ⚠️透明 | Indonesia West Java Depok (Cloudflare London, LLC)
+  → 出口IP: 2a09:bac5:3a05:18be::277:a0
 
 socks5://176.108.254.49:1080 [[家宽]瑞典 斯德哥尔摩省 斯德哥尔摩[Route64 Tunnelbroker Transport Networks Stockholm]]
   → 🌟 风险0% | 机房IP ⚠️透明 | Sweden Stockholm Stockholm (ROUTE64.ORG)
@@ -30,6 +34,12 @@ socks5://160.30.55.108:1111 [[家宽]越南 河内 河内市[A2T TECHNOLOGY JOIN
 
 socks5://88.206.51.47:9999 [[机房]俄罗斯 车里雅宾斯克州 车里雅宾斯克[Intersvyaz-2 JSC]]
   → 🌟 风险8% | 住宅IP | Russia Chelyabinsk Chelyabinsk (Intersvyaz-2 JSC)
+
+socks5://176.124.208.46:8888 [[机房]俄罗斯 莫斯科 莫斯科[JSC "TIMEWEB"]]
+  → 🟢 风险21% | 机房IP | Russia Moscow Moscow (JSC TIMEWEB)
+
+socks5://185.87.255.117:1080 [[家宽]英国 英格兰 伦敦[Fast Panda Limited]]
+  → 🟢 风险25% | 广播IP | United Kingdom England London (FAST PANDA LIMITED)
 
 socks5://101.50.116.66:1080 [[机房]巴基斯坦 旁遮普省 拉瓦尔品第[Naya Tel (Pvt.) Limited]]
   → 🟢 风险28% | 住宅IP | Pakistan Khyber Pakhtunkhwa Peshawar (Nayatel (Pvt) Ltd)
@@ -46,9 +56,6 @@ socks5://173.242.53.143:1080 [[机房]乌克兰 基辅州 基辅[Hosting Ukraine
 socks5://185.217.197.215:54321 [[机房]芬兰 新地区 赫尔辛基[FIRST SERVER LIMITED]]
   → 🟡 风险36% | 广播IP | Finland Uusimaa Helsinki (FIRST SERVER LIMITED)
 
-socks5://209.126.0.235:1080 [[机房]美国 密苏里州 圣路易斯 — Contabo[Contabo Inc.]]
-  → 🟡 风险36% | 机房IP | United States Missouri St. Louis (Contabo Inc.)
-
 socks5://45.76.36.215:6666 [[机房]荷兰 北荷兰省 哈勒姆 — Vultr[Vultr Holdings, LLC]]
   → 🟡 风险36% | 广播IP | Netherlands North Holland Haarlem (Vultr Holdings, LLC)
 
@@ -61,29 +68,22 @@ socks5://82.146.41.195:1080 [[机房]俄罗斯 莫斯科 莫斯科[JSC Datacente
 socks5://79.132.138.163:1080 [[机房]德国 黑森州 法兰克福[www.fornex.com, Fornex Hosting S.L.]]
   → 🟡 风险45% | 广播IP | Germany Hesse Frankfurt am Main (www.fornex.com, Forn...)
 
-socks5://103.197.188.63:1080 [[机房]印度尼西亚 西爪哇省 Depok — Cloudflare CDN 节点[Cloudflare, Inc.]]
-  → 🟡 风险46% | 广播IP ⚠️透明 | Indonesia West Java Depok (Cloudflare, Inc.)
-  → 出口IP: 104.28.204.78
-
-socks5://69.5.189.16:1080 [[家宽]沙特阿拉伯 麦加省 吉达[cdnw reassigned]]
-  → 🟡 风险48% | 广播IP ⚠️透明 | Brazil São Paulo Santana de Parnaíba (G-Core Labs Customer...)
-  → 出口IP: 5.188.4.103
-
 socks5://87.121.218.218:1080 [[家宽]德国 黑森州 法兰克福[Xorek.Cloud Frankfurt]]
   → 🟠 风险54% | 广播IP | Germany Hesse Frankfurt am Main (Frankfurt, Germany)
 
 socks5://74.50.65.152:1080 [[机房]美国 纽约州 纽约[Host Department NJ, LLC]]
   → 🟠 风险62% | 机房IP | United States New York New York City (Host Department NJ, LLC)
 
-socks5://145.255.239.78:1080 [[机房]俄罗斯 圣彼得堡 圣彼得堡[MEGABURGER network]]
-  → 🔴 风险70% | 住宅IP | Russia St.-Petersburg Saint Petersburg (MEGABURGER network)
-
 socks5://69.5.189.188:1080 [[机房]瑞士 苏黎世 苏黎世[Global-Data System IT Corporation]]
   → 🔴 风险79% | 机房IP | Switzerland Zurich Zürich (Global-Data System I...)
 
 socks5://213.165.35.182:1111 [[机房]美国 德克萨斯州 达拉斯[Quintex Alliance Consulting]]
-  → ⚫ 风险94% | 机房IP ⚠️透明 | Germany State of Berlin Berlin (Artikel10 e.V.)
-  → 出口IP: 185.220.101.31
+  → ⚫ 风险94% | 广播IP ⚠️透明 | Netherlands North Holland Amsterdam (Hollander & Jacobsen...)
+  → 出口IP: 188.239.191.25
+
+socks5://69.5.189.16:1080 [[家宽]沙特阿拉伯 麦加省 吉达[cdnw reassigned]]
+  → ⚫ 风险100% | 机房IP ⚠️透明 | Netherlands Flevoland Lelystad (Greenhost BV)
+  → 出口IP: 193.29.139.175
 
 ## ❌ 失败代理列表
 
@@ -96,10 +96,10 @@ socks5://103.82.246.131:1080 [[家宽]印度尼西亚 雅加达 雅加达[PT Asw
 socks5://118.107.78.82:1080 [[机房]澳大利亚 新南威尔士州 悉尼 — OVH[OVH Australia PTY LTD]]
   → 错误: [Errno 111] Couldn't connect to proxy 118.107.78.8
 
-socks5://158.69.212.162:1080 [[机房]加拿大 魁北克省 博阿努瓦 — OVH[OVH Hosting, Inc.]]
-  → HTTP 403
+socks5://145.255.239.78:1080 [[机房]俄罗斯 圣彼得堡 圣彼得堡[MEGABURGER network]]
+  → 错误: [Errno 111] Couldn't connect to proxy 145.255.239.
 
-socks5://176.124.208.46:8888 [[机房]俄罗斯 莫斯科 莫斯科[JSC "TIMEWEB"]]
+socks5://158.69.212.162:1080 [[机房]加拿大 魁北克省 博阿努瓦 — OVH[OVH Hosting, Inc.]]
   → 超时
 
 socks5://185.236.66.125:1080 [[机房]俄罗斯 沃洛格达州 沃洛格达[BAZA.NET LLC]]
