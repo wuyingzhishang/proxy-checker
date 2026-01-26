@@ -1,5 +1,5 @@
 # 代理列表 - 自动更新
-# 更新时间: 2026-01-26 05:30:55
+# 更新时间: 2026-01-26 06:32:53
 # 总计: 30 个代理
 # 来源: https://tomcat1235.nyc.mn/proxy_list
 # 格式: 协议://IP:端口 [位置]
@@ -27,10 +27,10 @@ socks5://213.165.35.182:1111 [[机房]美国 德克萨斯州 达拉斯[Quintex A
 socks5://223.240.177.2:1111 [[机房]中国 香港 香港 — 腾讯云[6 COLLYER QUAY]]
 socks5://37.1.209.52:8080 [[机房]美国 伊利诺伊州 芝加哥[IROKO Networks Corporation]]
 socks5://37.49.228.70:1080 [[机房]荷兰 北荷兰省 阿姆斯特丹[ESTOXY OU]]
-socks5://38.60.195.175:8888 [[机房]马来西亚 吉隆坡 吉隆坡[Kaopu Cloud HK Limited]]
 socks5://45.43.91.145:4444 [[机房]荷兰 北荷兰省 阿姆斯特丹[FIRST SERVER LIMITED]]
 socks5://64.20.45.62:1080 [[机房]美国 纽约州 纽约[Interserver, Inc]]
 socks5://74.50.65.152:1080 [[机房]美国 纽约州 纽约[Host Department NJ, LLC]]
 socks5://77.82.233.136:1080 [[家宽]俄罗斯 堪察加半岛 堪察加的彼得巴甫洛夫斯克[Dynamic distribution IP's for broadband services]]
+socks5://79.132.138.163:1080 [[机房]德国 黑森州 法兰克福[www.fornex.com, Fornex Hosting S.L.]]
 socks5://84.247.164.40:1080 [[机房]法国 大东部大区 — Contabo[Contabo GmbH]]
 socks5://88.206.51.47:9999 [[机房]俄罗斯 车里雅宾斯克州 车里雅宾斯克[Intersvyaz-2 JSC]]
