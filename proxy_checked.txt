@@ -1,21 +1,21 @@
 # 代理质量检测报告
-# 检测时间: 2026-01-26 10:26:04
+# 检测时间: 2026-01-26 11:21:16
 # API: IPPure (https://my.ippure.com/v1/info)
 
 ## 📊 统计摘要
-# 总计: 30 | 成功: 23 | 失败: 7 | 成功率: 76.7%
+# 总计: 30 | 成功: 20 | 失败: 10 | 成功率: 66.7%
 
 ## 质量分布
 # 优秀: 5
-# 良好: 3
-# 中等: 11
+# 良好: 4
+# 中等: 9
 # 较差: 1
 # 极差: 1
 
 ## IP类型分布
-# 住宅IP: 4
-# 广播IP: 8
-# 机房IP: 11
+# 住宅IP: 3
+# 广播IP: 9
+# 机房IP: 8
 
 ============================================================
 
@@ -41,14 +41,14 @@ socks5://188.255.118.243:1080 [[家宽]荷兰 林堡省[HOSTOFF LIMITED]]
 socks5://176.124.208.46:8888 [[机房]俄罗斯 莫斯科 莫斯科[JSC "TIMEWEB"]]
   → 🟢 风险21% | 机房IP | Russia Moscow Moscow (JSC TIMEWEB)
 
+socks5://5.161.97.53:1080 [[机房]美国 弗吉尼亚州 阿什本 — Hetzner[Hetzner Online GmbH]]
+  → 🟢 风险28% | 广播IP | United States Virginia Ashburn (Hetzner Online GmbH)
+
 socks5://209.126.81.231:1080 [[机房]美国 密苏里州 圣路易斯 — Contabo[Contabo Inc.]]
   → 🟢 风险29% | 机房IP | United States Missouri St. Louis (Contabo Inc.)
 
 socks5://45.43.91.145:4444 [[机房]荷兰 北荷兰省 阿姆斯特丹[FIRST SERVER LIMITED]]
   → 🟢 风险29% | 广播IP | Netherlands North Holland Amsterdam (FIRST SERVER LIMITED)
-
-socks5://103.219.251.22:1080 [[机房]印度尼西亚 雅加达 雅加达[PT Ikubaru Indonesia]]
-  → 🟡 风险32% | 机房IP | Indonesia Jakarta Jakarta (PT Ikubaru Indonesia)
 
 socks5://173.242.53.143:1080 [[机房]乌克兰 基辅州 基辅[Hosting Ukraine LTD]]
   → 🟡 风险32% | 机房IP | Ukraine Kyiv City Kyiv (Hosting Ukraine LTD)
@@ -75,24 +75,15 @@ socks5://37.49.228.70:1080 [[机房]荷兰 北荷兰省 阿姆斯特丹[ESTOXY O
 socks5://84.247.164.40:1080 [[机房]法国 大东部大区 — Contabo[Contabo GmbH]]
   → 🟡 风险43% | 广播IP | France Grand Est Lauterbourg (Contabo GmbH)
 
-socks5://79.132.138.163:1080 [[机房]德国 黑森州 法兰克福[www.fornex.com, Fornex Hosting S.L.]]
-  → 🟡 风险45% | 广播IP | Germany Hesse Frankfurt am Main (www.fornex.com, Forn...)
-
 socks5://195.248.243.67:1080 [[机房]德国 黑森州 法兰克福[BitCommand LLC]]
   → 🟡 风险48% | 广播IP | Germany Hesse Frankfurt am Main (BitCommand LLC)
 
 socks5://37.1.209.52:8080 [[机房]美国 伊利诺伊州 芝加哥[IROKO Networks Corporation]]
   → 🟠 风险62% | 广播IP | United States Illinois Chicago (IROKO Networks Corpo...)
 
-socks5://74.50.65.152:1080 [[机房]美国 纽约州 纽约[Host Department NJ, LLC]]
-  → 🟠 风险62% | 机房IP | United States New York New York City (Host Department NJ, LLC)
-
-socks5://145.255.239.78:1080 [[机房]俄罗斯 圣彼得堡 圣彼得堡[MEGABURGER network]]
-  → 🔴 风险70% | 住宅IP | Russia St.-Petersburg Saint Petersburg (MEGABURGER network)
-
 socks5://213.165.35.182:1111 [[机房]美国 德克萨斯州 达拉斯[Quintex Alliance Consulting]]
-  → ⚫ 风险99% | 机房IP ⚠️透明 | Germany State of Berlin Berlin (Digitalcourage e.V.)
-  → 出口IP: 185.220.101.109
+  → ⚫ 风险99% | 广播IP ⚠️透明 | United States New York New York City (1337 Services GmbH)
+  → 出口IP: 124.198.131.108
 
 ## ❌ 失败代理列表
 
@@ -102,17 +93,26 @@ socks5://103.177.162.103:3128 [[机房]中国 香港 香港 — 腾讯云[6 COLL
 socks5://103.82.246.131:1080 [[家宽]印度尼西亚 雅加达 雅加达[PT Aswatama Jaya Mandiri]]
   → 超时
 
+socks5://145.255.239.78:1080 [[机房]俄罗斯 圣彼得堡 圣彼得堡[MEGABURGER network]]
+  → 错误: [Errno 111] Couldn't connect to proxy 145.255.239.
+
 socks5://157.20.182.49:1080 [[家宽]葡萄牙 里斯本区 里斯本[Servico de Estrangeiros e Fronteiras]]
   → 错误: [Errno 111] Couldn't connect to proxy 157.20.182.4
 
 socks5://158.69.212.162:1080 [[机房]加拿大 魁北克省 博阿努瓦 — OVH[OVH Hosting, Inc.]]
-  → HTTP 403
+  → 超时
 
 socks5://18.205.59.71:1080 [[机房]美国 弗吉尼亚州 阿什本 — 亚马逊云 Aws[Amazon Technologies Inc.]]
   → HTTP 403
 
 socks5://195.201.60.88:1080 [[机房]德国 萨克森州 法尔肯施泰因 — Hetzner[Hetzner Online GmbH]]
+  → 错误: Unexpected SOCKS version number: 60
+
+socks5://74.50.65.152:1080 [[机房]美国 纽约州 纽约[Host Department NJ, LLC]]
   → 超时
 
 socks5://77.82.233.136:1080 [[家宽]俄罗斯 堪察加半岛 堪察加的彼得巴甫洛夫斯克[Dynamic distribution IP's for broadband services]]
+  → 超时
+
+socks5://79.132.138.163:1080 [[机房]德国 黑森州 法兰克福[www.fornex.com, Fornex Hosting S.L.]]
   → 超时
