@@ -1,20 +1,20 @@
 # 代理质量检测报告
-# 检测时间: 2026-01-26 19:23:30
+# 检测时间: 2026-01-26 20:26:15
 # API: IPPure (https://my.ippure.com/v1/info)
 
 ## 📊 统计摘要
-# 总计: 30 | 成功: 23 | 失败: 7 | 成功率: 76.7%
+# 总计: 30 | 成功: 21 | 失败: 9 | 成功率: 70.0%
 
 ## 质量分布
-# 优秀: 4
-# 良好: 5
+# 优秀: 3
+# 良好: 4
 # 中等: 10
 # 较差: 1
 # 极差: 1
 
 ## IP类型分布
 # 住宅IP: 4
-# 广播IP: 10
+# 广播IP: 8
 # 机房IP: 9
 
 ============================================================
@@ -31,11 +31,9 @@ socks5://125.27.149.145:9999 [[机房]泰国 班武里府[TOT Public Company Lim
 socks5://160.30.55.108:1111 [[家宽]越南 河内 河内市[A2T TECHNOLOGY JOINT STOCK COMPANY]]
   → 🌟 风险5% | 住宅IP | Vietnam Hanoi Hanoi (A2T TECHNOLOGY JOINT...)
 
-socks5://88.206.51.47:9999 [[机房]俄罗斯 车里雅宾斯克州 车里雅宾斯克[Intersvyaz-2 JSC]]
-  → 🌟 风险8% | 住宅IP | Russia Chelyabinsk Chelyabinsk (Intersvyaz-2 JSC)
-
-socks5://185.87.255.117:1080 [[家宽]英国 英格兰 伦敦[Fast Panda Limited]]
-  → 🟢 风险25% | 广播IP | United Kingdom England London (FAST PANDA LIMITED)
+socks5://69.5.189.16:1080 [[家宽]沙特阿拉伯 麦加省 吉达[cdnw reassigned]]
+  → 🟢 风险16% | 广播IP ⚠️透明 | Brazil São Paulo São Paulo (Private Customer)
+  → 出口IP: 157.185.173.60
 
 socks5://101.50.116.66:1080 [[机房]巴基斯坦 旁遮普省 拉瓦尔品第[Naya Tel (Pvt.) Limited]]
   → 🟢 风险28% | 住宅IP | Pakistan Khyber Pakhtunkhwa Peshawar (Nayatel (Pvt) Ltd)
@@ -45,9 +43,6 @@ socks5://5.161.97.53:1080 [[机房]美国 弗吉尼亚州 阿什本 — Hetzner[
 
 socks5://209.126.81.231:1080 [[机房]美国 密苏里州 圣路易斯 — Contabo[Contabo Inc.]]
   → 🟢 风险29% | 机房IP | United States Missouri St. Louis (Contabo Inc.)
-
-socks5://45.43.91.145:4444 [[机房]荷兰 北荷兰省 阿姆斯特丹[FIRST SERVER LIMITED]]
-  → 🟢 风险29% | 广播IP | Netherlands North Holland Amsterdam (FIRST SERVER LIMITED)
 
 socks5://173.242.53.143:1080 [[机房]乌克兰 基辅州 基辅[Hosting Ukraine LTD]]
   → 🟡 风险32% | 机房IP | Ukraine Kyiv City Kyiv (Hosting Ukraine LTD)
@@ -80,18 +75,18 @@ socks5://84.247.164.40:1080 [[机房]法国 大东部大区 — Contabo[Contabo 
 socks5://79.132.138.163:1080 [[机房]德国 黑森州 法兰克福[www.fornex.com, Fornex Hosting S.L.]]
   → 🟡 风险45% | 广播IP | Germany Hesse Frankfurt am Main (www.fornex.com, Forn...)
 
-socks5://87.121.218.218:1080 [[家宽]德国 黑森州 法兰克福[Xorek.Cloud Frankfurt]]
-  → 🟠 风险54% | 广播IP | Germany Hesse Frankfurt am Main (Frankfurt, Germany)
-
 socks5://37.1.209.52:8080 [[机房]美国 伊利诺伊州 芝加哥[IROKO Networks Corporation]]
   → 🟠 风险62% | 广播IP | United States Illinois Chicago (IROKO Networks Corpo...)
+
+socks5://74.50.65.152:1080 [[机房]美国 纽约州 纽约[Host Department NJ, LLC]]
+  → 🟠 风险62% | 机房IP | United States New York New York City (Host Department NJ, LLC)
 
 socks5://69.5.189.188:1080 [[机房]瑞士 苏黎世 苏黎世[Global-Data System IT Corporation]]
   → 🔴 风险79% | 机房IP | Switzerland Zurich Zürich (Global-Data System I...)
 
 socks5://213.165.35.182:1111 [[机房]美国 德克萨斯州 达拉斯[Quintex Alliance Consulting]]
-  → ⚫ 风险94% | 机房IP ⚠️透明 | Austria Vienna Vienna (Foundation for Appli...)
-  → 出口IP: 109.70.100.11
+  → ⚫ 风险94% | 住宅IP ⚠️透明 | France Île-de-France Nanterre (MOJI SAS)
+  → 出口IP: 203.55.81.1
 
 ## ❌ 失败代理列表
 
@@ -107,11 +102,17 @@ socks5://158.69.212.162:1080 [[机房]加拿大 魁北克省 博阿努瓦 — OV
 socks5://176.124.208.46:8888 [[机房]俄罗斯 莫斯科 莫斯科[JSC "TIMEWEB"]]
   → 超时
 
+socks5://185.87.255.117:1080 [[家宽]英国 英格兰 伦敦[Fast Panda Limited]]
+  → 错误: [Errno 111] Couldn't connect to proxy 185.87.255.1
+
 socks5://195.201.60.88:1080 [[机房]德国 萨克森州 法尔肯施泰因 — Hetzner[Hetzner Online GmbH]]
   → 错误: Unexpected SOCKS version number: 60
 
-socks5://69.5.189.16:1080 [[家宽]沙特阿拉伯 麦加省 吉达[cdnw reassigned]]
-  → HTTP 403
+socks5://45.43.91.145:4444 [[机房]荷兰 北荷兰省 阿姆斯特丹[FIRST SERVER LIMITED]]
+  → 超时
 
-socks5://74.50.65.152:1080 [[机房]美国 纽约州 纽约[Host Department NJ, LLC]]
+socks5://87.121.218.218:1080 [[家宽]德国 黑森州 法兰克福[Xorek.Cloud Frankfurt]]
+  → 超时
+
+socks5://88.206.51.47:9999 [[机房]俄罗斯 车里雅宾斯克州 车里雅宾斯克[Intersvyaz-2 JSC]]
   → 超时
