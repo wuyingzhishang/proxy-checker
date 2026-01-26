@@ -1,21 +1,20 @@
 # 代理质量检测报告
-# 检测时间: 2026-01-25 23:20:13
+# 检测时间: 2026-01-26 01:45:19
 # API: IPPure (https://my.ippure.com/v1/info)
 
 ## 📊 统计摘要
-# 总计: 30 | 成功: 24 | 失败: 6 | 成功率: 80.0%
+# 总计: 30 | 成功: 22 | 失败: 8 | 成功率: 73.3%
 
 ## 质量分布
-# 优秀: 5
+# 优秀: 4
 # 良好: 4
 # 中等: 10
 # 较差: 2
-# 极差: 1
 
 ## IP类型分布
-# 住宅IP: 4
+# 住宅IP: 3
 # 广播IP: 8
-# 机房IP: 12
+# 机房IP: 11
 
 ============================================================
 
@@ -31,9 +30,6 @@ socks5://125.27.149.145:9999 [[机房]泰国 班武里府[TOT Public Company Lim
 socks5://157.20.182.49:1080 [[家宽]葡萄牙 里斯本区 里斯本[Servico de Estrangeiros e Fronteiras]]
   → 🌟 风险4% | 住宅IP ⚠️透明 | Portugal Lisbon Lisbon (Servico de Estrangei...)
   → 出口IP: 83.240.239.157
-
-socks5://88.206.51.47:9999 [[机房]俄罗斯 车里雅宾斯克州 车里雅宾斯克[Intersvyaz-2 JSC]]
-  → 🌟 风险8% | 住宅IP | Russia Chelyabinsk Chelyabinsk (Intersvyaz-2 JSC)
 
 socks5://188.255.118.243:1080 [[家宽]荷兰 林堡省[HOSTOFF LIMITED]]
   → 🌟 风险9% | 广播IP ⚠️透明 | Netherlands Limburg Hopel (HOSTOFF infrastructu...)
@@ -94,10 +90,6 @@ socks5://145.255.239.78:1080 [[机房]俄罗斯 圣彼得堡 圣彼得堡[MEGABU
 socks5://38.60.195.175:8888 [[机房]马来西亚 吉隆坡 吉隆坡[Kaopu Cloud HK Limited]]
   → 🔴 风险77% | 广播IP | Malaysia Kuala Lumpur Kuala Lumpur (Kaopu Cloud HK Limited)
 
-socks5://213.165.35.182:1111 [[机房]美国 德克萨斯州 达拉斯[Quintex Alliance Consulting]]
-  → ⚫ 风险96% | 机房IP ⚠️透明 | Netherlands North Holland Amsterdam (TOR EXIT AND MORE)
-  → 出口IP: 192.42.116.177
-
 ## ❌ 失败代理列表
 
 socks5://103.177.162.103:3128 [[机房]中国 香港 香港 — 腾讯云[6 COLLYER QUAY]]
@@ -115,5 +107,11 @@ socks5://185.21.141.238:1080 [[机房]俄罗斯 莫斯科 莫斯科[Directive LL
 socks5://195.201.60.88:1080 [[机房]德国 萨克森州 法尔肯施泰因 — Hetzner[Hetzner Online GmbH]]
   → 错误: Unexpected SOCKS version number: 60
 
+socks5://213.165.35.182:1111 [[机房]美国 德克萨斯州 达拉斯[Quintex Alliance Consulting]]
+  → 超时
+
 socks5://77.82.233.136:1080 [[家宽]俄罗斯 堪察加半岛 堪察加的彼得巴甫洛夫斯克[Dynamic distribution IP's for broadband services]]
+  → 超时
+
+socks5://88.206.51.47:9999 [[机房]俄罗斯 车里雅宾斯克州 车里雅宾斯克[Intersvyaz-2 JSC]]
   → 超时
