@@ -1,5 +1,5 @@
 # 代理列表 - 自动更新
-# 更新时间: 2026-01-26 15:26:16
+# 更新时间: 2026-01-26 16:30:07
 # 总计: 30 个代理
 # 来源: https://tomcat1235.nyc.mn/proxy_list
 # 格式: 协议://IP:端口 [位置]
@@ -10,7 +10,6 @@ socks5://103.197.188.63:1080 [[机房]印度尼西亚 西爪哇省 Depok — Clo
 socks5://103.82.246.131:1080 [[家宽]印度尼西亚 雅加达 雅加达[PT Aswatama Jaya Mandiri]]
 socks5://118.107.78.82:1080 [[机房]澳大利亚 新南威尔士州 悉尼 — OVH[OVH Australia PTY LTD]]
 socks5://145.255.239.78:1080 [[机房]俄罗斯 圣彼得堡 圣彼得堡[MEGABURGER network]]
-socks5://157.20.182.49:1080 [[家宽]葡萄牙 里斯本区 里斯本[Servico de Estrangeiros e Fronteiras]]
 socks5://158.69.212.162:1080 [[机房]加拿大 魁北克省 博阿努瓦 — OVH[OVH Hosting, Inc.]]
 socks5://160.30.55.108:1111 [[家宽]越南 河内 河内市[A2T TECHNOLOGY JOINT STOCK COMPANY]]
 socks5://173.242.53.143:1080 [[机房]乌克兰 基辅州 基辅[Hosting Ukraine LTD]]
@@ -33,4 +32,5 @@ socks5://5.161.97.53:1080 [[机房]美国 弗吉尼亚州 阿什本 — Hetzner[
 socks5://64.20.45.62:1080 [[机房]美国 纽约州 纽约[Interserver, Inc]]
 socks5://74.50.65.152:1080 [[机房]美国 纽约州 纽约[Host Department NJ, LLC]]
 socks5://79.132.138.163:1080 [[机房]德国 黑森州 法兰克福[www.fornex.com, Fornex Hosting S.L.]]
+socks5://82.146.41.195:1080 [[机房]俄罗斯 莫斯科 莫斯科[JSC Datacenter]]
 socks5://88.206.51.47:9999 [[机房]俄罗斯 车里雅宾斯克州 车里雅宾斯克[Intersvyaz-2 JSC]]
