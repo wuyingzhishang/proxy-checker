@@ -1,21 +1,21 @@
 # 代理质量检测报告
-# 检测时间: 2026-01-27 04:46:30
+# 检测时间: 2026-01-27 05:27:21
 # API: IPPure (https://my.ippure.com/v1/info)
 
 ## 📊 统计摘要
-# 总计: 30 | 成功: 22 | 失败: 8 | 成功率: 73.3%
+# 总计: 30 | 成功: 19 | 失败: 11 | 成功率: 63.3%
 
 ## 质量分布
 # 优秀: 3
 # 良好: 4
 # 中等: 8
-# 较差: 4
+# 较差: 2
 # 极差: 1
 
 ## IP类型分布
 # 住宅IP: 4
-# 广播IP: 10
-# 机房IP: 8
+# 广播IP: 8
+# 机房IP: 7
 
 ============================================================
 
@@ -64,33 +64,24 @@ socks5://64.20.45.62:1080 [[机房]美国 纽约州 纽约[Interserver, Inc]]
 socks5://82.146.41.195:1080 [[机房]俄罗斯 莫斯科 莫斯科[JSC Datacenter]]
   → 🟡 风险41% | 机房IP | Russia Moscow Moscow (JSC Datacenter)
 
-socks5://79.132.138.163:1080 [[机房]德国 黑森州 法兰克福[www.fornex.com, Fornex Hosting S.L.]]
-  → 🟡 风险45% | 广播IP | Germany Hesse Frankfurt am Main (www.fornex.com, Forn...)
+socks5://125.107.122.36:1080 [[机房]中国 香港 香港[Akari Networks]]
+  → 🟡 风险44% | 机房IP ⚠️透明 | Hong Kong SAR China Hong Kong (Mazen Ind Ltd)
+  → 出口IP: 202.85.53.106
 
 socks5://14.155.223.88:1080 [[机房]美国 加州 洛杉矶 — 搬瓦工[IT7 Networks Inc]]
   → 🟠 风险52% | 广播IP ⚠️透明 | United States California Los Angeles (Cluster Logic Inc)
   → 出口IP: 198.181.41.42
 
-socks5://87.121.218.218:1080 [[家宽]德国 黑森州 法兰克福[Xorek.Cloud Frankfurt]]
-  → 🟠 风险54% | 广播IP | Germany Hesse Frankfurt am Main (Frankfurt, Germany)
-
-socks5://165.22.110.253:1080 [[机房]新加坡 新加坡 新加坡 — DigitalOcean[DigitalOcean, LLC]]
-  → 🔴 风险73% | 广播IP | Singapore Singapore (DigitalOcean, LLC)
-
-socks5://125.107.122.36:1080 [[机房]中国 香港 香港[Akari Networks]]
-  → 🔴 风险76% | 机房IP ⚠️透明 | Hong Kong SAR China Hong Kong (Akari Networks)
-  → 出口IP: 103.135.102.191
+socks5://69.5.189.16:1080 [[家宽]沙特阿拉伯 麦加省 吉达[cdnw reassigned]]
+  → 🔴 风险74% | 广播IP ⚠️透明 | United Kingdom England Manchester (M247 LTD Manchester ...)
+  → 出口IP: 141.98.101.178
 
 socks5://69.5.189.188:1080 [[机房]瑞士 苏黎世 苏黎世[Global-Data System IT Corporation]]
   → 🔴 风险79% | 机房IP | Switzerland Zurich Zürich (Global-Data System I...)
 
-socks5://69.5.189.16:1080 [[家宽]沙特阿拉伯 麦加省 吉达[cdnw reassigned]]
-  → 🔴 风险84% | 广播IP ⚠️透明 | Mexico Querétaro Santiago de Querétaro (Oneprovider.com - Me...)
-  → 出口IP: 147.78.1.230
-
 socks5://213.165.35.182:1111 [[机房]美国 德克萨斯州 达拉斯[Quintex Alliance Consulting]]
-  → ⚫ 风险99% | 机房IP ⚠️透明 | Netherlands North Holland Amsterdam (TOR EXIT AND MORE)
-  → 出口IP: 192.42.116.202
+  → ⚫ 风险96% | 广播IP ⚠️透明 | Poland Mazovia Warsaw (1337 Services GmbH)
+  → 出口IP: 45.138.16.222
 
 ## ❌ 失败代理列表
 
@@ -100,11 +91,14 @@ socks5://111.165.8.141:1080 [[机房]美国 加州 洛杉矶 — 搬瓦工[IT7 N
 socks5://158.69.212.162:1080 [[机房]加拿大 魁北克省 博阿努瓦 — OVH[OVH Hosting, Inc.]]
   → HTTP 403
 
+socks5://165.22.110.253:1080 [[机房]新加坡 新加坡 新加坡 — DigitalOcean[DigitalOcean, LLC]]
+  → 错误: [Errno 111] Couldn't connect to proxy 165.22.110.2
+
 socks5://176.124.208.46:8888 [[机房]俄罗斯 莫斯科 莫斯科[JSC "TIMEWEB"]]
   → 连接错误: 
 
 socks5://185.250.41.18:1080 [[机房]德国 黑森州 法兰克福 — OVH[OVH GmbH]]
-  → HTTP 403
+  → 超时
 
 socks5://185.87.255.117:1080 [[家宽]英国 英格兰 伦敦[Fast Panda Limited]]
   → 错误: [Errno 111] Couldn't connect to proxy 185.87.255.1
@@ -113,7 +107,13 @@ socks5://195.201.60.88:1080 [[机房]德国 萨克森州 法尔肯施泰因 — 
   → 错误: Unexpected SOCKS version number: 60
 
 socks5://41.175.143.121:1080 [[机房]南非 豪登省 Soshanguve[Liquid Telecommunications Operations Limited]]
-  → 错误: [Errno 111] Couldn't connect to proxy 41.175.143.1
+  → 超时
+
+socks5://79.132.138.163:1080 [[机房]德国 黑森州 法兰克福[www.fornex.com, Fornex Hosting S.L.]]
+  → 错误: [Errno 111] Couldn't connect to proxy 79.132.138.1
+
+socks5://87.121.218.218:1080 [[家宽]德国 黑森州 法兰克福[Xorek.Cloud Frankfurt]]
+  → 超时
 
 socks5://88.206.51.47:9999 [[机房]俄罗斯 车里雅宾斯克州 车里雅宾斯克[Intersvyaz-2 JSC]]
   → 超时
