@@ -1,41 +1,44 @@
 # 代理质量检测报告
-# 检测时间: 2026-01-27 19:26:35
+# 检测时间: 2026-01-27 20:22:34
 # API: IPPure (https://my.ippure.com/v1/info)
 
 ## 📊 统计摘要
-# 总计: 30 | 成功: 15 | 失败: 15 | 成功率: 50.0%
+# 总计: 30 | 成功: 19 | 失败: 11 | 成功率: 63.3%
 
 ## 质量分布
-# 优秀: 3
+# 优秀: 4
 # 良好: 3
 # 中等: 5
-# 较差: 4
+# 较差: 3
 
 ## IP类型分布
-# 住宅IP: 5
-# 广播IP: 5
-# 机房IP: 5
+# 住宅IP: 7
+# 广播IP: 6
+# 机房IP: 6
 
 ============================================================
 
 ## ✅ 可用代理列表 (按质量排序)
 
+socks5://195.133.11.246:1080 [[机房]德国 黑森州 法兰克福[AS210546 iPv6]]
+  → 🌟 风险0% | 机房IP ⚠️透明 | Germany Hesse Frankfurt am Main (SERV.HOST GROUP LTD)
+  → 出口IP: 2a01:ecc0:b40:d::2
+
 socks5://130.43.49.129:1080 [[家宽]希腊 阿提卡大区[ADSL LLU POOLS]]
   → 🌟 风险1% | 住宅IP | Greece Attica Athens (ADSL LLU POOLS)
 
-socks5://47.130.150.40:1080 [[机房]新加坡 新加坡 新加坡[HOME TEAM SCIENCE AND TECHNOLOGY AGENCY]]
-  → 🌟 风险2% | 住宅IP ⚠️透明 | Singapore Singapore (HOME TEAM SCIENCE AN...)
-  → 出口IP: 42.61.57.210
+socks5://51.79.200.188:60000 [[机房]危地马拉[Telgua]]
+  → 🌟 风险3% | 住宅IP ⚠️透明 | Thailand Suphan Buri Suphan Buri (10 Fl. 72. CAT TELEC...)
+  → 出口IP: 110.77.251.27
 
 socks5://121.141.161.242:1080 [[机房]韩国 首尔特别市 首尔特别市[Korea Telecom]]
   → 🌟 风险9% | 住宅IP | South Korea Seoul Seoul (KT)
 
+socks5://77.73.233.88:1080 [[机房]拉脱维亚 里加 里加[LV BEGET]]
+  → 🟢 风险10% | 住宅IP | Latvia Riga Riga (Beget LLC)
+
 socks5://92.46.80.234:8080 [[家宽]哈萨克斯坦 阿斯塔纳市 阿斯塔纳市[JSC Kazakhtelecom]]
   → 🟢 风险11% | 住宅IP | Kazakhstan Karaganda Temirtau (JSC Kazakhtelecom)
-
-socks5://195.133.11.246:1080 [[机房]德国 黑森州 法兰克福[AS210546 iPv6]]
-  → 🟢 风险13% | 广播IP ⚠️透明 | Germany Hesse Frankfurt am Main (SERV.HOST GROUP LTD)
-  → 出口IP: 144.31.219.63
 
 socks5://154.219.113.169:50161 [[机房]中国 香港 香港[Vapeline Technology]]
   → 🟢 风险28% | 广播IP | Hong Kong SAR China Hong Kong (Vapeline Technology)
@@ -68,10 +71,18 @@ socks5://141.101.231.105:1080 [[机房]俄罗斯 莫斯科 莫斯科[Virtual Inf
 socks5://45.90.99.241:5555 [[机房]德国 黑森州 法兰克福[Datalix]]
   → 🟠 风险68% | 机房IP | Germany Hesse Frankfurt am Main (Datalix)
 
-## ❌ 失败代理列表
+socks5://203.189.154.200:1080 [[家宽]柬埔寨 金边 金边[Cogetel Ltd, Online ISP, Cambodia]]
+  → 🔴 风险73% | 住宅IP | Cambodia Phnom Penh Phnom Penh (Cogetel Ltd, Online ...)
 
-socks5://111.165.8.141:1080 [[机房]美国 加州 洛杉矶 — 搬瓦工[IT7 Networks Inc]]
-  → 超时
+socks5://45.76.101.252:1080 [[机房]日本 神奈川县 川崎市 — Cloudflare CDN 节点[Cloudflare, Inc.]]
+  → 🔴 风险82% | 广播IP ⚠️透明 | Japan Kanagawa Kawasaki (Cloudflare, Inc.)
+  → 出口IP: 104.28.236.107
+
+socks5://45.76.104.45:1080 [[机房]日本 神奈川县 川崎市 — Cloudflare CDN 节点[Cloudflare, Inc.]]
+  → 🔴 风险82% | 广播IP ⚠️透明 | Japan Kanagawa Kawasaki (Cloudflare, Inc.)
+  → 出口IP: 104.28.236.107
+
+## ❌ 失败代理列表
 
 socks5://14.155.223.88:1080 [[机房]美国 加州 洛杉矶 — 搬瓦工[IT7 Networks Inc]]
   → 超时
@@ -85,14 +96,11 @@ socks5://161.35.82.57:1080 [[机房]荷兰 北荷兰省 阿姆斯特丹 — Digi
 socks5://165.22.110.253:1080 [[机房]新加坡 新加坡 新加坡 — DigitalOcean[DigitalOcean, LLC]]
   → 错误: [Errno 111] Couldn't connect to proxy 165.22.110.2
 
-socks5://203.189.154.200:1080 [[家宽]柬埔寨 金边 金边[Cogetel Ltd, Online ISP, Cambodia]]
-  → 超时
-
 socks5://203.189.159.120:1080 [[家宽]柬埔寨 金边 金边[Cogetel Ltd, Online ISP, Cambodia]]
   → 超时
 
 socks5://37.16.20.163:1080 [[机房]新加坡 新加坡 新加坡]
-  → 错误: 0 bytes read on a total of 2 expected bytes
+  → 超时
 
 socks5://45.150.65.34:60000 [[机房]美国 宾夕法尼亚州[Verizon Business]]
   → 错误: 0 bytes read on a total of 4 expected bytes
@@ -105,12 +113,6 @@ socks5://5.22.217.132:3333 [[机房]美国 弗吉尼亚州 阿什本 — 亚马�
 
 socks5://51.68.209.5:1080 [[机房]英国 英格兰 伦敦 — OVH[OVH Ltd]]
   → HTTP 403
-
-socks5://51.79.200.188:60000 [[机房]危地马拉[Telgua]]
-  → 错误: 0 bytes read on a total of 4 expected bytes
-
-socks5://77.73.233.88:1080 [[机房]拉脱维亚 里加 里加[LV BEGET]]
-  → 超时
 
 socks5://89.251.26.111:5555 [[机房]中国 香港 香港[ALICE NETWORKS LTD]]
   → 错误: [Errno 111] Couldn't connect to proxy 89.251.26.11
