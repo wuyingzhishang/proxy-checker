@@ -1,5 +1,5 @@
 # 代理列表 - 自动更新
-# 更新时间: 2026-01-27 11:20:55
+# 更新时间: 2026-01-27 12:42:29
 # 总计: 30 个代理
 # 来源: https://tomcat1235.nyc.mn/proxy_list
 # 格式: 协议://IP:端口 [位置]
@@ -7,7 +7,6 @@
 socks5://109.94.67.250:1080 [[机房]俄罗斯 特维尔州[Annet Ltd.]]
 socks5://115.127.53.114:1080 [[机房]孟加拉国 达卡专区 达卡[BRACNet Limited]]
 socks5://130.43.49.129:1080 [[家宽]希腊 阿提卡大区[ADSL LLU POOLS]]
-socks5://14.155.223.88:1080 [[机房]美国 加州 洛杉矶 — 搬瓦工[IT7 Networks Inc]]
 socks5://143.110.217.153:1080 [[机房]加拿大 安大略 多伦多 — DigitalOcean[DigitalOcean, LLC]]
 socks5://154.219.113.169:50161 [[机房]中国 香港 香港[Vapeline Technology]]
 socks5://161.35.82.57:1080 [[机房]荷兰 北荷兰省 阿姆斯特丹 — DigitalOcean[DigitalOcean, LLC]]
@@ -15,6 +14,7 @@ socks5://165.22.110.253:1080 [[机房]新加坡 新加坡 新加坡 — DigitalO
 socks5://175.100.35.84:1080 [[家宽]柬埔寨 金边 金边[VIETTEL (CAMBODIA) PTE., LTD.]]
 socks5://178.216.223.147:1080 [[机房]俄罗斯 鄂木斯克州 鄂木斯克[MTS PJSC]]
 socks5://185.236.66.125:1080 [[机房]俄罗斯 沃洛格达州 沃洛格达[BAZA.NET LLC]]
+socks5://188.137.248.150:1080 [[机房]荷兰 北荷兰省[Podaon SIA]]
 socks5://195.133.11.246:1080 [[机房]德国 黑森州 法兰克福[AS210546 iPv6]]
 socks5://202.44.211.152:9999 [[家宽]泰国 曼谷 曼谷[Internet Thailand Company Limited]]
 socks5://203.189.154.200:1080 [[家宽]柬埔寨 金边 金边[Cogetel Ltd, Online ISP, Cambodia]]
@@ -33,4 +33,4 @@ socks5://8.220.194.115:1080 [[机房]韩国 首尔特别市 首尔特别市 — 
 socks5://89.251.26.111:5555 [[机房]中国 香港 香港[ALICE NETWORKS LTD]]
 socks5://92.46.80.234:8080 [[家宽]哈萨克斯坦 阿斯塔纳市 阿斯塔纳市[JSC Kazakhtelecom]]
 socks5://93.183.124.28:1080 [[机房]荷兰 北荷兰省 阿姆斯特丹[Amsterdam, Netherlands]]
-socks5://93.183.78.82:1080 [[机房]哈萨克斯坦 阿拉木图 阿拉木圖[lease for Timeweb]]
+socks5://93.183.78.82:1080 [[家宽]哈萨克斯坦 阿拉木图 阿拉木圖[lease for Timeweb]]
