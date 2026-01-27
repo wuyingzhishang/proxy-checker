@@ -1,21 +1,21 @@
 # 代理质量检测报告
-# 检测时间: 2026-01-27 03:48:09
+# 检测时间: 2026-01-27 04:46:30
 # API: IPPure (https://my.ippure.com/v1/info)
 
 ## 📊 统计摘要
-# 总计: 30 | 成功: 15 | 失败: 15 | 成功率: 50.0%
+# 总计: 30 | 成功: 22 | 失败: 8 | 成功率: 73.3%
 
 ## 质量分布
 # 优秀: 3
-# 良好: 2
-# 中等: 6
-# 较差: 2
+# 良好: 4
+# 中等: 8
+# 较差: 4
 # 极差: 1
 
 ## IP类型分布
-# 住宅IP: 3
-# 广播IP: 5
-# 机房IP: 7
+# 住宅IP: 4
+# 广播IP: 10
+# 机房IP: 8
 
 ============================================================
 
@@ -31,8 +31,14 @@ socks5://47.130.150.40:1080 [[机房]新加坡 新加坡 新加坡[HOME TEAM SCI
 socks5://160.30.55.108:1111 [[家宽]越南 河内 河内市[A2T TECHNOLOGY JOINT STOCK COMPANY]]
   → 🌟 风险5% | 住宅IP | Vietnam Hanoi Hanoi (A2T TECHNOLOGY JOINT...)
 
+socks5://101.50.116.66:1080 [[机房]巴基斯坦 旁遮普省 拉瓦尔品第[Naya Tel (Pvt.) Limited]]
+  → 🟢 风险28% | 住宅IP | Pakistan Khyber Pakhtunkhwa Peshawar (Nayatel (Pvt) Ltd)
+
 socks5://103.82.246.131:1080 [[家宽]印度尼西亚 雅加达 雅加达[PT Aswatama Jaya Mandiri]]
   → 🟢 风险28% | 机房IP | Indonesia Jakarta Jakarta (PT Aswatama Jaya Man...)
+
+socks5://45.43.91.145:4444 [[机房]荷兰 北荷兰省 阿姆斯特丹[FIRST SERVER LIMITED]]
+  → 🟢 风险28% | 广播IP | Netherlands North Holland Amsterdam (FIRST SERVER LIMITED)
 
 socks5://5.161.97.53:1080 [[机房]美国 弗吉尼亚州 阿什本 — Hetzner[Hetzner Online GmbH]]
   → 🟢 风险28% | 广播IP | United States Virginia Ashburn (Hetzner Online GmbH)
@@ -52,11 +58,24 @@ socks5://45.76.36.215:6666 [[机房]荷兰 北荷兰省 哈勒姆 — Vultr[Vult
 socks5://5.178.87.147:1080 [[机房]俄罗斯 圣彼得堡 圣彼得堡[Selectel SPb]]
   → 🟡 风险36% | 机房IP | Russia St.-Petersburg Saint Petersburg (Selectel SPb)
 
+socks5://64.20.45.62:1080 [[机房]美国 纽约州 纽约[Interserver, Inc]]
+  → 🟡 风险36% | 机房IP | United States New York New York City (Interserver, Inc)
+
 socks5://82.146.41.195:1080 [[机房]俄罗斯 莫斯科 莫斯科[JSC Datacenter]]
   → 🟡 风险41% | 机房IP | Russia Moscow Moscow (JSC Datacenter)
 
+socks5://79.132.138.163:1080 [[机房]德国 黑森州 法兰克福[www.fornex.com, Fornex Hosting S.L.]]
+  → 🟡 风险45% | 广播IP | Germany Hesse Frankfurt am Main (www.fornex.com, Forn...)
+
+socks5://14.155.223.88:1080 [[机房]美国 加州 洛杉矶 — 搬瓦工[IT7 Networks Inc]]
+  → 🟠 风险52% | 广播IP ⚠️透明 | United States California Los Angeles (Cluster Logic Inc)
+  → 出口IP: 198.181.41.42
+
 socks5://87.121.218.218:1080 [[家宽]德国 黑森州 法兰克福[Xorek.Cloud Frankfurt]]
   → 🟠 风险54% | 广播IP | Germany Hesse Frankfurt am Main (Frankfurt, Germany)
+
+socks5://165.22.110.253:1080 [[机房]新加坡 新加坡 新加坡 — DigitalOcean[DigitalOcean, LLC]]
+  → 🔴 风险73% | 广播IP | Singapore Singapore (DigitalOcean, LLC)
 
 socks5://125.107.122.36:1080 [[机房]中国 香港 香港[Akari Networks]]
   → 🔴 风险76% | 机房IP ⚠️透明 | Hong Kong SAR China Hong Kong (Akari Networks)
@@ -65,26 +84,21 @@ socks5://125.107.122.36:1080 [[机房]中国 香港 香港[Akari Networks]]
 socks5://69.5.189.188:1080 [[机房]瑞士 苏黎世 苏黎世[Global-Data System IT Corporation]]
   → 🔴 风险79% | 机房IP | Switzerland Zurich Zürich (Global-Data System I...)
 
+socks5://69.5.189.16:1080 [[家宽]沙特阿拉伯 麦加省 吉达[cdnw reassigned]]
+  → 🔴 风险84% | 广播IP ⚠️透明 | Mexico Querétaro Santiago de Querétaro (Oneprovider.com - Me...)
+  → 出口IP: 147.78.1.230
+
 socks5://213.165.35.182:1111 [[机房]美国 德克萨斯州 达拉斯[Quintex Alliance Consulting]]
-  → ⚫ 风险94% | 机房IP ⚠️透明 | Sweden Stockholm Stockholm (QuxLabs AB)
-  → 出口IP: 45.84.107.182
+  → ⚫ 风险99% | 机房IP ⚠️透明 | Netherlands North Holland Amsterdam (TOR EXIT AND MORE)
+  → 出口IP: 192.42.116.202
 
 ## ❌ 失败代理列表
-
-socks5://101.50.116.66:1080 [[机房]巴基斯坦 旁遮普省 拉瓦尔品第[Naya Tel (Pvt.) Limited]]
-  → 超时
 
 socks5://111.165.8.141:1080 [[机房]美国 加州 洛杉矶 — 搬瓦工[IT7 Networks Inc]]
   → 超时
 
-socks5://14.155.223.88:1080 [[机房]美国 加州 洛杉矶 — 搬瓦工[IT7 Networks Inc]]
-  → 超时
-
 socks5://158.69.212.162:1080 [[机房]加拿大 魁北克省 博阿努瓦 — OVH[OVH Hosting, Inc.]]
   → HTTP 403
-
-socks5://165.22.110.253:1080 [[机房]新加坡 新加坡 新加坡 — DigitalOcean[DigitalOcean, LLC]]
-  → 错误: [Errno 111] Couldn't connect to proxy 165.22.110.2
 
 socks5://176.124.208.46:8888 [[机房]俄罗斯 莫斯科 莫斯科[JSC "TIMEWEB"]]
   → 连接错误: 
@@ -99,19 +113,7 @@ socks5://195.201.60.88:1080 [[机房]德国 萨克森州 法尔肯施泰因 — 
   → 错误: Unexpected SOCKS version number: 60
 
 socks5://41.175.143.121:1080 [[机房]南非 豪登省 Soshanguve[Liquid Telecommunications Operations Limited]]
-  → 超时
-
-socks5://45.43.91.145:4444 [[机房]荷兰 北荷兰省 阿姆斯特丹[FIRST SERVER LIMITED]]
-  → 超时
-
-socks5://64.20.45.62:1080 [[机房]美国 纽约州 纽约[Interserver, Inc]]
-  → 超时
-
-socks5://69.5.189.16:1080 [[家宽]沙特阿拉伯 麦加省 吉达[cdnw reassigned]]
-  → HTTP 403
-
-socks5://79.132.138.163:1080 [[机房]德国 黑森州 法兰克福[www.fornex.com, Fornex Hosting S.L.]]
-  → 错误: [Errno 111] Couldn't connect to proxy 79.132.138.1
+  → 错误: [Errno 111] Couldn't connect to proxy 41.175.143.1
 
 socks5://88.206.51.47:9999 [[机房]俄罗斯 车里雅宾斯克州 车里雅宾斯克[Intersvyaz-2 JSC]]
   → 超时
