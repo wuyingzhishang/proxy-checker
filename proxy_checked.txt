@@ -1,28 +1,32 @@
 # 代理质量检测报告
-# 检测时间: 2026-01-27 13:46:18
+# 检测时间: 2026-01-27 14:29:51
 # API: IPPure (https://my.ippure.com/v1/info)
 
 ## 📊 统计摘要
-# 总计: 30 | 成功: 18 | 失败: 12 | 成功率: 60.0%
+# 总计: 30 | 成功: 19 | 失败: 11 | 成功率: 63.3%
 
 ## 质量分布
-# 优秀: 3
+# 优秀: 4
 # 良好: 5
-# 中等: 5
-# 较差: 5
+# 中等: 4
+# 较差: 1
 
 ## IP类型分布
-# 住宅IP: 8
-# 广播IP: 4
-# 机房IP: 6
+# 住宅IP: 7
+# 广播IP: 5
+# 机房IP: 7
 
 ============================================================
 
 ## ✅ 可用代理列表 (按质量排序)
 
 socks5://51.79.200.188:60000 [[机房]危地马拉[Telgua]]
-  → 🌟 风险0% | 机房IP ⚠️透明 | Guatemala Guatemala Fraijanes (Telgua)
-  → 出口IP: 2800:98:110f:a9c:29b8:f652:d03f:8aa9
+  → 🌟 风险0% | 机房IP ⚠️透明 | Thailand Prachuap Khiri Khan Hua Hin (Triple T Broadband P...)
+  → 出口IP: 2403:6200:8862:2c5f:15f9:2c80:95b7:159a
+
+socks5://89.251.26.111:5555 [[机房]中国 香港 香港[ALICE NETWORKS LTD]]
+  → 🌟 风险0% | 机房IP ⚠️透明 | Hong Kong SAR China Tsuen Wan Tsuen Wan (ALICE NETWORKS LTD)
+  → 出口IP: 2a14:67c0:306:4e5::a
 
 socks5://130.43.49.129:1080 [[家宽]希腊 阿提卡大区[ADSL LLU POOLS]]
   → 🌟 风险1% | 住宅IP | Greece Attica Athens (ADSL LLU POOLS)
@@ -53,9 +57,6 @@ socks5://93.183.78.82:1080 [[家宽]哈萨克斯坦 阿拉木图 阿拉木圖[le
   → 🟡 风险34% | 机房IP ⚠️透明 | Kazakhstan Almaty Almaty (lease for Timeweb)
   → 出口IP: 80.90.182.167
 
-socks5://5.178.87.147:1080 [[机房]俄罗斯 圣彼得堡 圣彼得堡[Selectel SPb]]
-  → 🟡 风险36% | 机房IP | Russia St.-Petersburg Saint Petersburg (Selectel SPb)
-
 socks5://202.44.211.152:9999 [[家宽]泰国 曼谷 曼谷[Internet Thailand Company Limited]]
   → 🟡 风险37% | 机房IP | Thailand Bangkok Bangkok (Internet Thailand Co...)
 
@@ -71,11 +72,14 @@ socks5://175.100.35.84:1080 [[家宽]柬埔寨 金边 金边[VIETTEL (CAMBODIA) 
 socks5://109.94.67.250:1080 [[机房]俄罗斯 特维尔州[Annet Ltd.]]
   → 🟠 风险66% | 住宅IP | Russia Tver Oblast Tver (Annet Ltd.)
 
+socks5://141.101.231.105:1080 [[机房]俄罗斯 莫斯科 莫斯科[Virtual Infrastructures Network]]
+  → 🟠 风险68% | 机房IP | Russia Moscow Moscow (Virtual infrastructu...)
+
 socks5://45.90.99.241:5555 [[机房]德国 黑森州 法兰克福[Datalix]]
   → 🟠 风险68% | 机房IP | Germany Hesse Frankfurt am Main (Datalix)
 
-socks5://203.189.159.120:1080 [[家宽]柬埔寨 金边 金边[Cogetel Ltd, Online ISP, Cambodia]]
-  → 🟠 风险69% | 住宅IP | Cambodia Phnom Penh Phnom Penh (Cogetel Ltd, Online ...)
+socks5://165.22.110.253:1080 [[机房]新加坡 新加坡 新加坡 — DigitalOcean[DigitalOcean, LLC]]
+  → 🔴 风险73% | 广播IP | Singapore Singapore (DigitalOcean, LLC)
 
 ## ❌ 失败代理列表
 
@@ -88,13 +92,13 @@ socks5://143.110.217.153:1080 [[机房]加拿大 安大略 多伦多 — Digital
 socks5://161.35.82.57:1080 [[机房]荷兰 北荷兰省 阿姆斯特丹 — DigitalOcean[DigitalOcean, LLC]]
   → 错误: [Errno 111] Couldn't connect to proxy 161.35.82.57
 
-socks5://165.22.110.253:1080 [[机房]新加坡 新加坡 新加坡 — DigitalOcean[DigitalOcean, LLC]]
-  → 错误: [Errno 111] Couldn't connect to proxy 165.22.110.2
-
 socks5://185.236.66.125:1080 [[机房]俄罗斯 沃洛格达州 沃洛格达[BAZA.NET LLC]]
   → 超时
 
 socks5://203.189.154.200:1080 [[家宽]柬埔寨 金边 金边[Cogetel Ltd, Online ISP, Cambodia]]
+  → 超时
+
+socks5://203.189.159.120:1080 [[家宽]柬埔寨 金边 金边[Cogetel Ltd, Online ISP, Cambodia]]
   → 超时
 
 socks5://45.150.65.34:60000 [[机房]美国 宾夕法尼亚州[Verizon Business]]
@@ -104,13 +108,10 @@ socks5://47.76.104.45:50161 [[机房]中国 香港 香港 — 阿里云[Alibaba 
   → HTTP 403
 
 socks5://51.68.209.5:1080 [[机房]英国 英格兰 伦敦 — OVH[OVH Ltd]]
-  → HTTP 403
+  → 超时
 
 socks5://79.105.215.128:1080 [[家宽]俄罗斯 阿穆尔州 海兰泡[Local infrastructure expansion for DSL (PPPoE)]]
   → 超时
 
 socks5://8.220.194.115:1080 [[机房]韩国 首尔特别市 首尔特别市 — 阿里云[Alibaba Cloud (Singapore) Private Limited]]
   → HTTP 403
-
-socks5://89.251.26.111:5555 [[机房]中国 香港 香港[ALICE NETWORKS LTD]]
-  → 错误: [Errno 111] Couldn't connect to proxy 89.251.26.11
