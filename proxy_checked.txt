@@ -1,20 +1,20 @@
 # 代理质量检测报告
-# 检测时间: 2026-01-28 21:28:54
+# 检测时间: 2026-01-28 22:25:38
 # API: IPPure (https://my.ippure.com/v1/info)
 
 ## 📊 统计摘要
-# 总计: 30 | 成功: 19 | 失败: 11 | 成功率: 63.3%
+# 总计: 30 | 成功: 17 | 失败: 13 | 成功率: 56.7%
 
 ## 质量分布
-# 优秀: 4
-# 良好: 3
-# 中等: 7
+# 优秀: 5
+# 良好: 2
+# 中等: 5
 # 较差: 1
 
 ## IP类型分布
-# 住宅IP: 5
+# 住宅IP: 4
 # 广播IP: 9
-# 机房IP: 5
+# 机房IP: 4
 
 ============================================================
 
@@ -24,6 +24,10 @@ socks5://152.70.87.253:520 [[机房]日本 大阪 大阪市 — 甲骨文云 Ora
   → 🌟 风险0% | 机房IP ⚠️透明 | Japan Osaka Osaka (Oracle Corporation)
   → 出口IP: 2603:c023:a:2566:97fc:66cb:2150:10e8
 
+socks5://43.153.205.77:555 [[机房]新加坡 新加坡 新加坡 — 腾讯云[16 COLLYER QUAY # 18-29 INCOME AT RAFFLES]]
+  → 🌟 风险0% | 机房IP ⚠️透明 | Singapore Singapore (ACEVILLE PTE.LTD.)
+  → 出口IP: 240d:c000:f020:100:cd8:bd14:e02:0
+
 socks5://2.135.173.62:1080 [[家宽]哈萨克斯坦 阿克托别州 阿克托比[JSC Kazakhtelecom, Aktobe Affiliate]]
   → 🌟 风险4% | 住宅IP | Kazakhstan Aktyubinskaya Oblast’ Aktobe (JSC Kazakhtelecom, A...)
 
@@ -32,9 +36,6 @@ socks5://49.156.36.158:1080 [[机房]柬埔寨 金边 金边[WiCAM Corporation L
 
 socks5://49.156.42.22:1080 [[机房]柬埔寨 金边 金边[WiCAM Corporation Ltd.]]
   → 🌟 风险6% | 住宅IP | Cambodia Phnom Penh Phnom Penh (WiCAM Corporation Ltd.)
-
-socks5://77.73.233.88:1080 [[机房]拉脱维亚 里加 里加[LV BEGET]]
-  → 🟢 风险10% | 住宅IP | Latvia Riga Riga (Beget LLC)
 
 socks5://92.46.80.234:8080 [[家宽]哈萨克斯坦 阿斯塔纳市 阿斯塔纳市[JSC Kazakhtelecom]]
   → 🟢 风险11% | 住宅IP | Kazakhstan Karaganda Karagandy (JSC Kazakhtelecom)
@@ -49,18 +50,11 @@ socks5://93.183.78.82:1080 [[家宽]哈萨克斯坦 阿拉木图 阿拉木圖[le
   → 🟡 风险33% | 机房IP ⚠️透明 | Kazakhstan Almaty Almaty (lease for Timeweb)
   → 出口IP: 80.90.182.167
 
-socks5://181.6.96.71:1080 [[机房]美国 弗吉尼亚州 马纳萨斯[US NETCUP KVM MNZ]]
-  → 🟡 风险34% | 机房IP ⚠️透明 | United States Florida Miami (Vultr Holdings, LLC)
-  → 出口IP: 207.246.74.25
-
 socks5://38.60.214.125:4444 [[机房]中国 台湾 台北市[Kaopu Cloud HK Limited]]
   → 🟡 风险34% | 广播IP | Taiwan Taiwan Taipei (Kaopu Cloud HK Limited)
 
 socks5://93.183.124.28:1080 [[机房]荷兰 北荷兰省 阿姆斯特丹[Amsterdam, Netherlands]]
   → 🟡 风险38% | 广播IP | Netherlands North Holland Amsterdam (Amsterdam, Netherlands)
-
-socks5://43.153.205.77:555 [[机房]新加坡 新加坡 新加坡 — 腾讯云[16 COLLYER QUAY # 18-29 INCOME AT RAFFLES]]
-  → 🟡 风险39% | 机房IP | Singapore Singapore (16 COLLYER QUAY # 18...)
 
 socks5://66.154.117.177:50161 [[机房]美国 密苏里州 圣路易斯[ASSERTIVENET]]
   → 🟡 风险42% | 广播IP | United States Missouri St. Louis
@@ -69,12 +63,13 @@ socks5://103.85.227.238:9999 [[机房]美国 加州 洛杉矶[Vapeline Technolog
   → 🟠 风险51% | 广播IP ⚠️透明 | United States California Los Angeles (Vapeline Technology)
   → 出口IP: 154.219.125.221
 
-socks5://5.189.143.4:1080 [[机房]法国 大东部大区 — Contabo[Contabo GmbH]]
-  → 🟠 风险55% | 广播IP | France Grand Est Lauterbourg (Contabo GmbH)
-
 socks5://181.6.64.153:1080 [[机房]美国 弗吉尼亚州 马纳萨斯[netcup GmbH]]
   → 🟠 风险57% | 广播IP ⚠️透明 | United States Virginia Manassas (netcup GmbH)
   → 出口IP: 152.53.170.135
+
+socks5://181.6.96.71:1080 [[机房]美国 弗吉尼亚州 马纳萨斯[US NETCUP KVM MNZ]]
+  → 🟠 风险65% | 广播IP ⚠️透明 | Canada Ontario Toronto (DigitalOcean, LLC)
+  → 出口IP: 142.93.150.109
 
 socks5://141.101.231.105:1080 [[机房]俄罗斯 莫斯科 莫斯科[Virtual Infrastructures Network]]
   → 🟠 风险67% | 机房IP | Russia Moscow Moscow (Virtual infrastructu...)
@@ -101,10 +96,13 @@ socks5://181.6.108.154:1080 [[机房]美国 纽约州 纽约[IONOS Inc.]]
   → 错误: [Errno 111] Couldn't connect to proxy 181.6.108.15
 
 socks5://37.16.20.163:1080 [[机房]新加坡 新加坡 新加坡]
-  → 错误: 0 bytes read on a total of 2 expected bytes
+  → 超时
 
 socks5://44.225.218.148:1080 [[机房]美国 俄勒冈州 波特兰 — 亚马逊云 Aws[Amazon.com, Inc.]]
-  → 错误: [Errno 111] Couldn't connect to proxy 44.225.218.1
+  → HTTP 403
+
+socks5://5.189.143.4:1080 [[机房]法国 大东部大区 — Contabo[Contabo GmbH]]
+  → 超时
 
 socks5://5.22.217.132:3333 [[机房]美国 弗吉尼亚州 阿什本 — 亚马逊云 Aws[Amazon Data Services Northern Virginia]]
   → HTTP 403
@@ -114,6 +112,9 @@ socks5://51.144.185.92:1080 [[机房]荷兰 北荷兰省 阿姆斯特丹 — 微
 
 socks5://51.79.200.188:60000 [[机房]危地马拉[Telgua]]
   → 错误: 0 bytes read on a total of 4 expected bytes
+
+socks5://77.73.233.88:1080 [[机房]拉脱维亚 里加 里加[LV BEGET]]
+  → 超时
 
 socks5://91.121.37.242:1080 [[机房]法国 上法兰西大区 鲁贝 — OVH[OVH SAS]]
   → HTTP 403
