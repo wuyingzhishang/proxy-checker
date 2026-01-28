@@ -1,18 +1,18 @@
 # 代理质量检测报告
-# 检测时间: 2026-01-28 11:24:01
+# 检测时间: 2026-01-28 12:45:59
 # API: IPPure (https://my.ippure.com/v1/info)
 
 ## 📊 统计摘要
-# 总计: 30 | 成功: 14 | 失败: 16 | 成功率: 46.7%
+# 总计: 30 | 成功: 13 | 失败: 17 | 成功率: 43.3%
 
 ## 质量分布
-# 优秀: 3
+# 优秀: 1
 # 良好: 4
-# 中等: 5
+# 中等: 6
 # 较差: 2
 
 ## IP类型分布
-# 住宅IP: 3
+# 住宅IP: 2
 # 广播IP: 8
 # 机房IP: 3
 
@@ -23,13 +23,6 @@
 socks5://152.70.87.253:520 [[机房]日本 大阪 大阪市 — 甲骨文云 Oracle[Oracle Corporation]]
   → 🌟 风险0% | 机房IP ⚠️透明 | Japan Osaka Osaka (Oracle Corporation)
   → 出口IP: 2603:c023:a:2566:97fc:66cb:2150:10e8
-
-socks5://43.153.205.77:555 [[机房]新加坡 新加坡 新加坡 — 腾讯云[16 COLLYER QUAY # 18-29 INCOME AT RAFFLES]]
-  → 🌟 风险0% | 机房IP ⚠️透明 | Singapore Singapore (ACEVILLE PTE.LTD.)
-  → 出口IP: 240d:c000:f020:100:cd8:bd14:e02:0
-
-socks5://43.243.206.126:1080 [[家宽]孟加拉国 达卡专区 达卡[BDCOM Online Limited]]
-  → 🌟 风险3% | 住宅IP | Bangladesh Dhaka Division Dhaka (BDCOM Online Limited)
 
 socks5://77.73.233.88:1080 [[机房]拉脱维亚 里加 里加[LV BEGET]]
   → 🟢 风险10% | 住宅IP | Latvia Riga Riga (Beget LLC)
@@ -56,6 +49,9 @@ socks5://38.60.214.125:4444 [[机房]中国 台湾 台北市[Kaopu Cloud HK Limi
 socks5://93.183.124.28:1080 [[机房]荷兰 北荷兰省 阿姆斯特丹[Amsterdam, Netherlands]]
   → 🟡 风险38% | 广播IP | Netherlands North Holland Amsterdam (Amsterdam, Netherlands)
 
+socks5://43.153.205.77:555 [[机房]新加坡 新加坡 新加坡 — 腾讯云[16 COLLYER QUAY # 18-29 INCOME AT RAFFLES]]
+  → 🟡 风险39% | 机房IP | Singapore Singapore (16 COLLYER QUAY # 18...)
+
 socks5://66.154.117.177:50161 [[机房]美国 密苏里州 圣路易斯[ASSERTIVENET]]
   → 🟡 风险42% | 广播IP | United States Missouri St. Louis
 
@@ -75,7 +71,7 @@ socks5://141.101.231.105:1080 [[机房]俄罗斯 莫斯科 莫斯科[Virtual Inf
   → 连接错误: [Errno 104] Connection reset by peer
 
 socks5://143.110.217.153:1080 [[机房]加拿大 安大略 多伦多 — DigitalOcean[DigitalOcean, LLC]]
-  → 超时
+  → 错误: [Errno 111] Couldn't connect to proxy 143.110.217.
 
 socks5://161.35.82.57:1080 [[机房]荷兰 北荷兰省 阿姆斯特丹 — DigitalOcean[DigitalOcean, LLC]]
   → 错误: [Errno 111] Couldn't connect to proxy 161.35.82.57
@@ -92,6 +88,9 @@ socks5://203.189.159.120:1080 [[家宽]柬埔寨 金边 金边[Cogetel Ltd, Onli
 socks5://37.16.20.163:1080 [[机房]新加坡 新加坡 新加坡]
   → 错误: 0 bytes read on a total of 2 expected bytes
 
+socks5://43.243.206.126:1080 [[家宽]孟加拉国 达卡专区 达卡[BDCOM Online Limited]]
+  → 超时
+
 socks5://44.225.218.148:1080 [[机房]美国 俄勒冈州 波特兰 — 亚马逊云 Aws[Amazon.com, Inc.]]
   → HTTP 403
 
@@ -105,7 +104,7 @@ socks5://5.22.217.132:3333 [[机房]美国 弗吉尼亚州 阿什本 — 亚马�
   → HTTP 403
 
 socks5://51.68.209.5:1080 [[机房]英国 英格兰 伦敦 — OVH[OVH Ltd]]
-  → HTTP 403
+  → 超时
 
 socks5://51.79.200.188:60000 [[机房]危地马拉[Telgua]]
   → 错误: 0 bytes read on a total of 4 expected bytes
