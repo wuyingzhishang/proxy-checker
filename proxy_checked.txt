@@ -1,19 +1,20 @@
 # 代理质量检测报告
-# 检测时间: 2026-01-28 05:27:50
+# 检测时间: 2026-01-28 06:34:59
 # API: IPPure (https://my.ippure.com/v1/info)
 
 ## 📊 统计摘要
-# 总计: 30 | 成功: 16 | 失败: 14 | 成功率: 53.3%
+# 总计: 30 | 成功: 17 | 失败: 13 | 成功率: 56.7%
 
 ## 质量分布
 # 优秀: 3
 # 良好: 3
 # 中等: 5
 # 较差: 5
+# 极差: 1
 
 ## IP类型分布
 # 住宅IP: 6
-# 广播IP: 6
+# 广播IP: 7
 # 机房IP: 4
 
 ============================================================
@@ -71,16 +72,16 @@ socks5://45.90.99.241:5555 [[机房]德国 黑森州 法兰克福[Datalix]]
 socks5://203.189.159.120:1080 [[家宽]柬埔寨 金边 金边[Cogetel Ltd, Online ISP, Cambodia]]
   → 🟠 风险69% | 住宅IP | Cambodia Phnom Penh Phnom Penh (Cogetel Ltd, Online ...)
 
+socks5://143.110.217.153:1080 [[机房]加拿大 安大略 多伦多 — DigitalOcean[DigitalOcean, LLC]]
+  → ⚫ 风险96% | 广播IP | Canada Ontario Toronto (DigitalOcean, LLC)
+
 ## ❌ 失败代理列表
 
 socks5://141.101.231.105:1080 [[机房]俄罗斯 莫斯科 莫斯科[Virtual Infrastructures Network]]
   → 连接错误: [Errno 104] Connection reset by peer
 
-socks5://143.110.217.153:1080 [[机房]加拿大 安大略 多伦多 — DigitalOcean[DigitalOcean, LLC]]
-  → 错误: [Errno 111] Couldn't connect to proxy 143.110.217.
-
 socks5://161.35.82.57:1080 [[机房]荷兰 北荷兰省 阿姆斯特丹 — DigitalOcean[DigitalOcean, LLC]]
-  → 错误: [Errno 111] Couldn't connect to proxy 161.35.82.57
+  → 超时
 
 socks5://203.189.154.200:1080 [[家宽]柬埔寨 金边 金边[Cogetel Ltd, Online ISP, Cambodia]]
   → 超时
