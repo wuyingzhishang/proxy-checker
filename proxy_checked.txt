@@ -1,12 +1,12 @@
 # 代理质量检测报告
-# 检测时间: 2026-01-28 08:30:58
+# 检测时间: 2026-01-28 09:34:09
 # API: IPPure (https://my.ippure.com/v1/info)
 
 ## 📊 统计摘要
-# 总计: 30 | 成功: 17 | 失败: 13 | 成功率: 56.7%
+# 总计: 30 | 成功: 16 | 失败: 14 | 成功率: 53.3%
 
 ## 质量分布
-# 优秀: 4
+# 优秀: 3
 # 良好: 4
 # 中等: 5
 # 较差: 4
@@ -14,7 +14,7 @@
 ## IP类型分布
 # 住宅IP: 6
 # 广播IP: 6
-# 机房IP: 5
+# 机房IP: 4
 
 ============================================================
 
@@ -27,10 +27,6 @@ socks5://152.70.87.253:520 [[机房]日本 大阪 大阪市 — 甲骨文云 Ora
 socks5://43.153.205.77:555 [[机房]新加坡 新加坡 新加坡 — 腾讯云[16 COLLYER QUAY # 18-29 INCOME AT RAFFLES]]
   → 🌟 风险0% | 机房IP ⚠️透明 | Singapore Singapore (ACEVILLE PTE.LTD.)
   → 出口IP: 240d:c000:f020:100:cd8:bd14:e02:0
-
-socks5://89.251.26.111:5555 [[机房]中国 香港 香港[ALICE NETWORKS LTD]]
-  → 🌟 风险0% | 机房IP ⚠️透明 | Hong Kong SAR China Tsuen Wan Tsuen Wan (ALICE NETWORKS LTD)
-  → 出口IP: 2a14:67c0:306:4e5::a
 
 socks5://43.243.206.126:1080 [[家宽]孟加拉国 达卡专区 达卡[BDCOM Online Limited]]
   → 🌟 风险3% | 住宅IP | Bangladesh Dhaka Division Dhaka (BDCOM Online Limited)
@@ -88,7 +84,7 @@ socks5://143.110.217.153:1080 [[机房]加拿大 安大略 多伦多 — Digital
   → 错误: [Errno 111] Couldn't connect to proxy 143.110.217.
 
 socks5://161.35.82.57:1080 [[机房]荷兰 北荷兰省 阿姆斯特丹 — DigitalOcean[DigitalOcean, LLC]]
-  → 错误: [Errno 111] Couldn't connect to proxy 161.35.82.57
+  → 超时
 
 socks5://203.189.154.200:1080 [[家宽]柬埔寨 金边 金边[Cogetel Ltd, Online ISP, Cambodia]]
   → 超时
@@ -116,3 +112,6 @@ socks5://51.68.209.5:1080 [[机房]英国 英格兰 伦敦 — OVH[OVH Ltd]]
 
 socks5://51.79.200.188:60000 [[机房]危地马拉[Telgua]]
   → 错误: 0 bytes read on a total of 4 expected bytes
+
+socks5://89.251.26.111:5555 [[机房]中国 香港 香港[ALICE NETWORKS LTD]]
+  → 错误: [Errno 111] Couldn't connect to proxy 89.251.26.11
