@@ -1,35 +1,31 @@
 # 代理质量检测报告
-# 检测时间: 2026-01-28 06:34:59
+# 检测时间: 2026-01-28 07:26:40
 # API: IPPure (https://my.ippure.com/v1/info)
 
 ## 📊 统计摘要
-# 总计: 30 | 成功: 17 | 失败: 13 | 成功率: 56.7%
+# 总计: 30 | 成功: 15 | 失败: 15 | 成功率: 50.0%
 
 ## 质量分布
-# 优秀: 3
+# 优秀: 2
 # 良好: 3
-# 中等: 5
-# 较差: 5
-# 极差: 1
+# 中等: 6
+# 较差: 1
 
 ## IP类型分布
-# 住宅IP: 6
-# 广播IP: 7
+# 住宅IP: 5
+# 广播IP: 6
 # 机房IP: 4
 
 ============================================================
 
 ## ✅ 可用代理列表 (按质量排序)
 
-socks5://195.133.11.246:1080 [[机房]德国 黑森州 法兰克福[AS210546 iPv6]]
-  → 🌟 风险0% | 机房IP ⚠️透明 | Germany Hesse Frankfurt am Main (SERV.HOST GROUP LTD)
-  → 出口IP: 2a01:ecc0:b40:d::2
+socks5://152.70.87.253:520 [[机房]日本 大阪 大阪市 — 甲骨文云 Oracle[Oracle Corporation]]
+  → 🌟 风险0% | 机房IP ⚠️透明 | Japan Osaka Osaka (Oracle Corporation)
+  → 出口IP: 2603:c023:a:2566:97fc:66cb:2150:10e8
 
 socks5://43.243.206.126:1080 [[家宽]孟加拉国 达卡专区 达卡[BDCOM Online Limited]]
   → 🌟 风险3% | 住宅IP | Bangladesh Dhaka Division Dhaka (BDCOM Online Limited)
-
-socks5://121.141.161.242:1080 [[机房]韩国 首尔特别市 首尔特别市[Korea Telecom]]
-  → 🌟 风险9% | 住宅IP | South Korea Seoul Seoul (KT)
 
 socks5://77.73.233.88:1080 [[机房]拉脱维亚 里加 里加[LV BEGET]]
   → 🟢 风险10% | 住宅IP | Latvia Riga Riga (Beget LLC)
@@ -53,6 +49,9 @@ socks5://202.44.211.152:9999 [[家宽]泰国 曼谷 曼谷[Internet Thailand Com
 socks5://93.183.124.28:1080 [[机房]荷兰 北荷兰省 阿姆斯特丹[Amsterdam, Netherlands]]
   → 🟡 风险38% | 广播IP | Netherlands North Holland Amsterdam (Amsterdam, Netherlands)
 
+socks5://43.153.205.77:555 [[机房]新加坡 新加坡 新加坡 — 腾讯云[16 COLLYER QUAY # 18-29 INCOME AT RAFFLES]]
+  → 🟡 风险39% | 机房IP | Singapore Singapore (16 COLLYER QUAY # 18...)
+
 socks5://66.154.117.177:50161 [[机房]美国 密苏里州 圣路易斯[ASSERTIVENET]]
   → 🟡 风险42% | 广播IP | United States Missouri St. Louis
 
@@ -66,28 +65,28 @@ socks5://5.189.143.4:1080 [[机房]法国 大东部大区 — Contabo[Contabo Gm
 socks5://175.100.35.84:1080 [[家宽]柬埔寨 金边 金边[VIETTEL (CAMBODIA) PTE., LTD.]]
   → 🟠 风险57% | 住宅IP | Cambodia Phnom Penh Phnom Penh (VIETTEL (CAMBODIA) P...)
 
-socks5://45.90.99.241:5555 [[机房]德国 黑森州 法兰克福[Datalix]]
-  → 🟠 风险68% | 机房IP | Germany Hesse Frankfurt am Main (Datalix)
-
-socks5://203.189.159.120:1080 [[家宽]柬埔寨 金边 金边[Cogetel Ltd, Online ISP, Cambodia]]
-  → 🟠 风险69% | 住宅IP | Cambodia Phnom Penh Phnom Penh (Cogetel Ltd, Online ...)
-
-socks5://143.110.217.153:1080 [[机房]加拿大 安大略 多伦多 — DigitalOcean[DigitalOcean, LLC]]
-  → ⚫ 风险96% | 广播IP | Canada Ontario Toronto (DigitalOcean, LLC)
+socks5://203.189.154.200:1080 [[家宽]柬埔寨 金边 金边[Cogetel Ltd, Online ISP, Cambodia]]
+  → 🔴 风险73% | 住宅IP | Cambodia Phnom Penh Phnom Penh (Cogetel Ltd, Online ...)
 
 ## ❌ 失败代理列表
+
+socks5://121.141.161.242:1080 [[机房]韩国 首尔特别市 首尔特别市[Korea Telecom]]
+  → 超时
 
 socks5://141.101.231.105:1080 [[机房]俄罗斯 莫斯科 莫斯科[Virtual Infrastructures Network]]
   → 连接错误: [Errno 104] Connection reset by peer
 
-socks5://161.35.82.57:1080 [[机房]荷兰 北荷兰省 阿姆斯特丹 — DigitalOcean[DigitalOcean, LLC]]
-  → 超时
+socks5://143.110.217.153:1080 [[机房]加拿大 安大略 多伦多 — DigitalOcean[DigitalOcean, LLC]]
+  → 错误: [Errno 111] Couldn't connect to proxy 143.110.217.
 
-socks5://203.189.154.200:1080 [[家宽]柬埔寨 金边 金边[Cogetel Ltd, Online ISP, Cambodia]]
+socks5://161.35.82.57:1080 [[机房]荷兰 北荷兰省 阿姆斯特丹 — DigitalOcean[DigitalOcean, LLC]]
+  → 错误: [Errno 111] Couldn't connect to proxy 161.35.82.57
+
+socks5://203.189.159.120:1080 [[家宽]柬埔寨 金边 金边[Cogetel Ltd, Online ISP, Cambodia]]
   → 超时
 
 socks5://37.16.20.163:1080 [[机房]新加坡 新加坡 新加坡]
-  → 错误: 0 bytes read on a total of 2 expected bytes
+  → 超时
 
 socks5://44.225.218.148:1080 [[机房]美国 俄勒冈州 波特兰 — 亚马逊云 Aws[Amazon.com, Inc.]]
   → HTTP 403
