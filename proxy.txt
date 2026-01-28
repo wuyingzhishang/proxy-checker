@@ -1,12 +1,11 @@
 # 代理列表 - 自动更新
-# 更新时间: 2026-01-28 13:45:28
+# 更新时间: 2026-01-28 14:26:49
 # 总计: 30 个代理
 # 来源: https://tomcat1235.nyc.mn/proxy_list
 # 格式: 协议://IP:端口 [位置]
 
 socks5://103.115.17.121:1234 [[机房]韩国 首尔特别市 首尔特别市 — JustHost[Wuhan Heiyo Technologies Ltd]]
 socks5://103.85.227.238:9999 [[机房]美国 加州 洛杉矶[Vapeline Technology]]
-socks5://121.141.161.242:1080 [[机房]韩国 首尔特别市 首尔特别市[Korea Telecom]]
 socks5://141.101.231.105:1080 [[机房]俄罗斯 莫斯科 莫斯科[Virtual Infrastructures Network]]
 socks5://143.110.217.153:1080 [[机房]加拿大 安大略 多伦多 — DigitalOcean[DigitalOcean, LLC]]
 socks5://152.70.87.253:520 [[机房]日本 大阪 大阪市 — 甲骨文云 Oracle[Oracle Corporation]]
@@ -25,6 +24,7 @@ socks5://45.76.101.252:1080 [[机房]日本 神奈川县 川崎市 — Cloudflar
 socks5://45.76.104.45:1080 [[机房]日本 神奈川县 川崎市 — Cloudflare CDN 节点[Cloudflare, Inc.]]
 socks5://5.189.143.4:1080 [[机房]法国 大东部大区 — Contabo[Contabo GmbH]]
 socks5://5.22.217.132:3333 [[机房]美国 弗吉尼亚州 阿什本 — 亚马逊云 Aws[Amazon Data Services Northern Virginia]]
+socks5://51.144.185.92:1080 [[机房]荷兰 北荷兰省 阿姆斯特丹 — 微软云 Azure[cloud]]
 socks5://51.79.200.188:60000 [[机房]危地马拉[Telgua]]
 socks5://66.154.117.177:50161 [[机房]美国 密苏里州 圣路易斯[ASSERTIVENET]]
 socks5://77.73.233.88:1080 [[机房]拉脱维亚 里加 里加[LV BEGET]]
