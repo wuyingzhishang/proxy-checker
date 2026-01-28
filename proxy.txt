@@ -1,5 +1,5 @@
 # 代理列表 - 自动更新
-# 更新时间: 2026-01-28 04:41:36
+# 更新时间: 2026-01-28 05:25:14
 # 总计: 30 个代理
 # 来源: https://tomcat1235.nyc.mn/proxy_list
 # 格式: 协议://IP:端口 [位置]
@@ -17,7 +17,7 @@ socks5://203.189.154.200:1080 [[家宽]柬埔寨 金边 金边[Cogetel Ltd, Onli
 socks5://203.189.159.120:1080 [[家宽]柬埔寨 金边 金边[Cogetel Ltd, Online ISP, Cambodia]]
 socks5://37.16.20.163:1080 [[机房]新加坡 新加坡 新加坡]
 socks5://38.60.214.125:4444 [[机房]中国 台湾 台北市[Kaopu Cloud HK Limited]]
-socks5://43.243.206.126:1080 [[机房]孟加拉国 达卡专区 达卡[BDCOM Online Limited]]
+socks5://43.243.206.126:1080 [[家宽]孟加拉国 达卡专区 达卡[BDCOM Online Limited]]
 socks5://44.225.218.148:1080 [[机房]美国 俄勒冈州 波特兰 — 亚马逊云 Aws[Amazon.com, Inc.]]
 socks5://45.150.65.34:60000 [[机房]美国 宾夕法尼亚州[Verizon Business]]
 socks5://45.76.101.252:1080 [[机房]日本 神奈川县 川崎市 — Cloudflare CDN 节点[Cloudflare, Inc.]]
