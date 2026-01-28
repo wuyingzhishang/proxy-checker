@@ -1,5 +1,5 @@
 # 代理质量检测报告
-# 检测时间: 2026-01-28 09:34:09
+# 检测时间: 2026-01-28 10:27:51
 # API: IPPure (https://my.ippure.com/v1/info)
 
 ## 📊 统计摘要
@@ -7,13 +7,13 @@
 
 ## 质量分布
 # 优秀: 3
-# 良好: 4
-# 中等: 5
-# 较差: 4
+# 良好: 5
+# 中等: 6
+# 较差: 2
 
 ## IP类型分布
-# 住宅IP: 6
-# 广播IP: 6
+# 住宅IP: 4
+# 广播IP: 8
 # 机房IP: 4
 
 ============================================================
@@ -40,8 +40,14 @@ socks5://90.188.224.98:1080 [[家宽]俄罗斯 伊尔库茨克州 伊爾庫茨�
 socks5://92.46.80.234:8080 [[家宽]哈萨克斯坦 阿斯塔纳市 阿斯塔纳市[JSC Kazakhtelecom]]
   → 🟢 风险11% | 住宅IP | Kazakhstan Karaganda Karagandy (JSC Kazakhtelecom)
 
+socks5://155.248.182.7:1080 [[机房]日本 东京都 东京 — 甲骨文云 Oracle[Oracle Public Cloud]]
+  → 🟢 风险27% | 广播IP | Japan Chiba Inzai (Oracle Public Cloud)
+
 socks5://154.219.113.169:50161 [[机房]中国 香港 香港[Vapeline Technology]]
   → 🟢 风险28% | 广播IP | Hong Kong SAR China Hong Kong (Vapeline Technology)
+
+socks5://103.115.17.121:1234 [[机房]韩国 首尔特别市 首尔特别市 — JustHost[Wuhan Heiyo Technologies Ltd]]
+  → 🟡 风险30% | 广播IP | South Korea Seoul Seoul (Jiangan District Shi...)
 
 socks5://93.183.78.82:1080 [[家宽]哈萨克斯坦 阿拉木图 阿拉木圖[lease for Timeweb]]
   → 🟡 风险34% | 机房IP ⚠️透明 | Kazakhstan Almaty Almaty (lease for Timeweb)
@@ -66,27 +72,24 @@ socks5://103.85.227.238:9999 [[机房]美国 加州 洛杉矶[Vapeline Technolog
 socks5://5.189.143.4:1080 [[机房]法国 大东部大区 — Contabo[Contabo GmbH]]
   → 🟠 风险55% | 广播IP | France Grand Est Lauterbourg (Contabo GmbH)
 
-socks5://175.100.35.84:1080 [[家宽]柬埔寨 金边 金边[VIETTEL (CAMBODIA) PTE., LTD.]]
-  → 🟠 风险57% | 住宅IP | Cambodia Phnom Penh Phnom Penh (VIETTEL (CAMBODIA) P...)
-
-socks5://203.189.159.120:1080 [[家宽]柬埔寨 金边 金边[Cogetel Ltd, Online ISP, Cambodia]]
-  → 🟠 风险69% | 住宅IP | Cambodia Phnom Penh Phnom Penh (Cogetel Ltd, Online ...)
-
 ## ❌ 失败代理列表
 
 socks5://121.141.161.242:1080 [[机房]韩国 首尔特别市 首尔特别市[Korea Telecom]]
-  → 超时
+  → 错误: [Errno 111] Couldn't connect to proxy 121.141.161.
 
 socks5://141.101.231.105:1080 [[机房]俄罗斯 莫斯科 莫斯科[Virtual Infrastructures Network]]
   → 连接错误: [Errno 104] Connection reset by peer
 
 socks5://143.110.217.153:1080 [[机房]加拿大 安大略 多伦多 — DigitalOcean[DigitalOcean, LLC]]
-  → 错误: [Errno 111] Couldn't connect to proxy 143.110.217.
-
-socks5://161.35.82.57:1080 [[机房]荷兰 北荷兰省 阿姆斯特丹 — DigitalOcean[DigitalOcean, LLC]]
   → 超时
 
+socks5://161.35.82.57:1080 [[机房]荷兰 北荷兰省 阿姆斯特丹 — DigitalOcean[DigitalOcean, LLC]]
+  → 错误: [Errno 111] Couldn't connect to proxy 161.35.82.57
+
 socks5://203.189.154.200:1080 [[家宽]柬埔寨 金边 金边[Cogetel Ltd, Online ISP, Cambodia]]
+  → 超时
+
+socks5://203.189.159.120:1080 [[家宽]柬埔寨 金边 金边[Cogetel Ltd, Online ISP, Cambodia]]
   → 超时
 
 socks5://37.16.20.163:1080 [[机房]新加坡 新加坡 新加坡]
@@ -100,9 +103,6 @@ socks5://45.76.101.252:1080 [[机房]日本 神奈川县 川崎市 — Cloudflar
 
 socks5://45.76.104.45:1080 [[机房]日本 神奈川县 川崎市 — Cloudflare CDN 节点[Cloudflare, Inc.]]
   → 超时
-
-socks5://47.76.104.45:50161 [[机房]中国 香港 香港 — 阿里云[Alibaba Cloud - HK]]
-  → HTTP 403
 
 socks5://5.22.217.132:3333 [[机房]美国 弗吉尼亚州 阿什本 — 亚马逊云 Aws[Amazon Data Services Northern Virginia]]
   → HTTP 403
