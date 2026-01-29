@@ -1,20 +1,20 @@
 # 代理质量检测报告
-# 检测时间: 2026-01-29 14:44:47
+# 检测时间: 2026-01-29 15:36:03
 # API: IPPure (https://my.ippure.com/v1/info)
 
 ## 📊 统计摘要
 # 总计: 30 | 成功: 18 | 失败: 12 | 成功率: 60.0%
 
 ## 质量分布
-# 优秀: 7
+# 优秀: 6
 # 良好: 4
-# 中等: 2
+# 中等: 3
 # 较差: 2
 
 ## IP类型分布
 # 住宅IP: 9
-# 广播IP: 3
-# 机房IP: 6
+# 广播IP: 4
+# 机房IP: 5
 
 ============================================================
 
@@ -26,9 +26,6 @@ socks5://119.98.156.209:1080 [2026-01-29 18:13]
 
 socks5://125.27.149.145:9999 [2026-01-29 08:14]
   → 🌟 风险1% | 住宅IP | Thailand Prachuap Khiri Khan Hua Hin (TOT Public Company L...)
-
-socks5://37.142.196.98:1080 [2026-01-29 08:14]
-  → 🌟 风险5% | 住宅IP | Israel Tel Aviv Bnei Brak (BROADBAND-CABLES)
 
 socks5://103.206.69.65:1080 [2026-01-29 11:48]
   → 🌟 风险6% | 住宅IP | Cambodia Phnom Penh Phnom Penh (Cogetel Ltd, Online ...)
@@ -54,21 +51,25 @@ socks5://116.105.29.252:1080 [2026-01-29 11:38]
 socks5://117.18.125.6:1080 [2026-01-29 08:08]
   → 🟢 风险19% | 机房IP | Thailand Bangkok Bangkok (ReadyIDC CO.,LTD.)
 
+socks5://180.93.35.11:60010 [2026-01-29 08:14]
+  → 🟡 风险33% | 住宅IP ⚠️透明 | United States Georgia Atlanta (AT&T Enterprises, LLC)
+  → 出口IP: 108.86.105.233
+
 socks5://89.22.231.102:1080 [2026-01-29 08:17]
-  → 🟡 风险44% | 广播IP | Germany Hesse Frankfurt am Main (Aeza International LTD)
+  → 🟡 风险43% | 广播IP | Germany Hesse Frankfurt am Main (Aeza International LTD)
 
 socks5://103.77.242.50:6666 [2026-01-29 12:15]
   → 🟡 风险49% | 机房IP | Vietnam Ho Chi Minh City (HCMC) Ho Chi Minh City (VPSMMO COMPANY LIMITED)
-
-socks5://141.11.210.35:1080 [2026-01-29 13:02]
-  → 🟠 风险61% | 机房IP ⚠️透明 | United States Washington Seattle (RackNerd LLC)
-  → 出口IP: 75.127.13.83
 
 socks5://176.124.197.183:1080 [2026-01-29 15:30]
   → 🟠 风险64% | 机房IP | Russia Moscow Oblast Balashikha (G COM Ltd.)
 
 socks5://177.37.163.167:1080 [2026-01-29 10:18]
   → 🟠 风险68% | 住宅IP | Brazil Rio Grande do Norte Natal (BRISANET SERVICOS DE...)
+
+socks5://141.11.210.35:1080 [2026-01-29 13:02]
+  → 🟠 风险69% | 广播IP ⚠️透明 | Netherlands North Holland Amsterdam (Amsterdam, Netherlands)
+  → 出口IP: 212.34.140.184
 
 socks5://134.199.159.16:1080 [2026-01-29 20:34]
   → 🔴 风险76% | 广播IP | Australia New South Wales Sydney (DigitalOcean, LLC)
@@ -86,7 +87,7 @@ socks5://120.244.93.199:1080 [2026-01-29 15:30]
   → 超时
 
 socks5://123.19.51.242:1080 [2026-01-29 09:28]
-  → 错误: [Errno 111] Couldn't connect to proxy 123.19.51.24
+  → 超时
 
 socks5://151.243.169.216:1080 [2026-01-29 08:08]
   → 超时
@@ -94,11 +95,11 @@ socks5://151.243.169.216:1080 [2026-01-29 08:08]
 socks5://165.22.97.102:1080 [2026-01-29 21:03]
   → 错误: [Errno 111] Couldn't connect to proxy 165.22.97.10
 
-socks5://180.93.35.11:60010 [2026-01-29 08:14]
-  → 超时
-
 socks5://208.123.119.166:1080 [2026-01-29 17:40]
   → 错误: [Errno 111] Couldn't connect to proxy 208.123.119.
+
+socks5://37.142.196.98:1080 [2026-01-29 08:14]
+  → 超时
 
 socks5://38.180.203.70:1080 [2026-01-29 08:14]
   → 超时
