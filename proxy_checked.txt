@@ -1,35 +1,38 @@
 # 代理质量检测报告
-# 检测时间: 2026-01-29 19:31:08
+# 检测时间: 2026-01-29 20:29:39
 # API: IPPure (https://my.ippure.com/v1/info)
 
 ## 📊 统计摘要
-# 总计: 30 | 成功: 22 | 失败: 8 | 成功率: 73.3%
+# 总计: 30 | 成功: 23 | 失败: 7 | 成功率: 76.7%
 
 ## 质量分布
 # 优秀: 10
 # 良好: 5
 # 中等: 5
-# 较差: 2
+# 较差: 3
 
 ## IP类型分布
-# 住宅IP: 14
+# 住宅IP: 13
 # 广播IP: 2
-# 机房IP: 6
+# 机房IP: 8
 
 ============================================================
 
 ## ✅ 可用代理列表 (按质量排序)
 
+socks5://119.98.156.209:1080 [2026-01-29 18:13]
+  → 🌟 风险0% | 机房IP ⚠️透明 | United States California Los Angeles (MULTACOM CORPORATION)
+  → 出口IP: 2607:f130:0:1dc:216:3cff:fe06:2ac6
+
 socks5://125.27.149.145:9999 [2026-01-29 08:14]
   → 🌟 风险1% | 住宅IP | Thailand Prachuap Khiri Khan Hua Hin (TOT Public Company L...)
+
+socks5://89.189.72.242:1080 [2026-01-30 00:23]
+  → 🌟 风险2% | 住宅IP | Yemen Ta‘izz Taiz (YemenNet ADSL Pool)
 
 socks5://89.189.76.102:1080 [2026-01-30 00:23]
   → 🌟 风险2% | 住宅IP ⚠️透明 | Yemen Ta‘izz Taiz (YemenNet ADSL Pool)
   → 出口IP: 89.189.72.242
-
-socks5://80.253.249.208:60000 [2026-01-29 08:14]
-  → 🌟 风险4% | 住宅IP ⚠️透明 | United States Nevada Las Vegas (Cox Communications Inc.)
-  → 出口IP: 98.167.25.234
 
 socks5://37.142.196.98:1080 [2026-01-29 08:14]
   → 🌟 风险5% | 住宅IP | Israel Tel Aviv Bnei Brak (BROADBAND-CABLES)
@@ -37,15 +40,12 @@ socks5://37.142.196.98:1080 [2026-01-29 08:14]
 socks5://49.156.36.158:1080 [2026-01-29 08:08]
   → 🌟 风险5% | 住宅IP | Cambodia Phnom Penh Phnom Penh (WiCAM Corporation Ltd.)
 
-socks5://89.189.65.193:1080 [2026-01-30 00:23]
-  → 🌟 风险5% | 住宅IP | Yemen Amanat Alasimah Sanaa (YemenNet ADSL Pool)
-
-socks5://89.189.66.229:1080 [2026-01-30 00:23]
-  → 🌟 风险5% | 住宅IP ⚠️透明 | Yemen Amanat Alasimah Sanaa (YemenNet ADSL Pool)
-  → 出口IP: 89.189.65.193
-
 socks5://103.206.69.65:1080 [2026-01-29 11:48]
   → 🌟 风险6% | 住宅IP | Cambodia Phnom Penh Phnom Penh (Cogetel Ltd, Online ...)
+
+socks5://80.253.249.208:60000 [2026-01-29 08:14]
+  → 🌟 风险6% | 住宅IP ⚠️透明 | United States California Huntington Beach (Charter Communicatio...)
+  → 出口IP: 76.93.30.180
 
 socks5://103.206.69.215:1080 [2026-01-29 11:47]
   → 🌟 风险9% | 住宅IP | Cambodia Phnom Penh Phnom Penh (Cogetel Ltd, Online ...)
@@ -84,6 +84,10 @@ socks5://89.22.231.102:1080 [2026-01-29 08:17]
 socks5://103.77.242.50:6666 [2026-01-29 12:15]
   → 🟡 风险49% | 机房IP | Vietnam Ho Chi Minh City (HCMC) Ho Chi Minh City (VPSMMO COMPANY LIMITED)
 
+socks5://141.11.210.35:1080 [2026-01-29 13:02]
+  → 🟠 风险55% | 机房IP ⚠️透明 | United States Arizona Phoenix (LogicWeb Inc.)
+  → 出口IP: 173.244.56.6
+
 socks5://176.124.197.183:1080 [2026-01-29 15:30]
   → 🟠 风险64% | 机房IP | Russia Moscow Oblast Balashikha (G COM Ltd.)
 
@@ -95,14 +99,8 @@ socks5://177.37.163.167:1080 [2026-01-29 10:18]
 socks5://103.178.83.251:1080 [2026-01-29 08:17]
   → 超时
 
-socks5://119.98.156.209:1080 [2026-01-29 18:13]
-  → 超时
-
 socks5://120.244.93.199:1080 [2026-01-29 15:30]
   → 超时
-
-socks5://141.11.210.35:1080 [2026-01-29 13:02]
-  → HTTP 403
 
 socks5://151.243.169.216:1080 [2026-01-29 08:08]
   → 超时
@@ -110,7 +108,10 @@ socks5://151.243.169.216:1080 [2026-01-29 08:08]
 socks5://43.218.137.187:1080 [2026-01-29 14:49]
   → HTTP 403
 
-socks5://89.189.72.242:1080 [2026-01-30 00:23]
+socks5://89.189.65.193:1080 [2026-01-30 00:23]
+  → 超时
+
+socks5://89.189.66.229:1080 [2026-01-30 00:23]
   → 超时
 
 socks5://94.159.100.245:1080 [2026-01-29 11:39]
