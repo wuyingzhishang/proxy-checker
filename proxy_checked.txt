@@ -1,28 +1,28 @@
 # 代理质量检测报告
-# 检测时间: 2026-01-29 04:08:23
+# 检测时间: 2026-01-29 05:44:10
 # API: IPPure (https://my.ippure.com/v1/info)
 
 ## 📊 统计摘要
-# 总计: 30 | 成功: 20 | 失败: 10 | 成功率: 66.7%
+# 总计: 30 | 成功: 19 | 失败: 11 | 成功率: 63.3%
 
 ## 质量分布
-# 优秀: 10
-# 良好: 3
-# 中等: 4
+# 优秀: 9
+# 良好: 2
+# 中等: 5
 # 较差: 2
 
 ## IP类型分布
-# 住宅IP: 9
-# 广播IP: 5
-# 机房IP: 6
+# 住宅IP: 8
+# 广播IP: 3
+# 机房IP: 8
 
 ============================================================
 
 ## ✅ 可用代理列表 (按质量排序)
 
 socks5://80.253.249.208:60000 [2026-01-29 08:14]
-  → 🌟 风险0% | 机房IP ⚠️透明 | United States Delaware Dover (Comcast Cable Commun...)
-  → 出口IP: 2601:145:0:b420:d5b6:affb:84e3:465b
+  → 🌟 风险0% | 机房IP ⚠️透明 | United States Illinois Chicago (T-Mobile USA, Inc.)
+  → 出口IP: 2607:fb90:1741:739:e841:cb71:1903:f33b
 
 socks5://94.159.100.245:1080 [2026-01-29 11:39]
   → 🌟 风险0% | 机房IP ⚠️透明 | Germany Hesse Frankfurt am Main (H2NEXUS LTD)
@@ -37,9 +37,6 @@ socks5://123.19.51.242:1080 [2026-01-29 09:28]
 socks5://180.93.35.11:60010 [2026-01-29 08:14]
   → 🌟 风险4% | 住宅IP ⚠️透明 | United States Georgia Buford (AT&T Enterprises, LLC)
   → 出口IP: 172.126.149.144
-
-socks5://2.135.173.62:1080 [2026-01-29 08:08]
-  → 🌟 风险4% | 住宅IP | Kazakhstan Aktyubinskaya Oblast’ Aktobe (JSC Kazakhtelecom, A...)
 
 socks5://49.156.36.158:1080 [2026-01-29 08:08]
   → 🌟 风险5% | 住宅IP | Cambodia Phnom Penh Phnom Penh (WiCAM Corporation Ltd.)
@@ -59,11 +56,9 @@ socks5://116.105.29.252:1080 [2026-01-29 11:38]
 socks5://117.18.125.6:1080 [2026-01-29 08:08]
   → 🟢 风险19% | 机房IP | Thailand Bangkok Bangkok (ReadyIDC CO.,LTD.)
 
-socks5://155.248.182.7:1080 [2026-01-29 08:08]
-  → 🟢 风险27% | 广播IP | Japan Chiba Inzai (Oracle Public Cloud)
-
-socks5://103.115.17.121:1234 [2026-01-29 08:08]
-  → 🟡 风险30% | 广播IP | South Korea Seoul Seoul (Jiangan District Shi...)
+socks5://141.11.210.35:1080 [2026-01-29 13:02]
+  → 🟡 风险30% | 机房IP ⚠️透明 | United States California Los Angeles (Dedicated.com)
+  → 出口IP: 167.160.90.178
 
 socks5://185.209.29.226:1080 [2026-01-29 08:08]
   → 🟡 风险32% | 机房IP | Russia Moscow Moscow (VDSINA VDS Hosting)
@@ -74,6 +69,9 @@ socks5://38.180.203.70:1080 [2026-01-29 08:14]
 socks5://89.22.231.102:1080 [2026-01-29 08:17]
   → 🟡 风险44% | 广播IP | Germany Hesse Frankfurt am Main (Aeza International LTD)
 
+socks5://103.77.242.50:6666 [2026-01-29 12:15]
+  → 🟡 风险49% | 机房IP | Vietnam Ho Chi Minh City (HCMC) Ho Chi Minh City (VPSMMO COMPANY LIMITED)
+
 socks5://177.37.163.167:1080 [2026-01-29 10:18]
   → 🟠 风险68% | 住宅IP | Brazil Rio Grande do Norte Natal (BRISANET SERVICOS DE...)
 
@@ -82,8 +80,8 @@ socks5://103.178.83.251:1080 [2026-01-29 08:17]
   → 出口IP: 104.28.215.129
 
 socks5://98.142.253.50:1080 [2026-01-29 08:08]
-  → 🔴 风险83% | 广播IP ⚠️透明 | Germany Hesse Frankfurt am Main (Cloudflare, Inc.)
-  → 出口IP: 104.28.197.7
+  → 🔴 风险86% | 广播IP ⚠️透明 | Germany Hesse Frankfurt am Main (Cloudflare, Inc.)
+  → 出口IP: 104.28.197.13
 
 ## ❌ 失败代理列表
 
@@ -94,7 +92,7 @@ socks5://151.243.169.216:1080 [2026-01-29 08:08]
   → 超时
 
 socks5://181.6.1.89:1080 [2026-01-29 08:08]
-  → 错误: [Errno 111] Couldn't connect to proxy 181.6.1.89:1
+  → 超时
 
 socks5://181.6.108.154:1080 [2026-01-29 08:08]
   → 超时
@@ -104,6 +102,9 @@ socks5://181.6.64.153:1080 [2026-01-29 08:08]
 
 socks5://181.6.96.71:1080 [2026-01-29 08:08]
   → 错误: [Errno 111] Couldn't connect to proxy 181.6.96.71:
+
+socks5://2.135.173.62:1080 [2026-01-29 08:08]
+  → 超时
 
 socks5://37.142.196.98:1080 [2026-01-29 08:14]
   → 超时
