@@ -1,19 +1,20 @@
 # 代理质量检测报告
-# 检测时间: 2026-01-29 22:27:25
+# 检测时间: 2026-01-30 01:51:45
 # API: IPPure (https://my.ippure.com/v1/info)
 
 ## 📊 统计摘要
-# 总计: 30 | 成功: 20 | 失败: 10 | 成功率: 66.7%
+# 总计: 30 | 成功: 22 | 失败: 8 | 成功率: 73.3%
 
 ## 质量分布
-# 优秀: 8
+# 优秀: 7
 # 良好: 5
-# 中等: 5
-# 较差: 2
+# 中等: 6
+# 较差: 3
+# 极差: 1
 
 ## IP类型分布
 # 住宅IP: 10
-# 广播IP: 3
+# 广播IP: 5
 # 机房IP: 7
 
 ============================================================
@@ -23,10 +24,6 @@
 socks5://119.98.156.209:1080 [2026-01-29 18:13]
   → 🌟 风险0% | 机房IP ⚠️透明 | United States California Los Angeles (MULTACOM CORPORATION)
   → 出口IP: 2607:f130:0:1dc:216:3cff:fe06:2ac6
-
-socks5://80.253.249.208:60000 [2026-01-29 08:14]
-  → 🌟 风险0% | 机房IP ⚠️透明 | United States Florida Orlando (Charter Communicatio...)
-  → 出口IP: 2603:9001:6900:4f5e:8263:6d47:a7fd:2439
 
 socks5://125.27.149.145:9999 [2026-01-29 08:14]
   → 🌟 风险1% | 住宅IP | Thailand Prachuap Khiri Khan Hua Hin (TOT Public Company L...)
@@ -53,11 +50,12 @@ socks5://103.239.52.196:1080 [2026-01-29 14:16]
 socks5://43.230.192.252:1080 [2026-01-29 15:21]
   → 🟢 风险15% | 住宅IP | Cambodia Phnom Penh Phnom Penh (Cogetel Ltd, Online ...)
 
+socks5://217.114.6.211:1080 [2026-01-30 09:07]
+  → 🟢 风险18% | 广播IP ⚠️透明 | Germany Hesse Frankfurt am Main (ZTV CORP LLC)
+  → 出口IP: 89.23.106.236
+
 socks5://116.105.29.252:1080 [2026-01-29 11:38]
   → 🟢 风险19% | 机房IP | Vietnam Da Nang City Da Nang (Viettel Group)
-
-socks5://117.18.125.6:1080 [2026-01-29 08:08]
-  → 🟢 风险19% | 机房IP | Thailand Bangkok Bangkok (ReadyIDC CO.,LTD.)
 
 socks5://5.8.34.197:8080 [2026-01-30 01:51]
   → 🟢 风险26% | 广播IP | Netherlands North Holland Amsterdam (G-Core Labs Customer...)
@@ -65,6 +63,9 @@ socks5://5.8.34.197:8080 [2026-01-30 01:51]
 socks5://180.93.35.11:60010 [2026-01-29 08:14]
   → 🟡 风险33% | 住宅IP ⚠️透明 | United States Georgia Atlanta (AT&T Enterprises, LLC)
   → 出口IP: 108.86.105.233
+
+socks5://45.152.170.68:1080 [2026-01-30 09:16]
+  → 🟡 风险34% | 机房IP | Russia Primorye Vladivostok (Mega Tec LLC)
 
 socks5://38.180.203.70:1080 [2026-01-29 08:14]
   → 🟡 风险44% | 机房IP | United States Illinois Chicago (3NT SOLUTIONS LLP)
@@ -78,24 +79,23 @@ socks5://43.167.240.36:1080 [2026-01-30 04:58]
 socks5://103.77.242.50:6666 [2026-01-29 12:15]
   → 🟡 风险49% | 机房IP | Vietnam Ho Chi Minh City (HCMC) Ho Chi Minh City (VPSMMO COMPANY LIMITED)
 
+socks5://120.244.93.199:1080 [2026-01-29 15:30]
+  → 🟠 风险56% | 广播IP ⚠️透明 | Hong Kong SAR China Yau Tsim Mong District Jordan (ONTAR-40 (Velcom INC))
+  → 出口IP: 104.234.157.154
+
 socks5://176.124.197.183:1080 [2026-01-29 15:30]
   → 🟠 风险64% | 机房IP | Russia Moscow Oblast Balashikha (G COM Ltd.)
 
 socks5://177.37.163.167:1080 [2026-01-29 10:18]
   → 🟠 风险68% | 住宅IP | Brazil Rio Grande do Norte Natal (BRISANET SERVICOS DE...)
 
+socks5://141.11.210.35:1080 [2026-01-29 13:02]
+  → ⚫ 风险94% | 机房IP ⚠️透明 | Netherlands Flevoland Lelystad (Greenhost BV)
+  → 出口IP: 193.29.139.199
+
 ## ❌ 失败代理列表
 
 socks5://103.178.83.251:1080 [2026-01-29 08:17]
-  → 超时
-
-socks5://120.244.93.199:1080 [2026-01-29 15:30]
-  → 超时
-
-socks5://141.11.210.35:1080 [2026-01-29 13:02]
-  → HTTP 403
-
-socks5://151.243.169.216:1080 [2026-01-29 08:08]
   → 超时
 
 socks5://37.142.196.98:1080 [2026-01-29 08:14]
@@ -106,6 +106,9 @@ socks5://43.167.189.144:1080 [2026-01-30 04:58]
 
 socks5://43.218.137.187:1080 [2026-01-29 14:49]
   → HTTP 403
+
+socks5://80.253.249.208:60000 [2026-01-29 08:14]
+  → 超时
 
 socks5://89.189.65.193:1080 [2026-01-30 00:23]
   → 超时
