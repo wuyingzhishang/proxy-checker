@@ -1,5 +1,5 @@
 # 代理质量检测报告
-# 检测时间: 2026-01-30 16:38:40
+# 检测时间: 2026-01-30 17:33:35
 # API: IPPure (https://my.ippure.com/v1/info)
 
 ## 📊 统计摘要
@@ -12,8 +12,8 @@
 # 较差: 2
 
 ## IP类型分布
-# 住宅IP: 4
-# 广播IP: 5
+# 住宅IP: 5
+# 广播IP: 4
 # 机房IP: 5
 
 ============================================================
@@ -22,20 +22,20 @@
 
 socks5://181.82.203.134:1080 [2026-01-30 21:54]
   → 🌟 风险0% | 机房IP ⚠️透明 | Canada Ontario Toronto (Linode)
-  → 出口IP: 2600:3c04::2000:dfff:fe42:f58c
+  → 出口IP: 2600:3c04::2000:24ff:fe25:b29d
 
 socks5://185.107.74.28:5003 [2026-01-30 22:24]
   → 🌟 风险1% | 住宅IP ⚠️透明 | United Kingdom England Andover (Fixed IP (Static))
   → 出口IP: 84.9.52.126
 
-socks5://77.41.154.11:1080 [2026-01-30 18:50]
-  → 🌟 风险2% | 住宅IP | Russia Moscow Moscow (111250 Russia SOVINT...)
-
 socks5://91.230.65.121:1080 [2026-01-30 16:55]
   → 🌟 风险4% | 住宅IP | Russia Nizhny Novgorod Oblast Nizhniy Novgorod (Panin Kirill Evgenye...)
 
-socks5://5.8.34.197:8080 [2026-01-30 01:51]
-  → 🟢 风险26% | 广播IP | Netherlands North Holland Amsterdam (G-Core Labs Customer...)
+socks5://103.206.68.241:1080 [2026-01-31 00:37]
+  → 🌟 风险6% | 住宅IP | Cambodia Phnom Penh Phnom Penh (Cogetel Ltd, Online ...)
+
+socks5://77.73.233.88:1080 [2026-01-30 20:54]
+  → 🟢 风险10% | 住宅IP | Latvia Riga Riga (Beget LLC)
 
 socks5://62.217.176.47:1080 [2026-01-30 10:00]
   → 🟡 风险33% | 机房IP | Russia St.-Petersburg Saint Petersburg (Beget LLC)
@@ -72,7 +72,7 @@ socks5://172.245.138.18:1080 [2026-01-30 22:24]
   → 错误: [Errno 111] Couldn't connect to proxy 172.245.138.
 
 socks5://181.82.11.179:1080 [2026-01-30 21:55]
-  → 错误: [Errno 111] Couldn't connect to proxy 181.82.11.17
+  → 超时
 
 socks5://181.82.116.145:1080 [2026-01-30 21:55]
   → 错误: [Errno 111] Couldn't connect to proxy 181.82.116.1
@@ -84,7 +84,7 @@ socks5://181.82.163.22:1080 [2026-01-30 21:55]
   → 错误: [Errno 111] Couldn't connect to proxy 181.82.163.2
 
 socks5://181.82.176.52:1080 [2026-01-30 21:55]
-  → HTTP 403
+  → 错误: [Errno 111] Couldn't connect to proxy 181.82.176.5
 
 socks5://181.82.55.90:1080 [2026-01-30 21:54]
   → 错误: [Errno 111] Couldn't connect to proxy 181.82.55.90
@@ -107,7 +107,7 @@ socks5://45.152.170.68:1080 [2026-01-30 09:16]
 socks5://51.83.132.153:1080 [2026-01-30 12:50]
   → HTTP 403
 
-socks5://77.73.233.88:1080 [2026-01-30 20:54]
+socks5://77.41.154.11:1080 [2026-01-30 18:50]
   → 超时
 
 socks5://8.212.161.91:1080 [2026-01-30 20:55]
