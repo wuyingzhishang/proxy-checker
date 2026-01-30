@@ -1,20 +1,21 @@
 # 代理质量检测报告
-# 检测时间: 2026-01-30 05:46:26
+# 检测时间: 2026-01-30 06:46:54
 # API: IPPure (https://my.ippure.com/v1/info)
 
 ## 📊 统计摘要
 # 总计: 30 | 成功: 19 | 失败: 11 | 成功率: 63.3%
 
 ## 质量分布
-# 优秀: 3
+# 优秀: 5
 # 良好: 5
-# 中等: 8
-# 较差: 3
+# 中等: 6
+# 较差: 2
+# 极差: 1
 
 ## IP类型分布
 # 住宅IP: 6
-# 广播IP: 6
-# 机房IP: 7
+# 广播IP: 5
+# 机房IP: 8
 
 ============================================================
 
@@ -24,8 +25,15 @@ socks5://119.98.156.209:1080 [2026-01-29 18:13]
   → 🌟 风险0% | 机房IP ⚠️透明 | United States California Los Angeles (MULTACOM CORPORATION)
   → 出口IP: 2607:f130:0:1dc:216:3cff:fe06:2ac6
 
+socks5://180.93.35.11:60010 [2026-01-29 08:14]
+  → 🌟 风险0% | 机房IP ⚠️透明 | United States California Ventura (AT&T Enterprises, LLC)
+  → 出口IP: 2600:1700:6870:3b40:f566:9d01:d6ad:1195
+
 socks5://125.27.149.145:9999 [2026-01-29 08:14]
   → 🌟 风险1% | 住宅IP | Thailand Prachuap Khiri Khan Hua Hin (TOT Public Company L...)
+
+socks5://103.206.69.65:1080 [2026-01-29 11:48]
+  → 🌟 风险6% | 住宅IP | Cambodia Phnom Penh Phnom Penh (Cogetel Ltd, Online ...)
 
 socks5://86.102.215.1:1080 [2026-01-29 21:28]
   → 🌟 风险9% | 住宅IP | Russia Primorye Vladivostok (Dynamic Broadband Cl...)
@@ -43,12 +51,8 @@ socks5://217.114.6.211:1080 [2026-01-30 09:07]
 socks5://116.105.29.252:1080 [2026-01-29 11:38]
   → 🟢 风险19% | 机房IP | Vietnam Da Nang City Da Nang (Viettel Group)
 
-socks5://5.8.34.197:8080 [2026-01-30 01:51]
-  → 🟢 风险26% | 广播IP | Netherlands North Holland Amsterdam (G-Core Labs Customer...)
-
-socks5://180.93.35.11:60010 [2026-01-29 08:14]
-  → 🟡 风险33% | 住宅IP ⚠️透明 | United States Georgia Atlanta (AT&T Enterprises, LLC)
-  → 出口IP: 108.86.105.233
+socks5://88.218.171.222:1080 [2026-01-30 13:44]
+  → 🟢 风险29% | 广播IP | Netherlands North Holland Amsterdam (Timeweb, LLP)
 
 socks5://62.217.176.47:1080 [2026-01-30 10:00]
   → 🟡 风险33% | 机房IP | Russia St.-Petersburg Saint Petersburg (Beget LLC)
@@ -58,9 +62,6 @@ socks5://168.138.222.163:1080 [2026-01-30 13:40]
 
 socks5://89.22.231.102:1080 [2026-01-29 08:17]
   → 🟡 风险43% | 广播IP | Germany Hesse Frankfurt am Main (Aeza International LTD)
-
-socks5://38.180.203.70:1080 [2026-01-29 08:14]
-  → 🟡 风险44% | 机房IP | United States Illinois Chicago (3NT SOLUTIONS LLP)
 
 socks5://91.132.135.34:1080 [2026-01-30 09:50]
   → 🟡 风险47% | 机房IP | Germany Hesse Frankfurt am Main (WorkTitans B.V.)
@@ -78,8 +79,8 @@ socks5://177.37.163.167:1080 [2026-01-29 10:18]
   → 🟠 风险68% | 住宅IP | Brazil Rio Grande do Norte Natal (BRISANET SERVICOS DE...)
 
 socks5://141.11.210.35:1080 [2026-01-29 13:02]
-  → 🟠 风险69% | 广播IP ⚠️透明 | Netherlands North Holland Amsterdam (Amsterdam, Netherlands)
-  → 出口IP: 212.34.140.184
+  → ⚫ 风险92% | 机房IP ⚠️透明 | Netherlands Flevoland Lelystad (Greenhost BV)
+  → 出口IP: 193.29.139.202
 
 ## ❌ 失败代理列表
 
@@ -87,9 +88,6 @@ socks5://103.178.83.251:1080 [2026-01-29 08:17]
   → 超时
 
 socks5://103.206.69.215:1080 [2026-01-29 11:47]
-  → 超时
-
-socks5://103.206.69.65:1080 [2026-01-29 11:48]
   → 超时
 
 socks5://120.244.93.199:1080 [2026-01-29 15:30]
@@ -106,6 +104,9 @@ socks5://43.230.192.252:1080 [2026-01-29 15:21]
 
 socks5://45.152.170.68:1080 [2026-01-30 09:16]
   → 超时
+
+socks5://5.8.34.197:8080 [2026-01-30 01:51]
+  → 连接错误: [Errno 104] Connection reset by peer
 
 socks5://51.83.132.153:1080 [2026-01-30 12:50]
   → HTTP 403
