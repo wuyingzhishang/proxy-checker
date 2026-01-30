@@ -1,32 +1,28 @@
 # 代理质量检测报告
-# 检测时间: 2026-01-30 15:34:06
+# 检测时间: 2026-01-30 16:38:40
 # API: IPPure (https://my.ippure.com/v1/info)
 
 ## 📊 统计摘要
-# 总计: 30 | 成功: 15 | 失败: 15 | 成功率: 50.0%
+# 总计: 30 | 成功: 14 | 失败: 16 | 成功率: 46.7%
 
 ## 质量分布
-# 优秀: 5
-# 良好: 2
+# 优秀: 4
+# 良好: 1
 # 中等: 6
-# 较差: 1
+# 较差: 2
 
 ## IP类型分布
 # 住宅IP: 4
 # 广播IP: 5
-# 机房IP: 6
+# 机房IP: 5
 
 ============================================================
 
 ## ✅ 可用代理列表 (按质量排序)
 
-socks5://181.82.163.22:1080 [2026-01-30 21:55]
-  → 🌟 风险0% | 机房IP ⚠️透明 | United States Virginia Manassas (netcup GmbH)
-  → 出口IP: 2a0a:4cc0:2000:9a4:7836:a2ff:fef5:d466
-
 socks5://181.82.203.134:1080 [2026-01-30 21:54]
   → 🌟 风险0% | 机房IP ⚠️透明 | Canada Ontario Toronto (Linode)
-  → 出口IP: 2600:3c04::2000:24ff:fe25:b29d
+  → 出口IP: 2600:3c04::2000:dfff:fe42:f58c
 
 socks5://185.107.74.28:5003 [2026-01-30 22:24]
   → 🌟 风险1% | 住宅IP ⚠️透明 | United Kingdom England Andover (Fixed IP (Static))
@@ -38,17 +34,14 @@ socks5://77.41.154.11:1080 [2026-01-30 18:50]
 socks5://91.230.65.121:1080 [2026-01-30 16:55]
   → 🌟 风险4% | 住宅IP | Russia Nizhny Novgorod Oblast Nizhniy Novgorod (Panin Kirill Evgenye...)
 
-socks5://77.73.233.88:1080 [2026-01-30 20:54]
-  → 🟢 风险10% | 住宅IP | Latvia Riga Riga (Beget LLC)
-
 socks5://5.8.34.197:8080 [2026-01-30 01:51]
   → 🟢 风险26% | 广播IP | Netherlands North Holland Amsterdam (G-Core Labs Customer...)
 
+socks5://62.217.176.47:1080 [2026-01-30 10:00]
+  → 🟡 风险33% | 机房IP | Russia St.-Petersburg Saint Petersburg (Beget LLC)
+
 socks5://206.237.120.41:50161 [2026-01-30 20:54]
   → 🟡 风险34% | 广播IP | Japan Tokyo Tokyo (Nearoute Limited)
-
-socks5://45.152.170.68:1080 [2026-01-30 09:16]
-  → 🟡 风险34% | 机房IP | Russia Primorye Vladivostok (Mega Tec LLC)
 
 socks5://168.138.222.163:1080 [2026-01-30 13:40]
   → 🟡 风险35% | 广播IP | Japan Chiba Inzai (Oracle Public Cloud)
@@ -66,6 +59,10 @@ socks5://91.132.135.34:1080 [2026-01-30 09:50]
 socks5://74.50.65.152:1080 [2026-01-30 20:55]
   → 🟠 风险59% | 机房IP | United States New York New York City (Host Department NJ, LLC)
 
+socks5://43.246.201.253:1080 [2026-01-31 00:27]
+  → 🔴 风险70% | 住宅IP ⚠️透明 | Bangladesh Chittagong Maijdi (HelloTech Limited)
+  → 出口IP: 103.42.202.217
+
 socks5://154.219.125.240:58367 [2026-01-30 20:54]
   → 🔴 风险78% | 广播IP | United States California Los Angeles (Vapeline Technology)
 
@@ -75,22 +72,25 @@ socks5://172.245.138.18:1080 [2026-01-30 22:24]
   → 错误: [Errno 111] Couldn't connect to proxy 172.245.138.
 
 socks5://181.82.11.179:1080 [2026-01-30 21:55]
-  → 超时
+  → 错误: [Errno 111] Couldn't connect to proxy 181.82.11.17
 
 socks5://181.82.116.145:1080 [2026-01-30 21:55]
-  → 超时
+  → 错误: [Errno 111] Couldn't connect to proxy 181.82.116.1
 
 socks5://181.82.155.250:1080 [2026-01-30 21:54]
   → 错误: [Errno 111] Couldn't connect to proxy 181.82.155.2
 
+socks5://181.82.163.22:1080 [2026-01-30 21:55]
+  → 错误: [Errno 111] Couldn't connect to proxy 181.82.163.2
+
 socks5://181.82.176.52:1080 [2026-01-30 21:55]
-  → 超时
+  → HTTP 403
 
 socks5://181.82.55.90:1080 [2026-01-30 21:54]
   → 错误: [Errno 111] Couldn't connect to proxy 181.82.55.90
 
 socks5://181.82.91.233:1080 [2026-01-30 21:54]
-  → 超时
+  → 错误: [Errno 111] Couldn't connect to proxy 181.82.91.23
 
 socks5://217.114.6.211:1080 [2026-01-30 09:07]
   → 错误: [Errno 111] Couldn't connect to proxy 217.114.6.21
@@ -101,17 +101,17 @@ socks5://43.167.189.144:1080 [2026-01-30 04:58]
 socks5://43.167.240.36:1080 [2026-01-30 04:58]
   → 超时
 
+socks5://45.152.170.68:1080 [2026-01-30 09:16]
+  → 超时
+
 socks5://51.83.132.153:1080 [2026-01-30 12:50]
   → HTTP 403
 
-socks5://62.217.176.47:1080 [2026-01-30 10:00]
+socks5://77.73.233.88:1080 [2026-01-30 20:54]
   → 超时
 
 socks5://8.212.161.91:1080 [2026-01-30 20:55]
   → 超时
 
 socks5://88.218.171.222:1080 [2026-01-30 13:44]
-  → 超时
-
-socks5://89.189.72.242:1080 [2026-01-30 00:23]
   → 超时
