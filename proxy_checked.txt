@@ -1,20 +1,20 @@
 # 代理质量检测报告
-# 检测时间: 2026-01-30 07:41:11
+# 检测时间: 2026-01-30 08:37:16
 # API: IPPure (https://my.ippure.com/v1/info)
 
 ## 📊 统计摘要
-# 总计: 30 | 成功: 21 | 失败: 9 | 成功率: 70.0%
+# 总计: 30 | 成功: 22 | 失败: 8 | 成功率: 73.3%
 
 ## 质量分布
-# 优秀: 6
-# 良好: 6
-# 中等: 7
-# 较差: 2
+# 优秀: 5
+# 良好: 7
+# 中等: 6
+# 较差: 1
 
 ## IP类型分布
-# 住宅IP: 9
-# 广播IP: 5
-# 机房IP: 7
+# 住宅IP: 8
+# 广播IP: 8
+# 机房IP: 6
 
 ============================================================
 
@@ -29,10 +29,6 @@ socks5://125.27.149.145:9999 [2026-01-29 08:14]
 
 socks5://103.206.69.65:1080 [2026-01-29 11:48]
   → 🌟 风险6% | 住宅IP | Cambodia Phnom Penh Phnom Penh (Cogetel Ltd, Online ...)
-
-socks5://141.11.210.35:1080 [2026-01-29 13:02]
-  → 🌟 风险6% | 住宅IP ⚠️透明 | Japan Tokyo Tokyo (Server Hosting Servi...)
-  → 出口IP: 116.80.76.130
 
 socks5://103.206.69.215:1080 [2026-01-29 11:47]
   → 🌟 风险9% | 住宅IP | Cambodia Phnom Penh Phnom Penh (Cogetel Ltd, Online ...)
@@ -59,11 +55,11 @@ socks5://116.105.29.252:1080 [2026-01-29 11:38]
 socks5://5.8.34.197:8080 [2026-01-30 01:51]
   → 🟢 风险26% | 广播IP | Netherlands North Holland Amsterdam (G-Core Labs Customer...)
 
+socks5://88.218.171.222:1080 [2026-01-30 13:44]
+  → 🟢 风险29% | 广播IP | Netherlands North Holland Amsterdam (Timeweb, LLP)
+
 socks5://62.217.176.47:1080 [2026-01-30 10:00]
   → 🟡 风险33% | 机房IP | Russia St.-Petersburg Saint Petersburg (Beget LLC)
-
-socks5://45.152.170.68:1080 [2026-01-30 09:16]
-  → 🟡 风险34% | 机房IP | Russia Primorye Vladivostok (Mega Tec LLC)
 
 socks5://168.138.222.163:1080 [2026-01-30 13:40]
   → 🟡 风险35% | 广播IP | Japan Chiba Inzai (Oracle Public Cloud)
@@ -80,22 +76,27 @@ socks5://43.167.240.36:1080 [2026-01-30 04:58]
 socks5://103.77.242.50:6666 [2026-01-29 12:15]
   → 🟡 风险49% | 机房IP | Vietnam Ho Chi Minh City (HCMC) Ho Chi Minh City (VPSMMO COMPANY LIMITED)
 
+socks5://120.244.93.199:1080 [2026-01-29 15:30]
+  → 🟠 风险56% | 广播IP ⚠️透明 | Hong Kong SAR China Yau Tsim Mong District Jordan (ONTAR-40 (Velcom INC))
+  → 出口IP: 104.234.157.154
+
 socks5://176.124.197.183:1080 [2026-01-29 15:30]
   → 🟠 风险63% | 机房IP | Russia Moscow Oblast Balashikha (G COM Ltd.)
 
 socks5://177.37.163.167:1080 [2026-01-29 10:18]
   → 🟠 风险68% | 住宅IP | Brazil Rio Grande do Norte Natal (BRISANET SERVICOS DE...)
 
-## ❌ 失败代理列表
-
 socks5://103.178.83.251:1080 [2026-01-29 08:17]
-  → 超时
+  → 🔴 风险84% | 广播IP ⚠️透明 | Indonesia East Java Surabaya (Cloudflare, Inc.)
+  → 出口IP: 104.28.215.133
+
+## ❌ 失败代理列表
 
 socks5://119.98.156.209:1080 [2026-01-29 18:13]
   → 超时
 
-socks5://120.244.93.199:1080 [2026-01-29 15:30]
-  → 超时
+socks5://141.11.210.35:1080 [2026-01-29 13:02]
+  → HTTP 403
 
 socks5://43.167.189.144:1080 [2026-01-30 04:58]
   → 错误: Unexpected SOCKS version number: 212
@@ -103,11 +104,11 @@ socks5://43.167.189.144:1080 [2026-01-30 04:58]
 socks5://43.218.137.187:1080 [2026-01-29 14:49]
   → 超时
 
+socks5://45.152.170.68:1080 [2026-01-30 09:16]
+  → 超时
+
 socks5://51.83.132.153:1080 [2026-01-30 12:50]
   → HTTP 403
-
-socks5://88.218.171.222:1080 [2026-01-30 13:44]
-  → 超时
 
 socks5://89.189.72.242:1080 [2026-01-30 00:23]
   → 超时
