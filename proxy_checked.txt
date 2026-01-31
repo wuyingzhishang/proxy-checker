@@ -1,21 +1,21 @@
 # 代理质量检测报告
-# 检测时间: 2026-01-31 14:23:59
+# 检测时间: 2026-01-31 15:23:32
 # API: IPPure (https://my.ippure.com/v1/info)
 
 ## 📊 统计摘要
-# 总计: 30 | 成功: 20 | 失败: 10 | 成功率: 66.7%
+# 总计: 30 | 成功: 18 | 失败: 12 | 成功率: 60.0%
 
 ## 质量分布
-# 优秀: 10
+# 优秀: 9
 # 良好: 2
-# 中等: 5
+# 中等: 4
 # 较差: 2
 # 极差: 1
 
 ## IP类型分布
-# 住宅IP: 10
-# 广播IP: 4
-# 机房IP: 6
+# 住宅IP: 9
+# 广播IP: 6
+# 机房IP: 3
 
 ============================================================
 
@@ -25,14 +25,6 @@ socks5://107.182.173.176:1080 [2026-01-31 18:51]
   → 🌟 风险0% | 机房IP ⚠️透明 | United States Utah Murray (WebNX, Inc.)
   → 出口IP: 2607:f2d8:401b:1080::a
 
-socks5://181.82.55.90:1080 [2026-01-30 21:54]
-  → 🌟 风险0% | 机房IP ⚠️透明 | Brazil São Paulo São Paulo (Oracle Corporation)
-  → 出口IP: 2603:c021:c005:3401:bde4:3ecf:8d3d:4537
-
-socks5://171.245.80.33:1080 [2026-01-31 14:11]
-  → 🌟 风险1% | 住宅IP ⚠️透明 | Vietnam Ninh Binh Nam Định (Viettel Group)
-  → 出口IP: 116.97.139.46
-
 socks5://185.107.74.28:5003 [2026-01-30 22:24]
   → 🌟 风险1% | 住宅IP ⚠️透明 | United Kingdom England Andover (Fixed IP (Static))
   → 出口IP: 84.9.52.126
@@ -40,6 +32,10 @@ socks5://185.107.74.28:5003 [2026-01-30 22:24]
 socks5://42.115.75.186:1080 [2026-01-31 09:51]
   → 🌟 风险1% | 住宅IP ⚠️透明 | Vietnam Thanh Hóa Province Thanh Hóa (AdditionalIP range f...)
   → 出口IP: 117.7.81.125
+
+socks5://171.245.80.33:1080 [2026-01-31 14:11]
+  → 🌟 风险3% | 住宅IP ⚠️透明 | Vietnam Ninh Binh Nam Định (Viettel Group)
+  → 出口IP: 171.255.225.76
 
 socks5://195.46.183.181:1080 [2026-01-31 16:59]
   → 🌟 风险4% | 住宅IP | Russia Tatarstan Republic Stolbishchi (111250 Russia SOVINT...)
@@ -56,26 +52,21 @@ socks5://88.206.51.47:9999 [2026-01-31 15:34]
 socks5://77.73.235.120:1080 [2026-01-31 20:04]
   → 🌟 风险9% | 住宅IP | Latvia Riga Riga (Beget LLC)
 
+socks5://171.245.82.121:1080 [2026-01-31 14:10]
+  → 🟢 风险12% | 住宅IP | Vietnam Ninh Binh Nam Định (Viettel Group)
+
 socks5://5.138.255.233:1080 [2026-01-31 01:52]
   → 🟢 风险21% | 广播IP ⚠️透明 | Netherlands Flevoland Lelystad (Snowd Security OU)
   → 出口IP: 194.85.251.128
 
-socks5://85.159.231.114:1080 [2026-01-31 17:43]
-  → 🟢 风险22% | 机房IP | Russia Moscow Moscow (LLC POWERNET)
-
 socks5://89.108.123.120:1080 [2026-01-31 16:00]
   → 🟡 风险30% | 机房IP | Russia Moscow Moscow (Reg.Ru Hosting)
 
+socks5://77.238.224.246:1080 [2026-01-31 21:12]
+  → 🟡 风险39% | 广播IP | Netherlands North Holland Amsterdam (SERVERS TECH FZCO)
+
 socks5://154.90.49.171:1080 [2026-01-30 21:22]
   → 🟡 风险40% | 广播IP | Indonesia Jakarta Jakarta (Lightnode Limited)
-
-socks5://94.31.176.234:10808 [2026-01-30 20:54]
-  → 🟡 风险43% | 机房IP ⚠️透明 | Netherlands Drenthe Meppel (WorkTitans B.V.)
-  → 出口IP: 45.12.145.204
-
-socks5://171.245.82.121:1080 [2026-01-31 14:10]
-  → 🟡 风险46% | 住宅IP ⚠️透明 | Vietnam Ninh Binh Nam Định (Viettel Group)
-  → 出口IP: 171.245.87.246
 
 socks5://159.65.113.122:1080 [2026-01-31 17:18]
   → 🟡 风险48% | 广播IP | Germany Hesse Frankfurt am Main (DigitalOcean, LLC)
@@ -83,9 +74,8 @@ socks5://159.65.113.122:1080 [2026-01-31 17:18]
 socks5://74.50.65.152:1080 [2026-01-30 20:55]
   → 🟠 风险59% | 机房IP | United States New York New York City (Host Department NJ, LLC)
 
-socks5://43.246.201.253:1080 [2026-01-31 00:27]
-  → 🟠 风险68% | 住宅IP ⚠️透明 | Bangladesh Chittagong Maijdi (HelloTech Limited)
-  → 出口IP: 103.42.202.218
+socks5://168.138.9.147:1080 [2026-01-31 22:44]
+  → 🟠 风险61% | 广播IP | Australia Victoria Melbourne (Oracle Public Cloud)
 
 socks5://178.62.116.7:1080 [2026-01-31 18:05]
   → ⚫ 风险100% | 广播IP | United Kingdom England London (DigitalOcean London)
@@ -101,10 +91,16 @@ socks5://116.203.165.251:1080 [2026-01-31 06:32]
 socks5://140.238.27.134:1080 [2026-01-31 04:28]
   → 超时
 
+socks5://181.82.55.90:1080 [2026-01-30 21:54]
+  → 错误: [Errno 111] Couldn't connect to proxy 181.82.55.90
+
 socks5://192.241.156.17:1080 [2026-01-31 18:53]
   → 错误: [Errno 111] Couldn't connect to proxy 192.241.156.
 
 socks5://27.76.117.115:1080 [2026-01-31 06:28]
+  → 超时
+
+socks5://43.246.201.253:1080 [2026-01-31 00:27]
   → 超时
 
 socks5://45.87.120.51:1080 [2026-01-31 01:48]
@@ -119,5 +115,5 @@ socks5://65.109.193.203:8080 [2026-01-31 10:41]
 socks5://65.109.88.77:1080 [2026-01-31 10:38]
   → 错误: 0 bytes read on a total of 4 expected bytes
 
-socks5://77.238.224.246:1080 [2026-01-31 21:12]
-  → 错误: [Errno 111] Couldn't connect to proxy 77.238.224.2
+socks5://85.159.231.114:1080 [2026-01-31 17:43]
+  → 超时
