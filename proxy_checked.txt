@@ -1,5 +1,5 @@
 # 代理质量检测报告
-# 检测时间: 2026-01-31 16:27:14
+# 检测时间: 2026-01-31 17:24:14
 # API: IPPure (https://my.ippure.com/v1/info)
 
 ## 📊 统计摘要
@@ -7,9 +7,9 @@
 
 ## 质量分布
 # 优秀: 8
-# 良好: 1
+# 良好: 2
 # 中等: 4
-# 极差: 2
+# 极差: 1
 
 ## IP类型分布
 # 住宅IP: 7
@@ -24,6 +24,10 @@ socks5://107.182.173.176:1080 [2026-01-31 18:51]
   → 🌟 风险0% | 机房IP ⚠️透明 | United States Utah Murray (WebNX, Inc.)
   → 出口IP: 2607:f2d8:401b:1080::a
 
+socks5://181.82.55.90:1080 [2026-01-30 21:54]
+  → 🌟 风险0% | 机房IP ⚠️透明 | Brazil São Paulo São Paulo (QNAX LTDA)
+  → 出口IP: 2804:5364:7000:1:1:1:e7ad:653
+
 socks5://185.107.74.28:5003 [2026-01-30 22:24]
   → 🌟 风险1% | 住宅IP ⚠️透明 | United Kingdom England Andover (Fixed IP (Static))
   → 出口IP: 84.9.52.126
@@ -32,20 +36,22 @@ socks5://42.115.75.186:1080 [2026-01-31 09:51]
   → 🌟 风险1% | 住宅IP ⚠️透明 | Vietnam Thanh Hóa Province Thanh Hóa (AdditionalIP range f...)
   → 出口IP: 117.7.81.125
 
-socks5://195.46.183.181:1080 [2026-01-31 16:59]
-  → 🌟 风险4% | 住宅IP | Russia Tatarstan Republic Stolbishchi (111250 Russia SOVINT...)
+socks5://171.245.82.121:1080 [2026-01-31 14:10]
+  → 🌟 风险5% | 住宅IP ⚠️透明 | Vietnam Ninh Binh Nam Định (Viettel Group)
+  → 出口IP: 171.245.80.33
 
 socks5://103.206.68.241:1080 [2026-01-31 00:37]
   → 🌟 风险6% | 住宅IP | Cambodia Phnom Penh Phnom Penh (Cogetel Ltd, Online ...)
-
-socks5://185.24.112.153:1080 [2026-01-31 12:42]
-  → 🌟 风险6% | 住宅IP | Russia Ivanovo Oblast Ivanovo (INTERCOMTEL Limited ...)
 
 socks5://88.206.51.47:9999 [2026-01-31 15:34]
   → 🌟 风险8% | 住宅IP | Russia Chelyabinsk Chelyabinsk (Intersvyaz-2 JSC)
 
 socks5://77.73.235.120:1080 [2026-01-31 20:04]
   → 🌟 风险9% | 住宅IP | Latvia Riga Riga (Beget LLC)
+
+socks5://171.245.80.33:1080 [2026-01-31 14:11]
+  → 🟢 风险12% | 住宅IP ⚠️透明 | Vietnam Ninh Binh Nam Định (Viettel Group)
+  → 出口IP: 171.236.93.205
 
 socks5://5.138.255.233:1080 [2026-01-31 01:52]
   → 🟢 风险21% | 广播IP ⚠️透明 | Netherlands Flevoland Lelystad (Snowd Security OU)
@@ -66,9 +72,6 @@ socks5://159.65.113.122:1080 [2026-01-31 17:18]
 socks5://178.62.116.7:1080 [2026-01-31 18:05]
   → ⚫ 风险100% | 广播IP | United Kingdom England London (DigitalOcean London)
 
-socks5://192.241.156.17:1080 [2026-01-31 18:53]
-  → ⚫ 风险100% | 机房IP | United States New Jersey North Bergen (DigitalOcean, LLC)
-
 ## ❌ 失败代理列表
 
 socks5://108.137.70.245:1080 [2026-01-31 16:00]
@@ -83,17 +86,17 @@ socks5://140.238.27.134:1080 [2026-01-31 04:28]
 socks5://168.138.9.147:1080 [2026-01-31 22:44]
   → 超时
 
-socks5://171.245.80.33:1080 [2026-01-31 14:11]
-  → 超时
-
-socks5://171.245.82.121:1080 [2026-01-31 14:10]
-  → 超时
-
 socks5://18.223.115.141:1080 [2026-01-31 23:31]
   → HTTP 403
 
-socks5://181.82.55.90:1080 [2026-01-30 21:54]
-  → 错误: [Errno 111] Couldn't connect to proxy 181.82.55.90
+socks5://185.24.112.153:1080 [2026-01-31 12:42]
+  → 超时
+
+socks5://192.241.156.17:1080 [2026-01-31 18:53]
+  → 错误: [Errno 111] Couldn't connect to proxy 192.241.156.
+
+socks5://195.46.183.181:1080 [2026-01-31 16:59]
+  → 超时
 
 socks5://27.76.117.115:1080 [2026-01-31 06:28]
   → 超时
