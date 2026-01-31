@@ -1,19 +1,19 @@
 # 代理质量检测报告
-# 检测时间: 2026-01-31 04:05:34
+# 检测时间: 2026-01-31 05:39:26
 # API: IPPure (https://my.ippure.com/v1/info)
 
 ## 📊 统计摘要
-# 总计: 30 | 成功: 19 | 失败: 11 | 成功率: 63.3%
+# 总计: 30 | 成功: 17 | 失败: 13 | 成功率: 56.7%
 
 ## 质量分布
 # 优秀: 5
 # 良好: 4
 # 中等: 5
-# 较差: 2
+# 较差: 1
 
 ## IP类型分布
-# 住宅IP: 7
-# 广播IP: 7
+# 住宅IP: 6
+# 广播IP: 6
 # 机房IP: 5
 
 ============================================================
@@ -24,15 +24,14 @@ socks5://185.107.74.28:5003 [2026-01-30 22:24]
   → 🌟 风险1% | 住宅IP ⚠️透明 | United Kingdom England Andover (Fixed IP (Static))
   → 出口IP: 84.9.52.126
 
-socks5://42.115.75.186:1080 [2026-01-31 09:51]
-  → 🌟 风险1% | 住宅IP ⚠️透明 | Vietnam Thanh Hóa Province Thanh Hóa (AdditionalIP range f...)
-  → 出口IP: 117.7.81.125
-
 socks5://91.230.65.121:1080 [2026-01-30 16:55]
   → 🌟 风险4% | 住宅IP | Russia Nizhny Novgorod Oblast Nizhniy Novgorod (Panin Kirill Evgenye...)
 
 socks5://103.206.68.241:1080 [2026-01-31 00:37]
   → 🌟 风险6% | 住宅IP | Cambodia Phnom Penh Phnom Penh (Cogetel Ltd, Online ...)
+
+socks5://185.24.112.153:1080 [2026-01-31 12:42]
+  → 🌟 风险6% | 住宅IP | Russia Ivanovo Oblast Ivanovo (INTERCOMTEL Limited ...)
 
 socks5://86.102.215.1:1080 [2026-01-29 21:28]
   → 🌟 风险9% | 住宅IP | Russia Primorye Vladivostok (Dynamic Broadband Cl...)
@@ -63,21 +62,13 @@ socks5://154.90.49.171:1080 [2026-01-30 21:22]
   → 🟡 风险41% | 广播IP | Indonesia Jakarta Jakarta (Lightnode Limited)
 
 socks5://91.132.135.34:1080 [2026-01-30 09:50]
-  → 🟡 风险47% | 机房IP | Germany Hesse Frankfurt am Main (WorkTitans B.V.)
-
-socks5://120.244.93.199:1080 [2026-01-29 15:30]
-  → 🟠 风险55% | 广播IP ⚠️透明 | Hong Kong SAR China Yau Tsim Mong District Jordan (ONTAR-40 (Velcom INC))
-  → 出口IP: 104.234.157.154
+  → 🟡 风险46% | 机房IP | Germany Hesse Frankfurt am Main (WorkTitans B.V.)
 
 socks5://74.50.65.152:1080 [2026-01-30 20:55]
   → 🟠 风险59% | 机房IP | United States New York New York City (Host Department NJ, LLC)
 
 socks5://176.124.197.183:1080 [2026-01-29 15:30]
   → 🟠 风险63% | 机房IP | Russia Moscow Oblast Balashikha (G COM Ltd.)
-
-socks5://43.246.201.253:1080 [2026-01-31 00:27]
-  → 🔴 风险70% | 住宅IP ⚠️透明 | Bangladesh Chittagong Maijdi (HelloTech Limited)
-  → 出口IP: 103.42.202.217
 
 socks5://154.219.125.240:58367 [2026-01-30 20:54]
   → 🔴 风险78% | 广播IP | United States California Los Angeles (Vapeline Technology)
@@ -96,10 +87,16 @@ socks5://181.82.55.90:1080 [2026-01-30 21:54]
 socks5://27.76.117.115:1080 [2026-01-31 06:28]
   → 超时
 
+socks5://42.115.75.186:1080 [2026-01-31 09:51]
+  → 超时
+
 socks5://43.167.189.144:1080 [2026-01-30 04:58]
   → 错误: Unexpected SOCKS version number: 212
 
 socks5://43.167.240.36:1080 [2026-01-30 04:58]
+  → 超时
+
+socks5://43.246.201.253:1080 [2026-01-31 00:27]
   → 超时
 
 socks5://45.152.170.68:1080 [2026-01-30 09:16]
