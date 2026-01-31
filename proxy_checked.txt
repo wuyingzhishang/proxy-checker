@@ -1,18 +1,19 @@
 # 代理质量检测报告
-# 检测时间: 2026-01-31 11:21:02
+# 检测时间: 2026-01-31 12:42:58
 # API: IPPure (https://my.ippure.com/v1/info)
 
 ## 📊 统计摘要
-# 总计: 30 | 成功: 17 | 失败: 13 | 成功率: 56.7%
+# 总计: 30 | 成功: 20 | 失败: 10 | 成功率: 66.7%
 
 ## 质量分布
-# 优秀: 7
-# 良好: 4
+# 优秀: 10
+# 良好: 3
 # 中等: 5
+# 较差: 1
 # 极差: 1
 
 ## IP类型分布
-# 住宅IP: 6
+# 住宅IP: 9
 # 广播IP: 5
 # 机房IP: 6
 
@@ -26,7 +27,7 @@ socks5://107.182.173.176:1080 [2026-01-31 18:51]
 
 socks5://181.82.55.90:1080 [2026-01-30 21:54]
   → 🌟 风险0% | 机房IP ⚠️透明 | Brazil São Paulo São Paulo (QNAX LTDA)
-  → 出口IP: 2804:5364:7000:1:1:1:9c74:d086
+  → 出口IP: 2804:5364:7000:1:a3:1:a316:271
 
 socks5://185.107.74.28:5003 [2026-01-30 22:24]
   → 🌟 风险1% | 住宅IP ⚠️透明 | United Kingdom England Andover (Fixed IP (Static))
@@ -39,14 +40,23 @@ socks5://42.115.75.186:1080 [2026-01-31 09:51]
 socks5://195.46.183.181:1080 [2026-01-31 16:59]
   → 🌟 风险4% | 住宅IP | Russia Tatarstan Republic Stolbishchi (111250 Russia SOVINT...)
 
+socks5://171.245.80.33:1080 [2026-01-31 14:11]
+  → 🌟 风险5% | 住宅IP | Vietnam Ninh Binh Nam Định (Viettel Group)
+
 socks5://103.206.68.241:1080 [2026-01-31 00:37]
   → 🌟 风险6% | 住宅IP | Cambodia Phnom Penh Phnom Penh (Cogetel Ltd, Online ...)
+
+socks5://185.24.112.153:1080 [2026-01-31 12:42]
+  → 🌟 风险6% | 住宅IP | Russia Ivanovo Oblast Ivanovo (INTERCOMTEL Limited ...)
 
 socks5://88.206.51.47:9999 [2026-01-31 15:34]
   → 🌟 风险8% | 住宅IP | Russia Chelyabinsk Chelyabinsk (Intersvyaz-2 JSC)
 
-socks5://77.73.233.88:1080 [2026-01-30 20:54]
-  → 🟢 风险10% | 住宅IP | Latvia Riga Riga (Beget LLC)
+socks5://77.73.235.120:1080 [2026-01-31 20:04]
+  → 🌟 风险9% | 住宅IP | Latvia Riga Riga (Beget LLC)
+
+socks5://171.245.82.121:1080 [2026-01-31 14:10]
+  → 🟢 风险12% | 住宅IP | Vietnam Ninh Binh Nam Định (Viettel Group)
 
 socks5://5.138.255.233:1080 [2026-01-31 01:52]
   → 🟢 风险21% | 广播IP ⚠️透明 | Netherlands Flevoland Lelystad (Snowd Security OU)
@@ -54,10 +64,6 @@ socks5://5.138.255.233:1080 [2026-01-31 01:52]
 
 socks5://85.159.231.114:1080 [2026-01-31 17:43]
   → 🟢 风险22% | 机房IP | Russia Moscow Moscow (LLC POWERNET)
-
-socks5://65.109.88.77:1080 [2026-01-31 10:38]
-  → 🟢 风险25% | 机房IP ⚠️透明 | Russia Moscow Oblast Balashikha (JSC IOT)
-  → 出口IP: 109.172.6.244
 
 socks5://89.108.123.120:1080 [2026-01-31 16:00]
   → 🟡 风险30% | 机房IP | Russia Moscow Moscow (Reg.Ru Hosting)
@@ -75,6 +81,9 @@ socks5://94.31.176.234:10808 [2026-01-30 20:54]
 socks5://159.65.113.122:1080 [2026-01-31 17:18]
   → 🟡 风险48% | 广播IP | Germany Hesse Frankfurt am Main (DigitalOcean, LLC)
 
+socks5://74.50.65.152:1080 [2026-01-30 20:55]
+  → 🟠 风险59% | 机房IP | United States New York New York City (Host Department NJ, LLC)
+
 socks5://178.62.116.7:1080 [2026-01-31 18:05]
   → ⚫ 风险100% | 广播IP | United Kingdom England London (DigitalOcean London)
 
@@ -87,15 +96,6 @@ socks5://116.203.165.251:1080 [2026-01-31 06:32]
   → 超时
 
 socks5://140.238.27.134:1080 [2026-01-31 04:28]
-  → 超时
-
-socks5://171.245.80.33:1080 [2026-01-31 14:11]
-  → 超时
-
-socks5://171.245.82.121:1080 [2026-01-31 14:10]
-  → 超时
-
-socks5://185.24.112.153:1080 [2026-01-31 12:42]
   → 超时
 
 socks5://192.241.156.17:1080 [2026-01-31 18:53]
@@ -116,5 +116,5 @@ socks5://47.250.186.77:1080 [2026-01-31 15:00]
 socks5://65.109.193.203:8080 [2026-01-31 10:41]
   → HTTP 403
 
-socks5://74.50.65.152:1080 [2026-01-30 20:55]
-  → 超时
+socks5://65.109.88.77:1080 [2026-01-31 10:38]
+  → 错误: 0 bytes read on a total of 4 expected bytes
