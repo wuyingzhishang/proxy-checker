@@ -1,18 +1,19 @@
 # 代理质量检测报告
-# 检测时间: 2026-02-01 15:24:56
+# 检测时间: 2026-02-01 16:29:16
 # API: IPPure (https://my.ippure.com/v1/info)
 
 ## 📊 统计摘要
-# 总计: 30 | 成功: 15 | 失败: 15 | 成功率: 50.0%
+# 总计: 30 | 成功: 14 | 失败: 16 | 成功率: 46.7%
 
 ## 质量分布
-# 优秀: 5
-# 良好: 5
+# 优秀: 4
+# 良好: 4
 # 中等: 4
 # 较差: 1
+# 极差: 1
 
 ## IP类型分布
-# 住宅IP: 4
+# 住宅IP: 3
 # 广播IP: 3
 # 机房IP: 8
 
@@ -34,14 +35,8 @@ socks5://31.200.237.128:1080 [2026-02-01 03:23]
 socks5://118.99.72.232:1080 [2026-02-01 18:07]
   → 🌟 风险6% | 住宅IP | Indonesia West Java Bandung (Biznet Networks)
 
-socks5://77.73.235.120:1080 [2026-01-31 20:04]
-  → 🌟 风险9% | 住宅IP | Latvia Riga Riga (Beget LLC)
-
 socks5://181.214.140.37:2222 [2026-02-01 05:01]
   → 🟢 风险23% | 机房IP | United Kingdom England Reading (WorldStream B.V.)
-
-socks5://147.45.155.42:1080 [2026-02-01 09:02]
-  → 🟢 风险26% | 机房IP | Russia Moscow Moscow (JSC TIMEWEB)
 
 socks5://147.45.199.101:8080 [2026-02-01 09:02]
   → 🟢 风险29% | 广播IP | Germany Hesse Frankfurt am Main (Hostinux Limited)
@@ -70,16 +65,23 @@ socks5://217.60.38.27:8888 [2026-02-01 03:07]
   → 🟠 风险58% | 住宅IP ⚠️透明 | Vietnam Phu Tho Vĩnh Yên (Vietnam Posts and Te...)
   → 出口IP: 14.241.89.5
 
+socks5://141.95.168.77:1080 [2026-02-01 23:34]
+  → ⚫ 风险94% | 机房IP ⚠️透明 | United States California San Jose (Emerald Onion)
+  → 出口IP: 23.129.64.208
+
 ## ❌ 失败代理列表
 
 socks5://111.119.162.248:10909 [2026-02-01 18:50]
-  → HTTP 403
+  → 错误: [Errno 111] Couldn't connect to proxy 111.119.162.
 
 socks5://138.2.54.226:1080 [2026-02-01 04:12]
   → 错误: [Errno 111] Couldn't connect to proxy 138.2.54.226
 
 socks5://14.29.69.244:10888 [2026-02-01 18:45]
   → 错误: [Errno 111] Couldn't connect to proxy 14.29.69.244
+
+socks5://147.45.155.42:1080 [2026-02-01 09:02]
+  → 超时
 
 socks5://147.45.233.61:1080 [2026-02-01 09:00]
   → 超时
