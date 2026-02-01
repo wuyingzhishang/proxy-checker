@@ -1,20 +1,20 @@
 # 代理质量检测报告
-# 检测时间: 2026-02-01 16:29:16
+# 检测时间: 2026-02-01 18:33:22
 # API: IPPure (https://my.ippure.com/v1/info)
 
 ## 📊 统计摘要
-# 总计: 30 | 成功: 14 | 失败: 16 | 成功率: 46.7%
+# 总计: 30 | 成功: 16 | 失败: 14 | 成功率: 53.3%
 
 ## 质量分布
 # 优秀: 4
-# 良好: 4
-# 中等: 4
-# 较差: 1
+# 良好: 3
+# 中等: 6
+# 较差: 2
 # 极差: 1
 
 ## IP类型分布
-# 住宅IP: 3
-# 广播IP: 3
+# 住宅IP: 4
+# 广播IP: 4
 # 机房IP: 8
 
 ============================================================
@@ -38,9 +38,6 @@ socks5://118.99.72.232:1080 [2026-02-01 18:07]
 socks5://181.214.140.37:2222 [2026-02-01 05:01]
   → 🟢 风险23% | 机房IP | United Kingdom England Reading (WorldStream B.V.)
 
-socks5://147.45.199.101:8080 [2026-02-01 09:02]
-  → 🟢 风险29% | 广播IP | Germany Hesse Frankfurt am Main (Hostinux Limited)
-
 socks5://38.248.248.135:10002 [2026-02-01 09:19]
   → 🟢 风险29% | 机房IP | United States Utah Salt Lake City (Fiberpower LLC)
 
@@ -48,12 +45,19 @@ socks5://38.248.248.61:10002 [2026-02-01 09:19]
   → 🟢 风险29% | 机房IP ⚠️透明 | United States Utah Salt Lake City (Fiberpower LLC)
   → 出口IP: 38.248.248.135
 
+socks5://152.32.130.144:1080 [2026-02-02 01:36]
+  → 🟡 风险30% | 广播IP ⚠️透明 | Singapore Kampong Loyang (Oracle Svenska AB)
+  → 出口IP: 213.35.117.241
+
 socks5://213.21.254.57:1080 [2026-02-01 13:52]
   → 🟡 风险37% | 广播IP | Germany Hesse Frankfurt am Main (Aeza International LTD)
 
 socks5://49.64.209.28:10088 [2026-02-01 12:59]
   → 🟡 风险37% | 机房IP ⚠️透明 | United States California Los Angeles (Private Customer)
   → 出口IP: 66.92.207.54
+
+socks5://104.156.151.49:1080 [2026-02-02 00:42]
+  → 🟡 风险38% | 广播IP | France Île-de-France Paris (Serverbike LTD)
 
 socks5://45.91.236.58:1080 [2026-02-01 22:13]
   → 🟡 风险38% | 广播IP | Netherlands North Holland Amsterdam (Timeweb.Cloud LLC)
@@ -65,17 +69,17 @@ socks5://217.60.38.27:8888 [2026-02-01 03:07]
   → 🟠 风险58% | 住宅IP ⚠️透明 | Vietnam Phu Tho Vĩnh Yên (Vietnam Posts and Te...)
   → 出口IP: 14.241.89.5
 
+socks5://152.32.213.178:1080 [2026-02-02 01:36]
+  → 🟠 风险68% | 机房IP | Hong Kong SAR China Hong Kong (UCLOUD INFORMATION T...)
+
 socks5://141.95.168.77:1080 [2026-02-01 23:34]
-  → ⚫ 风险94% | 机房IP ⚠️透明 | United States California San Jose (Emerald Onion)
-  → 出口IP: 23.129.64.208
+  → ⚫ 风险96% | 住宅IP ⚠️透明 | France Île-de-France Nanterre (MOJI SAS)
+  → 出口IP: 203.55.81.2
 
 ## ❌ 失败代理列表
 
 socks5://111.119.162.248:10909 [2026-02-01 18:50]
   → 错误: [Errno 111] Couldn't connect to proxy 111.119.162.
-
-socks5://138.2.54.226:1080 [2026-02-01 04:12]
-  → 错误: [Errno 111] Couldn't connect to proxy 138.2.54.226
 
 socks5://14.29.69.244:10888 [2026-02-01 18:45]
   → 错误: [Errno 111] Couldn't connect to proxy 14.29.69.244
@@ -83,14 +87,11 @@ socks5://14.29.69.244:10888 [2026-02-01 18:45]
 socks5://147.45.155.42:1080 [2026-02-01 09:02]
   → 超时
 
+socks5://147.45.199.101:8080 [2026-02-01 09:02]
+  → 超时
+
 socks5://147.45.233.61:1080 [2026-02-01 09:00]
   → 超时
-
-socks5://168.138.9.147:1080 [2026-01-31 22:44]
-  → 超时
-
-socks5://18.223.115.141:1080 [2026-01-31 23:31]
-  → HTTP 403
 
 socks5://185.142.157.84:10102 [2026-02-01 13:23]
   → 超时
