@@ -1,21 +1,21 @@
 # 代理质量检测报告
-# 检测时间: 2026-02-01 07:37:46
+# 检测时间: 2026-02-01 08:31:30
 # API: IPPure (https://my.ippure.com/v1/info)
 
 ## 📊 统计摘要
 # 总计: 30 | 成功: 19 | 失败: 11 | 成功率: 63.3%
 
 ## 质量分布
-# 优秀: 7
-# 良好: 5
-# 中等: 5
+# 优秀: 6
+# 良好: 7
+# 中等: 4
 # 较差: 1
 # 极差: 1
 
 ## IP类型分布
-# 住宅IP: 7
+# 住宅IP: 6
 # 广播IP: 4
-# 机房IP: 8
+# 机房IP: 9
 
 ============================================================
 
@@ -25,23 +25,19 @@ socks5://107.182.173.176:1080 [2026-01-31 18:51]
   → 🌟 风险0% | 机房IP ⚠️透明 | United States Utah Murray (WebNX, Inc.)
   → 出口IP: 2607:f2d8:401b:1080::a
 
-socks5://171.245.80.33:1080 [2026-01-31 14:11]
-  → 🌟 风险3% | 住宅IP ⚠️透明 | Vietnam Ninh Binh Nam Định (Viettel Group)
-  → 出口IP: 171.236.93.138
-
 socks5://31.200.237.128:1080 [2026-02-01 03:23]
   → 🌟 风险3% | 住宅IP | Russia Primorye Vladivostok (ISP Podryad - ART - ...)
 
-socks5://78.46.109.69:1080 [2026-02-01 01:23]
-  → 🌟 风险5% | 住宅IP ⚠️透明 | Italy Tuscany Florence (Telecom Italia Mobile)
-  → 出口IP: 62.19.158.48
+socks5://171.245.82.121:1080 [2026-01-31 14:10]
+  → 🌟 风险5% | 住宅IP ⚠️透明 | Vietnam Ninh Binh Nam Định (Viettel Group)
+  → 出口IP: 171.245.80.33
 
 socks5://92.243.116.189:1080 [2026-02-01 12:32]
   → 🌟 风险5% | 住宅IP | Russia Rostov Rostov-na-Donu (JSC ER-Telecom Holdi...)
 
-socks5://171.245.82.121:1080 [2026-01-31 14:10]
-  → 🌟 风险6% | 住宅IP ⚠️透明 | Vietnam Ninh Binh Nam Định (Viettel Group)
-  → 出口IP: 171.245.82.206
+socks5://171.245.80.33:1080 [2026-01-31 14:11]
+  → 🌟 风险8% | 住宅IP ⚠️透明 | Vietnam Ninh Binh Nam Định (Viettel Group)
+  → 出口IP: 171.255.238.4
 
 socks5://77.73.235.120:1080 [2026-01-31 20:04]
   → 🌟 风险9% | 住宅IP | Latvia Riga Riga (Beget LLC)
@@ -51,6 +47,9 @@ socks5://181.214.140.37:2222 [2026-02-01 05:01]
 
 socks5://147.45.155.42:1080 [2026-02-01 09:02]
   → 🟢 风险26% | 机房IP | Russia Moscow Moscow (JSC TIMEWEB)
+
+socks5://185.142.157.84:10102 [2026-02-01 13:23]
+  → 🟢 风险28% | 机房IP | Iran Qom Province Qom (Amin IDC Network)
 
 socks5://147.45.199.101:8080 [2026-02-01 09:02]
   → 🟢 风险29% | 广播IP | Germany Hesse Frankfurt am Main (Hostinux Limited)
@@ -63,7 +62,7 @@ socks5://38.248.248.61:10002 [2026-02-01 09:19]
   → 出口IP: 38.248.248.135
 
 socks5://89.108.123.120:1080 [2026-01-31 16:00]
-  → 🟡 风险30% | 机房IP | Russia Moscow Moscow (Reg.Ru Hosting)
+  → 🟢 风险29% | 机房IP | Russia Moscow Moscow (Reg.Ru Hosting)
 
 socks5://213.21.254.57:1080 [2026-02-01 13:52]
   → 🟡 风险37% | 广播IP | Germany Hesse Frankfurt am Main (Aeza International LTD)
@@ -96,11 +95,8 @@ socks5://168.138.9.147:1080 [2026-01-31 22:44]
 socks5://18.223.115.141:1080 [2026-01-31 23:31]
   → HTTP 403
 
-socks5://185.142.157.84:10102 [2026-02-01 13:23]
-  → 超时
-
 socks5://192.241.156.17:1080 [2026-01-31 18:53]
-  → 错误: [Errno 111] Couldn't connect to proxy 192.241.156.
+  → 超时
 
 socks5://47.250.186.77:1080 [2026-01-31 15:00]
   → 错误: [Errno 111] Couldn't connect to proxy 47.250.186.7
@@ -110,6 +106,9 @@ socks5://47.79.150.151:10088 [2026-02-01 12:59]
 
 socks5://65.109.193.203:8080 [2026-01-31 10:41]
   → HTTP 403
+
+socks5://78.46.109.69:1080 [2026-02-01 01:23]
+  → 超时
 
 socks5://79.238.238.90:1080 [2026-02-01 13:23]
   → 超时
