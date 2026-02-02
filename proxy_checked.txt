@@ -1,40 +1,60 @@
 # 代理质量检测报告
-# 检测时间: 2026-02-02 16:38:43
+# 检测时间: 2026-02-02 17:37:58
 # API: IPPure (https://my.ippure.com/v1/info)
 
 ## 📊 统计摘要
-# 总计: 30 | 成功: 19 | 失败: 11 | 成功率: 63.3%
+# 总计: 30 | 成功: 28 | 失败: 2 | 成功率: 93.3%
 
 ## 质量分布
-# 优秀: 5
-# 良好: 12
-# 中等: 1
+# 优秀: 10
+# 良好: 13
+# 中等: 4
 # 较差: 1
 
 ## IP类型分布
-# 住宅IP: 12
-# 广播IP: 5
+# 住宅IP: 19
+# 广播IP: 7
 # 机房IP: 2
 
 ============================================================
 
 ## ✅ 可用代理列表 (按质量排序)
 
-socks5://151.115.104.27:1080 [2026-02-02 19:53]
-  → 🌟 风险0% | 机房IP ⚠️透明 | Poland Mazovia Warsaw (Scaleway)
-  → 出口IP: 2001:bc8:1fb0:810:dc00:ff:fe20:4847
-
-socks5://79.127.221.35:26257 [2026-02-02 17:51]
-  → 🌟 风险0% | 机房IP ⚠️透明 | Indonesia Jakarta Jakarta (Free Range Cloud Ltd.)
-  → 出口IP: 2a0f:9400:691c:8101:d8fc:aa0c:99e1:46ec
-
 socks5://93.186.121.2:20201 [2026-02-02 23:58]
   → 🌟 风险1% | 住宅IP ⚠️透明 | Turkey İzmir Province İzmir (TURKCELL INTERNET)
   → 出口IP: 5.27.20.167
 
-socks5://117.72.14.151:54321 [2026-02-02 22:51]
-  → 🌟 风险2% | 住宅IP ⚠️透明 | Hong Kong SAR China Sha Tin Sha Tin (HGC Global Communica...)
-  → 出口IP: 118.140.56.80
+socks5://117.5.51.77:20005 [2026-02-03 01:28]
+  → 🌟 风险3% | 住宅IP ⚠️透明 | Vietnam Hưng Yên Province Thái Bình (Dai IP cho dich vu A...)
+  → 出口IP: 117.5.48.170
+
+socks5://117.5.53.94:20005 [2026-02-03 01:30]
+  → 🌟 风险3% | 住宅IP ⚠️透明 | Vietnam Hưng Yên Province Thái Bình (Dai IP cho dich vu A...)
+  → 出口IP: 117.5.48.170
+
+socks5://117.5.55.146:20005 [2026-02-03 01:32]
+  → 🌟 风险3% | 住宅IP ⚠️透明 | Vietnam Hưng Yên Province Thái Bình (Dai IP cho dich vu A...)
+  → 出口IP: 117.5.48.170
+
+socks5://117.5.55.238:20005 [2026-02-03 01:29]
+  → 🌟 风险3% | 住宅IP ⚠️透明 | Vietnam Hưng Yên Province Thái Bình (Dai IP cho dich vu A...)
+  → 出口IP: 117.5.48.170
+
+socks5://117.5.56.64:20005 [2026-02-03 01:24]
+  → 🌟 风险3% | 住宅IP ⚠️透明 | Vietnam Hưng Yên Province Thái Bình (Dai IP cho dich vu A...)
+  → 出口IP: 117.5.48.170
+
+socks5://117.5.61.177:20005 [2026-02-03 01:24]
+  → 🌟 风险3% | 住宅IP ⚠️透明 | Vietnam Hưng Yên Province Thái Bình (Dai IP cho dich vu A...)
+  → 出口IP: 117.5.48.170
+
+socks5://117.5.61.218:20005 [2026-02-03 01:24]
+  → 🌟 风险3% | 住宅IP ⚠️透明 | Vietnam Hưng Yên Province Thái Bình (Dai IP cho dich vu A...)
+  → 出口IP: 117.5.48.170
+
+socks5://117.5.61.226:20005 [2026-02-03 01:24]
+  → 🌟 风险3% | 住宅IP ⚠️透明 | Vietnam Hưng Yên Province Thái Bình (Dai IP cho dich vu A...)
+  → 出口IP: 117.5.48.170
 
 socks5://149.104.90.205:20002 [2026-02-03 00:35]
   → 🌟 风险7% | 广播IP | Mexico Mexico City Mexico City (Kaopu Cloud HK Limited)
@@ -79,49 +99,35 @@ socks5://117.5.59.63:20002 [2026-02-03 00:33]
   → 🟢 风险14% | 住宅IP ⚠️透明 | Vietnam Hưng Yên Province Thái Bình (Dai IP cho dich vu A...)
   → 出口IP: 117.5.62.84
 
-socks5://194.164.216.213:9050 [2026-02-02 17:49]
-  → 🟢 风险27% | 广播IP | United Kingdom England London
+socks5://43.160.195.20:20005 [2026-02-03 01:27]
+  → 🟢 风险21% | 机房IP | Singapore Singapore (6 COLLYER QUAY)
+
+socks5://103.140.126.7:1080 [2026-02-03 01:01]
+  → 🟢 风险28% | 机房IP ⚠️透明 | Japan Tokyo Tokyo (AT&T Enterprises, LLC)
+  → 出口IP: 203.189.234.102
 
 socks5://154.90.61.222:20002 [2026-02-03 00:35]
   → 🟢 风险28% | 广播IP | Brazil São Paulo São Paulo (Lightnode Limited)
 
+socks5://89.23.105.206:20002 [2026-02-03 00:36]
+  → 🟡 风险30% | 广播IP | Netherlands North Holland Amsterdam (ZTV CORP LLC)
+
 socks5://38.242.154.101:1080 [2026-02-02 22:47]
   → 🟡 风险32% | 广播IP | France Grand Est Lauterbourg (Contabo GmbH)
+
+socks5://38.60.224.125:20002 [2026-02-03 00:36]
+  → 🟡 风险34% | 广播IP | Mexico Mexico City Mexico City (Kaopu Cloud HK Limited)
+
+socks5://38.60.224.95:20002 [2026-02-03 00:36]
+  → 🟡 风险38% | 广播IP | Mexico Mexico City Mexico City (Kaopu Cloud HK Limited)
 
 socks5://154.90.61.54:20002 [2026-02-03 00:35]
   → 🟠 风险62% | 广播IP | Brazil São Paulo São Paulo (Lightnode Limited)
 
 ## ❌ 失败代理列表
 
-socks5://128.140.118.165:1080 [2026-02-02 19:46]
-  → HTTP 403
+socks5://117.72.14.151:54321 [2026-02-02 22:51]
+  → 错误: [Errno 111] Couldn't connect to proxy 117.72.14.15
 
-socks5://172.200.3.124:8888 [2026-02-02 16:42]
-  → HTTP 403
-
-socks5://172.200.67.130:8888 [2026-02-02 16:42]
-  → HTTP 403
-
-socks5://193.233.126.33:1080 [2026-02-02 20:27]
-  → 错误: [Errno 111] Couldn't connect to proxy 193.233.126.
-
-socks5://20.14.133.22:8888 [2026-02-02 16:42]
-  → HTTP 403
-
-socks5://20.161.21.241:8888 [2026-02-02 16:42]
-  → HTTP 403
-
-socks5://47.79.248.253:8888 [2026-02-02 16:51]
-  → HTTP 403
-
-socks5://47.80.7.164:5555 [2026-02-02 16:33]
-  → HTTP 403
-
-socks5://47.82.176.182:1080 [2026-02-02 17:14]
-  → HTTP 403
-
-socks5://47.86.86.125:5555 [2026-02-02 16:36]
-  → HTTP 403
-
-socks5://66.245.192.230:8888 [2026-02-02 16:53]
+socks5://38.54.57.26:20002 [2026-02-03 00:37]
   → 超时
