@@ -1,5 +1,5 @@
 # 代理质量检测报告
-# 检测时间: 2026-02-02 12:55:37
+# 检测时间: 2026-02-02 14:02:11
 # API: IPPure (https://my.ippure.com/v1/info)
 
 ## 📊 统计摘要
@@ -55,8 +55,8 @@ socks5://154.205.152.131:20002 [2026-02-02 16:04]
 socks5://34.85.10.98:3128 [2026-02-02 14:58]
   → 🟡 风险40% | 广播IP | Japan Tokyo Tokyo (Google LLC)
 
-socks5://193.233.126.33:1080 [2026-02-02 20:27]
-  → 🟡 风险45% | 广播IP | Netherlands Limburg Kerkrade (Digital Hosting Prov...)
+socks5://91.217.76.97:1080 [2026-02-02 14:34]
+  → 🟡 风险43% | 广播IP | Finland Uusimaa Helsinki (FIRST SERVER LIMITED)
 
 socks5://38.60.206.229:5555 [2026-02-02 16:31]
   → 🟠 风险50% | 机房IP | United States District of Columbia Washington (Kaopu Cloud HK Limited)
@@ -85,6 +85,9 @@ socks5://172.200.3.124:8888 [2026-02-02 16:42]
 socks5://172.200.67.130:8888 [2026-02-02 16:42]
   → HTTP 403
 
+socks5://193.233.126.33:1080 [2026-02-02 20:27]
+  → 错误: [Errno 111] Couldn't connect to proxy 193.233.126.
+
 socks5://20.14.133.22:8888 [2026-02-02 16:42]
   → HTTP 403
 
@@ -111,6 +114,3 @@ socks5://47.86.86.125:5555 [2026-02-02 16:36]
 
 socks5://90.156.229.56:1234 [2026-02-02 16:01]
   → HTTP 403
-
-socks5://91.217.76.97:1080 [2026-02-02 14:34]
-  → 超时
