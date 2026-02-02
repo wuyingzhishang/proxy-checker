@@ -1,20 +1,20 @@
 # 代理质量检测报告
-# 检测时间: 2026-02-02 15:37:39
+# 检测时间: 2026-02-02 16:38:43
 # API: IPPure (https://my.ippure.com/v1/info)
 
 ## 📊 统计摘要
-# 总计: 30 | 成功: 16 | 失败: 14 | 成功率: 53.3%
+# 总计: 30 | 成功: 19 | 失败: 11 | 成功率: 63.3%
 
 ## 质量分布
-# 优秀: 3
-# 良好: 4
-# 中等: 5
-# 较差: 4
+# 优秀: 5
+# 良好: 12
+# 中等: 1
+# 较差: 1
 
 ## IP类型分布
-# 住宅IP: 1
-# 广播IP: 8
-# 机房IP: 7
+# 住宅IP: 12
+# 广播IP: 5
+# 机房IP: 2
 
 ============================================================
 
@@ -28,50 +28,68 @@ socks5://79.127.221.35:26257 [2026-02-02 17:51]
   → 🌟 风险0% | 机房IP ⚠️透明 | Indonesia Jakarta Jakarta (Free Range Cloud Ltd.)
   → 出口IP: 2a0f:9400:691c:8101:d8fc:aa0c:99e1:46ec
 
+socks5://93.186.121.2:20201 [2026-02-02 23:58]
+  → 🌟 风险1% | 住宅IP ⚠️透明 | Turkey İzmir Province İzmir (TURKCELL INTERNET)
+  → 出口IP: 5.27.20.167
+
 socks5://117.72.14.151:54321 [2026-02-02 22:51]
   → 🌟 风险2% | 住宅IP ⚠️透明 | Hong Kong SAR China Sha Tin Sha Tin (HGC Global Communica...)
   → 出口IP: 118.140.56.80
 
-socks5://34.85.71.113:3128 [2026-02-02 14:58]
-  → 🟢 风险21% | 广播IP | Japan Tokyo Tokyo (Google LLC)
+socks5://149.104.90.205:20002 [2026-02-03 00:35]
+  → 🌟 风险7% | 广播IP | Mexico Mexico City Mexico City (Kaopu Cloud HK Limited)
 
-socks5://156.244.33.120:20002 [2026-02-02 16:04]
-  → 🟢 风险22% | 广播IP | Mexico Mexico City Mexico City (Lightnode Limited)
+socks5://117.5.176.138:20002 [2026-02-03 00:33]
+  → 🟢 风险14% | 住宅IP ⚠️透明 | Vietnam Hưng Yên Province Thái Bình (Dai IP cho dich vu A...)
+  → 出口IP: 117.5.62.84
 
-socks5://156.244.33.216:20002 [2026-02-02 16:04]
-  → 🟢 风险27% | 广播IP | Mexico Mexico City Mexico City (Lightnode Limited)
+socks5://117.5.48.29:20002 [2026-02-03 00:33]
+  → 🟢 风险14% | 住宅IP ⚠️透明 | Vietnam Hưng Yên Province Thái Bình (Dai IP cho dich vu A...)
+  → 出口IP: 117.5.62.84
+
+socks5://117.5.53.208:20002 [2026-02-03 00:33]
+  → 🟢 风险14% | 住宅IP ⚠️透明 | Vietnam Hưng Yên Province Thái Bình (Dai IP cho dich vu A...)
+  → 出口IP: 117.5.62.84
+
+socks5://117.5.54.111:20002 [2026-02-03 00:33]
+  → 🟢 风险14% | 住宅IP ⚠️透明 | Vietnam Hưng Yên Province Thái Bình (Dai IP cho dich vu A...)
+  → 出口IP: 117.5.62.84
+
+socks5://117.5.56.232:20002 [2026-02-03 00:33]
+  → 🟢 风险14% | 住宅IP ⚠️透明 | Vietnam Hưng Yên Province Thái Bình (Dai IP cho dich vu A...)
+  → 出口IP: 117.5.62.84
+
+socks5://117.5.57.36:20002 [2026-02-03 00:33]
+  → 🟢 风险14% | 住宅IP ⚠️透明 | Vietnam Hưng Yên Province Thái Bình (Dai IP cho dich vu A...)
+  → 出口IP: 117.5.62.84
+
+socks5://117.5.57.57:20002 [2026-02-03 00:33]
+  → 🟢 风险14% | 住宅IP ⚠️透明 | Vietnam Hưng Yên Province Thái Bình (Dai IP cho dich vu A...)
+  → 出口IP: 117.5.62.84
+
+socks5://117.5.58.157:20002 [2026-02-03 00:33]
+  → 🟢 风险14% | 住宅IP ⚠️透明 | Vietnam Hưng Yên Province Thái Bình (Dai IP cho dich vu A...)
+  → 出口IP: 117.5.62.84
+
+socks5://117.5.58.188:20002 [2026-02-03 00:33]
+  → 🟢 风险14% | 住宅IP ⚠️透明 | Vietnam Hưng Yên Province Thái Bình (Dai IP cho dich vu A...)
+  → 出口IP: 117.5.62.84
+
+socks5://117.5.59.63:20002 [2026-02-03 00:33]
+  → 🟢 风险14% | 住宅IP ⚠️透明 | Vietnam Hưng Yên Province Thái Bình (Dai IP cho dich vu A...)
+  → 出口IP: 117.5.62.84
 
 socks5://194.164.216.213:9050 [2026-02-02 17:49]
   → 🟢 风险27% | 广播IP | United Kingdom England London
 
-socks5://141.148.154.164:5555 [2026-02-02 16:23]
-  → 🟡 风险31% | 机房IP | United States Arizona Phoenix (Oracle Corporation)
-
-socks5://34.85.125.22:3128 [2026-02-02 14:58]
-  → 🟡 风险32% | 广播IP | Japan Tokyo Tokyo (Google LLC)
+socks5://154.90.61.222:20002 [2026-02-03 00:35]
+  → 🟢 风险28% | 广播IP | Brazil São Paulo São Paulo (Lightnode Limited)
 
 socks5://38.242.154.101:1080 [2026-02-02 22:47]
   → 🟡 风险32% | 广播IP | France Grand Est Lauterbourg (Contabo GmbH)
 
-socks5://142.93.114.247:20201 [2026-02-02 15:41]
-  → 🟡 风险35% | 机房IP ⚠️透明 | Finland Uusimaa Vantaa (VitalKey)
-  → 出口IP: 104.245.241.77
-
-socks5://154.205.152.131:20002 [2026-02-02 16:04]
-  → 🟡 风险35% | 广播IP | Mexico Mexico City Mexico City (Lightnode Limited)
-
-socks5://66.245.192.230:8888 [2026-02-02 16:53]
-  → 🟠 风险54% | 机房IP | United Kingdom England Swinton (The Constant Company...)
-
-socks5://192.241.154.148:20201 [2026-02-02 15:50]
-  → 🟠 风险59% | 机房IP ⚠️透明 | Finland Uusimaa Vantaa (FINE GROUP SERVERS S...)
-  → 出口IP: 83.97.119.160
-
-socks5://45.62.117.248:5555 [2026-02-02 16:32]
-  → 🟠 风险61% | 广播IP | United States California Los Angeles (IT7 Networks Inc)
-
-socks5://23.94.122.146:5555 [2026-02-02 16:26]
-  → 🟠 风险63% | 机房IP | United States California Santa Clara (HostPapa)
+socks5://154.90.61.54:20002 [2026-02-03 00:35]
+  → 🟠 风险62% | 广播IP | Brazil São Paulo São Paulo (Lightnode Limited)
 
 ## ❌ 失败代理列表
 
@@ -93,16 +111,7 @@ socks5://20.14.133.22:8888 [2026-02-02 16:42]
 socks5://20.161.21.241:8888 [2026-02-02 16:42]
   → HTTP 403
 
-socks5://38.60.206.229:5555 [2026-02-02 16:31]
-  → 超时
-
 socks5://47.79.248.253:8888 [2026-02-02 16:51]
-  → HTTP 403
-
-socks5://47.80.10.118:5555 [2026-02-02 16:33]
-  → HTTP 403
-
-socks5://47.80.16.197:5555 [2026-02-02 16:33]
   → HTTP 403
 
 socks5://47.80.7.164:5555 [2026-02-02 16:33]
@@ -114,5 +123,5 @@ socks5://47.82.176.182:1080 [2026-02-02 17:14]
 socks5://47.86.86.125:5555 [2026-02-02 16:36]
   → HTTP 403
 
-socks5://90.156.229.56:1234 [2026-02-02 16:01]
-  → HTTP 403
+socks5://66.245.192.230:8888 [2026-02-02 16:53]
+  → 超时
