@@ -1,24 +1,27 @@
 # 代理质量检测报告
-# 检测时间: 2026-02-02 11:34:45
+# 检测时间: 2026-02-02 12:55:37
 # API: IPPure (https://my.ippure.com/v1/info)
 
 ## 📊 统计摘要
-# 总计: 30 | 成功: 19 | 失败: 11 | 成功率: 63.3%
+# 总计: 30 | 成功: 17 | 失败: 13 | 成功率: 56.7%
 
 ## 质量分布
-# 优秀: 1
+# 优秀: 2
 # 良好: 4
-# 中等: 8
+# 中等: 6
 # 较差: 5
-# 极差: 1
 
 ## IP类型分布
 # 广播IP: 9
-# 机房IP: 10
+# 机房IP: 8
 
 ============================================================
 
 ## ✅ 可用代理列表 (按质量排序)
+
+socks5://151.115.104.27:1080 [2026-02-02 19:53]
+  → 🌟 风险0% | 机房IP ⚠️透明 | Poland Mazovia Warsaw (Scaleway)
+  → 出口IP: 2001:bc8:1fb0:810:dc00:ff:fe20:4847
 
 socks5://79.127.221.35:26257 [2026-02-02 17:51]
   → 🌟 风险0% | 机房IP ⚠️透明 | Indonesia Jakarta Jakarta (Free Range Cloud Ltd.)
@@ -42,9 +45,6 @@ socks5://141.148.154.164:5555 [2026-02-02 16:23]
 socks5://34.85.125.22:3128 [2026-02-02 14:58]
   → 🟡 风险32% | 广播IP | Japan Tokyo Tokyo (Google LLC)
 
-socks5://156.238.253.23:10000 [2026-02-02 13:55]
-  → 🟡 风险34% | 机房IP | United States California Los Angeles (cognetcloud INC)
-
 socks5://142.93.114.247:20201 [2026-02-02 15:41]
   → 🟡 风险35% | 机房IP ⚠️透明 | Finland Uusimaa Vantaa (VitalKey)
   → 出口IP: 104.245.241.77
@@ -55,12 +55,8 @@ socks5://154.205.152.131:20002 [2026-02-02 16:04]
 socks5://34.85.10.98:3128 [2026-02-02 14:58]
   → 🟡 风险40% | 广播IP | Japan Tokyo Tokyo (Google LLC)
 
-socks5://222.221.245.212:9997 [2026-02-02 13:53]
-  → 🟡 风险44% | 机房IP ⚠️透明 | United States California Los Angeles (ReliableSite.Net LLC)
-  → 出口IP: 104.238.220.195
-
-socks5://91.217.76.97:1080 [2026-02-02 14:34]
-  → 🟡 风险44% | 广播IP | Finland Uusimaa Helsinki (FIRST SERVER LIMITED)
+socks5://193.233.126.33:1080 [2026-02-02 20:27]
+  → 🟡 风险45% | 广播IP | Netherlands Limburg Kerkrade (Digital Hosting Prov...)
 
 socks5://38.60.206.229:5555 [2026-02-02 16:31]
   → 🟠 风险50% | 机房IP | United States District of Columbia Washington (Kaopu Cloud HK Limited)
@@ -78,11 +74,10 @@ socks5://45.62.117.248:5555 [2026-02-02 16:32]
 socks5://23.94.122.146:5555 [2026-02-02 16:26]
   → 🟠 风险63% | 机房IP | United States California Santa Clara (HostPapa)
 
-socks5://46.30.41.59:9955 [2026-02-02 13:51]
-  → ⚫ 风险94% | 机房IP ⚠️透明 | Germany State of Berlin Berlin (CIA TRIAD SECURITY LLC)
-  → 出口IP: 185.220.101.178
-
 ## ❌ 失败代理列表
+
+socks5://128.140.118.165:1080 [2026-02-02 19:46]
+  → HTTP 403
 
 socks5://172.200.3.124:8888 [2026-02-02 16:42]
   → HTTP 403
@@ -116,3 +111,6 @@ socks5://47.86.86.125:5555 [2026-02-02 16:36]
 
 socks5://90.156.229.56:1234 [2026-02-02 16:01]
   → HTTP 403
+
+socks5://91.217.76.97:1080 [2026-02-02 14:34]
+  → 超时
