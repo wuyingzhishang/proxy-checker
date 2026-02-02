@@ -1,19 +1,19 @@
 # 代理质量检测报告
-# 检测时间: 2026-02-02 10:42:49
+# 检测时间: 2026-02-02 11:34:45
 # API: IPPure (https://my.ippure.com/v1/info)
 
 ## 📊 统计摘要
-# 总计: 30 | 成功: 18 | 失败: 12 | 成功率: 60.0%
+# 总计: 30 | 成功: 19 | 失败: 11 | 成功率: 63.3%
 
 ## 质量分布
 # 优秀: 1
 # 良好: 4
-# 中等: 7
+# 中等: 8
 # 较差: 5
 # 极差: 1
 
 ## IP类型分布
-# 广播IP: 8
+# 广播IP: 9
 # 机房IP: 10
 
 ============================================================
@@ -59,6 +59,9 @@ socks5://222.221.245.212:9997 [2026-02-02 13:53]
   → 🟡 风险44% | 机房IP ⚠️透明 | United States California Los Angeles (ReliableSite.Net LLC)
   → 出口IP: 104.238.220.195
 
+socks5://91.217.76.97:1080 [2026-02-02 14:34]
+  → 🟡 风险44% | 广播IP | Finland Uusimaa Helsinki (FIRST SERVER LIMITED)
+
 socks5://38.60.206.229:5555 [2026-02-02 16:31]
   → 🟠 风险50% | 机房IP | United States District of Columbia Washington (Kaopu Cloud HK Limited)
 
@@ -76,8 +79,8 @@ socks5://23.94.122.146:5555 [2026-02-02 16:26]
   → 🟠 风险63% | 机房IP | United States California Santa Clara (HostPapa)
 
 socks5://46.30.41.59:9955 [2026-02-02 13:51]
-  → ⚫ 风险97% | 机房IP ⚠️透明 | Germany Hesse Frankfurt am Main (Amsterdam, Netherlands)
-  → 出口IP: 144.31.253.90
+  → ⚫ 风险94% | 机房IP ⚠️透明 | Germany State of Berlin Berlin (CIA TRIAD SECURITY LLC)
+  → 出口IP: 185.220.101.178
 
 ## ❌ 失败代理列表
 
@@ -112,7 +115,4 @@ socks5://47.86.86.125:5555 [2026-02-02 16:36]
   → HTTP 403
 
 socks5://90.156.229.56:1234 [2026-02-02 16:01]
-  → 超时
-
-socks5://91.217.76.97:1080 [2026-02-02 14:34]
-  → 超时
+  → HTTP 403
