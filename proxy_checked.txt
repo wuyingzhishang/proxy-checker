@@ -1,40 +1,28 @@
 # 代理质量检测报告
-# 检测时间: 2026-02-02 01:57:55
+# 检测时间: 2026-02-02 04:26:08
 # API: IPPure (https://my.ippure.com/v1/info)
 
 ## 📊 统计摘要
 # 总计: 30 | 成功: 24 | 失败: 6 | 成功率: 80.0%
 
 ## 质量分布
-# 优秀: 15
+# 优秀: 10
 # 良好: 2
-# 中等: 3
-# 较差: 2
+# 中等: 5
+# 较差: 4
 
 ## IP类型分布
-# 住宅IP: 3
-# 广播IP: 1
-# 机房IP: 20
+# 住宅IP: 2
+# 广播IP: 4
+# 机房IP: 18
 
 ============================================================
 
 ## ✅ 可用代理列表 (按质量排序)
 
-socks5://192.227.186.178:10088 [2026-02-02 09:11]
-  → 🌟 风险0% | 机房IP ⚠️透明 | United States California Los Angeles (HostPapa)
-  → 出口IP: 2607:9d00:2000:4f::e0ce:98f8
-
-socks5://64.186.224.12:443 [2026-02-02 09:26]
-  → 🌟 风险0% | 机房IP ⚠️透明 | United States California Los Angeles (DMIT Cloud Services)
-  → 出口IP: 2605:52c0:2:1122:be24:11ff:fe34:e075
-
 socks5://64.186.225.23:443 [2026-02-02 09:48]
   → 🌟 风险0% | 机房IP ⚠️透明 | United States California Los Angeles (DMIT Cloud Services)
   → 出口IP: 2605:52c0:2:3885:be24:11ff:fe72:727d
-
-socks5://64.186.226.12:443 [2026-02-02 09:26]
-  → 🌟 风险0% | 机房IP ⚠️透明 | United States California Los Angeles (DMIT Cloud Services)
-  → 出口IP: 2605:52c0:2:ee7:be24:11ff:feee:b2d6
 
 socks5://64.186.226.23:443 [2026-02-02 09:48]
   → 🌟 风险0% | 机房IP ⚠️透明 | United States California Los Angeles (DMIT Cloud Services)
@@ -44,21 +32,13 @@ socks5://64.186.227.23:443 [2026-02-02 09:48]
   → 🌟 风险0% | 机房IP ⚠️透明 | United States California Los Angeles (DMIT Cloud Services)
   → 出口IP: 2605:52c0:2:34e1:be24:11ff:feb2:267f
 
-socks5://64.186.229.12:443 [2026-02-02 09:26]
-  → 🌟 风险0% | 机房IP ⚠️透明 | United States California Los Angeles (DMIT Cloud Services)
-  → 出口IP: 2605:52c0:2:e7e:be24:11ff:fede:98a
-
 socks5://64.186.229.23:443 [2026-02-02 09:48]
   → 🌟 风险0% | 机房IP ⚠️透明 | United States California Los Angeles (DMIT Cloud Services)
   → 出口IP: 2605:52c0:2:2f83:be24:11ff:fe2b:dfc3
 
-socks5://64.186.236.14:443 [2026-02-02 09:26]
+socks5://64.186.236.24:443 [2026-02-02 09:48]
   → 🌟 风险0% | 机房IP ⚠️透明 | United States California Los Angeles (DMIT Cloud Services)
-  → 出口IP: 2605:52c0:2:29ef:be24:11ff:fead:b95c
-
-socks5://64.186.237.14:443 [2026-02-02 09:26]
-  → 🌟 风险0% | 机房IP ⚠️透明 | United States California Los Angeles (DMIT Cloud Services)
-  → 出口IP: 2605:52c0:2:2710:be24:11ff:fe03:ee2f
+  → 出口IP: 2605:52c0:2:388b:be24:11ff:fe98:2274
 
 socks5://64.186.237.24:443 [2026-02-02 09:48]
   → 🌟 风险0% | 机房IP ⚠️透明 | United States California Los Angeles (DMIT Cloud Services)
@@ -72,34 +52,52 @@ socks5://85.239.245.90:9001 [2026-02-02 09:27]
   → 🌟 风险0% | 机房IP ⚠️透明 | United States Missouri St. Louis (Contabo Inc.)
   → 出口IP: 2605:a140:2296:8792::1
 
-socks5://38.34.25.98:2080 [2026-02-02 09:16]
-  → 🌟 风险3% | 住宅IP | United States California Los Angeles (NetLab)
-
 socks5://72.135.243.159:9090 [2026-02-02 09:27]
   → 🌟 风险3% | 住宅IP | United States Wisconsin Menomonee Falls (Charter Communicatio...)
 
-socks5://35.188.128.61:8443 [2026-02-02 09:16]
-  → 🟢 风险20% | 机房IP | United States Iowa Council Bluffs (Google LLC)
+socks5://34.177.95.182:8084 [2026-02-02 11:10]
+  → 🌟 风险8% | 住宅IP ⚠️透明 | South Korea Busan Busan (KT)
+  → 出口IP: 121.175.189.119
 
-socks5://68.64.178.16:7777 [2026-02-02 09:26]
-  → 🟢 风险24% | 机房IP | Hong Kong SAR China Hong Kong (LucidaCloud Limited)
+socks5://107.173.83.243:8002 [2026-02-02 10:27]
+  → 🟢 风险24% | 机房IP | United States California Santa Clara (RackNerd LLC)
+
+socks5://23.27.249.58:3171 [2026-02-02 10:09]
+  → 🟢 风险26% | 机房IP | United States Virginia Ashburn (Nodestop LLC)
 
 socks5://185.244.183.148:7769 [2026-02-02 09:50]
   → 🟡 风险30% | 机房IP | Russia Moscow Moscow (Cloud assets LLC)
 
-socks5://45.8.201.36:9000 [2026-02-02 09:24]
-  → 🟡 风险30% | 机房IP | United States Illinois Chicago (Infraly, LLC)
+socks5://89.251.26.233:7890 [2026-02-02 10:07]
+  → 🟡 风险30% | 广播IP | Hong Kong SAR China Tsuen Wan Tsuen Wan (Alice Networks Ltd)
 
-socks5://165.140.243.248:9001 [2026-02-02 09:07]
-  → 🟡 风险47% | 机房IP | United States New York New York City (AlphaVPS LLC)
+socks5://218.80.105.140:7000 [2026-02-02 10:17]
+  → 🟡 风险34% | 广播IP ⚠️透明 | Japan Saitama Ōi (TYO_VULTR_CUST)
+  → 出口IP: 202.182.121.184
+
+socks5://185.239.84.196:8081 [2026-02-02 11:05]
+  → 🟡 风险42% | 机房IP | Hong Kong SAR China Hong Kong (Sakura network limited)
+
+socks5://38.58.180.136:3199 [2026-02-02 10:08]
+  → 🟡 风险49% | 机房IP | United States Utah Draper (Fiberstate LLC)
+
+socks5://117.35.204.102:20005 [2026-02-02 09:54]
+  → 🟠 风险50% | 机房IP ⚠️透明 | United States California Los Angeles (Sharktech)
+  → 出口IP: 64.32.13.198
+
+socks5://193.25.215.182:22222 [2026-02-02 10:06]
+  → 🟠 风险52% | 机房IP | United States California Los Angeles (ReadyDedis, LLC)
 
 socks5://64.227.7.155:20005 [2026-02-02 09:48]
   → 🟠 风险59% | 机房IP ⚠️透明 | United States Washington Seattle (FINE GROUP SERVERS S...)
   → 出口IP: 194.180.232.138
 
-socks5://117.35.204.102:20005 [2026-02-02 09:54]
-  → 🟠 风险69% | 住宅IP ⚠️透明 | Hong Kong SAR China Hong Kong (Hong Kong Telecommun...)
-  → 出口IP: 220.246.94.170
+socks5://192.241.135.248:20005 [2026-02-02 10:03]
+  → 🔴 风险71% | 机房IP ⚠️透明 | United States Washington SeaTac (MyridWeb LLC)
+  → 出口IP: 199.96.166.67
+
+socks5://193.84.71.242:1080 [2026-02-02 10:49]
+  → 🔴 风险71% | 广播IP | Moldova Chișinău Municipality Chisinau (ALEXHOST SRL)
 
 socks5://159.65.230.91:20005 [2026-02-02 09:49]
   → 🔴 风险75% | 广播IP ⚠️透明 | United States New York New York City (Quality Network US LLC)
@@ -111,11 +109,8 @@ socks5://36.255.98.162:4444 [2026-02-02 09:29]
 
 ## ❌ 失败代理列表
 
-socks5://20.169.82.125:443 [2026-02-02 09:11]
-  → HTTP 403
-
 socks5://36.255.98.160:4444 [2026-02-02 09:29]
-  → 错误: [Errno 111] Couldn't connect to proxy 36.255.98.16
+  → 超时
 
 socks5://36.255.98.166:4444 [2026-02-02 09:29]
   → 超时
@@ -126,5 +121,8 @@ socks5://36.255.98.181:4444 [2026-02-02 09:28]
 socks5://47.88.86.81:9527 [2026-02-02 09:35]
   → HTTP 403
 
-socks5://64.186.236.24:443 [2026-02-02 09:48]
-  → 超时
+socks5://68.64.178.16:7777 [2026-02-02 09:26]
+  → 错误: [Errno 111] Couldn't connect to proxy 68.64.178.16
+
+socks5://8.217.3.240:8388 [2026-02-02 12:16]
+  → HTTP 403
