@@ -1,19 +1,19 @@
 # 代理质量检测报告
-# 检测时间: 2026-02-02 08:40:54
+# 检测时间: 2026-02-02 09:45:17
 # API: IPPure (https://my.ippure.com/v1/info)
 
 ## 📊 统计摘要
-# 总计: 30 | 成功: 25 | 失败: 5 | 成功率: 83.3%
+# 总计: 30 | 成功: 19 | 失败: 11 | 成功率: 63.3%
 
 ## 质量分布
 # 良好: 4
-# 中等: 9
-# 较差: 4
-# 极差: 8
+# 中等: 8
+# 较差: 5
+# 极差: 2
 
 ## IP类型分布
-# 广播IP: 11
-# 机房IP: 14
+# 广播IP: 9
+# 机房IP: 10
 
 ============================================================
 
@@ -47,9 +47,6 @@ socks5://142.93.114.247:20201 [2026-02-02 15:41]
 socks5://154.205.152.131:20002 [2026-02-02 16:04]
   → 🟡 风险35% | 广播IP | Mexico Mexico City Mexico City (Lightnode Limited)
 
-socks5://154.64.255.94:9221 [2026-02-02 13:23]
-  → 🟡 风险39% | 广播IP | Hong Kong SAR China Hong Kong (NetLab Global)
-
 socks5://34.85.10.98:3128 [2026-02-02 14:58]
   → 🟡 风险40% | 广播IP | Japan Tokyo Tokyo (Google LLC)
 
@@ -63,6 +60,9 @@ socks5://91.217.76.97:1080 [2026-02-02 14:34]
 socks5://38.60.206.229:5555 [2026-02-02 16:31]
   → 🟠 风险50% | 机房IP | United States District of Columbia Washington (Kaopu Cloud HK Limited)
 
+socks5://66.245.192.230:8888 [2026-02-02 16:53]
+  → 🟠 风险54% | 机房IP | United Kingdom England Swinton (The Constant Company...)
+
 socks5://192.241.154.148:20201 [2026-02-02 15:50]
   → 🟠 风险59% | 机房IP ⚠️透明 | Finland Uusimaa Vantaa (FINE GROUP SERVERS S...)
   → 出口IP: 83.97.119.160
@@ -73,39 +73,30 @@ socks5://45.62.117.248:5555 [2026-02-02 16:32]
 socks5://23.94.122.146:5555 [2026-02-02 16:26]
   → 🟠 风险63% | 机房IP | United States California Santa Clara (HostPapa)
 
-socks5://152.44.40.192:9191 [2026-02-02 13:21]
-  → ⚫ 风险92% | 机房IP ⚠️透明 | Norway Vestfold Sandefjord (Gigahost AS)
-  → 出口IP: 185.243.218.225
-
-socks5://152.44.39.191:9191 [2026-02-02 13:21]
-  → ⚫ 风险93% | 机房IP ⚠️透明 | Sweden Stockholm Stockholm (Foreningen for digit...)
-  → 出口IP: 171.25.193.80
-
-socks5://45.88.174.1:9200 [2026-02-02 13:22]
-  → ⚫ 风险94% | 广播IP ⚠️透明 | Bulgaria Sofia-Capital Sofia (IncogNET LLC)
-  → 出口IP: 23.137.251.75
-
-socks5://31.57.62.116:9250 [2026-02-02 13:25]
-  → ⚫ 风险95% | 机房IP ⚠️透明 | Germany State of Berlin Berlin (Artikel10 e.V.)
-  → 出口IP: 185.220.101.29
-
 socks5://46.30.41.59:9955 [2026-02-02 13:51]
-  → ⚫ 风险95% | 机房IP ⚠️透明 | Germany State of Berlin Berlin (Artikel10 e.V.)
-  → 出口IP: 185.220.101.28
+  → ⚫ 风险91% | 机房IP ⚠️透明 | Germany State of Berlin Berlin (CIA TRIAD SECURITY LLC)
+  → 出口IP: 185.220.101.183
 
 socks5://163.123.181.147:9950 [2026-02-02 13:51]
-  → ⚫ 风险100% | 广播IP ⚠️透明 | United States New York New York City (1337 Services GmbH)
-  → 出口IP: 124.198.132.52
-
-socks5://209.50.60.17:9191 [2026-02-02 13:21]
-  → ⚫ 风险100% | 机房IP ⚠️透明 | Norway Vestfold Sandefjord (Gigahost AS)
-  → 出口IP: 185.181.61.201
-
-socks5://23.227.203.202:9250 [2026-02-02 13:25]
-  → ⚫ 风险100% | 机房IP ⚠️透明 | Germany State of Berlin Berlin (Artikel10 e.V.)
-  → 出口IP: 185.220.101.18
+  → ⚫ 风险100% | 广播IP ⚠️透明 | Poland Mazovia Warsaw (1337 Services GmbH)
+  → 出口IP: 45.141.215.227
 
 ## ❌ 失败代理列表
+
+socks5://172.200.3.124:8888 [2026-02-02 16:42]
+  → HTTP 403
+
+socks5://172.200.67.130:8888 [2026-02-02 16:42]
+  → HTTP 403
+
+socks5://20.14.133.22:8888 [2026-02-02 16:42]
+  → HTTP 403
+
+socks5://20.161.21.241:8888 [2026-02-02 16:42]
+  → HTTP 403
+
+socks5://47.79.248.253:8888 [2026-02-02 16:51]
+  → HTTP 403
 
 socks5://47.80.10.118:5555 [2026-02-02 16:33]
   → HTTP 403
@@ -114,6 +105,9 @@ socks5://47.80.16.197:5555 [2026-02-02 16:33]
   → HTTP 403
 
 socks5://47.80.7.164:5555 [2026-02-02 16:33]
+  → HTTP 403
+
+socks5://47.82.176.182:1080 [2026-02-02 17:14]
   → HTTP 403
 
 socks5://47.86.86.125:5555 [2026-02-02 16:36]
