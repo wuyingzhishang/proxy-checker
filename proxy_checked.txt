@@ -1,19 +1,19 @@
 # 代理质量检测报告
-# 检测时间: 2026-02-03 04:15:55
+# 检测时间: 2026-02-03 05:50:31
 # API: IPPure (https://my.ippure.com/v1/info)
 
 ## 📊 统计摘要
-# 总计: 30 | 成功: 10 | 失败: 20 | 成功率: 33.3%
+# 总计: 30 | 成功: 9 | 失败: 21 | 成功率: 30.0%
 
 ## 质量分布
-# 优秀: 8
-# 良好: 1
+# 优秀: 6
+# 良好: 2
 # 较差: 1
 
 ## IP类型分布
-# 住宅IP: 6
+# 住宅IP: 4
 # 广播IP: 1
-# 机房IP: 3
+# 机房IP: 4
 
 ============================================================
 
@@ -30,10 +30,6 @@ socks5://185.140.209.75:40001 [2026-02-03 11:41]
 socks5://95.80.103.217:1080 [2026-02-03 10:01]
   → 🌟 风险1% | 住宅IP | Russia Omsk Oblast Omsk (Omsk Russia)
 
-socks5://117.72.14.151:54321 [2026-02-03 10:01]
-  → 🌟 风险2% | 住宅IP ⚠️透明 | Hong Kong SAR China Sha Tin Sha Tin (HGC Global Communica...)
-  → 出口IP: 118.140.56.80
-
 socks5://176.181.163.79:8889 [2026-02-03 11:36]
   → 🌟 风险2% | 住宅IP | France Provence-Alpes-Côte d'Azur Marseille (Pool for Broadband D...)
 
@@ -43,9 +39,8 @@ socks5://186.137.21.165:6881 [2026-02-03 09:03]
 socks5://123.214.62.25:6881 [2026-02-03 11:27]
   → 🌟 风险4% | 住宅IP | South Korea Gyeonggi-do Seongnam-si (SK Broadband Co Ltd)
 
-socks5://139.180.209.17:7777 [2026-02-03 07:00]
-  → 🌟 风险8% | 住宅IP ⚠️透明 | Turkey Ankara Ankara (ARMAKOM BILISIM TEKN...)
-  → 出口IP: 82.222.168.210
+socks5://199.244.48.251:1080 [2026-02-03 13:13]
+  → 🟢 风险24% | 机房IP | United States New York New York City (Cloud Web Manage)
 
 socks5://147.45.231.249:8443 [2026-02-03 07:28]
   → 🟢 风险25% | 机房IP | Netherlands North Holland Amsterdam (Timeweb, LLP)
@@ -63,34 +58,37 @@ socks5://116.107.139.151:5555 [2026-02-03 09:22]
   → 错误: Connection not allowed by ruleset
 
 socks5://116.107.139.162:5555 [2026-02-03 09:22]
-  → 错误: [Errno 111] Couldn't connect to proxy 116.107.139.
-
-socks5://116.107.139.187:5555 [2026-02-03 09:23]
-  → 错误: [Errno 111] Couldn't connect to proxy 116.107.139.
-
-socks5://116.107.139.194:5555 [2026-02-03 09:23]
   → 超时
 
+socks5://116.107.139.187:5555 [2026-02-03 09:23]
+  → 超时
+
+socks5://116.107.139.194:5555 [2026-02-03 09:23]
+  → 错误: Connection not allowed by ruleset
+
 socks5://116.107.139.198:5555 [2026-02-03 09:23]
+  → 超时
+
+socks5://117.72.14.151:54321 [2026-02-03 10:01]
   → 超时
 
 socks5://158.247.216.192:7777 [2026-02-03 07:01]
   → 错误: Unexpected SOCKS version number: 60
 
 socks5://171.240.118.123:5555 [2026-02-03 07:01]
-  → 错误: [Errno 111] Couldn't connect to proxy 171.240.118.
+  → 错误: Connection not allowed by ruleset
 
 socks5://171.240.118.124:5555 [2026-02-03 07:01]
   → 错误: [Errno 111] Couldn't connect to proxy 171.240.118.
 
 socks5://171.240.118.132:5555 [2026-02-03 07:01]
-  → 错误: Connection not allowed by ruleset
+  → 错误: [Errno 111] Couldn't connect to proxy 171.240.118.
 
 socks5://171.240.118.166:5555 [2026-02-03 07:01]
   → 错误: [Errno 111] Couldn't connect to proxy 171.240.118.
 
 socks5://171.240.118.172:5555 [2026-02-03 07:01]
-  → 超时
+  → 错误: [Errno 111] Couldn't connect to proxy 171.240.118.
 
 socks5://171.240.118.210:5555 [2026-02-03 07:01]
   → 错误: Connection not allowed by ruleset
@@ -99,7 +97,7 @@ socks5://171.240.118.223:5555 [2026-02-03 09:02]
   → 错误: Connection not allowed by ruleset
 
 socks5://171.240.118.79:5555 [2026-02-03 07:02]
-  → 超时
+  → 错误: Connection not allowed by ruleset
 
 socks5://171.240.119.5:5555 [2026-02-03 09:02]
   → 错误: [Errno 111] Couldn't connect to proxy 171.240.119.
