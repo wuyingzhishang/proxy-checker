@@ -1,5 +1,5 @@
 # 代理质量检测报告
-# 检测时间: 2026-02-03 05:50:31
+# 检测时间: 2026-02-03 06:49:09
 # API: IPPure (https://my.ippure.com/v1/info)
 
 ## 📊 统计摘要
@@ -58,13 +58,13 @@ socks5://116.107.139.151:5555 [2026-02-03 09:22]
   → 错误: Connection not allowed by ruleset
 
 socks5://116.107.139.162:5555 [2026-02-03 09:22]
-  → 超时
+  → 错误: Connection not allowed by ruleset
 
 socks5://116.107.139.187:5555 [2026-02-03 09:23]
-  → 超时
+  → 错误: Connection not allowed by ruleset
 
 socks5://116.107.139.194:5555 [2026-02-03 09:23]
-  → 错误: Connection not allowed by ruleset
+  → 超时
 
 socks5://116.107.139.198:5555 [2026-02-03 09:23]
   → 超时
@@ -82,7 +82,7 @@ socks5://171.240.118.124:5555 [2026-02-03 07:01]
   → 错误: [Errno 111] Couldn't connect to proxy 171.240.118.
 
 socks5://171.240.118.132:5555 [2026-02-03 07:01]
-  → 错误: [Errno 111] Couldn't connect to proxy 171.240.118.
+  → 超时
 
 socks5://171.240.118.166:5555 [2026-02-03 07:01]
   → 错误: [Errno 111] Couldn't connect to proxy 171.240.118.
@@ -91,16 +91,16 @@ socks5://171.240.118.172:5555 [2026-02-03 07:01]
   → 错误: [Errno 111] Couldn't connect to proxy 171.240.118.
 
 socks5://171.240.118.210:5555 [2026-02-03 07:01]
-  → 错误: Connection not allowed by ruleset
+  → 错误: [Errno 111] Couldn't connect to proxy 171.240.118.
 
 socks5://171.240.118.223:5555 [2026-02-03 09:02]
-  → 错误: Connection not allowed by ruleset
+  → 超时
 
 socks5://171.240.118.79:5555 [2026-02-03 07:02]
-  → 错误: Connection not allowed by ruleset
+  → 错误: [Errno 111] Couldn't connect to proxy 171.240.118.
 
 socks5://171.240.119.5:5555 [2026-02-03 09:02]
-  → 错误: [Errno 111] Couldn't connect to proxy 171.240.119.
+  → 超时
 
 socks5://171.240.119.90:5555 [2026-02-03 09:02]
   → 错误: Connection not allowed by ruleset
