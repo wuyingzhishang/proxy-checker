@@ -1,18 +1,18 @@
 # 代理质量检测报告
-# 检测时间: 2026-02-03 15:54:41
+# 检测时间: 2026-02-03 16:52:10
 # API: IPPure (https://my.ippure.com/v1/info)
 
 ## 📊 统计摘要
-# 总计: 30 | 成功: 11 | 失败: 19 | 成功率: 36.7%
+# 总计: 30 | 成功: 10 | 失败: 20 | 成功率: 33.3%
 
 ## 质量分布
-# 优秀: 7
+# 优秀: 6
 # 良好: 2
 # 中等: 1
 # 较差: 1
 
 ## IP类型分布
-# 住宅IP: 4
+# 住宅IP: 3
 # 广播IP: 2
 # 机房IP: 5
 
@@ -41,9 +41,6 @@ socks5://186.137.21.165:6881 [2026-02-03 09:03]
 socks5://123.214.62.25:6881 [2026-02-03 11:27]
   → 🌟 风险4% | 住宅IP | South Korea Gyeonggi-do Seongnam-si (SK Broadband Co Ltd)
 
-socks5://175.110.54.32:1080 [2026-02-03 18:28]
-  → 🌟 风险5% | 住宅IP | Yemen Amanat Alasimah Sanaa (Public Telecommunica...)
-
 socks5://199.244.48.251:1080 [2026-02-03 13:13]
   → 🟢 风险24% | 机房IP | United States New York New York City (Cloud Web Manage)
 
@@ -69,10 +66,10 @@ socks5://116.107.139.151:5555 [2026-02-03 09:22]
   → 错误: Connection not allowed by ruleset
 
 socks5://116.107.139.162:5555 [2026-02-03 09:22]
-  → 超时
+  → 错误: [Errno 111] Couldn't connect to proxy 116.107.139.
 
 socks5://116.107.139.187:5555 [2026-02-03 09:23]
-  → 超时
+  → 错误: [Errno 111] Couldn't connect to proxy 116.107.139.
 
 socks5://116.107.139.194:5555 [2026-02-03 09:23]
   → 错误: Connection not allowed by ruleset
@@ -93,10 +90,13 @@ socks5://171.240.118.79:5555 [2026-02-03 07:02]
   → 错误: Connection not allowed by ruleset
 
 socks5://171.240.119.5:5555 [2026-02-03 09:02]
-  → 超时
+  → 错误: Connection not allowed by ruleset
 
 socks5://171.240.119.90:5555 [2026-02-03 09:02]
-  → 错误: Connection not allowed by ruleset
+  → 超时
+
+socks5://175.110.54.32:1080 [2026-02-03 18:28]
+  → 错误: [Errno 111] Couldn't connect to proxy 175.110.54.3
 
 socks5://205.198.86.174:1080 [2026-02-03 21:29]
   → 错误: Connection not allowed by ruleset
@@ -111,7 +111,7 @@ socks5://8.220.247.98:5555 [2026-02-03 07:12]
   → HTTP 403
 
 socks5://91.107.137.230:8000 [2026-02-03 07:26]
-  → 错误: General SOCKS server failure
+  → HTTP 403
 
 socks5://95.80.103.217:1080 [2026-02-03 10:01]
   → 超时
