@@ -1,29 +1,24 @@
 # 代理质量检测报告
-# 检测时间: 2026-02-04 04:12:44
+# 检测时间: 2026-02-04 05:49:26
 # API: IPPure (https://my.ippure.com/v1/info)
 
 ## 📊 统计摘要
-# 总计: 30 | 成功: 13 | 失败: 17 | 成功率: 43.3%
+# 总计: 30 | 成功: 12 | 失败: 18 | 成功率: 40.0%
 
 ## 质量分布
-# 优秀: 8
+# 优秀: 9
 # 良好: 1
-# 中等: 2
 # 较差: 1
 # 极差: 1
 
 ## IP类型分布
-# 住宅IP: 6
-# 广播IP: 2
-# 机房IP: 5
+# 住宅IP: 8
+# 广播IP: 1
+# 机房IP: 3
 
 ============================================================
 
 ## ✅ 可用代理列表 (按质量排序)
-
-socks5://185.140.209.75:40001 [2026-02-03 11:41]
-  → 🌟 风险0% | 机房IP ⚠️透明 | Netherlands North Holland Amsterdam (Hurricane Electric LLC)
-  → 出口IP: 2001:470:1f14:228::2
 
 socks5://5.42.217.202:9999 [2026-02-04 09:07]
   → 🌟 风险0% | 机房IP ⚠️透明 | Netherlands North Holland Haarlem (The Constant Company...)
@@ -33,14 +28,22 @@ socks5://42.116.179.166:1080 [2026-02-04 10:03]
   → 🌟 风险1% | 住宅IP ⚠️透明 | Vietnam Thanh Hóa Province Thanh Hóa (AdditionalIP range f...)
   → 出口IP: 117.7.81.125
 
-socks5://176.181.163.79:8889 [2026-02-03 11:36]
-  → 🌟 风险2% | 住宅IP | France Provence-Alpes-Côte d'Azur Marseille (Pool for Broadband D...)
-
 socks5://186.137.21.165:6881 [2026-02-03 09:03]
   → 🌟 风险2% | 住宅IP | Argentina Buenos Aires Olavarría (Telecom Argentina S.A.)
 
+socks5://122.234.78.254:1080 [2026-02-04 12:52]
+  → 🌟 风险3% | 住宅IP ⚠️透明 | Hong Kong SAR China Sha Tin Sha Tin (HGC Global Communica...)
+  → 出口IP: 118.140.56.83
+
+socks5://14.167.164.4:1080 [2026-02-04 13:38]
+  → 🌟 风险3% | 住宅IP | Vietnam Ho Chi Minh City (HCMC) Ho Chi Minh City (Vietnam Posts and Te...)
+
 socks5://123.214.62.25:6881 [2026-02-03 11:27]
   → 🌟 风险4% | 住宅IP | South Korea Gyeonggi-do Seongnam-si (SK Broadband Co Ltd)
+
+socks5://54.174.80.244:1080 [2026-02-04 02:16]
+  → 🌟 风险4% | 住宅IP ⚠️透明 | United States Nevada North Las Vegas (Verizon Business)
+  → 出口IP: 75.222.82.63
 
 socks5://5.206.2.156:1080 [2026-02-04 03:05]
   → 🌟 风险5% | 住宅IP | Russia Chelyabinsk Chelyabinsk (Intersvyaz-2 JSC)
@@ -52,53 +55,49 @@ socks5://54.180.2.42:1080 [2026-02-04 07:58]
   → 🟢 风险25% | 机房IP ⚠️透明 | United States California Santa Clara (DigitalOcean, LLC)
   → 出口IP: 157.230.205.214
 
-socks5://104.248.140.6:1080 [2026-02-03 21:26]
-  → 🟡 风险31% | 广播IP | Germany Hesse Frankfurt am Main (DigitalOcean, LLC)
-
-socks5://150.241.88.14:1080 [2026-02-03 16:02]
-  → 🟡 风险32% | 广播IP | Finland Uusimaa Helsinki (Xorek.Cloud Helsinki)
-
-socks5://54.174.80.244:1080 [2026-02-04 02:16]
-  → 🟠 风险66% | 机房IP ⚠️透明 | United States Colorado Greenwood Village (Nexeon Technologies,...)
-  → 出口IP: 64.44.86.174
+socks5://109.110.188.131:1080 [2026-02-04 07:42]
+  → 🟠 风险59% | 广播IP | Indonesia Jakarta Jakarta (LIVAPROXY YAZILIM TI...)
 
 socks5://94.159.108.113:13013 [2026-02-04 10:09]
-  → ⚫ 风险99% | 机房IP ⚠️透明 | Sweden Stockholm Stockholm (QuxLabs AB)
-  → 出口IP: 45.84.107.54
+  → ⚫ 风险94% | 机房IP ⚠️透明 | Sweden Stockholm Stockholm (QuxLabs AB)
+  → 出口IP: 45.84.107.55
 
 ## ❌ 失败代理列表
 
-socks5://109.110.188.131:1080 [2026-02-04 07:42]
+socks5://104.248.140.6:1080 [2026-02-03 21:26]
   → 超时
 
 socks5://116.107.139.151:5555 [2026-02-03 09:22]
   → 错误: Connection not allowed by ruleset
 
 socks5://116.107.139.162:5555 [2026-02-03 09:22]
-  → 超时
+  → 错误: Connection not allowed by ruleset
 
 socks5://116.107.139.187:5555 [2026-02-03 09:23]
-  → 错误: [Errno 111] Couldn't connect to proxy 116.107.139.
+  → 错误: Connection not allowed by ruleset
 
 socks5://116.107.139.194:5555 [2026-02-03 09:23]
-  → 错误: [Errno 111] Couldn't connect to proxy 116.107.139.
+  → 超时
 
 socks5://138.199.208.166:1080 [2026-02-03 23:14]
   → 超时
 
-socks5://171.240.118.223:5555 [2026-02-03 09:02]
+socks5://150.241.88.14:1080 [2026-02-03 16:02]
   → 超时
 
 socks5://171.240.119.5:5555 [2026-02-03 09:02]
   → 超时
 
 socks5://171.240.119.90:5555 [2026-02-03 09:02]
-  → 错误: Connection not allowed by ruleset
-
-socks5://172.86.111.187:1080 [2026-02-03 08:58]
   → 超时
 
 socks5://176.123.169.38:1080 [2026-02-03 16:24]
+  → 错误: General SOCKS server failure
+
+socks5://176.181.163.79:8889 [2026-02-03 11:36]
+  → 错误: General SOCKS server failure
+
+socks5://185.140.209.75:40001 [2026-02-03 11:41]
   → 错误: General SOCKS server failure
 
 socks5://205.198.86.174:1080 [2026-02-03 21:29]
