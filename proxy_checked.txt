@@ -1,21 +1,21 @@
 # 代理质量检测报告
-# 检测时间: 2026-02-04 18:46:34
+# 检测时间: 2026-02-04 19:39:07
 # API: IPPure (https://my.ippure.com/v1/info)
 
 ## 📊 统计摘要
-# 总计: 30 | 成功: 21 | 失败: 9 | 成功率: 70.0%
+# 总计: 30 | 成功: 25 | 失败: 5 | 成功率: 83.3%
 
 ## 质量分布
-# 优秀: 3
+# 优秀: 5
 # 良好: 6
 # 中等: 10
-# 较差: 1
-# 极差: 1
+# 较差: 2
+# 极差: 2
 
 ## IP类型分布
-# 住宅IP: 1
-# 广播IP: 7
-# 机房IP: 13
+# 住宅IP: 3
+# 广播IP: 10
+# 机房IP: 12
 
 ============================================================
 
@@ -29,14 +29,17 @@ socks5://47.238.132.66:5555 [2026-02-05 01:01]
   → 🌟 风险0% | 机房IP ⚠️透明 | United States California Los Angeles (Baxet Group Inc.)
   → 出口IP: 2605:e440:5::3fd
 
+socks5://14.167.164.4:1080 [2026-02-04 13:38]
+  → 🌟 风险3% | 住宅IP | Vietnam Ho Chi Minh City (HCMC) Ho Chi Minh City (Vietnam Posts and Te...)
+
+socks5://37.142.196.98:1080 [2026-02-04 13:52]
+  → 🌟 风险4% | 住宅IP | Israel Tel Aviv Bnei Brak (BROADBAND-CABLES)
+
 socks5://23.148.28.72:50161 [2026-02-05 00:01]
   → 🌟 风险5% | 机房IP | Hong Kong SAR China Hong Kong (Indihost Network LLC)
 
 socks5://88.209.119.226:1080 [2026-02-05 02:08]
   → 🟢 风险10% | 住宅IP | Monaco Municipality of Monaco Monaco (Internet Access)
-
-socks5://109.71.242.39:1080 [2026-02-05 01:55]
-  → 🟢 风险18% | 机房IP | Russia Novosibirsk Oblast Novosibirsk (TIMEWEB-NET)
 
 socks5://23.19.231.152:50161 [2026-02-04 22:58]
   → 🟢 风险19% | 机房IP | United States California Pico Rivera (LeaseWeb USA, Inc. L...)
@@ -50,6 +53,10 @@ socks5://143.14.107.45:50161 [2026-02-04 23:48]
 socks5://45.59.117.163:8080 [2026-02-04 17:42]
   → 🟢 风险26% | 广播IP | Switzerland Bern Bern (RouterHosting LLC)
 
+socks5://80.87.108.127:1080 [2026-02-04 14:44]
+  → 🟢 风险29% | 机房IP ⚠️透明 | Russia Moscow Moscow (FIRST SERVER LIMITED)
+  → 出口IP: 95.81.122.133
+
 socks5://195.62.32.233:2080 [2026-02-05 02:09]
   → 🟡 风险30% | 机房IP | Netherlands North Holland Amsterdam (PIO-Hosting GmbH)
 
@@ -62,19 +69,11 @@ socks5://69.63.198.38:50161 [2026-02-04 23:48]
 socks5://158.101.20.73:50161 [2026-02-05 00:01]
   → 🟡 风险31% | 机房IP | United States Arizona Phoenix (Oracle Public Cloud)
 
-socks5://181.6.228.141:1080 [2026-02-05 02:23]
-  → 🟡 风险31% | 机房IP ⚠️透明 | United States New Jersey Clifton (DigitalOcean, LLC)
-  → 出口IP: 142.93.179.148
-
 socks5://216.126.234.4:50161 [2026-02-04 22:57]
   → 🟡 风险31% | 机房IP | United States Washington Liberty Lake (Redoubt Networks)
 
 socks5://188.253.118.223:50161 [2026-02-04 22:58]
   → 🟡 风险35% | 广播IP | Japan Tokyo Tokyo (Akari Networks (Tokyo))
-
-socks5://181.6.35.46:1080 [2026-02-05 02:23]
-  → 🟡 风险37% | 机房IP ⚠️透明 | United States New Jersey Clifton (DigitalOcean, LLC)
-  → 出口IP: 164.90.135.227
 
 socks5://181.6.37.52:1080 [2026-02-05 02:23]
   → 🟡 风险38% | 机房IP ⚠️透明 | United States New Jersey Clifton (DigitalOcean, LLC)
@@ -83,8 +82,23 @@ socks5://181.6.37.52:1080 [2026-02-05 02:23]
 socks5://154.9.228.149:1081 [2026-02-05 02:37]
   → 🟡 风险41% | 机房IP | United States California Los Angeles (NetLab)
 
+socks5://185.244.208.84:5555 [2026-02-05 02:50]
+  → 🟡 风险41% | 广播IP | Hong Kong SAR China Hong Kong (G-Core Labs Customer...)
+
+socks5://122.234.78.254:1080 [2026-02-04 12:52]
+  → 🟡 风险47% | 广播IP ⚠️透明 | Singapore Singapore (Akari Networks (Sing...)
+  → 出口IP: 188.253.121.14
+
 socks5://185.36.192.13:50161 [2026-02-04 23:13]
   → 🟠 风险50% | 广播IP | Singapore Singapore (Akari Networks (Sing...)
+
+socks5://181.6.247.21:1080 [2026-02-05 02:23]
+  → 🟠 风险53% | 广播IP ⚠️透明 | United States Virginia Manassas (netcup GmbH)
+  → 出口IP: 152.53.170.135
+
+socks5://94.159.108.113:13013 [2026-02-04 10:09]
+  → ⚫ 风险97% | 机房IP ⚠️透明 | Germany Bavaria Erlangen (Network for Tor-Exit...)
+  → 出口IP: 185.220.100.252
 
 socks5://129.212.140.134:1080 [2026-02-05 00:37]
   → ⚫ 风险100% | 广播IP ⚠️透明 | Germany Hesse Frankfurt am Main (DigitalOcean, LLC)
@@ -92,29 +106,17 @@ socks5://129.212.140.134:1080 [2026-02-05 00:37]
 
 ## ❌ 失败代理列表
 
-socks5://181.6.157.211:1080 [2026-02-05 02:23]
+socks5://109.71.242.39:1080 [2026-02-05 01:55]
   → 超时
 
-socks5://181.6.247.21:1080 [2026-02-05 02:23]
-  → 超时
+socks5://181.6.228.141:1080 [2026-02-05 02:23]
+  → 错误: [Errno 111] Couldn't connect to proxy 181.6.228.14
 
-socks5://217.69.1.106:1080 [2026-02-04 20:27]
-  → 超时
-
-socks5://217.69.12.42:1080 [2026-02-04 15:34]
-  → 超时
-
-socks5://217.69.222.174:1080 [2026-02-04 15:34]
-  → 超时
-
-socks5://217.69.7.58:1080 [2026-02-04 15:34]
+socks5://42.116.179.166:1080 [2026-02-04 10:03]
   → 超时
 
 socks5://51.255.83.24:1080 [2026-02-04 21:13]
   → HTTP 403
 
-socks5://77.93.42.198:1080 [2026-02-05 01:10]
-  → 超时
-
-socks5://78.159.103.50:1080 [2026-02-04 21:44]
-  → 错误: [Errno 111] Couldn't connect to proxy 78.159.103.5
+socks5://54.219.163.66:1080 [2026-02-04 14:59]
+  → HTTP 403
