@@ -1,19 +1,21 @@
 # 代理质量检测报告
-# 检测时间: 2026-02-04 09:42:34
+# 检测时间: 2026-02-04 10:38:23
 # API: IPPure (https://my.ippure.com/v1/info)
 
 ## 📊 统计摘要
-# 总计: 30 | 成功: 17 | 失败: 13 | 成功率: 56.7%
+# 总计: 30 | 成功: 20 | 失败: 10 | 成功率: 66.7%
 
 ## 质量分布
 # 优秀: 12
-# 良好: 4
+# 良好: 5
 # 中等: 1
+# 较差: 1
+# 极差: 1
 
 ## IP类型分布
 # 住宅IP: 9
-# 广播IP: 3
-# 机房IP: 5
+# 广播IP: 5
+# 机房IP: 6
 
 ============================================================
 
@@ -45,10 +47,6 @@ socks5://122.234.78.254:1080 [2026-02-04 12:52]
 socks5://14.167.164.4:1080 [2026-02-04 13:38]
   → 🌟 风险3% | 住宅IP | Vietnam Ho Chi Minh City (HCMC) Ho Chi Minh City (Vietnam Posts and Te...)
 
-socks5://54.174.80.244:1080 [2026-02-04 02:16]
-  → 🌟 风险3% | 住宅IP ⚠️透明 | United States Pennsylvania Philadelphia (Comcast Cable Commun...)
-  → 出口IP: 68.80.1.91
-
 socks5://37.142.196.98:1080 [2026-02-04 13:52]
   → 🌟 风险4% | 住宅IP | Israel Tel Aviv Bnei Brak (BROADBAND-CABLES)
 
@@ -61,9 +59,16 @@ socks5://91.194.190.123:1080 [2026-02-04 04:42]
 socks5://217.69.222.174:1080 [2026-02-04 15:34]
   → 🌟 风险8% | 住宅IP | Russia Moscow Moscow (Customer's P2P WAN I...)
 
+socks5://54.174.80.244:1080 [2026-02-04 02:16]
+  → 🌟 风险9% | 住宅IP ⚠️透明 | United States South Carolina Westminster (West Carolina Commun...)
+  → 出口IP: 164.153.51.70
+
 socks5://54.180.2.42:1080 [2026-02-04 07:58]
   → 🟢 风险25% | 机房IP ⚠️透明 | United States California Santa Clara (DigitalOcean, LLC)
   → 出口IP: 157.230.205.214
+
+socks5://45.59.117.163:8080 [2026-02-04 17:42]
+  → 🟢 风险26% | 广播IP | Switzerland Bern Bern (RouterHosting LLC)
 
 socks5://217.69.12.42:1080 [2026-02-04 15:34]
   → 🟢 风险29% | 广播IP | France Île-de-France Aubervilliers (20/22, Rue Des Gardi...)
@@ -78,12 +83,16 @@ socks5://80.87.108.127:1080 [2026-02-04 14:44]
 socks5://217.69.9.62:1080 [2026-02-04 15:34]
   → 🟡 风险32% | 广播IP | France Île-de-France Aubervilliers (20/22, Rue Des Gardi...)
 
+socks5://109.110.188.131:1080 [2026-02-04 07:42]
+  → 🟠 风险59% | 广播IP | Indonesia Jakarta Jakarta (LIVAPROXY YAZILIM TI...)
+
+socks5://94.159.108.113:13013 [2026-02-04 10:09]
+  → ⚫ 风险97% | 机房IP ⚠️透明 | Netherlands North Holland Amsterdam (TOR EXIT AND MORE)
+  → 出口IP: 192.42.116.208
+
 ## ❌ 失败代理列表
 
 socks5://104.248.140.6:1080 [2026-02-03 21:26]
-  → 超时
-
-socks5://109.110.188.131:1080 [2026-02-04 07:42]
   → 超时
 
 socks5://123.214.62.25:6881 [2026-02-03 11:27]
@@ -96,7 +105,7 @@ socks5://150.241.88.14:1080 [2026-02-03 16:02]
   → 超时
 
 socks5://176.181.163.79:8889 [2026-02-03 11:36]
-  → 超时
+  → 错误: General SOCKS server failure
 
 socks5://205.198.86.174:1080 [2026-02-03 21:29]
   → 错误: Connection not allowed by ruleset
@@ -110,11 +119,5 @@ socks5://35.92.92.103:1080 [2026-02-04 03:30]
 socks5://54.219.163.66:1080 [2026-02-04 14:59]
   → HTTP 403
 
-socks5://8.219.216.82:5555 [2026-02-03 11:19]
-  → 错误: [Errno 111] Couldn't connect to proxy 8.219.216.82
-
 socks5://91.132.49.189:1080 [2026-02-04 07:17]
   → 错误: [Errno 111] Couldn't connect to proxy 91.132.49.18
-
-socks5://94.159.108.113:13013 [2026-02-04 10:09]
-  → HTTP 403
