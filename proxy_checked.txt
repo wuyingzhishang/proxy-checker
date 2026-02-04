@@ -1,44 +1,37 @@
 # 代理质量检测报告
-# 检测时间: 2026-02-04 11:33:54
+# 检测时间: 2026-02-04 12:56:39
 # API: IPPure (https://my.ippure.com/v1/info)
 
 ## 📊 统计摘要
-# 总计: 30 | 成功: 18 | 失败: 12 | 成功率: 60.0%
+# 总计: 30 | 成功: 17 | 失败: 13 | 成功率: 56.7%
 
 ## 质量分布
-# 优秀: 11
-# 良好: 4
+# 优秀: 9
+# 良好: 5
 # 中等: 1
 # 较差: 1
 # 极差: 1
 
 ## IP类型分布
-# 住宅IP: 9
-# 广播IP: 5
-# 机房IP: 4
+# 住宅IP: 8
+# 广播IP: 6
+# 机房IP: 3
 
 ============================================================
 
 ## ✅ 可用代理列表 (按质量排序)
 
-socks5://176.123.169.38:1080 [2026-02-03 16:24]
-  → 🌟 风险0% | 机房IP ⚠️透明 | Russia Moscow Oblast Krasnoznamensk (JSC IOT)
-  → 出口IP: 2a01:230:4:bf4::2
-
 socks5://5.42.217.202:9999 [2026-02-04 09:07]
   → 🌟 风险0% | 机房IP ⚠️透明 | Netherlands North Holland Haarlem (The Constant Company...)
   → 出口IP: 2a05:f480:1400:35d1:5400:5ff:fe8c:fd50
-
-socks5://54.174.80.244:1080 [2026-02-04 02:16]
-  → 🌟 风险0% | 住宅IP ⚠️透明 | United States Louisiana Baton Rouge (Cox Communications)
-  → 出口IP: 70.188.121.134
 
 socks5://42.116.179.166:1080 [2026-02-04 10:03]
   → 🌟 风险1% | 住宅IP ⚠️透明 | Vietnam Thanh Hóa Province Thanh Hóa (AdditionalIP range f...)
   → 出口IP: 117.7.81.125
 
-socks5://80.73.73.118:1080 [2026-02-04 06:15]
-  → 🌟 风险1% | 住宅IP | Russia Sakha Yakutsk (Sakhatelecom, Kurash...)
+socks5://54.174.80.244:1080 [2026-02-04 02:16]
+  → 🌟 风险1% | 住宅IP ⚠️透明 | United States Texas San Antonio (Google Fiber Inc.)
+  → 出口IP: 136.51.62.155
 
 socks5://122.234.78.254:1080 [2026-02-04 12:52]
   → 🌟 风险3% | 住宅IP ⚠️透明 | Hong Kong SAR China Sha Tin Sha Tin (HGC Global Communica...)
@@ -69,27 +62,27 @@ socks5://45.59.117.163:8080 [2026-02-04 17:42]
 socks5://217.69.12.42:1080 [2026-02-04 15:34]
   → 🟢 风险29% | 广播IP | France Île-de-France Aubervilliers (20/22, Rue Des Gardi...)
 
+socks5://217.69.7.58:1080 [2026-02-04 15:34]
+  → 🟢 风险29% | 广播IP | France Île-de-France Aubervilliers (20/22, Rue Des Gardi...)
+
 socks5://80.87.108.127:1080 [2026-02-04 14:44]
   → 🟢 风险29% | 机房IP ⚠️透明 | Russia Moscow Moscow (FIRST SERVER LIMITED)
   → 出口IP: 95.81.122.133
 
-socks5://217.69.9.62:1080 [2026-02-04 15:34]
-  → 🟡 风险32% | 广播IP | France Île-de-France Aubervilliers (20/22, Rue Des Gardi...)
+socks5://217.69.1.106:1080 [2026-02-04 20:27]
+  → 🟡 风险39% | 广播IP | France Île-de-France Aubervilliers (20/22, Rue Des Gardi...)
 
 socks5://109.110.188.131:1080 [2026-02-04 07:42]
   → 🟠 风险59% | 广播IP | Indonesia Jakarta Jakarta (LIVAPROXY YAZILIM TI...)
 
 socks5://94.159.108.113:13013 [2026-02-04 10:09]
-  → ⚫ 风险95% | 广播IP ⚠️透明 | Poland Mazovia Warsaw (1337 Services GmbH)
-  → 出口IP: 45.138.16.118
+  → ⚫ 风险100% | 广播IP ⚠️透明 | Poland Mazovia Warsaw (1337 Services GmbH)
+  → 出口IP: 185.241.208.71
 
 ## ❌ 失败代理列表
 
 socks5://104.248.140.6:1080 [2026-02-03 21:26]
   → 超时
-
-socks5://123.214.62.25:6881 [2026-02-03 11:27]
-  → 错误: [Errno 111] Couldn't connect to proxy 123.214.62.2
 
 socks5://138.199.208.166:1080 [2026-02-03 23:14]
   → 超时
@@ -97,8 +90,11 @@ socks5://138.199.208.166:1080 [2026-02-03 23:14]
 socks5://150.241.88.14:1080 [2026-02-03 16:02]
   → 超时
 
-socks5://176.181.163.79:8889 [2026-02-03 11:36]
+socks5://176.123.169.38:1080 [2026-02-03 16:24]
   → 错误: General SOCKS server failure
+
+socks5://176.181.163.79:8889 [2026-02-03 11:36]
+  → 超时
 
 socks5://185.140.209.75:40001 [2026-02-03 11:41]
   → 错误: General SOCKS server failure
@@ -106,7 +102,7 @@ socks5://185.140.209.75:40001 [2026-02-03 11:41]
 socks5://205.198.86.174:1080 [2026-02-03 21:29]
   → 错误: Connection not allowed by ruleset
 
-socks5://217.69.7.58:1080 [2026-02-04 15:34]
+socks5://217.69.9.62:1080 [2026-02-04 15:34]
   → 超时
 
 socks5://35.164.47.97:1080 [2026-02-03 16:49]
@@ -117,6 +113,9 @@ socks5://35.92.92.103:1080 [2026-02-04 03:30]
 
 socks5://54.219.163.66:1080 [2026-02-04 14:59]
   → HTTP 403
+
+socks5://80.73.73.118:1080 [2026-02-04 06:15]
+  → 连接错误: [Errno 104] Connection reset by peer
 
 socks5://91.132.49.189:1080 [2026-02-04 07:17]
   → 错误: [Errno 111] Couldn't connect to proxy 91.132.49.18
