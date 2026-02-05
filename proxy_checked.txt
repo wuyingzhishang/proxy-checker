@@ -1,28 +1,25 @@
 # 代理质量检测报告
-# 检测时间: 2026-02-05 05:55:22
+# 检测时间: 2026-02-05 06:57:27
 # API: IPPure (https://my.ippure.com/v1/info)
 
 ## 📊 统计摘要
 # 总计: 30 | 成功: 21 | 失败: 9 | 成功率: 70.0%
 
 ## 质量分布
-# 优秀: 2
+# 优秀: 1
 # 良好: 4
-# 中等: 9
+# 中等: 10
 # 较差: 1
 # 极差: 1
 
 ## IP类型分布
-# 住宅IP: 4
-# 广播IP: 12
+# 住宅IP: 3
+# 广播IP: 13
 # 机房IP: 5
 
 ============================================================
 
 ## ✅ 可用代理列表 (按质量排序)
-
-socks5://113.22.228.249:20000 [2026-02-05 05:24]
-  → 🌟 风险6% | 住宅IP | Vietnam Ho Chi Minh City (HCMC) Uyen Hung (Dai IP dong su dung ...)
 
 socks5://14.187.232.0:20002 [2026-02-05 11:04]
   → 🌟 风险8% | 住宅IP ⚠️透明 | Vietnam Ho Chi Minh City (HCMC) Ho Chi Minh City (Vietnam Posts and Te...)
@@ -37,11 +34,8 @@ socks5://91.200.243.63:50161 [2026-02-05 08:36]
 socks5://38.207.189.159:16993 [2026-02-05 12:37]
   → 🟢 风险24% | 机房IP | United States California Garden Grove (VMISS Inc.)
 
-socks5://80.74.28.42:20000 [2026-02-05 04:05]
-  → 🟢 风险26% | 广播IP | Netherlands North Holland Amsterdam (CLODO CLOUD SERVICE ...)
-
-socks5://193.106.196.91:5555 [2026-02-05 07:12]
-  → 🟡 风险30% | 广播IP | Turkey Bursa Province Bursa (City Telecom LTD)
+socks5://85.192.29.195:1080 [2026-02-05 13:55]
+  → 🟢 风险28% | 广播IP | Germany Hesse Frankfurt am Main (Aeza International LTD)
 
 socks5://216.128.138.173:1080 [2026-02-05 11:22]
   → 🟡 风险31% | 机房IP | United States Texas Dallas (Vultr Holdings, LLC)
@@ -51,6 +45,9 @@ socks5://109.73.173.199:1080 [2026-02-05 10:22]
 
 socks5://43.153.131.83:16923 [2026-02-05 12:28]
   → 🟡 风险33% | 广播IP | Japan Tokyo Tokyo (16 COLLYER QUAY # 18...)
+
+socks5://193.106.150.70:1080 [2026-02-05 07:12]
+  → 🟡 风险34% | 广播IP | Netherlands Drenthe Meppel (RU DOMISHKO)
 
 socks5://78.111.149.103:1080 [2026-02-05 13:39]
   → 🟡 风险36% | 住宅IP | Russia Ivanovo Oblast Ivanovo (CJSC Comstar-Regions...)
@@ -67,6 +64,9 @@ socks5://14.155.145.222:1080 [2026-02-05 06:55]
 
 socks5://193.106.58.92:1080 [2026-02-05 07:12]
   → 🟡 风险47% | 机房IP | Ukraine Kyiv City Kyiv (FOP "Makurin Stanisl...)
+
+socks5://77.239.125.57:1080 [2026-02-05 14:38]
+  → 🟡 风险48% | 广播IP | Germany Hesse Frankfurt am Main (play2go.cloud - Chea...)
 
 socks5://176.103.62.128:1080 [2026-02-05 08:05]
   → 🟠 风险50% | 广播IP | Bulgaria Sofia-Capital Sofia (Ivanov Vitaliy Serge...)
@@ -86,8 +86,8 @@ socks5://178.128.112.166:1080 [2026-02-05 06:05]
   → 出口IP: 104.28.222.43
 
 socks5://40.172.162.21:1080 [2026-02-05 08:34]
-  → ⚫ 风险94% | 机房IP ⚠️透明 | Austria Vienna Vienna (Foundation for Appli...)
-  → 出口IP: 109.70.100.10
+  → ⚫ 风险100% | 机房IP ⚠️透明 | Germany State of Berlin Berlin (Digitalcourage e.V.)
+  → 出口IP: 185.220.101.110
 
 ## ❌ 失败代理列表
 
@@ -100,7 +100,10 @@ socks5://104.234.168.143:1080 [2026-02-05 09:52]
 socks5://16.170.136.118:1080 [2026-02-05 06:45]
   → HTTP 403
 
-socks5://193.106.150.70:1080 [2026-02-05 07:12]
+socks5://18.191.108.236:1080 [2026-02-05 13:57]
+  → HTTP 403
+
+socks5://193.106.196.91:5555 [2026-02-05 07:12]
   → 超时
 
 socks5://203.18.158.196:1080 [2026-02-05 09:29]
@@ -114,6 +117,3 @@ socks5://47.242.12.226:1080 [2026-02-05 12:32]
 
 socks5://54.46.46.84:1080 [2026-02-05 07:33]
   → HTTP 403
-
-socks5://95.79.137.60:10801 [2026-02-05 05:53]
-  → 超时
