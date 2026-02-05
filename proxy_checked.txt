@@ -1,18 +1,18 @@
 # 代理质量检测报告
-# 检测时间: 2026-02-05 09:42:28
+# 检测时间: 2026-02-05 10:39:22
 # API: IPPure (https://my.ippure.com/v1/info)
 
 ## 📊 统计摘要
-# 总计: 30 | 成功: 19 | 失败: 11 | 成功率: 63.3%
+# 总计: 30 | 成功: 18 | 失败: 12 | 成功率: 60.0%
 
 ## 质量分布
-# 优秀: 5
-# 良好: 3
-# 中等: 9
+# 优秀: 4
+# 良好: 4
+# 中等: 8
 # 较差: 2
 
 ## IP类型分布
-# 住宅IP: 5
+# 住宅IP: 4
 # 广播IP: 9
 # 机房IP: 5
 
@@ -33,21 +33,17 @@ socks5://46.42.11.42:1080 [2026-02-05 15:34]
 socks5://109.187.27.69:1080 [2026-02-05 15:57]
   → 🌟 风险3% | 住宅IP | Russia Bashkortostan Republic Ufa (Bashinformsvyaz Comp...)
 
-socks5://14.187.232.0:20002 [2026-02-05 11:04]
-  → 🌟 风险8% | 住宅IP ⚠️透明 | Vietnam Ho Chi Minh City (HCMC) Ho Chi Minh City (Vietnam Posts and Te...)
-  → 出口IP: 14.187.231.175
-
 socks5://213.111.146.36:18080 [2026-02-05 15:09]
   → 🟢 风险20% | 广播IP | Netherlands North Holland Haarlem (SOLLUTIUM EU Sp z.o.o.)
+
+socks5://152.89.38.226:1080 [2026-02-05 17:54]
+  → 🟢 风险21% | 机房IP | Turkey Istanbul Istanbul (CIZGI TELEKOMUNIKASY...)
 
 socks5://38.207.189.159:16993 [2026-02-05 12:37]
   → 🟢 风险24% | 机房IP | United States California Garden Grove (VMISS Inc.)
 
 socks5://85.192.29.195:1080 [2026-02-05 13:55]
   → 🟢 风险28% | 广播IP | Germany Hesse Frankfurt am Main (Aeza International LTD)
-
-socks5://216.128.138.173:1080 [2026-02-05 11:22]
-  → 🟡 风险31% | 机房IP | United States Texas Dallas (Vultr Holdings, LLC)
 
 socks5://81.68.202.95:18089 [2026-02-05 15:22]
   → 🟡 风险31% | 广播IP ⚠️透明 | United States California Los Angeles (Cluster Logic Inc)
@@ -83,10 +79,13 @@ socks5://212.174.10.112:17007 [2026-02-05 12:43]
 
 ## ❌ 失败代理列表
 
-socks5://100.27.249.78:1080 [2026-02-05 11:22]
+socks5://102.37.154.97:1080 [2026-02-05 14:58]
   → HTTP 403
 
-socks5://102.37.154.97:1080 [2026-02-05 14:58]
+socks5://144.76.91.190:1080 [2026-02-05 18:31]
+  → HTTP 403
+
+socks5://144.76.94.91:1080 [2026-02-05 18:31]
   → HTTP 403
 
 socks5://146.103.122.196:1080 [2026-02-05 16:13]
