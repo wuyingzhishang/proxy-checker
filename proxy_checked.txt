@@ -1,19 +1,19 @@
 # 代理质量检测报告
-# 检测时间: 2026-02-05 15:40:38
+# 检测时间: 2026-02-05 16:46:18
 # API: IPPure (https://my.ippure.com/v1/info)
 
 ## 📊 统计摘要
-# 总计: 30 | 成功: 14 | 失败: 16 | 成功率: 46.7%
+# 总计: 30 | 成功: 16 | 失败: 14 | 成功率: 53.3%
 
 ## 质量分布
-# 优秀: 6
-# 良好: 3
-# 中等: 5
+# 优秀: 5
+# 良好: 4
+# 中等: 7
 
 ## IP类型分布
 # 住宅IP: 4
-# 广播IP: 1
-# 机房IP: 9
+# 广播IP: 4
+# 机房IP: 8
 
 ============================================================
 
@@ -23,19 +23,16 @@ socks5://141.98.197.133:18791 [2026-02-05 16:19]
   → 🌟 风险0% | 机房IP ⚠️透明 | Japan Tokyo Tokyo (xTom Japan Corporation)
   → 出口IP: 2a12:a302:1:a3b7::b8d3
 
-socks5://149.233.238.98:1080 [2026-02-05 23:06]
-  → 🌟 风险0% | 机房IP ⚠️透明 | Germany Schleswig-Holstein Norderstedt (PPPOE Private Customers)
-  → 出口IP: 2a04:4540:6f02:c900:2ecf:67ff:fee0:5eb3
-
 socks5://212.251.102.140:1080 [2026-02-05 19:35]
   → 🌟 风险2% | 住宅IP ⚠️透明 | Greece Central Macedonia Sérres (Multiprotocol Servic...)
   → 出口IP: 79.129.36.116
 
+socks5://113.172.151.246:20005 [2026-02-06 00:13]
+  → 🌟 风险4% | 住宅IP ⚠️透明 | Vietnam Ho Chi Minh City (HCMC) Ho Chi Minh City (Vietnam Posts and Te...)
+  → 出口IP: 14.186.47.251
+
 socks5://87.15.116.173:1080 [2026-02-05 23:33]
   → 🌟 风险4% | 住宅IP | Italy Liguria Genoa (Telecom Italia S.p.A...)
-
-socks5://176.113.37.225:1080 [2026-02-05 18:47]
-  → 🌟 风险7% | 住宅IP | Russia Pskov Oblast Pskov (Pskovline Ltd.)
 
 socks5://14.233.139.99:1080 [2026-02-05 21:40]
   → 🌟 风险9% | 住宅IP | Vietnam Da Nang City Điện Bàn (Vietnam Posts and Te...)
@@ -46,14 +43,21 @@ socks5://91.232.134.232:1080 [2026-02-05 20:47]
 socks5://152.89.38.226:1080 [2026-02-05 17:54]
   → 🟢 风险21% | 机房IP | Turkey Istanbul Istanbul (CIZGI TELEKOMUNIKASY...)
 
+socks5://37.153.158.173:1080 [2026-02-05 19:50]
+  → 🟢 风险29% | 广播IP | Germany State of Berlin Berlin (Serverbike LTD)
+
 socks5://49.51.51.59:5555 [2026-02-05 22:08]
   → 🟢 风险29% | 广播IP | United States California Santa Clara (Tencent cloud comput...)
+
+socks5://149.88.67.50:5555 [2026-02-06 00:41]
+  → 🟡 风险31% | 广播IP | Hong Kong SAR China Kwai Tsing District Kwai Chung (Cogent Communication...)
 
 socks5://178.250.191.24:1080 [2026-02-05 17:24]
   → 🟡 风险32% | 机房IP | Germany Hesse Frankfurt am Main (Standart AG, LLC)
 
-socks5://38.255.17.43:1080 [2026-02-05 19:39]
-  → 🟡 风险32% | 机房IP | United States California El Segundo (Easy Link LLC)
+socks5://181.102.107.56:1080 [2026-02-05 21:51]
+  → 🟡 风险33% | 机房IP ⚠️透明 | United States New Jersey Clifton (DigitalOcean, LLC)
+  → 出口IP: 165.227.182.73
 
 socks5://101.204.99.59:1080 [2026-02-05 23:03]
   → 🟡 风险38% | 机房IP ⚠️透明 | United States California Santa Clara (HK CEDOC LIMITED)
@@ -65,13 +69,16 @@ socks5://64.188.89.161:1080 [2026-02-05 20:27]
 socks5://38.59.244.113:5555 [2026-02-05 17:30]
   → 🟡 风险41% | 机房IP | United States California San Jose (HK CEDOC LIMITED)
 
+socks5://149.88.67.146:5555 [2026-02-06 00:20]
+  → 🟡 风险44% | 广播IP | Hong Kong SAR China Kwai Tsing District Kwai Chung (Cogent Communication...)
+
 ## ❌ 失败代理列表
 
 socks5://109.191.132.225:1080 [2026-02-05 20:05]
   → 超时
 
 socks5://144.76.91.190:1080 [2026-02-05 18:31]
-  → 超时
+  → HTTP 403
 
 socks5://144.76.94.91:1080 [2026-02-05 18:31]
   → HTTP 403
@@ -79,8 +86,14 @@ socks5://144.76.94.91:1080 [2026-02-05 18:31]
 socks5://146.103.122.196:1080 [2026-02-05 16:13]
   → 错误: [Errno 111] Couldn't connect to proxy 146.103.122.
 
-socks5://181.102.107.56:1080 [2026-02-05 21:51]
-  → 错误: [Errno 111] Couldn't connect to proxy 181.102.107.
+socks5://149.233.238.98:1080 [2026-02-05 23:06]
+  → 超时
+
+socks5://149.88.67.179:1080 [2026-02-06 00:34]
+  → 超时
+
+socks5://176.113.37.225:1080 [2026-02-05 18:47]
+  → 超时
 
 socks5://185.106.105.10:1080 [2026-02-05 17:22]
   → 超时
@@ -91,26 +104,14 @@ socks5://3.120.243.172:1080 [2026-02-05 19:36]
 socks5://3.70.250.7:20000 [2026-02-05 21:01]
   → HTTP 403
 
-socks5://35.159.71.169:1080 [2026-02-05 16:03]
-  → HTTP 403
-
-socks5://35.209.27.246:18443 [2026-02-05 15:58]
-  → HTTP 403
-
-socks5://37.153.158.173:1080 [2026-02-05 19:50]
-  → 超时
+socks5://38.255.17.43:1080 [2026-02-05 19:39]
+  → 错误: [Errno 111] Couldn't connect to proxy 38.255.17.43
 
 socks5://46.249.100.237:1080 [2026-02-05 16:45]
-  → 错误: [Errno 111] Couldn't connect to proxy 46.249.100.2
+  → 错误: No acceptable authentication methods were offered
 
 socks5://46.39.235.165:1080 [2026-02-05 21:42]
   → 超时
-
-socks5://8.216.43.141:1080 [2026-02-05 15:59]
-  → HTTP 403
-
-socks5://8.216.44.101:1080 [2026-02-05 15:58]
-  → HTTP 403
 
 socks5://82.102.83.183:10801 [2026-02-05 20:04]
   → 超时
