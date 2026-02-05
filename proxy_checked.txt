@@ -1,25 +1,28 @@
 # 代理质量检测报告
-# 检测时间: 2026-02-05 06:57:27
+# 检测时间: 2026-02-05 07:50:23
 # API: IPPure (https://my.ippure.com/v1/info)
 
 ## 📊 统计摘要
 # 总计: 30 | 成功: 21 | 失败: 9 | 成功率: 70.0%
 
 ## 质量分布
-# 优秀: 1
-# 良好: 4
-# 中等: 10
-# 较差: 1
+# 优秀: 2
+# 良好: 5
+# 中等: 9
+# 较差: 4
 # 极差: 1
 
 ## IP类型分布
-# 住宅IP: 3
-# 广播IP: 13
+# 住宅IP: 4
+# 广播IP: 12
 # 机房IP: 5
 
 ============================================================
 
 ## ✅ 可用代理列表 (按质量排序)
+
+socks5://46.42.11.42:1080 [2026-02-05 15:34]
+  → 🌟 风险2% | 住宅IP | Russia Kostroma Oblast Kostroma (OAO KGTS ADSL/HFE Users)
 
 socks5://14.187.232.0:20002 [2026-02-05 11:04]
   → 🌟 风险8% | 住宅IP ⚠️透明 | Vietnam Ho Chi Minh City (HCMC) Ho Chi Minh City (Vietnam Posts and Te...)
@@ -31,6 +34,9 @@ socks5://38.78.145.227:50161 [2026-02-05 08:36]
 socks5://91.200.243.63:50161 [2026-02-05 08:36]
   → 🟢 风险16% | 广播IP | Japan Tokyo Tokyo (xTom)
 
+socks5://213.111.146.36:18080 [2026-02-05 15:09]
+  → 🟢 风险20% | 广播IP | Netherlands North Holland Haarlem (SOLLUTIUM EU Sp z.o.o.)
+
 socks5://38.207.189.159:16993 [2026-02-05 12:37]
   → 🟢 风险24% | 机房IP | United States California Garden Grove (VMISS Inc.)
 
@@ -40,30 +46,27 @@ socks5://85.192.29.195:1080 [2026-02-05 13:55]
 socks5://216.128.138.173:1080 [2026-02-05 11:22]
   → 🟡 风险31% | 机房IP | United States Texas Dallas (Vultr Holdings, LLC)
 
+socks5://81.68.202.95:18089 [2026-02-05 15:22]
+  → 🟡 风险31% | 广播IP ⚠️透明 | United States California Los Angeles (Cluster Logic Inc)
+  → 出口IP: 144.34.178.89
+
 socks5://109.73.173.199:1080 [2026-02-05 10:22]
   → 🟡 风险33% | 机房IP | United Kingdom England West Molesey (Hostdime.com UK client)
 
-socks5://43.153.131.83:16923 [2026-02-05 12:28]
-  → 🟡 风险33% | 广播IP | Japan Tokyo Tokyo (16 COLLYER QUAY # 18...)
-
-socks5://193.106.150.70:1080 [2026-02-05 07:12]
-  → 🟡 风险34% | 广播IP | Netherlands Drenthe Meppel (RU DOMISHKO)
-
 socks5://78.111.149.103:1080 [2026-02-05 13:39]
   → 🟡 风险36% | 住宅IP | Russia Ivanovo Oblast Ivanovo (CJSC Comstar-Regions...)
+
+socks5://45.86.70.94:1080 [2026-02-05 15:04]
+  → 🟡 风险38% | 广播IP | Netherlands North Holland Amsterdam (FAST GEO HOSTING S.R.L.)
+
+socks5://107.150.41.226:18080 [2026-02-05 15:02]
+  → 🟡 风险41% | 机房IP | United States Missouri Kansas City (Nocix, LLC)
 
 socks5://185.198.165.242:1080 [2026-02-05 08:47]
   → 🟡 风险41% | 广播IP | Netherlands Drenthe Meppel (VDS and dedicated su...)
 
 socks5://152.70.246.154:1080 [2026-02-05 10:49]
   → 🟡 风险43% | 广播IP | South Korea Seoul Gangseo-gu (Oracle Corporation)
-
-socks5://14.155.145.222:1080 [2026-02-05 06:55]
-  → 🟡 风险46% | 广播IP ⚠️透明 | United States California Los Angeles (MULTACOM CORPORATION)
-  → 出口IP: 142.171.11.144
-
-socks5://193.106.58.92:1080 [2026-02-05 07:12]
-  → 🟡 风险47% | 机房IP | Ukraine Kyiv City Kyiv (FOP "Makurin Stanisl...)
 
 socks5://77.239.125.57:1080 [2026-02-05 14:38]
   → 🟡 风险48% | 广播IP | Germany Hesse Frankfurt am Main (play2go.cloud - Chea...)
@@ -81,32 +84,28 @@ socks5://212.174.10.112:17007 [2026-02-05 12:43]
   → 🟠 风险61% | 广播IP ⚠️透明 | United States Virginia Ashburn (3xK Tech GmbH)
   → 出口IP: 45.3.33.5
 
-socks5://178.128.112.166:1080 [2026-02-05 06:05]
-  → 🔴 风险78% | 广播IP ⚠️透明 | Singapore Singapore (Cloudflare, Inc.)
-  → 出口IP: 104.28.222.43
-
 socks5://40.172.162.21:1080 [2026-02-05 08:34]
-  → ⚫ 风险100% | 机房IP ⚠️透明 | Germany State of Berlin Berlin (Digitalcourage e.V.)
-  → 出口IP: 185.220.101.110
+  → ⚫ 风险91% | 机房IP ⚠️透明 | Germany State of Berlin Berlin (Digitalcourage e.V.)
+  → 出口IP: 185.220.101.106
 
 ## ❌ 失败代理列表
 
 socks5://100.27.249.78:1080 [2026-02-05 11:22]
   → HTTP 403
 
-socks5://104.234.168.143:1080 [2026-02-05 09:52]
+socks5://102.37.154.97:1080 [2026-02-05 14:58]
   → HTTP 403
 
-socks5://16.170.136.118:1080 [2026-02-05 06:45]
+socks5://104.234.168.143:1080 [2026-02-05 09:52]
   → HTTP 403
 
 socks5://18.191.108.236:1080 [2026-02-05 13:57]
   → HTTP 403
 
-socks5://193.106.196.91:5555 [2026-02-05 07:12]
+socks5://203.18.158.196:1080 [2026-02-05 09:29]
   → 超时
 
-socks5://203.18.158.196:1080 [2026-02-05 09:29]
+socks5://43.153.131.83:16923 [2026-02-05 12:28]
   → 超时
 
 socks5://44.192.247.241:1080 [2026-02-05 12:20]
