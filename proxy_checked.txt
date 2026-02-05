@@ -1,29 +1,25 @@
 # 代理质量检测报告
-# 检测时间: 2026-02-04 23:26:24
+# 检测时间: 2026-02-05 01:53:46
 # API: IPPure (https://my.ippure.com/v1/info)
 
 ## 📊 统计摘要
-# 总计: 30 | 成功: 24 | 失败: 6 | 成功率: 80.0%
+# 总计: 30 | 成功: 23 | 失败: 7 | 成功率: 76.7%
 
 ## 质量分布
-# 优秀: 5
+# 优秀: 3
 # 良好: 6
-# 中等: 10
+# 中等: 9
 # 较差: 1
-# 极差: 1
+# 极差: 2
 
 ## IP类型分布
-# 住宅IP: 2
-# 广播IP: 10
-# 机房IP: 12
+# 住宅IP: 3
+# 广播IP: 11
+# 机房IP: 9
 
 ============================================================
 
 ## ✅ 可用代理列表 (按质量排序)
-
-socks5://14.155.145.222:1080 [2026-02-05 06:55]
-  → 🌟 风险0% | 机房IP ⚠️透明 | United States California Los Angeles (MULTACOM CORPORATION)
-  → 出口IP: 2607:f130:0:13c::45aa:3d22
 
 socks5://181.6.214.252:1080 [2026-02-05 02:23]
   → 🌟 风险0% | 机房IP ⚠️透明 | United States Virginia Manassas (netcup GmbH)
@@ -33,29 +29,26 @@ socks5://47.238.132.66:5555 [2026-02-05 01:01]
   → 🌟 风险0% | 机房IP ⚠️透明 | United States California Los Angeles (Baxet Group Inc.)
   → 出口IP: 2605:e440:5::3fd
 
-socks5://23.148.28.72:50161 [2026-02-05 00:01]
-  → 🌟 风险5% | 机房IP | Hong Kong SAR China Hong Kong (Indihost Network LLC)
-
 socks5://113.22.228.249:20000 [2026-02-05 05:24]
   → 🌟 风险6% | 住宅IP | Vietnam Ho Chi Minh City (HCMC) Uyen Hung (Dai IP dong su dung ...)
 
 socks5://88.209.119.226:1080 [2026-02-05 02:08]
   → 🟢 风险10% | 住宅IP | Monaco Municipality of Monaco Monaco (Internet Access)
 
+socks5://38.78.145.227:50161 [2026-02-05 08:36]
+  → 🟢 风险12% | 住宅IP | United States California Los Angeles (NetLab)
+
+socks5://91.200.243.63:50161 [2026-02-05 08:36]
+  → 🟢 风险16% | 广播IP | Japan Tokyo Tokyo (xTom)
+
 socks5://109.71.242.39:1080 [2026-02-05 01:55]
   → 🟢 风险18% | 机房IP | Russia Novosibirsk Oblast Novosibirsk (TIMEWEB-NET)
 
-socks5://23.19.231.152:50161 [2026-02-04 22:58]
-  → 🟢 风险19% | 机房IP | United States California Pico Rivera (LeaseWeb USA, Inc. L...)
-
-socks5://202.155.123.31:50161 [2026-02-04 23:13]
-  → 🟢 风险22% | 广播IP | Hong Kong SAR China Hong Kong (NET 202 155 123 0 24)
-
-socks5://143.14.107.45:50161 [2026-02-04 23:48]
-  → 🟢 风险25% | 广播IP | Japan Tokyo Tokyo (CYBERVERSE LLC)
-
 socks5://80.74.28.42:20000 [2026-02-05 04:05]
   → 🟢 风险26% | 广播IP | Netherlands North Holland Amsterdam (CLODO CLOUD SERVICE ...)
+
+socks5://203.18.158.196:1080 [2026-02-05 09:29]
+  → 🟢 风险27% | 机房IP | Bangladesh Dhaka Division Dohār (Hosting Oxygen)
 
 socks5://193.106.196.91:5555 [2026-02-05 07:12]
   → 🟡 风险30% | 广播IP | Turkey Bursa Province Bursa (City Telecom LTD)
@@ -66,21 +59,18 @@ socks5://195.62.32.233:2080 [2026-02-05 02:09]
 socks5://43.130.43.241:5555 [2026-02-05 01:06]
   → 🟡 风险30% | 广播IP | United States California Santa Clara (6 COLLYER QUAY)
 
-socks5://69.63.198.38:50161 [2026-02-04 23:48]
-  → 🟡 风险30% | 机房IP | United States California Los Angeles (DMIT Cloud Services)
-
-socks5://158.101.20.73:50161 [2026-02-05 00:01]
-  → 🟡 风险31% | 机房IP | United States Arizona Phoenix (Oracle Public Cloud)
-
-socks5://188.253.118.223:50161 [2026-02-04 22:58]
-  → 🟡 风险35% | 广播IP | Japan Tokyo Tokyo (Akari Networks (Tokyo))
+socks5://193.106.150.70:1080 [2026-02-05 07:12]
+  → 🟡 风险34% | 广播IP | Netherlands Drenthe Meppel (RU DOMISHKO)
 
 socks5://181.6.37.52:1080 [2026-02-05 02:23]
-  → 🟡 风险37% | 机房IP ⚠️透明 | United States Florida Miami (Vultr Holdings, LLC)
-  → 出口IP: 144.202.35.217
+  → 🟡 风险39% | 机房IP ⚠️透明 | United States New Jersey Clifton (DigitalOcean, LLC)
+  → 出口IP: 167.99.117.109
 
 socks5://154.9.228.149:1081 [2026-02-05 02:37]
   → 🟡 风险41% | 机房IP | United States California Los Angeles (NetLab)
+
+socks5://185.198.165.242:1080 [2026-02-05 08:47]
+  → 🟡 风险41% | 广播IP | Netherlands Drenthe Meppel (VDS and dedicated su...)
 
 socks5://185.244.208.84:5555 [2026-02-05 02:50]
   → 🟡 风险41% | 广播IP | Hong Kong SAR China Hong Kong (G-Core Labs Customer...)
@@ -88,18 +78,28 @@ socks5://185.244.208.84:5555 [2026-02-05 02:50]
 socks5://193.106.58.92:1080 [2026-02-05 07:12]
   → 🟡 风险47% | 机房IP | Ukraine Kyiv City Kyiv (FOP "Makurin Stanisl...)
 
-socks5://185.36.192.13:50161 [2026-02-04 23:13]
-  → 🟠 风险50% | 广播IP | Singapore Singapore (Akari Networks (Sing...)
+socks5://176.103.62.128:1080 [2026-02-05 08:05]
+  → 🟠 风险50% | 广播IP | Bulgaria Sofia-Capital Sofia (Ivanov Vitaliy Serge...)
+
+socks5://212.34.139.179:1080 [2026-02-05 08:39]
+  → 🟠 风险53% | 广播IP | Netherlands North Holland Amsterdam (Amsterdam, Netherlands)
 
 socks5://178.128.112.166:1080 [2026-02-05 06:05]
   → 🔴 风险78% | 广播IP ⚠️透明 | Singapore Singapore (Cloudflare, Inc.)
   → 出口IP: 104.28.222.43
+
+socks5://40.172.162.21:1080 [2026-02-05 08:34]
+  → ⚫ 风险92% | 机房IP ⚠️透明 | Norway Vestfold Sandefjord (Gigahost AS)
+  → 出口IP: 185.243.218.225
 
 socks5://129.212.140.134:1080 [2026-02-05 00:37]
   → ⚫ 风险100% | 广播IP ⚠️透明 | Germany Hesse Frankfurt am Main (DigitalOcean, LLC)
   → 出口IP: 142.93.111.252
 
 ## ❌ 失败代理列表
+
+socks5://14.155.145.222:1080 [2026-02-05 06:55]
+  → 超时
 
 socks5://159.255.34.138:1080 [2026-02-05 03:55]
   → 错误: [Errno 111] Couldn't connect to proxy 159.255.34.1
@@ -111,10 +111,10 @@ socks5://181.6.228.141:1080 [2026-02-05 02:23]
   → 超时
 
 socks5://181.6.247.21:1080 [2026-02-05 02:23]
-  → 错误: [Errno 111] Couldn't connect to proxy 181.6.247.21
-
-socks5://193.106.150.70:1080 [2026-02-05 07:12]
   → 超时
+
+socks5://54.46.46.84:1080 [2026-02-05 07:33]
+  → HTTP 403
 
 socks5://95.79.137.60:10801 [2026-02-05 05:53]
   → 超时
