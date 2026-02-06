@@ -1,24 +1,30 @@
 # 代理质量检测报告
-# 检测时间: 2026-02-06 06:52:59
+# 检测时间: 2026-02-06 07:46:00
 # API: IPPure (https://my.ippure.com/v1/info)
 
 ## 📊 统计摘要
-# 总计: 30 | 成功: 27 | 失败: 3 | 成功率: 90.0%
+# 总计: 30 | 成功: 26 | 失败: 4 | 成功率: 86.7%
 
 ## 质量分布
-# 优秀: 6
+# 优秀: 7
 # 良好: 12
 # 中等: 7
-# 较差: 1
 
 ## IP类型分布
-# 住宅IP: 18
-# 广播IP: 8
-# 机房IP: 1
+# 住宅IP: 17
+# 广播IP: 7
+# 机房IP: 2
 
 ============================================================
 
 ## ✅ 可用代理列表 (按质量排序)
+
+socks5://85.209.129.60:2222 [2026-02-06 14:58]
+  → 🌟 风险0% | 机房IP ⚠️透明 | Finland Uusimaa Helsinki (QWINS Hosting)
+  → 出口IP: 2a12:bec4:1a70:3f::2
+
+socks5://14.182.130.227:1080 [2026-02-06 15:31]
+  → 🌟 风险4% | 住宅IP | Vietnam Phu Tho Vĩnh Yên (Vietnam Posts and Te...)
 
 socks5://89.189.78.164:1080 [2026-02-06 13:13]
   → 🌟 风险4% | 住宅IP ⚠️透明 | Yemen Aden Al Manşūrah (YemenNet ADSL Pool)
@@ -26,10 +32,6 @@ socks5://89.189.78.164:1080 [2026-02-06 13:13]
 
 socks5://89.189.78.39:1080 [2026-02-06 13:12]
   → 🌟 风险4% | 住宅IP | Yemen Aden Al Manşūrah (YemenNet ADSL Pool)
-
-socks5://188.214.35.161:10801 [2026-02-06 11:58]
-  → 🌟 风险5% | 住宅IP ⚠️透明 | Germany Hesse Frankfurt am Main (Ecoband Carrier Cust...)
-  → 出口IP: 196.44.119.116
 
 socks5://89.189.76.206:1080 [2026-02-06 13:12]
   → 🌟 风险6% | 住宅IP ⚠️透明 | Yemen Aden Al Manşūrah (YemenNet ADSL Pool)
@@ -88,9 +90,6 @@ socks5://93.177.103.224:1080 [2026-02-06 14:42]
 socks5://35.200.120.199:3128 [2026-02-06 13:07]
   → 🟢 风险24% | 广播IP | Japan Tokyo Tokyo (Google LLC)
 
-socks5://208.123.190.140:1080 [2026-02-06 12:23]
-  → 🟡 风险30% | 广播IP | Finland Uusimaa Helsinki (Snowd Security OU)
-
 socks5://35.200.28.254:3128 [2026-02-06 13:07]
   → 🟡 风险30% | 广播IP | Japan Tokyo Tokyo (Google LLC)
 
@@ -107,21 +106,21 @@ socks5://35.200.13.194:3128 [2026-02-06 13:07]
 socks5://35.200.12.241:3128 [2026-02-06 13:07]
   → 🟡 风险36% | 广播IP | Japan Tokyo Tokyo (Google LLC)
 
-socks5://91.229.133.171:2080 [2026-02-06 11:35]
-  → 🟡 风险46% | 广播IP | Hong Kong SAR China Hong Kong (Internet Utilities E...)
+socks5://78.111.149.103:1080 [2026-02-06 15:23]
+  → 🟡 风险36% | 住宅IP | Russia Ivanovo Oblast Ivanovo (CJSC Comstar-Regions...)
 
-socks5://5.149.203.190:1080 [2026-02-06 14:39]
-  → 🟠 风险67% | 住宅IP | Russia Kostroma Oblast Kostroma (SVEN Users)
-
-socks5://185.61.246.57:1080 [2026-02-06 14:30]
-  → 🔴 风险76% | 住宅IP | Russia Vladimir Oblast Murom (MODUS LLC)
+socks5://5.180.180.32:1080 [2026-02-06 15:06]
+  → 🟡 风险41% | 广播IP | Netherlands North Holland Amsterdam (O.M.C. COMPUTERS & C...)
 
 ## ❌ 失败代理列表
 
-socks5://195.133.2.119:1080 [2026-02-06 12:29]
+socks5://185.61.246.57:1080 [2026-02-06 14:30]
   → 超时
 
 socks5://41.173.232.227:1080 [2026-02-06 13:07]
+  → 超时
+
+socks5://5.149.203.190:1080 [2026-02-06 14:39]
   → 超时
 
 socks5://54.173.136.212:1080 [2026-02-06 13:52]
