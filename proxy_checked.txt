@@ -1,17 +1,17 @@
 # 代理质量检测报告
-# 检测时间: 2026-02-06 07:46:00
+# 检测时间: 2026-02-06 08:40:11
 # API: IPPure (https://my.ippure.com/v1/info)
 
 ## 📊 统计摘要
-# 总计: 30 | 成功: 26 | 失败: 4 | 成功率: 86.7%
+# 总计: 30 | 成功: 25 | 失败: 5 | 成功率: 83.3%
 
 ## 质量分布
-# 优秀: 7
-# 良好: 12
+# 优秀: 9
+# 良好: 9
 # 中等: 7
 
 ## IP类型分布
-# 住宅IP: 17
+# 住宅IP: 16
 # 广播IP: 7
 # 机房IP: 2
 
@@ -23,6 +23,9 @@ socks5://85.209.129.60:2222 [2026-02-06 14:58]
   → 🌟 风险0% | 机房IP ⚠️透明 | Finland Uusimaa Helsinki (QWINS Hosting)
   → 出口IP: 2a12:bec4:1a70:3f::2
 
+socks5://180.249.114.62:1080 [2026-02-06 16:23]
+  → 🌟 风险3% | 住宅IP | Indonesia West Nusa Tenggara Selong (PT TELKOM INDONESIA)
+
 socks5://14.182.130.227:1080 [2026-02-06 15:31]
   → 🌟 风险4% | 住宅IP | Vietnam Phu Tho Vĩnh Yên (Vietnam Posts and Te...)
 
@@ -32,6 +35,9 @@ socks5://89.189.78.164:1080 [2026-02-06 13:13]
 
 socks5://89.189.78.39:1080 [2026-02-06 13:12]
   → 🌟 风险4% | 住宅IP | Yemen Aden Al Manşūrah (YemenNet ADSL Pool)
+
+socks5://134.35.247.132:1080 [2026-02-06 16:29]
+  → 🌟 风险5% | 住宅IP | Yemen Ta‘izz Taiz (Public Telecommunica...)
 
 socks5://89.189.76.206:1080 [2026-02-06 13:12]
   → 🌟 风险6% | 住宅IP ⚠️透明 | Yemen Aden Al Manşūrah (YemenNet ADSL Pool)
@@ -56,19 +62,7 @@ socks5://171.224.66.224:20002 [2026-02-06 12:57]
   → 🟢 风险12% | 住宅IP ⚠️透明 | Vietnam Hưng Yên Province Thái Bình (Dai IP cho dich vu A...)
   → 出口IP: 117.5.62.84
 
-socks5://171.224.66.3:20002 [2026-02-06 12:52]
-  → 🟢 风险12% | 住宅IP ⚠️透明 | Vietnam Hưng Yên Province Thái Bình (Dai IP cho dich vu A...)
-  → 出口IP: 117.5.62.84
-
 socks5://171.224.66.45:20002 [2026-02-06 12:56]
-  → 🟢 风险12% | 住宅IP ⚠️透明 | Vietnam Hưng Yên Province Thái Bình (Dai IP cho dich vu A...)
-  → 出口IP: 117.5.62.84
-
-socks5://171.224.66.83:20002 [2026-02-06 12:50]
-  → 🟢 风险12% | 住宅IP ⚠️透明 | Vietnam Hưng Yên Province Thái Bình (Dai IP cho dich vu A...)
-  → 出口IP: 117.5.62.84
-
-socks5://171.224.66.89:20002 [2026-02-06 12:52]
   → 🟢 风险12% | 住宅IP ⚠️透明 | Vietnam Hưng Yên Province Thái Bình (Dai IP cho dich vu A...)
   → 出口IP: 117.5.62.84
 
@@ -122,6 +116,9 @@ socks5://41.173.232.227:1080 [2026-02-06 13:07]
 
 socks5://5.149.203.190:1080 [2026-02-06 14:39]
   → 超时
+
+socks5://54.151.62.230:1080 [2026-02-06 16:02]
+  → HTTP 403
 
 socks5://54.173.136.212:1080 [2026-02-06 13:52]
   → HTTP 403
