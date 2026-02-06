@@ -1,27 +1,43 @@
 # 代理质量检测报告
-# 检测时间: 2026-02-06 18:47:39
+# 检测时间: 2026-02-06 19:38:58
 # API: IPPure (https://my.ippure.com/v1/info)
 
 ## 📊 统计摘要
-# 总计: 30 | 成功: 12 | 失败: 18 | 成功率: 40.0%
+# 总计: 30 | 成功: 23 | 失败: 7 | 成功率: 76.7%
 
 ## 质量分布
-# 优秀: 3
+# 优秀: 8
 # 良好: 4
-# 中等: 3
+# 中等: 7
 # 较差: 1
 
 ## IP类型分布
-# 住宅IP: 4
-# 广播IP: 3
+# 住宅IP: 12
+# 广播IP: 6
 # 机房IP: 5
 
 ============================================================
 
 ## ✅ 可用代理列表 (按质量排序)
 
+socks5://85.209.129.60:2222 [2026-02-06 14:58]
+  → 🌟 风险0% | 机房IP ⚠️透明 | Finland Uusimaa Helsinki (QWINS Hosting)
+  → 出口IP: 2a12:bec4:1a70:3f::2
+
+socks5://102.39.207.147:1080 [2026-02-06 17:12]
+  → 🌟 风险3% | 住宅IP | South Africa Gauteng Johannesburg (Vox Telecom)
+
+socks5://180.249.114.62:1080 [2026-02-06 16:23]
+  → 🌟 风险3% | 住宅IP | Indonesia West Nusa Tenggara Selong (PT TELKOM INDONESIA)
+
+socks5://14.182.130.227:1080 [2026-02-06 15:31]
+  → 🌟 风险4% | 住宅IP | Vietnam Phu Tho Vĩnh Yên (Vietnam Posts and Te...)
+
 socks5://92.49.191.141:1080 [2026-02-06 23:50]
   → 🌟 风险4% | 住宅IP | Russia Orenburg Oblast Orenburg (Orenburg branch offi...)
+
+socks5://118.71.51.254:1080 [2026-02-07 01:05]
+  → 🌟 风险8% | 住宅IP | Vietnam Ho Chi Minh City (HCMC) Ho Chi Minh City (Vung dia chi IP cap ...)
 
 socks5://85.159.36.10:1080 [2026-02-06 23:49]
   → 🌟 风险8% | 住宅IP | Russia Orenburg Oblast Orsk (PPPoE dynamic pool o...)
@@ -29,11 +45,12 @@ socks5://85.159.36.10:1080 [2026-02-06 23:49]
 socks5://212.19.4.5:1080 [2026-02-06 19:59]
   → 🌟 风险9% | 住宅IP | Russia Khabarovsk Khabarovsk (Dedicated P2P custom...)
 
-socks5://113.20.28.68:1080 [2026-02-06 16:44]
-  → 🟢 风险18% | 机房IP | Indonesia Jakarta Jakarta (PT. ARDH GLOBAL INDO...)
-
 socks5://216.234.140.204:1080 [2026-02-06 20:57]
   → 🟢 风险21% | 机房IP | United States California Los Angeles (DMIT Cloud Services)
+
+socks5://5.139.92.203:1080 [2026-02-07 02:58]
+  → 🟢 风险21% | 广播IP ⚠️透明 | Latvia Riga Riga (Melbikomas UAB)
+  → 出口IP: 89.36.161.4
 
 socks5://204.152.213.38:1080 [2026-02-07 02:37]
   → 🟢 风险22% | 机房IP | United States California Los Angeles (HostPapa)
@@ -44,15 +61,38 @@ socks5://5.35.85.244:1080 [2026-02-06 23:48]
 socks5://107.174.222.172:1080 [2026-02-06 22:35]
   → 🟡 风险30% | 机房IP | United States California Los Angeles (HostPapa)
 
+socks5://43.161.214.161:1081 [2026-02-06 14:40]
+  → 🟡 风险30% | 广播IP ⚠️透明 | Hong Kong SAR China Hong Kong (6 COLLYER QUAY)
+  → 出口IP: 43.161.219.173
+
+socks5://35.200.57.141:3128 [2026-02-06 13:07]
+  → 🟡 风险31% | 广播IP | Japan Tokyo Tokyo (Google LLC)
+
 socks5://5.35.93.180:1080 [2026-02-06 23:48]
   → 🟡 风险31% | 广播IP ⚠️透明 | Germany Hesse Frankfurt am Main (IROKO Networks Corpo...)
   → 出口IP: 5.61.44.198
 
-socks5://185.176.94.75:1080 [2026-02-06 17:03]
-  → 🟡 风险38% | 广播IP | Germany Hesse Frankfurt am Main (Protected subnet for...)
+socks5://5.180.180.32:1080 [2026-02-06 15:06]
+  → 🟡 风险41% | 广播IP | Netherlands North Holland Amsterdam (O.M.C. COMPUTERS & C...)
+
+socks5://103.136.106.21:1081 [2026-02-07 03:10]
+  → 🟡 风险42% | 住宅IP ⚠️透明 | Bangladesh Chittagong Maijdi (Jagobd IT SolutionsR...)
+  → 出口IP: 103.136.106.103
+
+socks5://103.136.106.45:1081 [2026-02-07 03:09]
+  → 🟡 风险42% | 住宅IP ⚠️透明 | Bangladesh Chittagong Maijdi (Jagobd IT SolutionsR...)
+  → 出口IP: 103.136.106.103
 
 socks5://103.239.52.157:1080 [2026-02-07 02:25]
   → 🟠 风险59% | 住宅IP | Cambodia Phnom Penh Phnom Penh (Cogetel Ltd, Online ...)
+
+socks5://103.136.106.13:1081 [2026-02-07 03:08]
+  → 🟠 风险60% | 住宅IP ⚠️透明 | Bangladesh Chittagong Maijdi (Jagobd IT SolutionsR...)
+  → 出口IP: 103.136.106.84
+
+socks5://103.136.106.57:1081 [2026-02-07 03:11]
+  → 🟠 风险60% | 住宅IP ⚠️透明 | Bangladesh Chittagong Maijdi (Jagobd IT SolutionsR...)
+  → 出口IP: 103.136.106.84
 
 socks5://46.160.250.22:1080 [2026-02-06 23:37]
   → 🔴 风险74% | 广播IP ⚠️透明 | Netherlands North Holland Amsterdam (Cloudflare, Inc.)
@@ -60,56 +100,23 @@ socks5://46.160.250.22:1080 [2026-02-06 23:37]
 
 ## ❌ 失败代理列表
 
-socks5://102.39.207.147:1080 [2026-02-06 17:12]
-  → 超时
-
-socks5://118.71.51.254:1080 [2026-02-07 01:05]
+socks5://113.20.28.68:1080 [2026-02-06 16:44]
   → 超时
 
 socks5://119.98.13.31:1080 [2026-02-06 21:54]
   → 连接错误: 
 
-socks5://134.35.247.132:1080 [2026-02-06 16:29]
-  → 错误: [Errno 111] Couldn't connect to proxy 134.35.247.1
-
-socks5://157.180.124.56:1080 [2026-02-06 21:51]
-  → 错误: [Errno 111] Couldn't connect to proxy 157.180.124.
-
 socks5://160.119.58.235:1080 [2026-02-07 00:33]
-  → 超时
-
-socks5://18.184.253.66:1080 [2026-02-06 23:00]
-  → 超时
-
-socks5://18.197.185.211:1080 [2026-02-06 16:45]
   → 超时
 
 socks5://18.216.11.198:1080 [2026-02-06 21:17]
   → HTTP 403
 
-socks5://181.102.115.138:1080 [2026-02-06 16:52]
-  → 错误: [Errno 111] Couldn't connect to proxy 181.102.115.
+socks5://206.123.156.198:4444 [2026-02-07 02:45]
+  → 错误: [Errno 111] Couldn't connect to proxy 206.123.156.
 
-socks5://181.102.236.154:1080 [2026-02-06 16:52]
-  → 错误: [Errno 111] Couldn't connect to proxy 181.102.236.
+socks5://206.123.156.200:20005 [2026-02-07 02:45]
+  → HTTP 403
 
-socks5://181.102.68.225:1080 [2026-02-06 16:52]
-  → 超时
-
-socks5://181.215.15.138:1080 [2026-02-06 19:17]
-  → 错误: [Errno 111] Couldn't connect to proxy 181.215.15.1
-
-socks5://34.23.10.179:1080 [2026-02-06 16:46]
-  → 超时
-
-socks5://37.32.8.126:1080 [2026-02-06 21:49]
-  → 错误: [Errno 111] Couldn't connect to proxy 37.32.8.126:
-
-socks5://8.208.116.20:1080 [2026-02-06 19:50]
-  → 错误: [Errno 111] Couldn't connect to proxy 8.208.116.20
-
-socks5://95.80.103.216:1080 [2026-02-06 16:46]
-  → 超时
-
-socks5://95.80.103.217:1080 [2026-02-06 16:46]
+socks5://93.177.103.224:1080 [2026-02-06 14:42]
   → 超时
