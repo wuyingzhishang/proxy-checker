@@ -1,5 +1,5 @@
 # 代理质量检测报告
-# 检测时间: 2026-02-06 10:39:59
+# 检测时间: 2026-02-06 11:34:20
 # API: IPPure (https://my.ippure.com/v1/info)
 
 ## 📊 统计摘要
@@ -58,15 +58,15 @@ socks5://34.23.10.179:1080 [2026-02-06 16:46]
   → 🟢 风险24% | 机房IP ⚠️透明 | United States South Carolina North Charleston (Google LLC)
   → 出口IP: 34.74.85.224
 
-socks5://35.200.28.254:3128 [2026-02-06 13:07]
-  → 🟡 风险30% | 广播IP | Japan Tokyo Tokyo (Google LLC)
-
 socks5://43.161.214.161:1081 [2026-02-06 14:40]
   → 🟡 风险30% | 广播IP ⚠️透明 | Hong Kong SAR China Hong Kong (6 COLLYER QUAY)
   → 出口IP: 43.161.219.173
 
 socks5://35.200.57.141:3128 [2026-02-06 13:07]
   → 🟡 风险31% | 广播IP | Japan Tokyo Tokyo (Google LLC)
+
+socks5://181.215.15.138:1080 [2026-02-06 19:17]
+  → 🟡 风险33% | 广播IP | Georgia Tbilisi Tbilisi (Private Customer)
 
 socks5://35.200.12.241:3128 [2026-02-06 13:07]
   → 🟡 风险36% | 广播IP | Japan Tokyo Tokyo (Google LLC)
@@ -83,7 +83,7 @@ socks5://18.197.185.211:1080 [2026-02-06 16:45]
   → 超时
 
 socks5://181.102.115.138:1080 [2026-02-06 16:52]
-  → 超时
+  → 错误: [Errno 111] Couldn't connect to proxy 181.102.115.
 
 socks5://181.102.236.154:1080 [2026-02-06 16:52]
   → 超时
