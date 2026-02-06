@@ -1,19 +1,19 @@
 # 代理质量检测报告
-# 检测时间: 2026-02-06 01:52:42
+# 检测时间: 2026-02-06 04:14:53
 # API: IPPure (https://my.ippure.com/v1/info)
 
 ## 📊 统计摘要
-# 总计: 30 | 成功: 24 | 失败: 6 | 成功率: 80.0%
+# 总计: 30 | 成功: 22 | 失败: 8 | 成功率: 73.3%
 
 ## 质量分布
-# 优秀: 16
-# 良好: 4
-# 中等: 3
+# 优秀: 13
+# 良好: 3
+# 中等: 5
 # 较差: 1
 
 ## IP类型分布
-# 住宅IP: 9
-# 广播IP: 3
+# 住宅IP: 5
+# 广播IP: 5
 # 机房IP: 12
 
 ============================================================
@@ -63,36 +63,22 @@ socks5://194.110.246.25:2000 [2026-02-06 05:16]
 socks5://81.94.139.203:1080 [2026-02-06 06:54]
   → 🌟 风险3% | 住宅IP | Russia Moscow Moscow (OOO WestCall Ltd.)
 
-socks5://112.85.50.8:1081 [2026-02-06 09:11]
-  → 🌟 风险6% | 住宅IP ⚠️透明 | Taiwan Taiwan Taipei (Chunghwa Telecom Co....)
-  → 出口IP: 114.37.216.53
-
-socks5://89.189.73.99:1080 [2026-02-06 07:38]
-  → 🌟 风险6% | 住宅IP ⚠️透明 | Yemen Amanat Alasimah Sanaa (YemenNet ADSL Pool)
-  → 出口IP: 89.189.76.206
-
-socks5://89.189.75.115:1080 [2026-02-06 07:38]
-  → 🌟 风险6% | 住宅IP ⚠️透明 | Yemen Aden Al Manşūrah (YemenNet ADSL Pool)
-  → 出口IP: 89.189.77.115
-
-socks5://89.189.77.115:1080 [2026-02-06 07:38]
-  → 🌟 风险6% | 住宅IP | Yemen Aden Al Manşūrah (YemenNet ADSL Pool)
-
 socks5://89.189.77.149:1080 [2026-02-06 07:38]
-  → 🌟 风险6% | 住宅IP ⚠️透明 | Yemen Amanat Alasimah Sanaa (YemenNet ADSL Pool)
-  → 出口IP: 89.189.76.206
+  → 🌟 风险6% | 住宅IP ⚠️透明 | Yemen Aden Al Manşūrah (YemenNet ADSL Pool)
+  → 出口IP: 89.189.76.48
+
+socks5://188.214.35.161:10801 [2026-02-06 11:58]
+  → 🌟 风险8% | 广播IP ⚠️透明 | United Kingdom England London (Uni Broadband LLC)
+  → 出口IP: 84.55.19.202
+
+socks5://110.235.253.32:1080 [2026-02-06 10:17]
+  → 🟢 风险13% | 住宅IP | Cambodia Phnom Penh Phnom Penh (Cogetel Ltd, Online ...)
 
 socks5://45.136.212.85:1080 [2026-02-06 05:59]
   → 🟢 风险15% | 机房IP | Netherlands Flevoland Lelystad (SERVERNET INTERNET L...)
 
-socks5://194.67.124.105:8080 [2026-02-06 03:01]
-  → 🟢 风险23% | 机房IP | Russia Moscow Moscow (Domain names registr...)
-
 socks5://88.210.12.161:1080 [2026-02-06 03:53]
   → 🟢 风险27% | 广播IP | Netherlands North Holland Amsterdam (Amsterdam, Netherlands)
-
-socks5://212.12.17.83:1080 [2026-02-06 03:12]
-  → 🟢 风险28% | 住宅IP | Russia Tula Oblast Venëv (Client leased link n...)
 
 socks5://1.225.116.115:1080 [2026-02-06 06:17]
   → 🟡 风险32% | 住宅IP | South Korea Seoul Seoul (SK Broadband Co Ltd)
@@ -100,25 +86,29 @@ socks5://1.225.116.115:1080 [2026-02-06 06:17]
 socks5://79.137.199.49:1080 [2026-02-06 07:59]
   → 🟡 风险32% | 广播IP | Germany Hesse Frankfurt am Main (Aeza International LTD)
 
+socks5://45.15.178.129:1080 [2026-02-06 11:00]
+  → 🟡 风险33% | 机房IP | Bosnia & Herzegovina Federation of B&H Sarajevo (WorkTitans B.V.)
+
 socks5://116.3.201.227:1080 [2026-02-06 08:48]
   → 🟡 风险42% | 广播IP ⚠️透明 | Hong Kong SAR China Hong Kong (Private Customer)
   → 出口IP: 155.117.84.61
 
-socks5://198.12.111.113:9999 [2026-02-06 07:07]
-  → 🟠 风险50% | 机房IP | United States Illinois Elk Grove Village (RackNerd LLC)
+socks5://91.229.133.171:2080 [2026-02-06 11:35]
+  → 🟡 风险46% | 广播IP | Hong Kong SAR China Hong Kong (Internet Utilities E...)
+
+socks5://112.85.50.8:1081 [2026-02-06 09:11]
+  → 🟠 风险60% | 机房IP ⚠️透明 | United States Virginia Ashburn (Oracle Public Cloud)
+  → 出口IP: 193.122.141.97
 
 ## ❌ 失败代理列表
 
 socks5://13.250.229.154:1080 [2026-02-06 05:43]
   → HTTP 403
 
-socks5://140.238.6.28:1080 [2026-02-06 02:02]
-  → 超时
-
 socks5://178.156.208.69:1080 [2026-02-06 04:34]
   → 超时
 
-socks5://40.176.220.185:20000 [2026-02-06 01:36]
+socks5://198.12.111.113:9999 [2026-02-06 07:07]
   → 超时
 
 socks5://43.134.26.162:1080 [2026-02-06 03:56]
@@ -126,3 +116,12 @@ socks5://43.134.26.162:1080 [2026-02-06 03:56]
 
 socks5://54.226.147.170:1080 [2026-02-06 03:45]
   → 超时
+
+socks5://89.189.73.99:1080 [2026-02-06 07:38]
+  → 错误: [Errno 111] Couldn't connect to proxy 89.189.73.99
+
+socks5://89.189.75.115:1080 [2026-02-06 07:38]
+  → 错误: [Errno 111] Couldn't connect to proxy 89.189.75.11
+
+socks5://89.189.77.115:1080 [2026-02-06 07:38]
+  → 错误: [Errno 111] Couldn't connect to proxy 89.189.77.11
