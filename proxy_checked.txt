@@ -1,27 +1,24 @@
 # 代理质量检测报告
-# 检测时间: 2026-02-06 05:53:30
+# 检测时间: 2026-02-06 06:52:59
 # API: IPPure (https://my.ippure.com/v1/info)
 
 ## 📊 统计摘要
-# 总计: 30 | 成功: 28 | 失败: 2 | 成功率: 93.3%
+# 总计: 30 | 成功: 27 | 失败: 3 | 成功率: 90.0%
 
 ## 质量分布
 # 优秀: 6
-# 良好: 13
-# 中等: 9
+# 良好: 12
+# 中等: 7
+# 较差: 1
 
 ## IP类型分布
-# 住宅IP: 16
-# 广播IP: 10
-# 机房IP: 2
+# 住宅IP: 18
+# 广播IP: 8
+# 机房IP: 1
 
 ============================================================
 
 ## ✅ 可用代理列表 (按质量排序)
-
-socks5://141.164.52.135:1080 [2026-02-06 08:28]
-  → 🌟 风险0% | 机房IP ⚠️透明 | South Korea Seoul Gangseo-gu (The Constant Company...)
-  → 出口IP: 2401:c080:1c00:22a8:5400:5ff:feea:395d
 
 socks5://89.189.78.164:1080 [2026-02-06 13:13]
   → 🌟 风险4% | 住宅IP ⚠️透明 | Yemen Aden Al Manşūrah (YemenNet ADSL Pool)
@@ -29,6 +26,10 @@ socks5://89.189.78.164:1080 [2026-02-06 13:13]
 
 socks5://89.189.78.39:1080 [2026-02-06 13:12]
   → 🌟 风险4% | 住宅IP | Yemen Aden Al Manşūrah (YemenNet ADSL Pool)
+
+socks5://188.214.35.161:10801 [2026-02-06 11:58]
+  → 🌟 风险5% | 住宅IP ⚠️透明 | Germany Hesse Frankfurt am Main (Ecoband Carrier Cust...)
+  → 出口IP: 196.44.119.116
 
 socks5://89.189.76.206:1080 [2026-02-06 13:12]
   → 🌟 风险6% | 住宅IP ⚠️透明 | Yemen Aden Al Manşūrah (YemenNet ADSL Pool)
@@ -40,10 +41,6 @@ socks5://89.189.76.48:1080 [2026-02-06 13:14]
 socks5://171.224.190.8:20002 [2026-02-06 12:58]
   → 🌟 风险7% | 住宅IP ⚠️透明 | Vietnam Thai Nguyen Thái Nguyên (Viettel Group)
   → 出口IP: 27.76.15.187
-
-socks5://188.214.35.161:10801 [2026-02-06 11:58]
-  → 🟢 风险10% | 广播IP ⚠️透明 | Germany State of Berlin Berlin (Wivacom Interactivo SL)
-  → 出口IP: 46.34.55.156
 
 socks5://171.224.65.215:20002 [2026-02-06 12:53]
   → 🟢 风险12% | 住宅IP ⚠️透明 | Vietnam Hưng Yên Province Thái Bình (Dai IP cho dich vu A...)
@@ -85,8 +82,8 @@ socks5://171.224.67.76:20002 [2026-02-06 12:58]
   → 🟢 风险12% | 住宅IP ⚠️透明 | Vietnam Hưng Yên Province Thái Bình (Dai IP cho dich vu A...)
   → 出口IP: 117.5.62.84
 
-socks5://110.235.253.32:1080 [2026-02-06 10:17]
-  → 🟢 风险13% | 住宅IP | Cambodia Phnom Penh Phnom Penh (Cogetel Ltd, Online ...)
+socks5://93.177.103.224:1080 [2026-02-06 14:42]
+  → 🟢 风险18% | 机房IP | Turkey Bursa Province Bursa (HostLAB Bilisim Tekn...)
 
 socks5://35.200.120.199:3128 [2026-02-06 13:07]
   → 🟢 风险24% | 广播IP | Japan Tokyo Tokyo (Google LLC)
@@ -97,33 +94,35 @@ socks5://208.123.190.140:1080 [2026-02-06 12:23]
 socks5://35.200.28.254:3128 [2026-02-06 13:07]
   → 🟡 风险30% | 广播IP | Japan Tokyo Tokyo (Google LLC)
 
+socks5://43.161.214.161:1081 [2026-02-06 14:40]
+  → 🟡 风险30% | 广播IP ⚠️透明 | Hong Kong SAR China Hong Kong (6 COLLYER QUAY)
+  → 出口IP: 43.161.219.173
+
 socks5://35.200.57.141:3128 [2026-02-06 13:07]
   → 🟡 风险31% | 广播IP | Japan Tokyo Tokyo (Google LLC)
 
 socks5://35.200.13.194:3128 [2026-02-06 13:07]
   → 🟡 风险32% | 广播IP | Japan Tokyo Tokyo (Google LLC)
 
-socks5://45.15.178.129:1080 [2026-02-06 11:00]
-  → 🟡 风险33% | 机房IP | Bosnia & Herzegovina Federation of B&H Sarajevo (WorkTitans B.V.)
-
 socks5://35.200.12.241:3128 [2026-02-06 13:07]
   → 🟡 风险36% | 广播IP | Japan Tokyo Tokyo (Google LLC)
-
-socks5://116.3.201.227:1080 [2026-02-06 08:48]
-  → 🟡 风险42% | 广播IP ⚠️透明 | Hong Kong SAR China Hong Kong (Private Customer)
-  → 出口IP: 155.117.84.61
 
 socks5://91.229.133.171:2080 [2026-02-06 11:35]
   → 🟡 风险46% | 广播IP | Hong Kong SAR China Hong Kong (Internet Utilities E...)
 
-socks5://41.173.232.227:1080 [2026-02-06 13:07]
-  → 🟡 风险47% | 广播IP ⚠️透明 | United States Missouri St. Louis (Contabo GmbH)
-  → 出口IP: 195.26.240.151
+socks5://5.149.203.190:1080 [2026-02-06 14:39]
+  → 🟠 风险67% | 住宅IP | Russia Kostroma Oblast Kostroma (SVEN Users)
+
+socks5://185.61.246.57:1080 [2026-02-06 14:30]
+  → 🔴 风险76% | 住宅IP | Russia Vladimir Oblast Murom (MODUS LLC)
 
 ## ❌ 失败代理列表
 
-socks5://112.85.50.8:1081 [2026-02-06 09:11]
-  → 超时
-
 socks5://195.133.2.119:1080 [2026-02-06 12:29]
   → 超时
+
+socks5://41.173.232.227:1080 [2026-02-06 13:07]
+  → 超时
+
+socks5://54.173.136.212:1080 [2026-02-06 13:52]
+  → HTTP 403
