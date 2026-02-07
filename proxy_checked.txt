@@ -1,61 +1,58 @@
 # 代理质量检测报告
-# 检测时间: 2026-02-07 15:25:34
+# 检测时间: 2026-02-07 16:29:45
 # API: IPPure (https://my.ippure.com/v1/info)
 
 ## 📊 统计摘要
-# 总计: 30 | 成功: 12 | 失败: 18 | 成功率: 40.0%
+# 总计: 30 | 成功: 11 | 失败: 19 | 成功率: 36.7%
 
 ## 质量分布
-# 优秀: 5
-# 良好: 2
-# 中等: 3
-# 较差: 2
+# 优秀: 6
+# 中等: 4
+# 较差: 1
 
 ## IP类型分布
-# 住宅IP: 7
-# 广播IP: 2
-# 机房IP: 3
+# 住宅IP: 5
+# 广播IP: 1
+# 机房IP: 5
 
 ============================================================
 
 ## ✅ 可用代理列表 (按质量排序)
 
+socks5://149.5.247.123:20002 [2026-02-07 23:38]
+  → 🌟 风险0% | 机房IP ⚠️透明 | Canada Ontario Toronto (Hurricane Electric LLC)
+  → 出口IP: 2001:470:1c:3a1::2f2
+
 socks5://45.137.213.248:1080 [2026-02-07 22:09]
   → 🌟 风险0% | 机房IP ⚠️透明 | United States Texas Dallas (3nt solutions LLP)
   → 出口IP: 2a0c:6741:0:1::3d4f
 
-socks5://121.141.152.101:1080 [2026-02-07 13:11]
-  → 🌟 风险1% | 住宅IP | South Korea Seoul Seoul (Sudogwonseobubonbu)
+socks5://77.41.154.11:1080 [2026-02-07 19:35]
+  → 🌟 风险2% | 住宅IP | Russia Moscow Moscow (111250 Russia SOVINT...)
 
-socks5://113.22.221.35:20000 [2026-02-07 19:44]
-  → 🌟 风险7% | 住宅IP | Vietnam Ho Chi Minh City (HCMC) Ho Chi Minh City (Dai IP dong su dung ...)
+socks5://171.245.83.78:1080 [2026-02-07 18:47]
+  → 🌟 风险5% | 住宅IP ⚠️透明 | Vietnam Ninh Binh Nam Định (Viettel Group)
+  → 出口IP: 171.255.234.4
 
 socks5://202.44.104.72:1080 [2026-02-07 15:31]
-  → 🌟 风险7% | 住宅IP ⚠️透明 | Bangladesh Dhaka Division Dhaka (GramBangla Systems L...)
-  → 出口IP: 202.44.104.73
+  → 🌟 风险8% | 住宅IP ⚠️透明 | Bangladesh Dhaka Division Dhaka (GramBangla Systems L...)
+  → 出口IP: 202.44.104.75
 
 socks5://91.122.251.123:1080 [2026-02-07 21:06]
   → 🌟 风险8% | 住宅IP | Russia Nenets Nar'yan-Mar (PJSC Rostelecom)
 
-socks5://171.245.83.78:1080 [2026-02-07 18:47]
-  → 🟢 风险13% | 住宅IP ⚠️透明 | Vietnam Ninh Binh Nam Định (Viettel Group)
-  → 出口IP: 116.97.137.54
-
-socks5://104.156.151.83:1080 [2026-02-07 20:11]
-  → 🟢 风险24% | 广播IP | France Île-de-France Paris (Serverbike LTD)
+socks5://103.197.48.209:1080 [2026-02-08 00:01]
+  → 🟡 风险30% | 机房IP ⚠️透明 | Bangladesh Dhaka Division Gazipur (Weblink Communicatio...)
+  → 出口IP: 103.197.48.210
 
 socks5://129.80.35.137:1080 [2026-02-07 15:35]
   → 🟡 风险30% | 机房IP | United States Virginia Ashburn (Oracle Corporation)
 
+socks5://185.212.56.171:1080 [2026-02-07 23:31]
+  → 🟡 风险39% | 广播IP | Japan Osaka Osaka (Cluster Logic Inc)
+
 socks5://163.61.70.4:9000 [2026-02-07 17:19]
   → 🟡 风险41% | 机房IP | Vietnam Ho Chi Minh City (HCMC) Ho Chi Minh City (Gold Key Real Estate...)
-
-socks5://45.135.36.57:1080 [2026-02-07 22:08]
-  → 🟡 风险46% | 广播IP ⚠️透明 | United Kingdom England Harrow (LifeinCloud LTD)
-  → 出口IP: 45.135.36.39
-
-socks5://109.94.67.250:1080 [2026-02-07 12:38]
-  → 🟠 风险60% | 住宅IP | Russia Tver Oblast Tver (Annet Ltd.)
 
 socks5://103.239.54.22:1080 [2026-02-07 18:22]
   → 🟠 风险61% | 住宅IP | Cambodia Phnom Penh Phnom Penh (Cogetel Ltd, Online ...)
@@ -65,7 +62,10 @@ socks5://103.239.54.22:1080 [2026-02-07 18:22]
 socks5://103.124.157.25:1080 [2026-02-07 18:32]
   → 错误: [Errno 111] Couldn't connect to proxy 103.124.157.
 
-socks5://116.110.244.83:5000 [2026-02-07 14:58]
+socks5://104.156.151.83:1080 [2026-02-07 20:11]
+  → 超时
+
+socks5://113.22.221.35:20000 [2026-02-07 19:44]
   → 超时
 
 socks5://131.186.37.214:1080 [2026-02-07 17:30]
@@ -77,26 +77,26 @@ socks5://141.11.109.67:1080 [2026-02-07 17:22]
 socks5://144.76.173.113:1080 [2026-02-07 20:27]
   → 错误: Unexpected SOCKS version number: 60
 
-socks5://192.227.147.166:1080 [2026-02-07 14:41]
+socks5://178.248.3.76:1080 [2026-02-07 23:36]
   → 超时
 
-socks5://34.230.100.231:1080 [2026-02-07 15:08]
-  → HTTP 403
-
-socks5://41.175.140.200:1080 [2026-02-07 12:57]
+socks5://195.14.27.112:1080 [2026-02-07 23:56]
   → 超时
 
 socks5://43.198.33.12:20000 [2026-02-07 19:50]
   → HTTP 403
 
 socks5://45.135.36.56:1080 [2026-02-07 22:10]
+  → 错误: Connection refused by destination host
+
+socks5://45.135.36.57:1080 [2026-02-07 22:08]
   → 超时
 
 socks5://45.135.36.58:1080 [2026-02-07 22:07]
-  → 超时
+  → 错误: Connection refused by destination host
 
 socks5://45.135.36.59:1080 [2026-02-07 22:15]
-  → 超时
+  → 错误: Connection refused by destination host
 
 socks5://45.141.122.32:1080 [2026-02-07 15:34]
   → 错误: Host unreachable
@@ -113,5 +113,5 @@ socks5://54.175.156.85:1080 [2026-02-07 20:25]
 socks5://63.250.56.53:1080 [2026-02-07 20:51]
   → 错误: [Errno 111] Couldn't connect to proxy 63.250.56.53
 
-socks5://77.41.154.11:1080 [2026-02-07 19:35]
-  → 超时
+socks5://91.107.153.103:5000 [2026-02-08 00:17]
+  → HTTP 403
