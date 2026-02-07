@@ -1,19 +1,19 @@
 # 代理质量检测报告
-# 检测时间: 2026-02-07 04:09:07
+# 检测时间: 2026-02-07 05:42:07
 # API: IPPure (https://my.ippure.com/v1/info)
 
 ## 📊 统计摘要
-# 总计: 30 | 成功: 18 | 失败: 12 | 成功率: 60.0%
+# 总计: 30 | 成功: 19 | 失败: 11 | 成功率: 63.3%
 
 ## 质量分布
 # 优秀: 9
 # 良好: 3
 # 中等: 5
-# 较差: 1
+# 较差: 2
 
 ## IP类型分布
 # 住宅IP: 10
-# 广播IP: 4
+# 广播IP: 5
 # 机房IP: 4
 
 ============================================================
@@ -24,9 +24,8 @@ socks5://172.105.65.41:1080 [2026-02-07 10:56]
   → 🌟 风险0% | 机房IP ⚠️透明 | Germany Hesse Frankfurt am Main (Linode, LLC)
   → 出口IP: 2a01:7e01::2000:45ff:fe7f:da58
 
-socks5://47.90.180.179:9000 [2026-02-07 06:08]
-  → 🌟 风险2% | 住宅IP ⚠️透明 | United States New York New York City (Turkcell Iletisim Hi...)
-  → 出口IP: 86.104.161.213
+socks5://121.141.152.101:1080 [2026-02-07 13:11]
+  → 🌟 风险1% | 住宅IP | South Korea Seoul Seoul (Sudogwonseobubonbu)
 
 socks5://27.73.173.112:5000 [2026-02-07 10:54]
   → 🌟 风险9% | 住宅IP ⚠️透明 | Vietnam Quảng Ninh Hạ Long (Viettel Group)
@@ -59,12 +58,11 @@ socks5://45.76.191.88:20002 [2026-02-07 09:45]
   → 🟢 风险23% | 住宅IP ⚠️透明 | Peru Lima region San Isidro (WI-NET Telecom SAC)
   → 出口IP: 38.25.29.250
 
-socks5://62.84.124.68:1080 [2026-02-07 07:00]
-  → 🟢 风险24% | 机房IP | Russia Moscow Moscow (Yandex.Cloud LLC)
+socks5://185.123.102.236:1080 [2026-02-07 11:44]
+  → 🟢 风险26% | 广播IP | Germany Hesse Frankfurt am Main (HZ Hosting Ltd)
 
-socks5://101.50.122.105:1080 [2026-02-07 06:33]
-  → 🟢 风险27% | 住宅IP ⚠️透明 | Pakistan Khyber Pakhtunkhwa Peshawar (Nayatel (Pvt) Ltd)
-  → 出口IP: 101.50.116.66
+socks5://45.126.43.170:1080 [2026-02-07 12:24]
+  → 🟢 风险27% | 机房IP | Indonesia Jakarta Jakarta (PT Awan Data Teknologi)
 
 socks5://43.153.75.114:5555 [2026-02-07 08:12]
   → 🟡 风险31% | 广播IP | United States California Santa Clara (6 COLLYER QUAY)
@@ -82,13 +80,13 @@ socks5://156.225.28.22:50161 [2026-02-07 08:37]
 socks5://185.216.84.52:1080 [2026-02-07 09:48]
   → 🟡 风险38% | 广播IP | Netherlands North Holland Amsterdam (Iron Hosting Centre ...)
 
+socks5://109.94.67.250:1080 [2026-02-07 12:38]
+  → 🟠 风险60% | 住宅IP | Russia Tver Oblast Tver (Annet Ltd.)
+
 socks5://43.153.76.238:5555 [2026-02-07 08:10]
   → 🟠 风险60% | 广播IP | United States California Santa Clara (6 COLLYER QUAY)
 
 ## ❌ 失败代理列表
-
-socks5://103.122.3.46:60000 [2026-02-07 05:02]
-  → 错误: 0 bytes read on a total of 4 expected bytes
 
 socks5://128.90.0.199:1080 [2026-02-07 11:39]
   → 超时
@@ -105,20 +103,20 @@ socks5://128.90.43.145:1080 [2026-02-07 11:41]
 socks5://18.171.235.60:1080 [2026-02-07 09:07]
   → HTTP 403
 
-socks5://185.123.102.236:1080 [2026-02-07 11:44]
+socks5://213.159.68.227:1080 [2026-02-07 08:17]
   → 超时
 
-socks5://213.159.68.227:1080 [2026-02-07 08:17]
+socks5://41.175.140.200:1080 [2026-02-07 12:57]
   → 超时
 
 socks5://43.138.171.70:1080 [2026-02-07 09:13]
   → 错误: [Errno 111] Couldn't connect to proxy 43.138.171.7
 
 socks5://47.251.187.81:1080 [2026-02-07 11:56]
-  → 连接错误: 
+  → HTTP 403
 
-socks5://51.250.108.146:1080 [2026-02-07 07:00]
-  → 超时
+socks5://47.86.81.70:5555 [2026-02-07 12:18]
+  → HTTP 403
 
 socks5://91.185.54.215:1080 [2026-02-07 07:44]
   → 超时
