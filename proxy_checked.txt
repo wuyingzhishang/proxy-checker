@@ -1,19 +1,18 @@
 # 代理质量检测报告
-# 检测时间: 2026-02-07 21:25:45
+# 检测时间: 2026-02-07 22:24:52
 # API: IPPure (https://my.ippure.com/v1/info)
 
 ## 📊 统计摘要
-# 总计: 30 | 成功: 20 | 失败: 10 | 成功率: 66.7%
+# 总计: 30 | 成功: 19 | 失败: 11 | 成功率: 63.3%
 
 ## 质量分布
-# 优秀: 7
+# 优秀: 8
 # 良好: 5
-# 中等: 7
-# 较差: 1
+# 中等: 6
 
 ## IP类型分布
 # 住宅IP: 5
-# 广播IP: 8
+# 广播IP: 7
 # 机房IP: 7
 
 ============================================================
@@ -35,15 +34,18 @@ socks5://45.137.213.248:1080 [2026-02-07 22:09]
   → 🌟 风险0% | 机房IP ⚠️透明 | United States Texas Dallas (3nt solutions LLP)
   → 出口IP: 2a0c:6741:0:1::3d4f
 
-socks5://45.138.69.143:1080 [2026-02-08 03:07]
-  → 🌟 风险5% | 住宅IP ⚠️透明 | United States California Carson (Charter Communicatio...)
-  → 出口IP: 45.50.142.252
+socks5://176.111.255.46:1080 [2026-02-08 05:34]
+  → 🌟 风险1% | 住宅IP | Russia Yaroslavl Oblast Pereslavl’-Zalesskiy (Foton Company Ltd)
 
 socks5://113.22.221.35:20000 [2026-02-07 19:44]
   → 🌟 风险7% | 住宅IP | Vietnam Ho Chi Minh City (HCMC) Ho Chi Minh City (Dai IP dong su dung ...)
 
 socks5://91.122.251.123:1080 [2026-02-07 21:06]
   → 🌟 风险8% | 住宅IP | Russia Nenets Nar'yan-Mar (PJSC Rostelecom)
+
+socks5://45.138.69.143:1080 [2026-02-08 03:07]
+  → 🌟 风险9% | 住宅IP ⚠️透明 | United States Connecticut Stamford (Optimum Online (Cabl...)
+  → 出口IP: 24.186.189.85
 
 socks5://65.109.70.202:20002 [2026-02-08 05:17]
   → 🟢 风险17% | 广播IP ⚠️透明 | Canada Ontario Toronto (HostPapa)
@@ -57,22 +59,20 @@ socks5://104.156.151.83:1080 [2026-02-07 20:11]
 
 socks5://114.217.145.121:1081 [2026-02-08 04:23]
   → 🟢 风险27% | 广播IP ⚠️透明 | Singapore Singapore (GSL Networks Pty LTD...)
-  → 出口IP: 103.107.199.28
+  → 出口IP: 103.107.199.29
 
 socks5://35.243.96.167:1080 [2026-02-08 05:14]
   → 🟢 风险29% | 广播IP | Japan Tokyo Tokyo (Google LLC)
 
+socks5://103.197.48.209:1080 [2026-02-08 00:01]
+  → 🟡 风险30% | 机房IP ⚠️透明 | Bangladesh Dhaka Division Gazipur (Weblink Communicatio...)
+  → 出口IP: 103.197.48.210
+
 socks5://35.198.137.213:1080 [2026-02-08 02:09]
   → 🟡 风险31% | 广播IP | Germany Hesse Frankfurt am Main (Google LLC)
 
-socks5://35.189.128.23:1080 [2026-02-08 00:54]
-  → 🟡 风险34% | 广播IP | Japan Tokyo Tokyo (Google LLC)
-
 socks5://185.212.56.171:1080 [2026-02-07 23:31]
   → 🟡 风险39% | 广播IP | Japan Osaka Osaka (Cluster Logic Inc)
-
-socks5://163.61.70.4:9000 [2026-02-07 17:19]
-  → 🟡 风险41% | 机房IP | Vietnam Ho Chi Minh City (HCMC) Ho Chi Minh City (Gold Key Real Estate...)
 
 socks5://45.140.147.82:1081 [2026-02-08 01:25]
   → 🟡 风险41% | 机房IP | Netherlands Drenthe Meppel (WorkTitans B.V.)
@@ -83,16 +83,16 @@ socks5://45.140.147.155:1081 [2026-02-08 01:23]
 socks5://89.185.85.253:1080 [2026-02-08 03:38]
   → 🟡 风险46% | 广播IP | Germany Hesse Frankfurt am Main (Aeza International LTD)
 
-socks5://103.239.54.22:1080 [2026-02-07 18:22]
-  → 🟠 风险61% | 住宅IP | Cambodia Phnom Penh Phnom Penh (Cogetel Ltd, Online ...)
-
 ## ❌ 失败代理列表
-
-socks5://103.197.48.209:1080 [2026-02-08 00:01]
-  → 超时
 
 socks5://144.76.173.113:1080 [2026-02-07 20:27]
   → 错误: Unexpected SOCKS version number: 60
+
+socks5://18.219.226.106:1080 [2026-02-08 06:13]
+  → HTTP 403
+
+socks5://35.189.128.23:1080 [2026-02-08 00:54]
+  → 超时
 
 socks5://43.198.33.12:20000 [2026-02-07 19:50]
   → HTTP 403
