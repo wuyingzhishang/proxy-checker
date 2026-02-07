@@ -1,47 +1,43 @@
 # 代理质量检测报告
-# 检测时间: 2026-02-07 20:25:49
+# 检测时间: 2026-02-07 21:25:45
 # API: IPPure (https://my.ippure.com/v1/info)
 
 ## 📊 统计摘要
-# 总计: 30 | 成功: 18 | 失败: 12 | 成功率: 60.0%
+# 总计: 30 | 成功: 20 | 失败: 10 | 成功率: 66.7%
 
 ## 质量分布
-# 优秀: 8
-# 良好: 2
-# 中等: 8
+# 优秀: 7
+# 良好: 5
+# 中等: 7
+# 较差: 1
 
 ## IP类型分布
-# 住宅IP: 3
-# 广播IP: 5
-# 机房IP: 10
+# 住宅IP: 5
+# 广播IP: 8
+# 机房IP: 7
 
 ============================================================
 
 ## ✅ 可用代理列表 (按质量排序)
 
+socks5://114.104.204.191:10801 [2026-02-08 04:50]
+  → 🌟 风险0% | 机房IP ⚠️透明 | United States California Los Angeles (DMIT Cloud Services)
+  → 出口IP: 2605:52c0:2:f54:e019:84ff:fe4f:dc0d
+
 socks5://149.5.247.123:20002 [2026-02-07 23:38]
   → 🌟 风险0% | 机房IP ⚠️透明 | Canada Ontario Toronto (Hurricane Electric LLC)
   → 出口IP: 2001:470:1c:3a1::2f2
+
+socks5://171.245.83.78:1080 [2026-02-07 18:47]
+  → 🌟 风险0% | 住宅IP | Vietnam Ninh Binh Nam Định (Viettel Group)
 
 socks5://45.137.213.248:1080 [2026-02-07 22:09]
   → 🌟 风险0% | 机房IP ⚠️透明 | United States Texas Dallas (3nt solutions LLP)
   → 出口IP: 2a0c:6741:0:1::3d4f
 
 socks5://45.138.69.143:1080 [2026-02-08 03:07]
-  → 🌟 风险0% | 机房IP ⚠️透明 | United States California Palmdale (AT&T Enterprises, LLC)
-  → 出口IP: 2600:1700:a090:1db0:213e:8c42:af98:638b
-
-socks5://92.62.251.60:20002 [2026-02-08 03:35]
-  → 🌟 风险0% | 机房IP ⚠️透明 | United States Colorado Denver (Comcast Cable Commun...)
-  → 出口IP: 2601:282:2000:bd70:d2a8:5da6:47a4:2d1d
-
-socks5://171.245.83.78:1080 [2026-02-07 18:47]
-  → 🌟 风险3% | 住宅IP ⚠️透明 | Vietnam Ninh Binh Nam Định (Viettel Group)
-  → 出口IP: 171.245.87.40
-
-socks5://45.67.229.106:20000 [2026-02-07 16:00]
-  → 🌟 风险6% | 机房IP ⚠️透明 | Canada Ontario Kingston (Empire Life)
-  → 出口IP: 207.61.86.212
+  → 🌟 风险5% | 住宅IP ⚠️透明 | United States California Carson (Charter Communicatio...)
+  → 出口IP: 45.50.142.252
 
 socks5://113.22.221.35:20000 [2026-02-07 19:44]
   → 🌟 风险7% | 住宅IP | Vietnam Ho Chi Minh City (HCMC) Ho Chi Minh City (Dai IP dong su dung ...)
@@ -49,15 +45,22 @@ socks5://113.22.221.35:20000 [2026-02-07 19:44]
 socks5://91.122.251.123:1080 [2026-02-07 21:06]
   → 🌟 风险8% | 住宅IP | Russia Nenets Nar'yan-Mar (PJSC Rostelecom)
 
+socks5://65.109.70.202:20002 [2026-02-08 05:17]
+  → 🟢 风险17% | 广播IP ⚠️透明 | Canada Ontario Toronto (HostPapa)
+  → 出口IP: 72.11.146.199
+
 socks5://95.140.146.47:1080 [2026-02-08 01:15]
   → 🟢 风险17% | 机房IP | Netherlands North Holland Amsterdam (lease for Timeweb)
 
 socks5://104.156.151.83:1080 [2026-02-07 20:11]
   → 🟢 风险24% | 广播IP | France Île-de-France Paris (Serverbike LTD)
 
-socks5://103.197.48.209:1080 [2026-02-08 00:01]
-  → 🟡 风险30% | 机房IP ⚠️透明 | Bangladesh Dhaka Division Gazipur (Weblink Communicatio...)
-  → 出口IP: 103.197.48.210
+socks5://114.217.145.121:1081 [2026-02-08 04:23]
+  → 🟢 风险27% | 广播IP ⚠️透明 | Singapore Singapore (GSL Networks Pty LTD...)
+  → 出口IP: 103.107.199.28
+
+socks5://35.243.96.167:1080 [2026-02-08 05:14]
+  → 🟢 风险29% | 广播IP | Japan Tokyo Tokyo (Google LLC)
 
 socks5://35.198.137.213:1080 [2026-02-08 02:09]
   → 🟡 风险31% | 广播IP | Germany Hesse Frankfurt am Main (Google LLC)
@@ -80,19 +83,16 @@ socks5://45.140.147.155:1081 [2026-02-08 01:23]
 socks5://89.185.85.253:1080 [2026-02-08 03:38]
   → 🟡 风险46% | 广播IP | Germany Hesse Frankfurt am Main (Aeza International LTD)
 
+socks5://103.239.54.22:1080 [2026-02-07 18:22]
+  → 🟠 风险61% | 住宅IP | Cambodia Phnom Penh Phnom Penh (Cogetel Ltd, Online ...)
+
 ## ❌ 失败代理列表
 
-socks5://103.239.54.22:1080 [2026-02-07 18:22]
-  → 连接错误: [Errno 104] Connection reset by peer
+socks5://103.197.48.209:1080 [2026-02-08 00:01]
+  → 超时
 
 socks5://144.76.173.113:1080 [2026-02-07 20:27]
   → 错误: Unexpected SOCKS version number: 60
-
-socks5://202.44.104.72:1080 [2026-02-07 15:31]
-  → 超时
-
-socks5://34.230.100.231:1080 [2026-02-07 15:08]
-  → HTTP 403
 
 socks5://43.198.33.12:20000 [2026-02-07 19:50]
   → HTTP 403
@@ -109,11 +109,11 @@ socks5://45.135.36.58:1080 [2026-02-07 22:07]
 socks5://45.135.36.59:1080 [2026-02-07 22:15]
   → 超时
 
-socks5://45.141.122.32:1080 [2026-02-07 15:34]
-  → 错误: Host unreachable
-
 socks5://54.175.156.85:1080 [2026-02-07 20:25]
   → HTTP 403
 
 socks5://91.107.153.103:5000 [2026-02-08 00:17]
   → HTTP 403
+
+socks5://92.62.251.60:20002 [2026-02-08 03:35]
+  → 超时
