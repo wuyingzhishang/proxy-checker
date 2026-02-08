@@ -1,21 +1,21 @@
 # 代理质量检测报告
-# 检测时间: 2026-02-08 11:22:49
+# 检测时间: 2026-02-08 12:44:55
 # API: IPPure (https://my.ippure.com/v1/info)
 
 ## 📊 统计摘要
-# 总计: 30 | 成功: 23 | 失败: 7 | 成功率: 76.7%
+# 总计: 30 | 成功: 21 | 失败: 9 | 成功率: 70.0%
 
 ## 质量分布
-# 优秀: 4
-# 良好: 5
-# 中等: 9
+# 优秀: 6
+# 良好: 3
+# 中等: 7
 # 较差: 1
 # 极差: 2
 
 ## IP类型分布
-# 住宅IP: 5
+# 住宅IP: 4
 # 广播IP: 8
-# 机房IP: 10
+# 机房IP: 9
 
 ============================================================
 
@@ -24,6 +24,14 @@
 socks5://110.42.57.198:1234 [2026-02-08 13:35]
   → 🌟 风险0% | 机房IP ⚠️透明 | United States California Los Angeles (DMIT Cloud Services)
   → 出口IP: 2605:52c0:2:3a21:be24:11ff:fe04:219d
+
+socks5://46.242.1.166:1080 [2026-02-08 19:38]
+  → 🌟 风险0% | 机房IP ⚠️透明 | Russia Moscow Oblast Khimki (PJSC Rostelecom)
+  → 出口IP: 2a02:2168:a04:5bdb::1
+
+socks5://62.60.148.214:1080 [2026-02-08 18:03]
+  → 🌟 风险0% | 机房IP ⚠️透明 | France Île-de-France Paris (Aeza International LTD)
+  → 出口IP: 2a01:e5c0:21a1::2
 
 socks5://171.253.73.86:20002 [2026-02-08 15:40]
   → 🌟 风险2% | 住宅IP ⚠️透明 | Vietnam Hưng Yên Province Thái Bình (Viettel Group)
@@ -35,28 +43,22 @@ socks5://113.189.251.247:1080 [2026-02-08 19:00]
 socks5://192.109.224.210:1080 [2026-02-08 14:00]
   → 🌟 风险8% | 住宅IP | Russia Kirov Oblast Kirov (Gorodskie Telekommun...)
 
-socks5://164.160.142.97:1080 [2026-02-08 11:20]
-  → 🟢 风险16% | 住宅IP | Benin Littoral Cotonou (JENY is an ISP in Be...)
-
-socks5://62.60.148.214:1080 [2026-02-08 18:03]
-  → 🟢 风险22% | 广播IP | Germany Hesse Frankfurt am Main (NetCrafters OU)
+socks5://176.126.86.190:1080 [2026-02-08 19:25]
+  → 🟢 风险21% | 广播IP | Sweden Stockholm Stockholm (HostHatch Inc)
 
 socks5://141.98.189.229:1080 [2026-02-08 14:05]
   → 🟢 风险24% | 广播IP | Russia Moscow Moscow (UFO Hosting LLC)
 
-socks5://181.82.104.162:1080 [2026-02-08 18:03]
-  → 🟢 风险24% | 机房IP ⚠️透明 | United States Florida Miami (Vultr Holdings, LLC)
-  → 出口IP: 149.28.98.12
-
 socks5://188.116.21.173:20000 [2026-02-08 15:21]
   → 🟢 风险27% | 广播IP | Netherlands Overijssel Zwolle (IROKO Networks Corpo...)
 
-socks5://5.35.70.253:8080 [2026-02-08 11:19]
-  → 🟡 风险31% | 广播IP | Netherlands North Holland Amsterdam (Amsterdam, Netherlands)
-
-socks5://181.82.133.141:1080 [2026-02-08 18:03]
+socks5://181.82.104.162:1080 [2026-02-08 18:03]
   → 🟡 风险32% | 机房IP ⚠️透明 | United States New Jersey Clifton (DigitalOcean, LLC)
   → 出口IP: 142.93.177.32
+
+socks5://182.148.29.135:1080 [2026-02-08 19:55]
+  → 🟡 风险32% | 广播IP ⚠️透明 | United States California Los Angeles (Cluster Logic Inc)
+  → 出口IP: 67.216.203.46
 
 socks5://140.84.183.253:1080 [2026-02-08 13:12]
   → 🟡 风险33% | 广播IP | Mexico Querétaro General Lázaro Cárdenas (Oracle Corporation)
@@ -64,17 +66,11 @@ socks5://140.84.183.253:1080 [2026-02-08 13:12]
 socks5://144.172.103.232:1080 [2026-02-08 16:44]
   → 🟡 风险34% | 机房IP | United States Utah Ogden (RouterHosting LLC)
 
-socks5://144.172.96.77:1080 [2026-02-08 16:44]
-  → 🟡 风险41% | 机房IP | United States Utah Ogden (RouterHosting LLC)
-
 socks5://144.172.94.158:1080 [2026-02-08 16:44]
   → 🟡 风险42% | 机房IP | United States Utah Ogden (RouterHosting LLC)
 
 socks5://178.128.19.249:1080 [2026-02-08 17:29]
   → 🟡 风险42% | 广播IP | Singapore Singapore (DigitalOcean, LLC)
-
-socks5://144.172.114.204:1080 [2026-02-08 16:44]
-  → 🟡 风险45% | 机房IP | United States Utah Ogden (RouterHosting LLC)
 
 socks5://144.172.112.150:1080 [2026-02-08 16:44]
   → 🟡 风险47% | 机房IP | United States Utah Ogden (RouterHosting LLC)
@@ -99,17 +95,23 @@ socks5://5.39.74.205:10000 [2026-02-08 15:42]
 
 ## ❌ 失败代理列表
 
-socks5://117.5.247.59:5000 [2026-02-08 11:32]
-  → 超时
-
 socks5://13.36.249.2:1080 [2026-02-08 19:18]
   → HTTP 403
 
 socks5://144.172.103.40:1080 [2026-02-08 16:44]
   → 错误: [Errno 111] Couldn't connect to proxy 144.172.103.
 
-socks5://181.82.149.149:1080 [2026-02-08 18:03]
+socks5://144.172.114.204:1080 [2026-02-08 16:44]
+  → 错误: [Errno 111] Couldn't connect to proxy 144.172.114.
+
+socks5://144.172.96.77:1080 [2026-02-08 16:44]
+  → 错误: [Errno 111] Couldn't connect to proxy 144.172.96.7
+
+socks5://181.82.133.141:1080 [2026-02-08 18:03]
   → 超时
+
+socks5://181.82.149.149:1080 [2026-02-08 18:03]
+  → 错误: [Errno 111] Couldn't connect to proxy 181.82.149.1
 
 socks5://31.222.38.190:1080 [2026-02-08 12:18]
   → 超时
