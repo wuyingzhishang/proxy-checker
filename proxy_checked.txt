@@ -1,32 +1,33 @@
 # 代理质量检测报告
-# 检测时间: 2026-02-08 19:25:18
+# 检测时间: 2026-02-08 20:26:01
 # API: IPPure (https://my.ippure.com/v1/info)
 
 ## 📊 统计摘要
-# 总计: 30 | 成功: 19 | 失败: 11 | 成功率: 63.3%
+# 总计: 30 | 成功: 20 | 失败: 10 | 成功率: 66.7%
 
 ## 质量分布
-# 优秀: 8
-# 良好: 4
+# 优秀: 9
+# 良好: 3
 # 中等: 5
-# 较差: 2
+# 较差: 1
+# 极差: 2
 
 ## IP类型分布
 # 住宅IP: 6
 # 广播IP: 8
-# 机房IP: 5
+# 机房IP: 6
 
 ============================================================
 
 ## ✅ 可用代理列表 (按质量排序)
 
+socks5://110.42.57.198:1234 [2026-02-08 13:35]
+  → 🌟 风险0% | 机房IP ⚠️透明 | United States California Los Angeles (DMIT Cloud Services)
+  → 出口IP: 2605:52c0:2:3a21:be24:11ff:fe04:219d
+
 socks5://154.221.0.92:60000 [2026-02-09 01:47]
   → 🌟 风险0% | 机房IP ⚠️透明 | Mexico Colima Manzanillo (UNINET)
   → 出口IP: 2806:102e:e:9d40:7306:6637:5a5d:b397
-
-socks5://46.242.1.166:1080 [2026-02-08 19:38]
-  → 🌟 风险0% | 机房IP ⚠️透明 | Russia Moscow Oblast Khimki (PJSC Rostelecom)
-  → 出口IP: 2a02:2168:a04:5bdb::1
 
 socks5://62.60.148.214:1080 [2026-02-08 18:03]
   → 🌟 风险0% | 机房IP ⚠️透明 | France Île-de-France Paris (Aeza International LTD)
@@ -45,11 +46,11 @@ socks5://103.206.68.241:1080 [2026-02-08 22:56]
 socks5://113.189.251.247:1080 [2026-02-08 19:00]
   → 🌟 风险7% | 住宅IP | Vietnam Ninh Binh Nam Định (Vietnam Posts and Te...)
 
+socks5://192.109.224.210:1080 [2026-02-08 14:00]
+  → 🌟 风险8% | 住宅IP | Russia Kirov Oblast Kirov (Gorodskie Telekommun...)
+
 socks5://158.46.119.254:1080 [2026-02-08 22:14]
   → 🌟 风险9% | 住宅IP | Russia Kuzbass Novokuznetsk (E-Light-Telecom)
-
-socks5://176.126.86.190:1080 [2026-02-08 19:25]
-  → 🟢 风险21% | 广播IP | Sweden Stockholm Stockholm (HostHatch Inc)
 
 socks5://141.98.189.229:1080 [2026-02-08 14:05]
   → 🟢 风险24% | 广播IP | Russia Moscow Moscow (UFO Hosting LLC)
@@ -67,7 +68,7 @@ socks5://182.148.29.135:1080 [2026-02-08 19:55]
 socks5://45.146.164.184:1080 [2026-02-08 22:47]
   → 🟡 风险37% | 机房IP | Russia St.-Petersburg Saint Petersburg (Beget LLC)
 
-socks5://45.84.222.91:1080 [2026-02-09 02:47]
+socks5://45.84.222.110:1080 [2026-02-08 16:01]
   → 🟡 风险41% | 广播IP | Netherlands Limburg Kerkrade (play2go.cloud - Chea...)
 
 socks5://165.232.119.44:1080 [2026-02-08 21:58]
@@ -79,36 +80,37 @@ socks5://148.253.212.47:1080 [2026-02-08 20:46]
 socks5://185.162.128.72:20000 [2026-02-08 13:59]
   → 🟠 风险56% | 广播IP | Netherlands North Holland Amsterdam (It Hosting Group)
 
-socks5://202.79.27.12:1080 [2026-02-08 12:13]
-  → 🟠 风险66% | 住宅IP | Cambodia Phnom Penh Phnom Penh (WiCAM Corporation, LTD)
+socks5://206.123.156.211:20202 [2026-02-08 13:52]
+  → ⚫ 风险94% | 机房IP ⚠️透明 | Vietnam Ho Chi Minh City (HCMC) Ho Chi Minh City (Web Panda Company Ltd)
+  → 出口IP: 103.90.234.204
+
+socks5://64.227.131.240:1080 [2026-02-09 03:34]
+  → ⚫ 风险96% | 广播IP | India Karnataka Bāshettihalli (DigitalOcean, LLC)
 
 ## ❌ 失败代理列表
-
-socks5://110.42.57.198:1234 [2026-02-08 13:35]
-  → 超时
 
 socks5://120.53.94.185:1080 [2026-02-08 17:40]
   → 超时
 
-socks5://192.109.224.210:1080 [2026-02-08 14:00]
+socks5://176.126.86.190:1080 [2026-02-08 19:25]
   → 超时
 
 socks5://202.155.11.176:2000 [2026-02-08 21:31]
   → HTTP 403
 
-socks5://206.123.156.211:20202 [2026-02-08 13:52]
-  → 错误: 0 bytes read on a total of 2 expected bytes
-
-socks5://31.222.38.190:1080 [2026-02-08 12:18]
+socks5://38.166.16.184:9000 [2026-02-09 01:05]
   → 超时
 
-socks5://38.166.16.184:9000 [2026-02-09 01:05]
-  → 错误: 0 bytes read on a total of 4 expected bytes
+socks5://45.84.222.91:1080 [2026-02-09 02:47]
+  → 超时
 
-socks5://45.84.222.110:1080 [2026-02-08 16:01]
+socks5://46.242.1.166:1080 [2026-02-08 19:38]
   → 超时
 
 socks5://5.39.74.205:10000 [2026-02-08 15:42]
+  → HTTP 403
+
+socks5://52.57.252.60:1080 [2026-02-09 04:10]
   → HTTP 403
 
 socks5://54.196.173.129:1080 [2026-02-08 16:57]
