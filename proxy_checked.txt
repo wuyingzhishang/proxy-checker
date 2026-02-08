@@ -1,21 +1,21 @@
 # 代理质量检测报告
-# 检测时间: 2026-02-08 10:25:14
+# 检测时间: 2026-02-08 11:22:49
 # API: IPPure (https://my.ippure.com/v1/info)
 
 ## 📊 统计摘要
-# 总计: 30 | 成功: 25 | 失败: 5 | 成功率: 83.3%
+# 总计: 30 | 成功: 23 | 失败: 7 | 成功率: 76.7%
 
 ## 质量分布
 # 优秀: 4
-# 良好: 4
-# 中等: 12
-# 较差: 3
+# 良好: 5
+# 中等: 9
+# 较差: 1
 # 极差: 2
 
 ## IP类型分布
 # 住宅IP: 5
 # 广播IP: 8
-# 机房IP: 12
+# 机房IP: 10
 
 ============================================================
 
@@ -25,12 +25,12 @@ socks5://110.42.57.198:1234 [2026-02-08 13:35]
   → 🌟 风险0% | 机房IP ⚠️透明 | United States California Los Angeles (DMIT Cloud Services)
   → 出口IP: 2605:52c0:2:3a21:be24:11ff:fe04:219d
 
-socks5://103.17.36.246:12345 [2026-02-08 10:59]
-  → 🌟 风险2% | 住宅IP | Bangladesh Dhaka Division Dhaka (Dtech Limited)
-
 socks5://171.253.73.86:20002 [2026-02-08 15:40]
   → 🌟 风险2% | 住宅IP ⚠️透明 | Vietnam Hưng Yên Province Thái Bình (Viettel Group)
   → 出口IP: 171.224.73.149
+
+socks5://113.189.251.247:1080 [2026-02-08 19:00]
+  → 🌟 风险7% | 住宅IP | Vietnam Ninh Binh Nam Định (Vietnam Posts and Te...)
 
 socks5://192.109.224.210:1080 [2026-02-08 14:00]
   → 🌟 风险8% | 住宅IP | Russia Kirov Oblast Kirov (Gorodskie Telekommun...)
@@ -44,26 +44,19 @@ socks5://62.60.148.214:1080 [2026-02-08 18:03]
 socks5://141.98.189.229:1080 [2026-02-08 14:05]
   → 🟢 风险24% | 广播IP | Russia Moscow Moscow (UFO Hosting LLC)
 
+socks5://181.82.104.162:1080 [2026-02-08 18:03]
+  → 🟢 风险24% | 机房IP ⚠️透明 | United States Florida Miami (Vultr Holdings, LLC)
+  → 出口IP: 149.28.98.12
+
 socks5://188.116.21.173:20000 [2026-02-08 15:21]
   → 🟢 风险27% | 广播IP | Netherlands Overijssel Zwolle (IROKO Networks Corpo...)
 
 socks5://5.35.70.253:8080 [2026-02-08 11:19]
   → 🟡 风险31% | 广播IP | Netherlands North Holland Amsterdam (Amsterdam, Netherlands)
 
-socks5://144.172.103.40:1080 [2026-02-08 16:44]
-  → 🟡 风险32% | 机房IP | United States Utah Ogden (RouterHosting LLC)
-
-socks5://181.82.104.162:1080 [2026-02-08 18:03]
-  → 🟡 风险32% | 机房IP ⚠️透明 | United States New Jersey Clifton (DigitalOcean, LLC)
-  → 出口IP: 142.93.177.32
-
 socks5://181.82.133.141:1080 [2026-02-08 18:03]
   → 🟡 风险32% | 机房IP ⚠️透明 | United States New Jersey Clifton (DigitalOcean, LLC)
   → 出口IP: 142.93.177.32
-
-socks5://181.82.149.149:1080 [2026-02-08 18:03]
-  → 🟡 风险32% | 机房IP ⚠️透明 | United States New Jersey Clifton (DigitalOcean, LLC)
-  → 出口IP: 165.227.182.73
 
 socks5://140.84.183.253:1080 [2026-02-08 13:12]
   → 🟡 风险33% | 广播IP | Mexico Querétaro General Lázaro Cárdenas (Oracle Corporation)
@@ -93,8 +86,8 @@ socks5://202.79.27.12:1080 [2026-02-08 12:13]
   → 🟠 风险66% | 住宅IP | Cambodia Phnom Penh Phnom Penh (WiCAM Corporation, LTD)
 
 socks5://120.53.94.185:1080 [2026-02-08 17:40]
-  → 🟠 风险68% | 广播IP ⚠️透明 | Taiwan Taiwan Taipei (Private Customer)
-  → 出口IP: 85.237.207.178
+  → 🔴 风险72% | 广播IP ⚠️透明 | Japan Tokyo Tokyo (Nearoute Limited)
+  → 出口IP: 38.207.136.152
 
 socks5://206.123.156.211:20202 [2026-02-08 13:52]
   → ⚫ 风险94% | 机房IP ⚠️透明 | Vietnam Ho Chi Minh City (HCMC) Ho Chi Minh City (Web Panda Company Ltd)
@@ -107,7 +100,16 @@ socks5://5.39.74.205:10000 [2026-02-08 15:42]
 ## ❌ 失败代理列表
 
 socks5://117.5.247.59:5000 [2026-02-08 11:32]
-  → 错误: [Errno 111] Couldn't connect to proxy 117.5.247.59
+  → 超时
+
+socks5://13.36.249.2:1080 [2026-02-08 19:18]
+  → HTTP 403
+
+socks5://144.172.103.40:1080 [2026-02-08 16:44]
+  → 错误: [Errno 111] Couldn't connect to proxy 144.172.103.
+
+socks5://181.82.149.149:1080 [2026-02-08 18:03]
+  → 超时
 
 socks5://31.222.38.190:1080 [2026-02-08 12:18]
   → 超时
@@ -116,7 +118,4 @@ socks5://45.84.222.110:1080 [2026-02-08 16:01]
   → 超时
 
 socks5://54.196.173.129:1080 [2026-02-08 16:57]
-  → HTTP 403
-
-socks5://85.175.101.38:1080 [2026-02-08 11:16]
   → HTTP 403
