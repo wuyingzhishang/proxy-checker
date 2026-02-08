@@ -1,42 +1,37 @@
 # 代理质量检测报告
-# 检测时间: 2026-02-08 21:26:49
+# 检测时间: 2026-02-08 22:26:18
 # API: IPPure (https://my.ippure.com/v1/info)
 
 ## 📊 统计摘要
-# 总计: 30 | 成功: 16 | 失败: 14 | 成功率: 53.3%
+# 总计: 30 | 成功: 13 | 失败: 17 | 成功率: 43.3%
 
 ## 质量分布
-# 优秀: 6
+# 优秀: 5
 # 良好: 4
-# 中等: 5
+# 中等: 3
 # 较差: 1
 
 ## IP类型分布
 # 住宅IP: 4
-# 广播IP: 8
-# 机房IP: 4
+# 广播IP: 7
+# 机房IP: 2
 
 ============================================================
 
 ## ✅ 可用代理列表 (按质量排序)
 
-socks5://154.221.0.92:60000 [2026-02-09 01:47]
-  → 🌟 风险0% | 机房IP ⚠️透明 | Mexico Colima Manzanillo (UNINET)
-  → 出口IP: 2806:102e:e:9d40:7306:6637:5a5d:b397
-
 socks5://62.60.148.214:1080 [2026-02-08 18:03]
   → 🌟 风险0% | 机房IP ⚠️透明 | France Île-de-France Paris (Aeza International LTD)
   → 出口IP: 2a01:e5c0:21a1::2
 
-socks5://171.253.73.86:20002 [2026-02-08 15:40]
-  → 🌟 风险2% | 住宅IP ⚠️透明 | Vietnam Hưng Yên Province Thái Bình (Viettel Group)
-  → 出口IP: 171.224.73.149
-
-socks5://103.206.68.241:1080 [2026-02-08 22:56]
-  → 🌟 风险4% | 住宅IP | Cambodia Phnom Penh Phnom Penh (Cogetel Ltd, Online ...)
+socks5://93.171.58.169:1080 [2026-02-09 00:24]
+  → 🌟 风险3% | 住宅IP | Russia Belgorod Oblast Alexeyevka (Intercity Ltd.)
 
 socks5://113.189.251.247:1080 [2026-02-08 19:00]
   → 🌟 风险7% | 住宅IP | Vietnam Ninh Binh Nam Định (Vietnam Posts and Te...)
+
+socks5://192.109.224.210:1080 [2026-02-08 14:00]
+  → 🌟 风险8% | 住宅IP | Russia Kirov Oblast Kirov (Gorodskie Telekommun...)
 
 socks5://158.46.119.254:1080 [2026-02-08 22:14]
   → 🌟 风险9% | 住宅IP | Russia Kuzbass Novokuznetsk (E-Light-Telecom)
@@ -53,34 +48,42 @@ socks5://188.116.21.173:20000 [2026-02-08 15:21]
 socks5://148.222.186.217:1080 [2026-02-09 02:08]
   → 🟢 风险28% | 广播IP | Finland Uusimaa Helsinki (3nt solutions LLP)
 
-socks5://182.148.29.135:1080 [2026-02-08 19:55]
-  → 🟡 风险32% | 广播IP ⚠️透明 | United States California Los Angeles (Cluster Logic Inc)
-  → 出口IP: 67.216.203.46
-
 socks5://45.146.164.184:1080 [2026-02-08 22:47]
   → 🟡 风险37% | 机房IP | Russia St.-Petersburg Saint Petersburg (Beget LLC)
 
-socks5://45.84.222.91:1080 [2026-02-09 02:47]
+socks5://45.84.222.110:1080 [2026-02-08 16:01]
   → 🟡 风险41% | 广播IP | Netherlands Limburg Kerkrade (play2go.cloud - Chea...)
 
-socks5://165.232.119.44:1080 [2026-02-08 21:58]
-  → 🟡 风险43% | 广播IP | Germany Hesse Frankfurt am Main (DigitalOcean, LLC)
-
-socks5://148.253.212.47:1080 [2026-02-08 20:46]
-  → 🟡 风险44% | 机房IP | Poland Mazovia Warsaw (GuardNetwork)
+socks5://45.84.222.91:1080 [2026-02-09 02:47]
+  → 🟡 风险41% | 广播IP | Netherlands Limburg Kerkrade (play2go.cloud - Chea...)
 
 socks5://185.162.128.72:20000 [2026-02-08 13:59]
   → 🟠 风险56% | 广播IP | Netherlands North Holland Amsterdam (It Hosting Group)
 
 ## ❌ 失败代理列表
 
+socks5://103.206.68.241:1080 [2026-02-08 22:56]
+  → 超时
+
 socks5://120.53.94.185:1080 [2026-02-08 17:40]
   → 超时
 
-socks5://176.126.86.190:1080 [2026-02-08 19:25]
-  → 连接错误: [Errno 104] Connection reset by peer
+socks5://148.253.212.47:1080 [2026-02-08 20:46]
+  → 错误: [Errno 111] Couldn't connect to proxy 148.253.212.
 
-socks5://192.109.224.210:1080 [2026-02-08 14:00]
+socks5://154.221.0.92:60000 [2026-02-09 01:47]
+  → 错误: 0 bytes read on a total of 4 expected bytes
+
+socks5://165.232.119.44:1080 [2026-02-08 21:58]
+  → 超时
+
+socks5://171.253.73.86:20002 [2026-02-08 15:40]
+  → 超时
+
+socks5://176.126.86.190:1080 [2026-02-08 19:25]
+  → 错误: [Errno 111] Couldn't connect to proxy 176.126.86.1
+
+socks5://182.148.29.135:1080 [2026-02-08 19:55]
   → 超时
 
 socks5://202.155.11.176:2000 [2026-02-08 21:31]
@@ -89,14 +92,11 @@ socks5://202.155.11.176:2000 [2026-02-08 21:31]
 socks5://38.166.16.184:9000 [2026-02-09 01:05]
   → 超时
 
-socks5://45.84.222.110:1080 [2026-02-08 16:01]
-  → 超时
-
 socks5://46.105.189.70:1090 [2026-02-09 05:13]
   → HTTP 403
 
 socks5://46.242.1.166:1080 [2026-02-08 19:38]
-  → 超时
+  → 错误: [Errno 111] Couldn't connect to proxy 46.242.1.166
 
 socks5://5.39.74.205:10000 [2026-02-08 15:42]
   → HTTP 403
@@ -111,7 +111,4 @@ socks5://54.234.254.51:1080 [2026-02-09 01:53]
   → HTTP 403
 
 socks5://64.227.131.240:1080 [2026-02-09 03:34]
-  → 超时
-
-socks5://93.171.58.169:1080 [2026-02-09 00:24]
   → 超时
