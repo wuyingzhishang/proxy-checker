@@ -1,28 +1,24 @@
 # 代理质量检测报告
-# 检测时间: 2026-02-09 11:06:36
+# 检测时间: 2026-02-09 13:06:42
 # API: IPPure (https://my.ippure.com/v1/info)
 
 ## 📊 统计摘要
-# 总计: 30 | 成功: 17 | 失败: 13 | 成功率: 56.7%
+# 总计: 30 | 成功: 21 | 失败: 9 | 成功率: 70.0%
 
 ## 质量分布
-# 优秀: 6
-# 良好: 4
-# 中等: 5
+# 优秀: 7
+# 良好: 8
+# 中等: 4
 # 较差: 2
 
 ## IP类型分布
-# 住宅IP: 5
-# 广播IP: 2
+# 住宅IP: 8
+# 广播IP: 3
 # 机房IP: 10
 
 ============================================================
 
 ## ✅ 可用代理列表 (按质量排序)
-
-socks5://38.180.165.223:1080 [2026-02-09 17:36]
-  → 🌟 风险0% | 机房IP ⚠️透明 | Ukraine Kyiv City Kyiv (TheHost Ukraine)
-  → 出口IP: 2a0c:f00::7:8c
 
 socks5://93.127.166.134:1080 [2026-02-09 13:31]
   → 🌟 风险0% | 机房IP ⚠️透明 | India Maharashtra Mumbai (HOSTINGER IN)
@@ -35,11 +31,22 @@ socks5://154.17.27.79:21266 [2026-02-09 09:43]
 socks5://5.141.80.122:1080 [2026-02-09 17:19]
   → 🌟 风险1% | 住宅IP | Russia Yamalo-Nenets Novyy Urengoy (PJSC Rostelecom)
 
+socks5://170.81.103.113:1080 [2026-02-09 20:34]
+  → 🌟 风险4% | 住宅IP | Brazil Bahia Camaçari (VIVA TECNOLOGIA TELE...)
+
 socks5://114.41.131.47:1080 [2026-02-09 15:58]
   → 🌟 风险5% | 住宅IP | Taiwan Taiwan Taichung (Chunghwa Telecom Co....)
 
+socks5://161.248.179.208:20002 [2026-02-09 21:03]
+  → 🌟 风险5% | 住宅IP ⚠️透明 | Canada Ontario Toronto (Sympatico HSE)
+  → 出口IP: 184.146.156.101
+
 socks5://80.82.40.129:1080 [2026-02-09 14:31]
   → 🌟 风险9% | 住宅IP | Russia Voronezh Oblast Voronezh (Regional multiservic...)
+
+socks5://193.221.200.121:60000 [2026-02-09 21:03]
+  → 🟢 风险11% | 住宅IP ⚠️透明 | United States Florida Orlando (T-Mobile USA, Inc.)
+  → 出口IP: 172.56.76.34
 
 socks5://90.189.163.35:4444 [2026-02-09 12:07]
   → 🟢 风险14% | 住宅IP ⚠️透明 | Netherlands North Holland Amsterdam (Scaleway - Amsterdam...)
@@ -48,14 +55,22 @@ socks5://90.189.163.35:4444 [2026-02-09 12:07]
 socks5://93.177.103.224:1080 [2026-02-09 16:12]
   → 🟢 风险18% | 机房IP | Turkey Bursa Province Bursa (HostLAB Bilisim Tekn...)
 
+socks5://38.54.125.205:1080 [2026-02-09 17:56]
+  → 🟢 风险24% | 广播IP | Malaysia Kuala Lumpur Kuala Lumpur (Kaopu Cloud HK Limited)
+
+socks5://171.213.129.220:1080 [2026-02-09 10:34]
+  → 🟢 风险27% | 机房IP ⚠️透明 | South Korea Seoul Seoul (KCInfra Inc.)
+  → 出口IP: 27.102.114.226
+
 socks5://107.173.127.239:1080 [2026-02-09 18:52]
   → 🟢 风险28% | 机房IP | United States California Los Angeles (STRICTLY CLOUD)
 
 socks5://195.206.229.161:1080 [2026-02-09 17:38]
   → 🟢 风险28% | 机房IP | Slovenia Ljubljana Ljubljana (Optimus IT d.o.o.)
 
-socks5://134.122.185.7:1080 [2026-02-09 09:25]
-  → 🟡 风险34% | 机房IP | Hong Kong SAR China Islands Tung Chung (CTG Server Ltd.)
+socks5://82.151.214.35:1080 [2026-02-09 17:06]
+  → 🟢 风险28% | 广播IP ⚠️透明 | Finland Uusimaa Helsinki (Snowd Security OU)
+  → 出口IP: 89.125.122.155
 
 socks5://38.14.192.17:1080 [2026-02-09 12:18]
   → 🟡 风险34% | 机房IP | United States California San Jose (PEG TECH INC)
@@ -69,8 +84,8 @@ socks5://38.180.203.70:1080 [2026-02-09 17:36]
 socks5://23.175.248.21:1080 [2026-02-09 16:16]
   → 🟡 风险45% | 机房IP | United States Florida Miami (InfiniaHost.com)
 
-socks5://173.249.50.91:1080 [2026-02-09 15:05]
-  → 🟠 风险51% | 广播IP | France Grand Est Lauterbourg (Contabo GmbH)
+socks5://31.192.245.114:1080 [2026-02-09 10:34]
+  → 🟠 风险58% | 机房IP | United Kingdom England London (ahbr company limited)
 
 socks5://142.171.42.229:1080 [2026-02-09 13:08]
   → 🟠 风险64% | 机房IP ⚠️透明 | Singapore Singapore (6 COLLYER QUAY)
@@ -84,35 +99,23 @@ socks5://103.57.27.124:1080 [2026-02-09 13:03]
 socks5://154.92.14.72:1080 [2026-02-09 12:17]
   → 错误: Unexpected SOCKS authentication method: 2
 
-socks5://171.213.129.220:1080 [2026-02-09 10:34]
-  → 超时
-
 socks5://185.123.101.251:1080 [2026-02-09 15:13]
   → 错误: [Errno 111] Couldn't connect to proxy 185.123.101.
 
-socks5://195.218.164.10:1080 [2026-02-09 15:05]
-  → 超时
+socks5://27.210.31.151:5000 [2026-02-09 19:37]
+  → HTTP 403
 
 socks5://3.11.109.74:1080 [2026-02-09 13:51]
-  → 超时
-
-socks5://31.192.245.114:1080 [2026-02-09 10:34]
   → 超时
 
 socks5://35.212.187.132:50161 [2026-02-09 10:43]
   → HTTP 403
 
-socks5://38.54.125.205:1080 [2026-02-09 17:56]
+socks5://38.180.165.223:1080 [2026-02-09 17:36]
   → 超时
 
 socks5://47.253.33.220:2000 [2026-02-09 18:04]
   → HTTP 403
 
 socks5://54.36.109.107:1080 [2026-02-09 12:50]
-  → 超时
-
-socks5://82.151.214.35:1080 [2026-02-09 17:06]
-  → 错误: 0 bytes read on a total of 4 expected bytes
-
-socks5://85.15.114.59:1080 [2026-02-09 16:37]
   → 超时
