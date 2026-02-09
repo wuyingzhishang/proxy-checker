@@ -1,45 +1,80 @@
 # 代理质量检测报告
-# 检测时间: 2026-02-08 23:31:28
+# 检测时间: 2026-02-09 02:00:17
 # API: IPPure (https://my.ippure.com/v1/info)
 
 ## 📊 统计摘要
-# 总计: 30 | 成功: 10 | 失败: 20 | 成功率: 33.3%
+# 总计: 30 | 成功: 22 | 失败: 8 | 成功率: 73.3%
 
 ## 质量分布
-# 优秀: 3
-# 良好: 4
-# 中等: 3
+# 优秀: 6
+# 良好: 11
+# 中等: 4
+# 较差: 1
 
 ## IP类型分布
-# 住宅IP: 2
-# 广播IP: 6
-# 机房IP: 2
+# 住宅IP: 5
+# 广播IP: 8
+# 机房IP: 9
 
 ============================================================
 
 ## ✅ 可用代理列表 (按质量排序)
 
-socks5://62.60.148.214:1080 [2026-02-08 18:03]
-  → 🌟 风险0% | 机房IP ⚠️透明 | France Île-de-France Paris (Aeza International LTD)
-  → 出口IP: 2a01:e5c0:21a1::2
+socks5://198.167.193.159:5000 [2026-02-09 09:10]
+  → 🌟 风险0% | 机房IP ⚠️透明 | Netherlands North Holland Amsterdam (ALEXHOST S.R.L.)
+  → 出口IP: 2a0f:5f40:0:2::1b4
+
+socks5://154.17.27.79:21266 [2026-02-09 09:43]
+  → 🌟 风险1% | 住宅IP ⚠️透明 | United States District of Columbia Washington (SAH BITE LTD)
+  → 出口IP: 154.44.125.4
 
 socks5://93.171.58.169:1080 [2026-02-09 00:24]
   → 🌟 风险3% | 住宅IP | Russia Belgorod Oblast Alexeyevka (Intercity Ltd.)
 
+socks5://194.85.89.33:1080 [2026-02-09 07:28]
+  → 🌟 风险4% | 住宅IP | Russia Karachayevo-Cherkesiya Republic Cherkessk (Mezhdunarodnaya str....)
+
+socks5://113.22.228.249:20000 [2026-02-09 07:05]
+  → 🌟 风险6% | 住宅IP | Vietnam Dong Nai Biên Hòa (Dai IP dong su dung ...)
+
 socks5://158.46.119.254:1080 [2026-02-08 22:14]
   → 🌟 风险9% | 住宅IP | Russia Kuzbass Novokuznetsk (E-Light-Telecom)
 
-socks5://141.98.189.229:1080 [2026-02-08 14:05]
-  → 🟢 风险24% | 广播IP | Russia Moscow Moscow (UFO Hosting LLC)
+socks5://156.244.2.246:20002 [2026-02-09 07:37]
+  → 🟢 风险11% | 机房IP | Mexico Mexico City Mexico City (Lightnode Limited)
+
+socks5://31.130.131.142:1080 [2026-02-09 08:39]
+  → 🟢 风险13% | 广播IP | Netherlands North Holland Amsterdam (Timeweb, LLP)
+
+socks5://156.244.39.37:20002 [2026-02-09 07:37]
+  → 🟢 风险17% | 机房IP | Peru Lima Province Lima (Lightnode Limited)
+
+socks5://156.244.39.41:20002 [2026-02-09 07:37]
+  → 🟢 风险19% | 机房IP | Peru Lima Province Lima (Lightnode Limited)
+
+socks5://156.244.2.102:20002 [2026-02-09 07:37]
+  → 🟢 风险20% | 机房IP | Mexico Mexico City Mexico City (Lightnode Limited)
+
+socks5://156.244.39.83:20002 [2026-02-09 07:37]
+  → 🟢 风险22% | 机房IP | Peru Lima Province Lima (Lightnode Limited)
 
 socks5://154.223.20.245:4444 [2026-02-09 04:45]
   → 🟢 风险26% | 广播IP | Taiwan Taiwan Taipei (Lightnode Limited)
 
-socks5://188.116.21.173:20000 [2026-02-08 15:21]
-  → 🟢 风险27% | 广播IP | Netherlands Overijssel Zwolle (IROKO Networks Corpo...)
+socks5://156.244.46.156:20002 [2026-02-09 07:37]
+  → 🟢 风险26% | 广播IP | United States California Mountain View (Lightnode Limited)
+
+socks5://195.49.215.171:1080 [2026-02-09 07:56]
+  → 🟢 风险27% | 机房IP | Kazakhstan Almaty Almaty (PS Internet Company LLP)
 
 socks5://148.222.186.217:1080 [2026-02-09 02:08]
   → 🟢 风险28% | 广播IP | Finland Uusimaa Helsinki (3nt solutions LLP)
+
+socks5://156.244.33.210:20002 [2026-02-09 07:37]
+  → 🟢 风险28% | 广播IP | Mexico Mexico City Mexico City (Lightnode Limited)
+
+socks5://134.122.185.7:1080 [2026-02-09 09:25]
+  → 🟡 风险34% | 机房IP | Hong Kong SAR China Islands Tung Chung (CTG Server Ltd.)
 
 socks5://45.146.164.184:1080 [2026-02-08 22:47]
   → 🟡 风险37% | 机房IP | Russia St.-Petersburg Saint Petersburg (Beget LLC)
@@ -50,64 +85,31 @@ socks5://45.84.222.91:1080 [2026-02-09 02:47]
 socks5://165.232.119.44:1080 [2026-02-08 21:58]
   → 🟡 风险43% | 广播IP | Germany Hesse Frankfurt am Main (DigitalOcean, LLC)
 
+socks5://151.241.100.60:1080 [2026-02-09 08:20]
+  → 🟠 风险50% | 广播IP | United States California Los Angeles (FREAKHOSTING)
+
 ## ❌ 失败代理列表
 
 socks5://103.206.68.241:1080 [2026-02-08 22:56]
   → 超时
 
-socks5://113.189.251.247:1080 [2026-02-08 19:00]
-  → 超时
-
-socks5://113.22.228.249:20000 [2026-02-09 07:05]
-  → 超时
-
-socks5://120.53.94.185:1080 [2026-02-08 17:40]
-  → 超时
-
-socks5://148.253.212.47:1080 [2026-02-08 20:46]
-  → 错误: [Errno 111] Couldn't connect to proxy 148.253.212.
-
 socks5://154.221.0.92:60000 [2026-02-09 01:47]
   → 错误: 0 bytes read on a total of 4 expected bytes
-
-socks5://171.253.73.86:20002 [2026-02-08 15:40]
-  → 超时
-
-socks5://176.126.86.190:1080 [2026-02-08 19:25]
-  → 错误: [Errno 111] Couldn't connect to proxy 176.126.86.1
 
 socks5://18.216.74.55:1080 [2026-02-09 06:24]
   → 超时
 
-socks5://182.148.29.135:1080 [2026-02-08 19:55]
-  → 超时
-
-socks5://202.155.11.176:2000 [2026-02-08 21:31]
-  → HTTP 403
-
 socks5://38.166.16.184:9000 [2026-02-09 01:05]
-  → 超时
-
-socks5://45.84.222.110:1080 [2026-02-08 16:01]
   → 超时
 
 socks5://46.105.189.70:1090 [2026-02-09 05:13]
   → HTTP 403
 
-socks5://46.242.1.166:1080 [2026-02-08 19:38]
-  → 错误: [Errno 111] Couldn't connect to proxy 46.242.1.166
-
-socks5://5.39.74.205:10000 [2026-02-08 15:42]
-  → HTTP 403
-
 socks5://52.57.252.60:1080 [2026-02-09 04:10]
-  → HTTP 403
-
-socks5://54.196.173.129:1080 [2026-02-08 16:57]
   → HTTP 403
 
 socks5://54.234.254.51:1080 [2026-02-09 01:53]
   → HTTP 403
 
 socks5://64.227.131.240:1080 [2026-02-09 03:34]
-  → 超时
+  → 错误: [Errno 111] Couldn't connect to proxy 64.227.131.2
