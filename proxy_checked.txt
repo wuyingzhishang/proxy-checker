@@ -1,21 +1,21 @@
 # 代理质量检测报告
-# 检测时间: 2026-02-09 22:34:56
+# 检测时间: 2026-02-09 23:36:36
 # API: IPPure (https://my.ippure.com/v1/info)
 
 ## 📊 统计摘要
-# 总计: 30 | 成功: 25 | 失败: 5 | 成功率: 83.3%
+# 总计: 30 | 成功: 24 | 失败: 6 | 成功率: 80.0%
 
 ## 质量分布
-# 优秀: 11
-# 良好: 4
-# 中等: 4
-# 较差: 2
-# 极差: 4
+# 优秀: 12
+# 良好: 5
+# 中等: 3
+# 较差: 3
+# 极差: 1
 
 ## IP类型分布
-# 住宅IP: 9
-# 广播IP: 7
-# 机房IP: 9
+# 住宅IP: 10
+# 广播IP: 4
+# 机房IP: 10
 
 ============================================================
 
@@ -53,6 +53,9 @@ socks5://91.99.95.118:1080 [2026-02-10 05:33]
   → 🌟 风险8% | 住宅IP ⚠️透明 | United States Washington Wenatchee (Northwest Internet)
   → 出口IP: 173.209.160.230
 
+socks5://94.198.104.98:20000 [2026-02-10 07:15]
+  → 🌟 风险8% | 住宅IP | Russia Moscow Moscow (Digit One LLC)
+
 socks5://194.110.246.25:2000 [2026-02-09 21:14]
   → 🌟 风险9% | 住宅IP ⚠️透明 | United States Indiana Kokomo (Comcast Cable Commun...)
   → 出口IP: 50.252.180.157
@@ -72,8 +75,8 @@ socks5://109.172.88.29:1080 [2026-02-10 05:19]
 socks5://107.174.222.172:1080 [2026-02-09 21:16]
   → 🟢 风险29% | 机房IP | United States California Los Angeles (HostPapa)
 
-socks5://202.10.41.128:1080 [2026-02-10 01:21]
-  → 🟡 风险31% | 机房IP | Indonesia Jakarta Jakarta (PT Digital Registra ...)
+socks5://45.150.64.226:40000 [2026-02-10 07:05]
+  → 🟢 风险29% | 广播IP | Russia Moscow Moscow (UFO Hosting LLC)
 
 socks5://212.192.14.219:40000 [2026-02-10 00:40]
   → 🟡 风险32% | 广播IP | Russia Moscow Moscow (GLOBAL INTERNET SOLU...)
@@ -87,31 +90,25 @@ socks5://193.106.58.92:1080 [2026-02-09 21:13]
 socks5://175.100.35.84:1080 [2026-02-09 21:15]
   → 🟠 风险51% | 住宅IP | Cambodia Phnom Penh Phnom Penh (VIETTEL (CAMBODIA) P...)
 
+socks5://79.174.82.212:1080 [2026-02-10 07:15]
+  → 🟠 风险62% | 机房IP | Russia Moscow Moscow (Domain names registr...)
+
 socks5://45.90.99.241:5555 [2026-02-09 21:13]
   → 🟠 风险68% | 机房IP | Germany Hesse Frankfurt am Main (Datalix)
 
-socks5://151.252.51.192:15 [2026-02-09 21:11]
-  → ⚫ 风险93% | 广播IP ⚠️透明 | Poland Mazovia Warsaw (1337 Services GmbH)
-  → 出口IP: 91.206.169.29
-
-socks5://151.252.51.214:15 [2026-02-09 21:11]
-  → ⚫ 风险93% | 广播IP ⚠️透明 | Poland Mazovia Warsaw (1337 Services GmbH)
-  → 出口IP: 91.206.169.29
-
-socks5://151.252.51.216:15 [2026-02-09 21:11]
-  → ⚫ 风险93% | 广播IP ⚠️透明 | Poland Mazovia Warsaw (1337 Services GmbH)
-  → 出口IP: 91.206.169.29
-
 socks5://151.252.51.218:15 [2026-02-09 21:11]
-  → ⚫ 风险93% | 广播IP ⚠️透明 | Poland Mazovia Warsaw (1337 Services GmbH)
-  → 出口IP: 91.206.169.29
+  → ⚫ 风险100% | 机房IP ⚠️透明 | Poland Greater Poland Poznań (BARTOSZ WASZAK tradi...)
+  → 出口IP: 31.133.0.235
 
 ## ❌ 失败代理列表
 
 socks5://158.69.212.162:1080 [2026-02-09 21:13]
-  → 超时
+  → HTTP 403
 
 socks5://172.245.57.243:1080 [2026-02-09 22:52]
+  → 超时
+
+socks5://202.10.41.128:1080 [2026-02-10 01:21]
   → 超时
 
 socks5://3.93.231.200:1080 [2026-02-10 02:15]
