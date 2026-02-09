@@ -1,121 +1,123 @@
 # 代理质量检测报告
-# 检测时间: 2026-02-09 13:06:42
+# 检测时间: 2026-02-09 14:51:36
 # API: IPPure (https://my.ippure.com/v1/info)
 
 ## 📊 统计摘要
-# 总计: 30 | 成功: 21 | 失败: 9 | 成功率: 70.0%
+# 总计: 30 | 成功: 24 | 失败: 6 | 成功率: 80.0%
 
 ## 质量分布
-# 优秀: 7
-# 良好: 8
-# 中等: 4
-# 较差: 2
+# 优秀: 10
+# 良好: 1
+# 中等: 3
+# 较差: 3
+# 极差: 7
 
 ## IP类型分布
-# 住宅IP: 8
-# 广播IP: 3
-# 机房IP: 10
+# 住宅IP: 10
+# 广播IP: 2
+# 机房IP: 12
 
 ============================================================
 
 ## ✅ 可用代理列表 (按质量排序)
 
-socks5://93.127.166.134:1080 [2026-02-09 13:31]
-  → 🌟 风险0% | 机房IP ⚠️透明 | India Maharashtra Mumbai (HOSTINGER IN)
-  → 出口IP: 2a02:4780:12:3eeb::1
+socks5://185.106.105.10:1080 [2026-02-09 21:11]
+  → 🌟 风险2% | 住宅IP | Russia Moscow Moscow (PJSC Rostelecom)
 
-socks5://154.17.27.79:21266 [2026-02-09 09:43]
-  → 🌟 风险1% | 住宅IP ⚠️透明 | United States District of Columbia Washington (SAH BITE LTD)
-  → 出口IP: 154.44.125.4
+socks5://77.41.154.11:1080 [2026-02-09 21:14]
+  → 🌟 风险2% | 住宅IP | Russia Moscow Moscow (111250 Russia SOVINT...)
 
-socks5://5.141.80.122:1080 [2026-02-09 17:19]
-  → 🌟 风险1% | 住宅IP | Russia Yamalo-Nenets Novyy Urengoy (PJSC Rostelecom)
+socks5://102.39.207.147:1080 [2026-02-09 21:15]
+  → 🌟 风险3% | 住宅IP | South Africa Gauteng Johannesburg (Vox Telecom)
 
-socks5://170.81.103.113:1080 [2026-02-09 20:34]
-  → 🌟 风险4% | 住宅IP | Brazil Bahia Camaçari (VIVA TECNOLOGIA TELE...)
+socks5://5.175.183.141:8080 [2026-02-09 21:12]
+  → 🌟 风险3% | 机房IP | Germany Hesse Frankfurt am Main (Servitro)
 
-socks5://114.41.131.47:1080 [2026-02-09 15:58]
-  → 🌟 风险5% | 住宅IP | Taiwan Taiwan Taichung (Chunghwa Telecom Co....)
+socks5://95.220.229.255:1080 [2026-02-09 22:21]
+  → 🌟 风险3% | 住宅IP | Russia Murmansk Murmansk (Net By Net Holding LLC)
 
-socks5://161.248.179.208:20002 [2026-02-09 21:03]
-  → 🌟 风险5% | 住宅IP ⚠️透明 | Canada Ontario Toronto (Sympatico HSE)
-  → 出口IP: 184.146.156.101
+socks5://118.99.72.232:1080 [2026-02-09 21:13]
+  → 🌟 风险6% | 住宅IP | Indonesia Jakarta Jakarta (Biznet Networks)
 
-socks5://80.82.40.129:1080 [2026-02-09 14:31]
-  → 🌟 风险9% | 住宅IP | Russia Voronezh Oblast Voronezh (Regional multiservic...)
+socks5://202.58.16.236:1080 [2026-02-09 21:13]
+  → 🌟 风险6% | 住宅IP | Cambodia Phnom Penh Phnom Penh (Mega Truenet Communi...)
 
-socks5://193.221.200.121:60000 [2026-02-09 21:03]
-  → 🟢 风险11% | 住宅IP ⚠️透明 | United States Florida Orlando (T-Mobile USA, Inc.)
-  → 出口IP: 172.56.76.34
+socks5://78.46.109.69:1080 [2026-02-09 21:11]
+  → 🌟 风险8% | 住宅IP ⚠️透明 | Italy Lombardy Milan (Telecom Italia Mobile)
+  → 出口IP: 158.148.225.212
 
-socks5://90.189.163.35:4444 [2026-02-09 12:07]
-  → 🟢 风险14% | 住宅IP ⚠️透明 | Netherlands North Holland Amsterdam (Scaleway - Amsterdam...)
-  → 出口IP: 51.158.168.216
+socks5://194.110.246.25:2000 [2026-02-09 21:14]
+  → 🌟 风险9% | 住宅IP ⚠️透明 | United States Indiana Kokomo (Comcast Cable Commun...)
+  → 出口IP: 50.252.180.157
 
-socks5://93.177.103.224:1080 [2026-02-09 16:12]
-  → 🟢 风险18% | 机房IP | Turkey Bursa Province Bursa (HostLAB Bilisim Tekn...)
+socks5://202.58.16.237:1080 [2026-02-09 21:15]
+  → 🌟 风险9% | 住宅IP | Cambodia Phnom Penh Phnom Penh (Mega Truenet Communi...)
 
-socks5://38.54.125.205:1080 [2026-02-09 17:56]
-  → 🟢 风险24% | 广播IP | Malaysia Kuala Lumpur Kuala Lumpur (Kaopu Cloud HK Limited)
+socks5://192.229.99.40:58367 [2026-02-09 21:17]
+  → 🟢 风险14% | 广播IP | Vietnam Ho Chi Minh City (HCMC) Ho Chi Minh City (ANTBOX NETWORKS LIMITED)
 
-socks5://171.213.129.220:1080 [2026-02-09 10:34]
-  → 🟢 风险27% | 机房IP ⚠️透明 | South Korea Seoul Seoul (KCInfra Inc.)
-  → 出口IP: 27.102.114.226
+socks5://107.174.222.172:1080 [2026-02-09 21:16]
+  → 🟡 风险30% | 机房IP | United States California Los Angeles (HostPapa)
 
-socks5://107.173.127.239:1080 [2026-02-09 18:52]
-  → 🟢 风险28% | 机房IP | United States California Los Angeles (STRICTLY CLOUD)
+socks5://45.86.70.94:1080 [2026-02-09 21:13]
+  → 🟡 风险37% | 广播IP | Netherlands North Holland Amsterdam (FAST GEO HOSTING S.R.L.)
 
-socks5://195.206.229.161:1080 [2026-02-09 17:38]
-  → 🟢 风险28% | 机房IP | Slovenia Ljubljana Ljubljana (Optimus IT d.o.o.)
+socks5://193.106.58.92:1080 [2026-02-09 21:13]
+  → 🟡 风险45% | 机房IP | Ukraine Kyiv Voronkiv (FOP "Makurin Stanisl...)
 
-socks5://82.151.214.35:1080 [2026-02-09 17:06]
-  → 🟢 风险28% | 广播IP ⚠️透明 | Finland Uusimaa Helsinki (Snowd Security OU)
-  → 出口IP: 89.125.122.155
+socks5://175.100.35.84:1080 [2026-02-09 21:15]
+  → 🟠 风险51% | 住宅IP | Cambodia Phnom Penh Phnom Penh (VIETTEL (CAMBODIA) P...)
 
-socks5://38.14.192.17:1080 [2026-02-09 12:18]
-  → 🟡 风险34% | 机房IP | United States California San Jose (PEG TECH INC)
+socks5://23.19.231.152:50161 [2026-02-09 21:17]
+  → 🟠 风险68% | 机房IP | United States California Los Angeles (LeaseWeb USA, Inc. L...)
 
-socks5://45.133.251.1:1080 [2026-02-09 17:38]
-  → 🟡 风险41% | 广播IP | Germany Hesse Frankfurt am Main (play2go.cloud - Chea...)
+socks5://45.90.99.241:5555 [2026-02-09 21:13]
+  → 🟠 风险68% | 机房IP | Germany Hesse Frankfurt am Main (Datalix)
 
-socks5://38.180.203.70:1080 [2026-02-09 17:36]
-  → 🟡 风险44% | 机房IP | United States Illinois Chicago (3NT SOLUTIONS LLP)
+socks5://151.252.51.192:15 [2026-02-09 21:11]
+  → ⚫ 风险95% | 机房IP ⚠️透明 | Netherlands North Holland Amsterdam (TOR EXIT AND MORE)
+  → 出口IP: 192.42.116.179
 
-socks5://23.175.248.21:1080 [2026-02-09 16:16]
-  → 🟡 风险45% | 机房IP | United States Florida Miami (InfiniaHost.com)
+socks5://151.252.51.213:15 [2026-02-09 21:11]
+  → ⚫ 风险95% | 机房IP ⚠️透明 | Netherlands North Holland Amsterdam (TOR EXIT AND MORE)
+  → 出口IP: 192.42.116.179
 
-socks5://31.192.245.114:1080 [2026-02-09 10:34]
-  → 🟠 风险58% | 机房IP | United Kingdom England London (ahbr company limited)
+socks5://151.252.51.214:15 [2026-02-09 21:11]
+  → ⚫ 风险95% | 机房IP ⚠️透明 | Netherlands North Holland Amsterdam (TOR EXIT AND MORE)
+  → 出口IP: 192.42.116.179
 
-socks5://142.171.42.229:1080 [2026-02-09 13:08]
-  → 🟠 风险64% | 机房IP ⚠️透明 | Singapore Singapore (6 COLLYER QUAY)
-  → 出口IP: 43.128.103.84
+socks5://151.252.51.215:15 [2026-02-09 21:11]
+  → ⚫ 风险95% | 机房IP ⚠️透明 | Netherlands North Holland Amsterdam (TOR EXIT AND MORE)
+  → 出口IP: 192.42.116.179
+
+socks5://151.252.51.216:15 [2026-02-09 21:11]
+  → ⚫ 风险95% | 机房IP ⚠️透明 | Netherlands North Holland Amsterdam (TOR EXIT AND MORE)
+  → 出口IP: 192.42.116.179
+
+socks5://151.252.51.218:15 [2026-02-09 21:11]
+  → ⚫ 风险95% | 机房IP ⚠️透明 | Netherlands North Holland Amsterdam (TOR EXIT AND MORE)
+  → 出口IP: 192.42.116.179
+
+socks5://138.197.124.55:9160 [2026-02-09 21:11]
+  → ⚫ 风险99% | 机房IP ⚠️透明 | United States California San Jose (Emerald Onion)
+  → 出口IP: 23.129.64.224
 
 ## ❌ 失败代理列表
 
-socks5://103.57.27.124:1080 [2026-02-09 13:03]
+socks5://109.94.67.250:1080 [2026-02-09 21:17]
   → 超时
 
-socks5://154.92.14.72:1080 [2026-02-09 12:17]
-  → 错误: Unexpected SOCKS authentication method: 2
+socks5://152.53.14.196:9050 [2026-02-09 21:11]
+  → 错误: [Errno 111] Couldn't connect to proxy 152.53.14.19
 
-socks5://185.123.101.251:1080 [2026-02-09 15:13]
-  → 错误: [Errno 111] Couldn't connect to proxy 185.123.101.
-
-socks5://27.210.31.151:5000 [2026-02-09 19:37]
+socks5://158.69.212.162:1080 [2026-02-09 21:13]
   → HTTP 403
 
-socks5://3.11.109.74:1080 [2026-02-09 13:51]
-  → 超时
-
-socks5://35.212.187.132:50161 [2026-02-09 10:43]
+socks5://35.212.134.247:1080 [2026-02-09 21:12]
   → HTTP 403
 
-socks5://38.180.165.223:1080 [2026-02-09 17:36]
-  → 超时
+socks5://47.80.10.118:5555 [2026-02-09 21:11]
+  → 错误: 0 bytes read on a total of 4 expected bytes
 
-socks5://47.253.33.220:2000 [2026-02-09 18:04]
+socks5://8.220.247.98:5555 [2026-02-09 21:11]
   → HTTP 403
-
-socks5://54.36.109.107:1080 [2026-02-09 12:50]
-  → 超时
