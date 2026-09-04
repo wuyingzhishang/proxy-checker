@@ -30,7 +30,7 @@ class Config:
     """配置常量"""
     # 数据源
     SOURCE_URL = "https://tomcat1235.nyc.mn/proxy_list"
-    # 主站不可用时自动切换到公开纯文本源。
+    # 多源聚合；单个来源不可用时跳过，其他来源继续抓取。
     SOURCE_URLS = (
         SOURCE_URL,
         "https://raw.githubusercontent.com/HankNovic/ProxyClean/refs/heads/main/SOCKS5.txt",
@@ -227,17 +227,36 @@ class ProxyScraper:
         source_urls = getattr(self.config, "SOURCE_URLS", None)
         if not source_urls:
             source_urls = (getattr(self.config, "SOURCE_URL", Config.SOURCE_URL),)
+
+        proxies = []
+        seen = set()
+        successful_sources = 0
         for source_url in source_urls:
             content = self._fetch_page(source_url)
             if not content:
                 continue
-            proxies = self._parse_content(content)
-            if proxies:
-                logger.info(f"来源 {source_url} 解析出 {len(proxies)} 个有效代理")
-                return proxies
-            logger.warning(f"来源 {source_url} 未解析出有效代理，尝试下一个来源")
+            source_proxies = self._parse_content(content)
+            if not source_proxies:
+                logger.warning(f"来源 {source_url} 未解析出有效代理，跳过")
+                continue
 
-        logger.error("所有代理来源均不可用")
+            successful_sources += 1
+            added = 0
+            for proxy in source_proxies:
+                key = (proxy.protocol, proxy.ip, proxy.port)
+                if key not in seen:
+                    seen.add(key)
+                    proxies.append(proxy)
+                    added += 1
+            logger.info(
+                f"来源 {source_url} 解析出 {len(source_proxies)} 个代理，新增 {added} 个"
+            )
+
+        if proxies:
+            logger.info(f"多源聚合完成: {successful_sources}/{len(source_urls)} 个来源可用，共 {len(proxies)} 个代理")
+            return proxies
+
+        logger.error("所有代理来源均不可用或未解析出有效代理")
         return []
     
     def close(self):
@@ -263,7 +282,7 @@ class ProxyFileWriter:
                 f.write(f"# 代理列表 - 自动更新\n")
                 f.write(f"# 更新时间: {timestamp}\n")
                 f.write(f"# 总计: {len(proxies)} 个代理\n")
-                f.write(f"# 来源: {Config.SOURCE_URL}\n")
+                f.write(f"# 来源: 多源聚合（共 {len(Config.SOURCE_URLS)} 个来源）\n")
                 f.write(f"# 格式: 协议://IP:端口 [位置]\n")
                 f.write("\n")
                 

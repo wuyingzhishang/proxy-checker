@@ -111,6 +111,25 @@ class TestProxyScraper(unittest.TestCase):
         self.assertEqual(len(entries), 2)
         self.assertEqual(entries[0].to_line(), "http://39.100.88.89:8089")
 
+    def test_scrape_aggregates_all_sources_and_deduplicates(self):
+        class TestConfig:
+            SOURCE_URLS = ("source-a", "source-b")
+            MAX_RETRIES = 1
+            RETRY_DELAY = 0
+            REQUEST_TIMEOUT = 1
+            USER_AGENT = "test"
+
+        scraper = ProxyScraper(TestConfig())
+        scraper._fetch_page = lambda url: {
+            "source-a": "1.2.3.4:8080\n5.6.7.8:80",
+            "source-b": "http://1.2.3.4:8080\n9.10.11.12:3128",
+        }[url]
+        entries = scraper.scrape()
+        self.assertEqual(
+            [(entry.ip, entry.port) for entry in entries],
+            [("1.2.3.4", "8080"), ("5.6.7.8", "80"), ("9.10.11.12", "3128")],
+        )
+
 
 if __name__ == "__main__":
     unittest.main()
