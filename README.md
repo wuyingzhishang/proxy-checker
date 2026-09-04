@@ -22,17 +22,6 @@
 - **故障降级**：所有源暂时不可用时保留上一份有效列表
 - **更新频率**：GitHub Actions 默认每 3 天运行一次，也支持手动触发
 
-## 代理来源（致谢）
-
-本项目当前实际使用以下 5 个公开来源，不对任何单独来源做质量或安全背书：
-
-- [tomcat1235 proxy_list](https://tomcat1235.nyc.mn/proxy_list)
-- [HankNovic/ProxyClean SOCKS5](https://raw.githubusercontent.com/HankNovic/ProxyClean/refs/heads/main/SOCKS5.txt)
-- [proxy.scdn.io API](https://proxy.scdn.io/api/get_proxy.php?protocol=all&count=10)
-- [proxifly/free-proxy-list](https://github.com/proxifly/free-proxy-list)
-- [TheSpeedX/PROXY-List](https://github.com/TheSpeedX/PROXY-List)
-
-其中 `proxy.scdn.io` 返回未带协议的 `IP:端口`，项目按 HTTP 代理解析；实际协议请以源站信息和使用结果为准。
 
 ## 文件格式
 
@@ -112,6 +101,18 @@ MAX_RETRIES = 2
 | 检测代理质量 | 列表更新成功后或手动触发 | `proxy_checked.txt` |
 
 工作流使用并发锁避免重复运行，并在在线源短时故障时保留已有有效数据。首次运行且所有源均不可用时会失败，以便及时发现配置问题。
+
+## 代理来源（致谢）
+
+本项目当前实际使用以下 5 个公开来源，不对任何单独来源做质量或安全背书：
+
+- [tomcat1235 proxy_list](https://tomcat1235.nyc.mn/proxy_list)
+- [HankNovic/ProxyClean SOCKS5](https://raw.githubusercontent.com/HankNovic/ProxyClean/refs/heads/main/SOCKS5.txt)
+- [proxy.scdn.io API](https://proxy.scdn.io/api/get_proxy.php?protocol=all&count=10)
+- [proxifly/free-proxy-list](https://github.com/proxifly/free-proxy-list)
+- [TheSpeedX/PROXY-List](https://github.com/TheSpeedX/PROXY-List)
+
+其中 `proxy.scdn.io` 返回未带协议的 `IP:端口`，项目按 HTTP 代理解析；实际协议请以源站信息和使用结果为准。
 
 ## 风险与免责声明
 
