@@ -10,8 +10,8 @@ permissions:
 
 on:
   schedule:
-    # 每小时整点更新（UTC时间）
-    - cron: '0 * * * *'
+    # 每 3 天 00:00 更新一次（UTC 时间），也支持手动触发
+    - cron: '0 0 */3 * *'
   workflow_dispatch:
     # 支持手动触发
 
