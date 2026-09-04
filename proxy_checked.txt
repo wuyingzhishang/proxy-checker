@@ -1,121 +1,330 @@
 # 代理质量检测报告
-# 检测时间: 2026-02-09 23:36:36
+# 检测时间: 2026-09-04 06:57:42
 # API: IPPure (https://my.ippure.com/v1/info)
 
 ## 📊 统计摘要
-# 总计: 30 | 成功: 24 | 失败: 6 | 成功率: 80.0%
+# 总计: 100 | 成功: 34 | 失败: 66 | 成功率: 34.0%
 
 ## 质量分布
-# 优秀: 12
-# 良好: 5
-# 中等: 3
-# 较差: 3
-# 极差: 1
+# 优秀: 2
+# 中等: 1
+# 较差: 13
+# 极差: 17
 
 ## IP类型分布
-# 住宅IP: 10
-# 广播IP: 4
-# 机房IP: 10
+# 住宅IP: 5
+# 广播IP: 15
+# 机房IP: 14
 
 ============================================================
 
 ## ✅ 可用代理列表 (按质量排序)
 
-socks5://148.253.210.254:1080 [2026-02-10 01:12]
-  → 🌟 风险0% | 机房IP ⚠️透明 | Germany Hesse Frankfurt am Main (SEBEK sp. z o.o)
-  → 出口IP: 2a13:d200:5:43a::1
+socks5://183.172.252.125:6382
+  → 🌟 风险0% | 机房IP | 出口IP不同 | Taiwan Taiwan Taipei (Akari Networks (Taipei))
+  → 出口IP（与代理地址不同）: 2407:cdc0:f001:0:103:229:180:21
 
-socks5://194.231.149.5:5555 [2026-02-09 23:52]
-  → 🌟 风险0% | 机房IP ⚠️透明 | Singapore Singapore (ISIF Network (Singap...)
-  → 出口IP: 2405:84c0:8001:1500::
+socks5://91.92.242.21:40001
+  → 🌟 风险0% | 机房IP | 出口IP不同 | Netherlands Flevoland Lelystad (LeaseWeb Netherlands...)
+  → 出口IP（与代理地址不同）: 2001:1af8:5301:133:1c00:efff:fe00:203e
 
-socks5://84.252.75.135:1111 [2026-02-10 04:19]
-  → 🌟 风险0% | 机房IP ⚠️透明 | Russia Moscow Moscow (FIRST SERVER LIMITED)
-  → 出口IP: 2a09:5302:ffff::7c8
+socks5://107.167.18.122:443
+  → 🟡 风险33% | 机房IP | 出口IP不同 | United States California Los Angeles (Sharktech)
+  → 出口IP（与代理地址不同）: 107.167.18.98
 
-socks5://102.39.207.147:1080 [2026-02-09 21:15]
-  → 🌟 风险3% | 住宅IP | South Africa Gauteng Johannesburg (Vox Telecom)
+socks5://159.223.139.31:10000
+  → 🟠 风险58% | 机房IP | United States New Jersey North Bergen (DigitalOcean, LLC)
 
-socks5://95.220.229.255:1080 [2026-02-09 22:21]
-  → 🌟 风险3% | 住宅IP | Russia Murmansk Murmansk (Net By Net Holding LLC)
+socks5://193.233.130.212:1080
+  → 🔴 风险73% | 广播IP | United States North Carolina Charlotte (NetCrafters OU)
 
-socks5://167.94.7.203:60000 [2026-02-10 00:40]
-  → 🌟 风险5% | 住宅IP ⚠️透明 | Canada Quebec Montréal (Virgin Home Quebec)
-  → 出口IP: 142.127.27.55
+socks5://85.172.55.85:1080
+  → 🔴 风险80% | 住宅IP | Russia Krasnodar Krai Sochi (OJSC Rostelecom Macr...)
 
-socks5://118.99.72.232:1080 [2026-02-09 21:13]
-  → 🌟 风险6% | 住宅IP | Indonesia Jakarta Jakarta (Biznet Networks)
+socks5://149.248.21.106:8080
+  → 🔴 风险81% | 机房IP | United States California Los Angeles (Vultr Holdings, LLC)
 
-socks5://202.58.16.236:1080 [2026-02-09 21:13]
-  → 🌟 风险6% | 住宅IP | Cambodia Phnom Penh Phnom Penh (Mega Truenet Communi...)
+socks5://49.13.22.249:10811
+  → 🔴 风险82% | 广播IP | 出口IP不同 | Mexico Querétaro Santiago de Querétaro (Latitude.sh)
+  → 出口IP（与代理地址不同）: 69.67.148.37
 
-socks5://91.99.95.118:1080 [2026-02-10 05:33]
-  → 🌟 风险8% | 住宅IP ⚠️透明 | United States Washington Wenatchee (Northwest Internet)
-  → 出口IP: 173.209.160.230
+socks5://144.91.111.48:1088
+  → 🔴 风险83% | 广播IP | France Grand Est Lauterbourg (Contabo GmbH)
 
-socks5://94.198.104.98:20000 [2026-02-10 07:15]
-  → 🌟 风险8% | 住宅IP | Russia Moscow Moscow (Digit One LLC)
+socks5://154.12.242.0:1080
+  → 🔴 风险83% | 机房IP | United States Washington Seattle (Contabo Inc)
 
-socks5://194.110.246.25:2000 [2026-02-09 21:14]
-  → 🌟 风险9% | 住宅IP ⚠️透明 | United States Indiana Kokomo (Comcast Cable Commun...)
-  → 出口IP: 50.252.180.157
+socks5://111.206.4.163:18888
+  → 🔴 风险84% | 住宅IP | China Beijing Beijing (China Unicom Beijing...)
 
-socks5://202.58.16.237:1080 [2026-02-09 21:15]
-  → 🌟 风险9% | 住宅IP | Cambodia Phnom Penh Phnom Penh (Mega Truenet Communi...)
+socks5://185.222.138.237:1080
+  → 🔴 风险84% | 广播IP | Komuna e Skenderajt Srbica (MAXTV)
 
-socks5://45.10.246.5:1080 [2026-02-10 04:20]
-  → 🟢 风险10% | 机房IP | Russia Novosibirsk Oblast Novosibirsk (MT FINANCE LLC)
+socks5://84.54.217.219:1080
+  → 🔴 风险84% | 住宅IP | Russia Stavropol Kray Mineralnye Vody (OJSC Rostelecom Macr...)
 
-socks5://192.229.99.40:58367 [2026-02-09 21:17]
-  → 🟢 风险14% | 广播IP | Vietnam Ho Chi Minh City (HCMC) Ho Chi Minh City (ANTBOX NETWORKS LIMITED)
+socks5://193.233.218.121:1080
+  → 🔴 风险85% | 机房IP | Russia St.-Petersburg Saint Petersburg (AEZA GROUP LLC)
 
-socks5://109.172.88.29:1080 [2026-02-10 05:19]
-  → 🟢 风险19% | 机房IP | Russia Moscow Moscow (Hosting technology LTD)
+socks5://31.220.40.59:5080
+  → 🔴 风险87% | 广播IP | Germany North Rhine-Westphalia Kleve (KODDOS)
 
-socks5://107.174.222.172:1080 [2026-02-09 21:16]
-  → 🟢 风险29% | 机房IP | United States California Los Angeles (HostPapa)
+socks5://45.32.160.61:1088
+  → 🔴 风险87% | 机房IP | United States Florida Miami (Vultr Holdings, LLC)
 
-socks5://45.150.64.226:40000 [2026-02-10 07:05]
-  → 🟢 风险29% | 广播IP | Russia Moscow Moscow (UFO Hosting LLC)
+socks5://43.163.122.46:8080
+  → 🔴 风险88% | 机房IP | Singapore Singapore (16 COLLYER QUAY # 18...)
 
-socks5://212.192.14.219:40000 [2026-02-10 00:40]
-  → 🟡 风险32% | 广播IP | Russia Moscow Moscow (GLOBAL INTERNET SOLU...)
+socks5://144.126.197.184:1088
+  → ⚫ 风险91% | 广播IP | United Kingdom England London (DigitalOcean, LLC)
 
-socks5://45.86.70.94:1080 [2026-02-09 21:13]
-  → 🟡 风险37% | 广播IP | Netherlands North Holland Amsterdam (FAST GEO HOSTING S.R.L.)
+socks5://144.202.16.214:1088
+  → ⚫ 风险91% | 机房IP | United States Georgia Atlanta (Vultr Holdings, LLC)
 
-socks5://193.106.58.92:1080 [2026-02-09 21:13]
-  → 🟡 风险45% | 机房IP | Ukraine Kyiv Voronkiv (FOP "Makurin Stanisl...)
+socks5://101.36.104.239:10808
+  → ⚫ 风险94% | 广播IP | Japan Tokyo Tokyo (UCLOUD INFORMATION T...)
 
-socks5://175.100.35.84:1080 [2026-02-09 21:15]
-  → 🟠 风险51% | 住宅IP | Cambodia Phnom Penh Phnom Penh (VIETTEL (CAMBODIA) P...)
+socks5://121.169.46.116:1090
+  → ⚫ 风险94% | 住宅IP | South Korea Gyeonggi-do Osan (Korea Telecom)
 
-socks5://79.174.82.212:1080 [2026-02-10 07:15]
-  → 🟠 风险62% | 机房IP | Russia Moscow Moscow (Domain names registr...)
+socks5://5.255.113.177:1080
+  → ⚫ 风险94% | 机房IP | Netherlands Flevoland Dronten (The Infrastructure G...)
 
-socks5://45.90.99.241:5555 [2026-02-09 21:13]
-  → 🟠 风险68% | 机房IP | Germany Hesse Frankfurt am Main (Datalix)
+socks5://5.255.117.250:1080
+  → ⚫ 风险95% | 机房IP | Netherlands Flevoland Dronten (The Infrastructure G...)
 
-socks5://151.252.51.218:15 [2026-02-09 21:11]
-  → ⚫ 风险100% | 机房IP ⚠️透明 | Poland Greater Poland Poznań (BARTOSZ WASZAK tradi...)
-  → 出口IP: 31.133.0.235
+socks5://101.36.104.46:10808
+  → ⚫ 风险96% | 广播IP | Japan Tokyo Tokyo (UCLOUD INFORMATION T...)
+
+socks5://103.75.118.84:1080
+  → ⚫ 风险96% | 广播IP | Japan Tokyo Tokyo (Oneprovider.com - Ja...)
+
+socks5://185.185.80.58:1088
+  → ⚫ 风险96% | 广播IP | France Grand Est Lauterbourg (Contabo GmbH)
+
+socks5://188.166.217.100:1080
+  → ⚫ 风险96% | 广播IP | 出口IP不同 | Singapore Singapore (Cloudflare, Inc.)
+  → 出口IP（与代理地址不同）: 104.28.222.43
+
+socks5://206.189.33.43:1080
+  → ⚫ 风险96% | 广播IP | 出口IP不同 | Singapore Singapore (Cloudflare, Inc.)
+  → 出口IP（与代理地址不同）: 104.28.222.43
+
+socks5://45.194.33.12:30001
+  → ⚫ 风险96% | 机房IP | Hong Kong SAR China Tung Chung (Antbox Network Limited)
+
+socks5://45.194.33.12:30002
+  → ⚫ 风险96% | 机房IP | Hong Kong SAR China Tung Chung (Antbox Network Limited)
+
+socks5://43.164.136.189:1080
+  → ⚫ 风险98% | 广播IP | South Korea Seoul Seoul (16 COLLYER QUAY # 18...)
+
+socks5://93.87.38.20:1090
+  → ⚫ 风险98% | 住宅IP | Serbia Central Serbia Savski Venac (PREDUZECE_ZA_PROIZVO...)
+
+socks5://43.164.3.124:1080
+  → ⚫ 风险100% | 广播IP | Thailand Bangkok Bangkok (16 COLLYER QUAY # 18...)
+
+socks5://51.89.253.203:10801
+  → ⚫ 风险100% | 广播IP | 出口IP不同 | Germany Hesse Frankfurt am Main (M247 LTD Frankfurt I...)
+  → 出口IP（与代理地址不同）: 94.198.40.126
 
 ## ❌ 失败代理列表
 
-socks5://158.69.212.162:1080 [2026-02-09 21:13]
-  → HTTP 403
-
-socks5://172.245.57.243:1080 [2026-02-09 22:52]
+socks5://103.210.161.8:1080
   → 超时
 
-socks5://202.10.41.128:1080 [2026-02-10 01:21]
+socks5://104.37.135.145:4145
+  → 连接错误: [Errno 1] [SSL: CERTIFICATE_VERIFY_FAILED] certifi
+
+socks5://107.152.98.5:4145
+  → 连接错误: [Errno 1] [SSL: CERTIFICATE_VERIFY_FAILED] certifi
+
+socks5://107.181.161.81:4145
+  → 连接错误: [Errno 1] [SSL: CERTIFICATE_VERIFY_FAILED] certifi
+
+socks5://113.249.111.67:1080
   → 超时
 
-socks5://3.93.231.200:1080 [2026-02-10 02:15]
+socks5://117.50.194.130:7890
+  → 超时
+
+socks5://123.58.219.171:10808
+  → 错误: [Errno 111] Couldn't connect to proxy 123.58.219.1
+
+socks5://13.38.217.179:29788
+  → 连接错误: [Errno 1] [SSL: CERTIFICATE_VERIFY_FAILED] certifi
+
+socks5://13.38.217.179:39170
+  → 连接错误: [Errno 1] [SSL: CERTIFICATE_VERIFY_FAILED] certifi
+
+socks5://141.98.85.49:1080
+  → 错误: Connection refused by destination host
+
+socks5://142.54.226.214:4145
+  → 连接错误: [Errno 1] [SSL: CERTIFICATE_VERIFY_FAILED] certifi
+
+socks5://142.54.231.38:4145
+  → 连接错误: [Errno 1] [SSL: CERTIFICATE_VERIFY_FAILED] certifi
+
+socks5://142.54.232.6:4145
+  → 连接错误: [Errno 1] [SSL: CERTIFICATE_VERIFY_FAILED] certifi
+
+socks5://142.54.235.9:4145
+  → 连接错误: [Errno 1] [SSL: CERTIFICATE_VERIFY_FAILED] certifi
+
+socks5://142.54.239.1:4145
+  → 连接错误: [Errno 1] [SSL: CERTIFICATE_VERIFY_FAILED] certifi
+
+socks5://143.198.93.65:1080
+  → 超时
+
+socks5://146.190.90.120:1080
+  → 超时
+
+socks5://15.237.108.20:54588
+  → 连接错误: [Errno 1] [SSL: CERTIFICATE_VERIFY_FAILED] certifi
+
+socks5://157.245.159.157:1080
+  → 超时
+
+socks5://159.223.88.58:1080
+  → 超时
+
+socks5://162.253.68.97:4145
+  → 连接错误: 
+
+socks5://167.172.67.35:1080
+  → 超时
+
+socks5://169.58.97.115:1080
+  → 超时
+
+socks5://174.75.211.222:4145
+  → 连接错误: [Errno 1] [SSL: CERTIFICATE_VERIFY_FAILED] certifi
+
+socks5://174.77.111.196:4145
+  → 连接错误: [Errno 1] [SSL: CERTIFICATE_VERIFY_FAILED] certifi
+
+socks5://174.77.111.197:4145
+  → 连接错误: [Errno 1] [SSL: CERTIFICATE_VERIFY_FAILED] certifi
+
+socks5://174.77.111.198:49547
+  → 连接错误: [Errno 1] [SSL: CERTIFICATE_VERIFY_FAILED] certifi
+
+socks5://184.178.172.18:15280
+  → 连接错误: [Errno 1] [SSL: CERTIFICATE_VERIFY_FAILED] certifi
+
+socks5://184.178.172.25:15291
+  → 连接错误: [Errno 1] [SSL: CERTIFICATE_VERIFY_FAILED] certifi
+
+socks5://184.178.172.5:15303
+  → 连接错误: [Errno 1] [SSL: CERTIFICATE_VERIFY_FAILED] certifi
+
+socks5://184.181.217.220:4145
+  → 连接错误: [Errno 1] [SSL: CERTIFICATE_VERIFY_FAILED] certifi
+
+socks5://185.209.29.226:1080
+  → 错误: [Errno 111] Couldn't connect to proxy 185.209.29.2
+
+socks5://188.190.153.101:7890
+  → 超时
+
+socks5://192.111.129.150:4145
+  → 连接错误: [Errno 1] [SSL: CERTIFICATE_VERIFY_FAILED] certifi
+
+socks5://192.111.135.17:18302
+  → 连接错误: [Errno 1] [SSL: CERTIFICATE_VERIFY_FAILED] certifi
+
+socks5://192.111.135.18:18301
+  → 连接错误: [Errno 1] [SSL: CERTIFICATE_VERIFY_FAILED] certifi
+
+socks5://192.111.137.35:4145
+  → 连接错误: [Errno 1] [SSL: CERTIFICATE_VERIFY_FAILED] certifi
+
+socks5://192.252.208.67:14287
+  → 连接错误: [Errno 1] [SSL: CERTIFICATE_VERIFY_FAILED] certifi
+
+socks5://192.252.208.70:14282
+  → 连接错误: [Errno 1] [SSL: CERTIFICATE_VERIFY_FAILED] certifi
+
+socks5://192.252.209.155:14455
+  → 连接错误: [Errno 1] [SSL: CERTIFICATE_VERIFY_FAILED] certifi
+
+socks5://192.252.220.92:17328
+  → 连接错误: [Errno 1] [SSL: CERTIFICATE_VERIFY_FAILED] certifi
+
+socks5://198.8.84.3:4145
+  → 连接错误: [Errno 1] [SSL: CERTIFICATE_VERIFY_FAILED] certifi
+
+socks5://199.102.105.242:4145
+  → 连接错误: [Errno 1] [SSL: CERTIFICATE_VERIFY_FAILED] certifi
+
+socks5://199.102.106.94:4145
+  → 连接错误: [Errno 1] [SSL: CERTIFICATE_VERIFY_FAILED] certifi
+
+socks5://199.102.107.145:4145
+  → 连接错误: [Errno 1] [SSL: CERTIFICATE_VERIFY_FAILED] certifi
+
+socks5://199.229.254.129:4145
+  → 连接错误: [Errno 1] [SSL: CERTIFICATE_VERIFY_FAILED] certifi
+
+socks5://199.58.184.97:4145
+  → 连接错误: [Errno 1] [SSL: CERTIFICATE_VERIFY_FAILED] certifi
+
+socks5://206.220.175.2:4145
+  → 连接错误: [Errno 1] [SSL: CERTIFICATE_VERIFY_FAILED] certifi
+
+socks5://208.73.204.94:1084
+  → 连接错误: 
+
+socks5://43.155.215.149:20000
+  → 连接错误: [Errno 104] Connection reset by peer
+
+socks5://43.160.255.142:7890
+  → 超时
+
+socks5://47.242.244.120:1011
+  → 超时
+
+socks5://49.13.22.249:10809
+  → 错误: General SOCKS server failure
+
+socks5://5.255.99.75:1080
+  → 超时
+
+socks5://51.178.49.241:1088
   → HTTP 403
 
-socks5://35.212.134.247:1080 [2026-02-09 21:12]
+socks5://68.71.247.130:4145
+  → 连接错误: [Errno 1] [SSL: CERTIFICATE_VERIFY_FAILED] certifi
+
+socks5://68.71.249.153:48606
+  → 连接错误: [Errno 1] [SSL: CERTIFICATE_VERIFY_FAILED] certifi
+
+socks5://68.71.254.6:4145
+  → 连接错误: [Errno 1] [SSL: CERTIFICATE_VERIFY_FAILED] certifi
+
+socks5://72.195.34.35:27360
+  → 连接错误: [Errno 1] [SSL: CERTIFICATE_VERIFY_FAILED] certifi
+
+socks5://72.195.34.60:27391
+  → 连接错误: [Errno 1] [SSL: CERTIFICATE_VERIFY_FAILED] certifi
+
+socks5://72.206.74.126:4145
+  → 连接错误: [Errno 1] [SSL: CERTIFICATE_VERIFY_FAILED] certifi
+
+socks5://72.37.216.68:4145
+  → 连接错误: [Errno 1] [SSL: CERTIFICATE_VERIFY_FAILED] certifi
+
+socks5://72.37.217.3:4145
+  → 连接错误: [Errno 1] [SSL: CERTIFICATE_VERIFY_FAILED] certifi
+
+socks5://79.137.79.217:2080
   → HTTP 403
 
-socks5://47.251.249.67:443 [2026-02-09 23:34]
+socks5://8.215.25.3:2080
   → HTTP 403
+
+socks5://93.123.118.15:1080
+  → 错误: [Errno 111] Couldn't connect to proxy 93.123.118.1
