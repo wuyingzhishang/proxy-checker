@@ -33,6 +33,8 @@ class Config:
     # 主站不可用时自动切换到公开纯文本源。
     SOURCE_URLS = (
         SOURCE_URL,
+        "https://raw.githubusercontent.com/HankNovic/ProxyClean/refs/heads/main/SOCKS5.txt",
+        "https://proxy.scdn.io/api/get_proxy.php?protocol=all&count=10",
         "https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/all/data.txt",
         "https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt",
     )

@@ -104,6 +104,13 @@ class TestProxyScraper(unittest.TestCase):
         scraper._fetch_page = lambda url: "1.2.3.4:8080"
         self.assertEqual(len(scraper.scrape()), 1)
 
+    def test_parse_json_proxy_api_response(self):
+        scraper = ProxyScraper()
+        content = '{"code":200,"data":{"proxies":["39.100.88.89:8089", "104.129.203.245:10801"]}}'
+        entries = scraper._parse_content(content)
+        self.assertEqual(len(entries), 2)
+        self.assertEqual(entries[0].to_line(), "http://39.100.88.89:8089")
+
 
 if __name__ == "__main__":
     unittest.main()
