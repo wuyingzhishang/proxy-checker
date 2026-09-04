@@ -115,7 +115,7 @@ class ProxyScraper:
     """代理列表抓取器"""
     
     def __init__(self, config: Config = None):
-        self.config = config or Config
+        self.config = config or Config()
         self.session = None
     
     def _get_session(self) -> requests.Session:
@@ -123,7 +123,7 @@ class ProxyScraper:
         if self.session is None:
             self.session = requests.Session()
             self.session.headers.update({
-                'User-Agent': Config.USER_AGENT,
+                'User-Agent': self.config.USER_AGENT,
                 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
                 'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8',
             })
@@ -133,11 +133,11 @@ class ProxyScraper:
         """抓取页面内容，带重试机制"""
         session = self._get_session()
         
-        for attempt in range(Config.MAX_RETRIES):
+        for attempt in range(self.config.MAX_RETRIES):
             try:
-                logger.info(f"正在抓取: {url} (尝试 {attempt + 1}/{Config.MAX_RETRIES})")
+                logger.info(f"正在抓取: {url} (尝试 {attempt + 1}/{self.config.MAX_RETRIES})")
                 
-                response = session.get(url, timeout=Config.REQUEST_TIMEOUT)
+                response = session.get(url, timeout=self.config.REQUEST_TIMEOUT)
                 response.raise_for_status()
                 response.encoding = 'utf-8'
                 
@@ -145,9 +145,9 @@ class ProxyScraper:
                 
             except requests.RequestException as e:
                 logger.warning(f"请求失败: {e}")
-                if attempt < Config.MAX_RETRIES - 1:
-                    logger.info(f"等待 {Config.RETRY_DELAY} 秒后重试...")
-                    time.sleep(Config.RETRY_DELAY)
+                if attempt < self.config.MAX_RETRIES - 1:
+                    logger.info(f"等待 {self.config.RETRY_DELAY} 秒后重试...")
+                    time.sleep(self.config.RETRY_DELAY)
         
         return None
     
@@ -156,15 +156,12 @@ class ProxyScraper:
         proxies = []
         soup = BeautifulSoup(html, 'html.parser')
         
-        # 查找代理表格
-        table = soup.find('table')
-        if not table:
+        rows = soup.find_all('tr')
+        if not rows:
             logger.error("未找到代理数据表格")
             return proxies
-        
-        # 解析表格行（跳过表头）
-        rows = table.find_all('tr')[1:]
-        
+
+        seen = set()
         for row in rows:
             cells = row.find_all('td')
             if len(cells) < 3:
@@ -184,7 +181,10 @@ class ProxyScraper:
                 )
                 
                 if entry.is_valid:
-                    proxies.append(entry)
+                    key = (entry.protocol, entry.ip, entry.port)
+                    if key not in seen:
+                        seen.add(key)
+                        proxies.append(entry)
                 else:
                     logger.debug(f"跳过无效代理: {protocol}://{ip}:{port}")
                     
@@ -196,7 +196,7 @@ class ProxyScraper:
     
     def scrape(self) -> List[ProxyEntry]:
         """执行抓取"""
-        html = self._fetch_page(Config.SOURCE_URL)
+        html = self._fetch_page(self.config.SOURCE_URL)
         if not html:
             logger.error("无法获取页面内容")
             return []

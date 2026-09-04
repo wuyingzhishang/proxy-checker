@@ -10,11 +10,13 @@ import asyncio
 import aiohttp
 import re
 import json
+import ipaddress
 from datetime import datetime
 from dataclasses import dataclass, field
 from typing import Optional, List, Tuple
 from enum import Enum
 import sys
+from urllib.parse import quote, unquote
 
 # SOCKS 代理支持
 try:
@@ -22,7 +24,7 @@ try:
     SOCKS_SUPPORT = True
 except ImportError:
     SOCKS_SUPPORT = False
-    print("⚠️ aiohttp_socks 未安装，SOCKS 代理将无法使用")
+    print("警告: aiohttp_socks 未安装，SOCKS 代理将无法使用")
     print("   安装命令: pip install aiohttp_socks")
 
 
@@ -84,6 +86,8 @@ class ProxyInfo:
     protocol: str = ""
     ip: str = ""
     port: str = ""
+    username: str = ""
+    password: str = ""
     location_hint: str = ""  # 原始行中的位置信息
 
 
@@ -112,7 +116,7 @@ class ProxyCheckResult:
     
     # 计算字段
     response_time_ms: int = 0
-    ip_match: bool = False  # 出口IP是否与代理IP匹配
+    ip_match: bool = False  # 出口 IP 是否与代理地址相同
     
     @property
     def quality(self) -> ProxyQuality:
@@ -148,9 +152,9 @@ class ProxyCheckResult:
         # 基本信息
         info = f"{quality.value[0]} 风险{self.fraud_score}% | {ip_type.value[1]}"
         
-        # IP 匹配检查
-        if not self.ip_match:
-            info += " ⚠️透明"
+        # 代理地址和出口地址不同时，常见于负载均衡或 IPv6 出口，不能据此判定透明代理。
+        if self.exit_ip and not self.ip_match:
+            info += " | 出口IP不同"
         
         # 位置信息
         info += f" | {self.location_str}"
@@ -174,12 +178,8 @@ class ProxyParser:
     
     # 正则表达式
     PROXY_PATTERN = re.compile(
-        r'^(https?|socks[45])://'  # 协议
-        r'(?:([^:@]+):([^@]+)@)?'  # 可选的用户名:密码
-        r'(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3})'  # IP
-        r':(\d+)'  # 端口
-        r'(?:\s*\[([^\]]*)\])?',  # 可选的位置信息
-        re.IGNORECASE
+        r'^(https?|socks[45])://([^\s\[]+)(?:\s*\[([^\]]*)\])?$',
+        re.IGNORECASE,
     )
     
     IP_PATTERN = re.compile(r'(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3})')
@@ -194,15 +194,35 @@ class ProxyParser:
         match = cls.PROXY_PATTERN.match(line)
         if match:
             protocol = match.group(1).lower()
-            ip = match.group(4)
-            port = match.group(5)
-            location_hint = match.group(6) or ""
+            authority = match.group(2)
+            location_hint = match.group(3) or ""
+
+            username = password = ""
+            if "@" in authority:
+                credentials, authority = authority.rsplit("@", 1)
+                if ":" not in credentials:
+                    return None
+                username, password = (unquote(part) for part in credentials.split(":", 1))
+
+            host_match = re.fullmatch(r"(\d{1,3}(?:\.\d{1,3}){3}):(\d+)", authority)
+            if not host_match:
+                return None
+            ip, port = host_match.groups()
+
+            try:
+                ipaddress.IPv4Address(ip)
+                if not 1 <= int(port) <= 65535:
+                    return None
+            except ValueError:
+                return None
             
             return ProxyInfo(
                 original_line=line,
                 protocol=protocol,
                 ip=ip,
                 port=port,
+                username=username,
+                password=password,
                 location_hint=location_hint
             )
         
@@ -234,7 +254,7 @@ class ProxyChecker:
     
     def __init__(self, config: Config = None):
         self.config = config or Config()
-        self.semaphore = asyncio.Semaphore(Config.MAX_CONCURRENT)
+        self.semaphore = asyncio.Semaphore(self.config.MAX_CONCURRENT)
         self.results: List[ProxyCheckResult] = []
     
     def _get_proxy_connector(self, proxy: ProxyInfo):
@@ -243,18 +263,25 @@ class ProxyChecker:
         
         if protocol in ('http', 'https'):
             # HTTP(S) 代理直接使用 aiohttp 的 proxy 参数
-            return None, f"{protocol}://{proxy.ip}:{proxy.port}"
+            credentials = ""
+            if proxy.username:
+                credentials = f"{quote(proxy.username, safe='')}:{quote(proxy.password, safe='')}@"
+            return None, f"{protocol}://{credentials}{proxy.ip}:{proxy.port}"
         
         elif protocol in ('socks4', 'socks5'):
             if not SOCKS_SUPPORT:
                 raise RuntimeError("SOCKS 代理需要安装 aiohttp_socks")
             
             proxy_type = ProxyType.SOCKS4 if protocol == 'socks4' else ProxyType.SOCKS5
-            connector = ProxyConnector(
-                proxy_type=proxy_type,
-                host=proxy.ip,
-                port=int(proxy.port),
-            )
+            connector_kwargs = {
+                "proxy_type": proxy_type,
+                "host": proxy.ip,
+                "port": int(proxy.port),
+            }
+            if proxy.username:
+                connector_kwargs["username"] = proxy.username
+                connector_kwargs["password"] = proxy.password
+            connector = ProxyConnector(**connector_kwargs)
             return connector, None
         
         raise ValueError(f"不支持的代理协议: {protocol}")
@@ -264,15 +291,15 @@ class ProxyChecker:
         result = ProxyCheckResult(proxy=proxy)
         
         async with self.semaphore:
-            for attempt in range(Config.MAX_RETRIES):
+            for attempt in range(self.config.MAX_RETRIES):
                 try:
-                    start_time = asyncio.get_event_loop().time()
+                    start_time = asyncio.get_running_loop().time()
                     
                     connector, proxy_url = self._get_proxy_connector(proxy)
                     
                     timeout = aiohttp.ClientTimeout(
-                        connect=Config.CONNECT_TIMEOUT,
-                        total=Config.TOTAL_TIMEOUT
+                        connect=self.config.CONNECT_TIMEOUT,
+                        total=self.config.TOTAL_TIMEOUT
                     )
                     
                     async with aiohttp.ClientSession(
@@ -280,25 +307,28 @@ class ProxyChecker:
                         timeout=timeout
                     ) as session:
                         kwargs = {
-                            "headers": {"User-Agent": Config.USER_AGENT}
+                            "headers": {"User-Agent": self.config.USER_AGENT}
                         }
                         if proxy_url:
                             kwargs["proxy"] = proxy_url
                         
-                        async with session.get(Config.API_URL, **kwargs) as response:
+                        async with session.get(self.config.API_URL, **kwargs) as response:
                             result.response_time_ms = int(
-                                (asyncio.get_event_loop().time() - start_time) * 1000
+                                (asyncio.get_running_loop().time() - start_time) * 1000
                             )
                             
                             if response.status != 200:
                                 result.status = f"HTTP {response.status}"
                                 continue
                             
-                            data = await response.json()
+                            data = await response.json(content_type=None)
+                            if not isinstance(data, dict):
+                                result.status = "API 响应格式错误"
+                                continue
                             
                             # 解析 API 响应
                             result.exit_ip = data.get('ip', '')
-                            result.fraud_score = data.get('fraudScore', 0)
+                            result.fraud_score = self._parse_fraud_score(data.get('fraudScore'))
                             result.is_residential = data.get('isResidential', False)
                             result.is_broadcast = data.get('isBroadcast', False)
                             
@@ -308,7 +338,7 @@ class ProxyChecker:
                             result.city = data.get('city', '')
                             result.timezone = data.get('timezone', '')
                             
-                            result.asn = data.get('asn', 0)
+                            result.asn = self._parse_int(data.get('asn'))
                             result.as_organization = data.get('asOrganization', '')
                             
                             # IP 匹配检查（判断是否透明代理）
@@ -332,10 +362,21 @@ class ProxyChecker:
                     result.status = f"错误: {error_msg}"
                 
                 # 重试延迟
-                if attempt < Config.MAX_RETRIES - 1:
+                if attempt < self.config.MAX_RETRIES - 1:
                     await asyncio.sleep(1)
             
             return result
+
+    @staticmethod
+    def _parse_int(value) -> int:
+        try:
+            return int(float(value))
+        except (TypeError, ValueError):
+            return 0
+
+    @classmethod
+    def _parse_fraud_score(cls, value) -> int:
+        return max(0, min(100, cls._parse_int(value)))
     
     async def check_all(self, proxies: List[ProxyInfo], 
                         progress_callback=None) -> List[ProxyCheckResult]:
@@ -343,17 +384,22 @@ class ProxyChecker:
         self.results = []
         total = len(proxies)
         
-        for i, proxy in enumerate(proxies, 1):
-            result = await self.check_single(proxy)
+        async def check_with_stagger(index: int, proxy: ProxyInfo):
+            # Staggering request starts limits API bursts while the semaphore still
+            # permits multiple slow proxy checks to run at once.
+            if index:
+                await asyncio.sleep(index * self.config.REQUEST_DELAY)
+            return await self.check_single(proxy)
+
+        tasks = [
+            asyncio.create_task(check_with_stagger(index, proxy))
+            for index, proxy in enumerate(proxies)
+        ]
+        for index, task in enumerate(tasks, 1):
+            result = await task
             self.results.append(result)
-            
-            # 进度回调
             if progress_callback:
-                progress_callback(i, total, result)
-            
-            # 请求间隔（避免 API 限流）
-            if i < total:
-                await asyncio.sleep(Config.REQUEST_DELAY)
+                progress_callback(index, total, result)
         
         return self.results
     
@@ -447,7 +493,7 @@ class ReportGenerator:
                 lines.append(f"{r.proxy.original_line}")
                 lines.append(f"  → {r.summary}")
                 if r.exit_ip and r.exit_ip != r.proxy.ip:
-                    lines.append(f"  → 出口IP: {r.exit_ip}")
+                    lines.append(f"  → 出口IP（与代理地址不同）: {r.exit_ip}")
                 lines.append("")
         
         # 失败的代理
