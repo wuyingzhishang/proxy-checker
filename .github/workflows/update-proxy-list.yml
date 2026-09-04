@@ -1,5 +1,9 @@
 name: 更新代理列表
 
+concurrency:
+  group: proxy-list-update
+  cancel-in-progress: false
+
 permissions:
   contents: write
   actions: read
@@ -18,14 +22,14 @@ jobs:
     
     steps:
     - name: 检出代码
-      uses: actions/checkout@v4
+        uses: actions/checkout@v5
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
         fetch-depth: 1
         ref: main
       
     - name: 设置 Python 环境
-      uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
       with:
         python-version: '3.11'
         cache: 'pip'
@@ -42,8 +46,8 @@ jobs:
         python generate_proxy_list.py
         echo "::endgroup::"
         
-        if [ -f proxy.txt ]; then
-          echo "proxy_count=$(grep -c '^[^#]' proxy.txt | head -1)" >> $GITHUB_OUTPUT
+        if [ -f proxy.txt ] && grep -q '^[^#[:space:]]' proxy.txt; then
+          echo "proxy_count=$(grep -c '^[^#[:space:]]' proxy.txt)" >> $GITHUB_OUTPUT
           echo "✅ proxy.txt 已生成"
         else
           echo "❌ proxy.txt 未生成"

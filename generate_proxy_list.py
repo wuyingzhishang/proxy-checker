@@ -30,6 +30,12 @@ class Config:
     """配置常量"""
     # 数据源
     SOURCE_URL = "https://tomcat1235.nyc.mn/proxy_list"
+    # 主站不可用时自动切换到公开纯文本源。
+    SOURCE_URLS = (
+        SOURCE_URL,
+        "https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/all/data.txt",
+        "https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt",
+    )
     
     # 请求配置
     REQUEST_TIMEOUT = 30
@@ -193,18 +199,44 @@ class ProxyScraper:
                 continue
         
         return proxies
+
+    def _parse_content(self, content: str) -> List[ProxyEntry]:
+        """解析 HTML 表格或常见纯文本代理列表。"""
+        if "<table" in content.lower() or "<tr" in content.lower():
+            return self._parse_table(content)
+
+        proxies = []
+        seen = set()
+        pattern = re.compile(
+            r"(?i)(?:(https?|socks4|socks5)://)?"
+            r"((?:\d{1,3}\.){3}\d{1,3}):(\d{1,5})"
+        )
+        for match in pattern.finditer(content):
+            protocol = (match.group(1) or "http").lower()
+            entry = ProxyEntry(protocol, match.group(2), match.group(3))
+            key = (entry.protocol, entry.ip, entry.port)
+            if entry.is_valid and key not in seen:
+                seen.add(key)
+                proxies.append(entry)
+        return proxies
     
     def scrape(self) -> List[ProxyEntry]:
         """执行抓取"""
-        html = self._fetch_page(self.config.SOURCE_URL)
-        if not html:
-            logger.error("无法获取页面内容")
-            return []
-        
-        proxies = self._parse_table(html)
-        logger.info(f"成功解析 {len(proxies)} 个有效代理")
-        
-        return proxies
+        source_urls = getattr(self.config, "SOURCE_URLS", None)
+        if not source_urls:
+            source_urls = (getattr(self.config, "SOURCE_URL", Config.SOURCE_URL),)
+        for source_url in source_urls:
+            content = self._fetch_page(source_url)
+            if not content:
+                continue
+            proxies = self._parse_content(content)
+            if proxies:
+                logger.info(f"来源 {source_url} 解析出 {len(proxies)} 个有效代理")
+                return proxies
+            logger.warning(f"来源 {source_url} 未解析出有效代理，尝试下一个来源")
+
+        logger.error("所有代理来源均不可用")
+        return []
     
     def close(self):
         """关闭会话"""
@@ -299,6 +331,18 @@ def main():
         proxies = scraper.scrape()
         
         if not proxies:
+            # 保留上一份有效列表，避免上游源短暂故障导致工作流失败。
+            try:
+                with open(Config.OUTPUT_FILE, "r", encoding="utf-8") as existing:
+                    has_cached_proxies = any(
+                        line.strip() and not line.lstrip().startswith("#")
+                        for line in existing
+                    )
+            except OSError:
+                has_cached_proxies = False
+            if has_cached_proxies:
+                logger.warning("在线来源均不可用，保留现有代理列表")
+                return 0
             logger.error("未能获取任何有效代理")
             return 1
         

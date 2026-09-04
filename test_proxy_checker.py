@@ -1,5 +1,7 @@
 import asyncio
 import unittest
+import tempfile
+from pathlib import Path
 
 from generate_proxy_list import ProxyScraper
 from ipcheck import Config, ProxyChecker, ProxyParser, ProxyInfo, ProxyCheckResult
@@ -68,6 +70,39 @@ class TestProxyScraper(unittest.TestCase):
         self.assertEqual([(e.protocol, e.ip, e.port) for e in entries], [
             ("http", "1.2.3.4", "80"), ("socks5", "5.6.7.8", "1080")
         ])
+
+    def test_scrape_falls_back_to_plain_text_source(self):
+        class TestConfig:
+            SOURCE_URLS = ("https://primary.invalid", "https://fallback.invalid")
+            MAX_RETRIES = 1
+            RETRY_DELAY = 0
+            REQUEST_TIMEOUT = 1
+            USER_AGENT = "test"
+
+        scraper = ProxyScraper(TestConfig())
+        calls = []
+
+        def fake_fetch(url):
+            calls.append(url)
+            return "bad response" if "primary" in url else "1.2.3.4:8080\n1.2.3.4:8080"
+
+        scraper._fetch_page = fake_fetch
+        entries = scraper.scrape()
+        self.assertEqual(calls, list(TestConfig.SOURCE_URLS))
+        self.assertEqual(len(entries), 1)
+        self.assertEqual(entries[0].to_line(), "http://1.2.3.4:8080")
+
+    def test_config_without_source_urls_remains_supported(self):
+        class TestConfig:
+            SOURCE_URL = "https://only.invalid"
+            MAX_RETRIES = 1
+            RETRY_DELAY = 0
+            REQUEST_TIMEOUT = 1
+            USER_AGENT = "test"
+
+        scraper = ProxyScraper(TestConfig())
+        scraper._fetch_page = lambda url: "1.2.3.4:8080"
+        self.assertEqual(len(scraper.scrape()), 1)
 
 
 if __name__ == "__main__":
