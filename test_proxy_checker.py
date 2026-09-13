@@ -22,6 +22,11 @@ class TestProxyParser(unittest.TestCase):
 
 
 class TestProxyChecker(unittest.TestCase):
+    def test_check_all_empty_input_returns_without_workers(self):
+        checker = ProxyChecker()
+        self.assertEqual(asyncio.run(checker.check_all([])), [])
+        self.assertEqual(checker.results, [])
+
     def test_proxy_url_contains_encoded_credentials(self):
         checker = ProxyChecker()
         _, url = checker._get_proxy_connector(
@@ -129,6 +134,24 @@ class TestProxyScraper(unittest.TestCase):
             [(entry.ip, entry.port) for entry in entries],
             [("1.2.3.4", "8080"), ("5.6.7.8", "80"), ("9.10.11.12", "3128")],
         )
+
+    def test_file_writer_uses_numeric_port_sorting_and_atomic_replace(self):
+        from generate_proxy_list import ProxyEntry, ProxyFileWriter
+
+        with tempfile.TemporaryDirectory() as tmpdir:
+            target = Path(tmpdir) / "proxy.txt"
+            entries = [
+                ProxyEntry("http", "1.1.1.1", "8080"),
+                ProxyEntry("http", "1.1.1.1", "80"),
+            ]
+            self.assertTrue(ProxyFileWriter.save(entries, str(target), source_count=2))
+            lines = [
+                line.strip()
+                for line in target.read_text(encoding="utf-8").splitlines()
+                if line and not line.startswith("#")
+            ]
+            self.assertEqual(lines, ["http://1.1.1.1:80", "http://1.1.1.1:8080"])
+            self.assertIn("共 2 个来源", target.read_text(encoding="utf-8"))
 
 
 if __name__ == "__main__":

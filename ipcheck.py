@@ -11,6 +11,8 @@ import aiohttp
 import re
 import json
 import ipaddress
+import os
+import tempfile
 from datetime import datetime
 from dataclasses import dataclass, field
 from typing import Optional, List, Tuple
@@ -291,80 +293,90 @@ class ProxyChecker:
         result = ProxyCheckResult(proxy=proxy)
         
         async with self.semaphore:
-            for attempt in range(self.config.MAX_RETRIES):
-                try:
-                    start_time = asyncio.get_running_loop().time()
-                    
-                    connector, proxy_url = self._get_proxy_connector(proxy)
-                    
-                    timeout = aiohttp.ClientTimeout(
-                        connect=self.config.CONNECT_TIMEOUT,
-                        total=self.config.TOTAL_TIMEOUT
-                    )
-                    
-                    async with aiohttp.ClientSession(
-                        connector=connector,
-                        timeout=timeout
-                    ) as session:
-                        kwargs = {
-                            "headers": {"User-Agent": self.config.USER_AGENT}
-                        }
-                        if proxy_url:
-                            kwargs["proxy"] = proxy_url
-                        
-                        async with session.get(self.config.API_URL, **kwargs) as response:
-                            result.response_time_ms = int(
-                                (asyncio.get_running_loop().time() - start_time) * 1000
-                            )
-                            
-                            if response.status != 200:
-                                result.status = f"HTTP {response.status}"
-                                continue
-                            
-                            data = await response.json(content_type=None)
-                            if not isinstance(data, dict):
-                                result.status = "API 响应格式错误"
-                                continue
-                            
-                            # 解析 API 响应
-                            result.exit_ip = data.get('ip', '')
-                            result.fraud_score = self._parse_fraud_score(data.get('fraudScore'))
-                            result.is_residential = data.get('isResidential', False)
-                            result.is_broadcast = data.get('isBroadcast', False)
-                            
-                            result.country = data.get('country', '')
-                            result.country_code = data.get('countryCode', '')
-                            result.region = data.get('region', '')
-                            result.city = data.get('city', '')
-                            result.timezone = data.get('timezone', '')
-                            
-                            result.asn = self._parse_int(data.get('asn'))
-                            result.as_organization = data.get('asOrganization', '')
-                            
-                            # IP 匹配检查（判断是否透明代理）
-                            result.ip_match = (result.exit_ip == proxy.ip)
-                            
-                            result.status = "success"
-                            return result
-                    
-                except asyncio.TimeoutError:
-                    result.status = "超时"
-                except aiohttp.ClientProxyConnectionError as e:
-                    result.status = "代理连接失败"
-                except aiohttp.ClientError as e:
-                    error_msg = str(e)[:50]
-                    result.status = f"连接错误: {error_msg}"
-                except RuntimeError as e:
-                    result.status = str(e)
-                    break  # 不重试配置错误
-                except Exception as e:
-                    error_msg = str(e)[:50]
-                    result.status = f"错误: {error_msg}"
-                
-                # 重试延迟
-                if attempt < self.config.MAX_RETRIES - 1:
-                    await asyncio.sleep(1)
-            
+            try:
+                # 一个代理的重试共享连接器和会话，避免每次重试重复建立 TCP/TLS
+                # 连接；SOCKS 连接器仍然只属于当前代理。
+                connector, proxy_url = self._get_proxy_connector(proxy)
+                timeout = aiohttp.ClientTimeout(
+                    connect=self.config.CONNECT_TIMEOUT,
+                    total=self.config.TOTAL_TIMEOUT,
+                )
+                request_kwargs = {
+                    "headers": {"User-Agent": self.config.USER_AGENT}
+                }
+                if proxy_url:
+                    request_kwargs["proxy"] = proxy_url
+
+                async with aiohttp.ClientSession(
+                    connector=connector,
+                    timeout=timeout,
+                ) as session:
+                    attempts = max(1, int(self.config.MAX_RETRIES))
+                    for attempt in range(attempts):
+                        try:
+                            start_time = asyncio.get_running_loop().time()
+                            async with session.get(
+                                self.config.API_URL, **request_kwargs
+                            ) as response:
+                                result.response_time_ms = int(
+                                    (asyncio.get_running_loop().time() - start_time) * 1000
+                                )
+
+                                if response.status != 200:
+                                    result.status = f"HTTP {response.status}"
+                                else:
+                                    data = await response.json(content_type=None)
+                                    if not isinstance(data, dict):
+                                        result.status = "API 响应格式错误"
+                                    else:
+                                        # 解析 API 响应
+                                        result.exit_ip = data.get('ip', '')
+                                        result.fraud_score = self._parse_fraud_score(
+                                            data.get('fraudScore')
+                                        )
+                                        result.is_residential = data.get(
+                                            'isResidential', False
+                                        )
+                                        result.is_broadcast = data.get(
+                                            'isBroadcast', False
+                                        )
+
+                                        result.country = data.get('country', '')
+                                        result.country_code = data.get('countryCode', '')
+                                        result.region = data.get('region', '')
+                                        result.city = data.get('city', '')
+                                        result.timezone = data.get('timezone', '')
+
+                                        result.asn = self._parse_int(data.get('asn'))
+                                        result.as_organization = data.get(
+                                            'asOrganization', ''
+                                        )
+                                        result.ip_match = result.exit_ip == proxy.ip
+                                        result.status = "success"
+                                        return result
+
+                        except asyncio.TimeoutError:
+                            result.status = "超时"
+                        except aiohttp.ClientProxyConnectionError:
+                            result.status = "代理连接失败"
+                        except aiohttp.ClientError as e:
+                            error_msg = str(e)[:50]
+                            result.status = f"连接错误: {error_msg}"
+                        except (TypeError, ValueError, json.JSONDecodeError) as e:
+                            error_msg = str(e)[:50]
+                            result.status = f"响应错误: {error_msg}"
+                        except Exception as e:
+                            error_msg = str(e)[:50]
+                            result.status = f"错误: {error_msg}"
+
+                        if attempt < attempts - 1:
+                            await asyncio.sleep(1)
+            except RuntimeError as e:
+                result.status = str(e)
+            except Exception as e:
+                error_msg = str(e)[:50]
+                result.status = f"错误: {error_msg}"
+
             return result
 
     @staticmethod
@@ -381,26 +393,72 @@ class ProxyChecker:
     async def check_all(self, proxies: List[ProxyInfo], 
                         progress_callback=None) -> List[ProxyCheckResult]:
         """批量检测代理"""
-        self.results = []
         total = len(proxies)
-        
-        async def check_with_stagger(index: int, proxy: ProxyInfo):
-            # Staggering request starts limits API bursts while the semaphore still
-            # permits multiple slow proxy checks to run at once.
-            if index:
-                await asyncio.sleep(index * self.config.REQUEST_DELAY)
-            return await self.check_single(proxy)
+        self.results = []
+        if not total:
+            return self.results
 
-        tasks = [
-            asyncio.create_task(check_with_stagger(index, proxy))
-            for index, proxy in enumerate(proxies)
-        ]
-        for index, task in enumerate(tasks, 1):
-            result = await task
+        # 只创建固定数量的 worker，避免代理列表很大时一次性创建成千上万个
+        # task，并让 REQUEST_DELAY 真正表示相邻请求的启动间隔。
+        worker_count = max(1, min(int(self.config.MAX_CONCURRENT), total))
+        results: List[Optional[ProxyCheckResult]] = [None] * total
+        ready = [asyncio.Event() for _ in range(total)]
+        next_index = 0
+        index_lock = asyncio.Lock()
+        request_delay = max(0.0, float(self.config.REQUEST_DELAY))
+        next_start = 0.0
+        pace_lock = asyncio.Lock()
+
+        async def wait_for_start_slot():
+            nonlocal next_start
+            if request_delay <= 0:
+                return
+            async with pace_lock:
+                now = asyncio.get_running_loop().time()
+                start_at = max(now, next_start)
+                next_start = start_at + request_delay
+            if start_at > now:
+                await asyncio.sleep(start_at - now)
+
+        async def worker():
+            nonlocal next_index
+            while True:
+                async with index_lock:
+                    if next_index >= total:
+                        return
+                    index = next_index
+                    next_index += 1
+                proxy = proxies[index]
+                try:
+                    await wait_for_start_slot()
+                    try:
+                        results[index] = await self.check_single(proxy)
+                    except Exception as e:
+                        results[index] = ProxyCheckResult(
+                            proxy=proxy,
+                            status=f"错误: {str(e)[:50]}",
+                        )
+                except Exception as e:
+                    results[index] = ProxyCheckResult(
+                        proxy=proxy,
+                        status=f"错误: {str(e)[:50]}",
+                    )
+                finally:
+                    ready[index].set()
+
+        workers = [asyncio.create_task(worker()) for _ in range(worker_count)]
+        # 任务完成顺序可能不同，但对外仍按输入顺序报告，兼容已有调用方。
+        for index, event in enumerate(ready):
+            await event.wait()
+            result = results[index]
+            if result is None:  # 防御性兜底，避免异常导致返回列表缺项
+                result = ProxyCheckResult(proxy=proxies[index], status="未知错误")
             self.results.append(result)
             if progress_callback:
-                progress_callback(index, total, result)
-        
+                progress_callback(index + 1, total, result)
+
+        await asyncio.gather(*workers)
+
         return self.results
     
     def get_statistics(self) -> dict:
@@ -511,11 +569,26 @@ class ReportGenerator:
     @staticmethod
     def save_report(content: str, filename: str):
         """保存报告到文件"""
+        temp_name = None
         try:
-            with open(filename, 'w', encoding='utf-8') as f:
+            directory = os.path.dirname(os.path.abspath(filename)) or "."
+            fd, temp_name = tempfile.mkstemp(
+                prefix=f".{os.path.basename(filename)}.",
+                suffix=".tmp",
+                dir=directory,
+                text=True,
+            )
+            with os.fdopen(fd, 'w', encoding='utf-8') as f:
                 f.write(content)
+            os.replace(temp_name, filename)
+            temp_name = None
             print(f"✅ 报告已保存到 {filename}")
         except Exception as e:
+            if temp_name:
+                try:
+                    os.unlink(temp_name)
+                except OSError:
+                    pass
             print(f"❌ 保存报告失败: {e}")
 
 

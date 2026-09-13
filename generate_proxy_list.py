@@ -9,6 +9,8 @@ import requests
 from bs4 import BeautifulSoup
 import re
 import time
+import os
+import tempfile
 from datetime import datetime
 from typing import List, Optional, Tuple
 from dataclasses import dataclass
@@ -121,6 +123,11 @@ class ProxyEntry:
 # ================================
 class ProxyScraper:
     """代理列表抓取器"""
+
+    PROXY_PATTERN = re.compile(
+        r"(?i)(?:(https?|socks4|socks5)://)?"
+        r"((?:\d{1,3}\.){3}\d{1,3}):(\d{1,5})"
+    )
     
     def __init__(self, config: Config = None):
         self.config = config or Config()
@@ -209,11 +216,7 @@ class ProxyScraper:
 
         proxies = []
         seen = set()
-        pattern = re.compile(
-            r"(?i)(?:(https?|socks4|socks5)://)?"
-            r"((?:\d{1,3}\.){3}\d{1,3}):(\d{1,5})"
-        )
-        for match in pattern.finditer(content):
+        for match in self.PROXY_PATTERN.finditer(content):
             protocol = (match.group(1) or "http").lower()
             entry = ProxyEntry(protocol, match.group(2), match.group(3))
             key = (entry.protocol, entry.ip, entry.port)
@@ -273,30 +276,58 @@ class ProxyFileWriter:
     """代理文件写入器"""
     
     @staticmethod
-    def save(proxies: List[ProxyEntry], filename: str) -> bool:
+    def save(
+        proxies: List[ProxyEntry],
+        filename: str,
+        source_count: Optional[int] = None,
+    ) -> bool:
         """保存代理列表到文件"""
+        temp_name = None
         try:
-            with open(filename, 'w', encoding='utf-8') as f:
+            directory = os.path.dirname(os.path.abspath(filename)) or "."
+            fd, temp_name = tempfile.mkstemp(
+                prefix=f".{os.path.basename(filename)}.",
+                suffix=".tmp",
+                dir=directory,
+                text=True,
+            )
+            with os.fdopen(fd, 'w', encoding='utf-8') as f:
                 # 写入文件头
                 timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
                 f.write(f"# 代理列表 - 自动更新\n")
                 f.write(f"# 更新时间: {timestamp}\n")
                 f.write(f"# 总计: {len(proxies)} 个代理\n")
-                f.write(f"# 来源: 多源聚合（共 {len(Config.SOURCE_URLS)} 个来源）\n")
+                configured_sources = (
+                    len(Config.SOURCE_URLS)
+                    if source_count is None
+                    else max(0, int(source_count))
+                )
+                f.write(f"# 来源: 多源聚合（共 {configured_sources} 个来源）\n")
                 f.write(f"# 格式: 协议://IP:端口 [位置]\n")
                 f.write("\n")
                 
                 # 按协议分组排序
-                proxies_sorted = sorted(proxies, key=lambda x: (x.protocol, x.ip))
+                proxies_sorted = sorted(
+                    proxies,
+                    key=lambda x: (x.protocol, x.ip, int(x.port)),
+                )
                 
                 # 写入代理列表
                 for proxy in proxies_sorted:
                     f.write(f"{proxy.to_line()}\n")
+
+            os.replace(temp_name, filename)
+            temp_name = None
             
             logger.info(f"已保存 {len(proxies)} 个代理到 {filename}")
             return True
             
         except Exception as e:
+            if temp_name:
+                try:
+                    os.unlink(temp_name)
+                except OSError:
+                    pass
             logger.error(f"保存文件失败: {e}")
             return False
 
@@ -371,7 +402,12 @@ def main():
         print_statistics(proxies)
         
         # 保存到文件
-        success = ProxyFileWriter.save(proxies, Config.OUTPUT_FILE)
+        source_urls = getattr(Config, "SOURCE_URLS", ())
+        success = ProxyFileWriter.save(
+            proxies,
+            Config.OUTPUT_FILE,
+            source_count=len(source_urls),
+        )
         
         if success:
             print()
