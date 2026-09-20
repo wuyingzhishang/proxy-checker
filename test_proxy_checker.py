@@ -3,7 +3,7 @@ import unittest
 import tempfile
 from pathlib import Path
 
-from generate_proxy_list import ProxyScraper
+from generate_proxy_list import ProxyEntry, ProxyScraper
 from ipcheck import Config, ProxyChecker, ProxyParser, ProxyInfo, ProxyCheckResult
 
 
@@ -20,8 +20,24 @@ class TestProxyParser(unittest.TestCase):
         self.assertIsNone(ProxyParser.parse_line("http://999.2.3.4:8080"))
         self.assertIsNone(ProxyParser.parse_line("http://1.2.3.4:65536"))
 
+    def test_parse_file_accepts_bom_and_deduplicates(self):
+        with tempfile.TemporaryDirectory() as tmpdir:
+            path = Path(tmpdir) / "proxy.txt"
+            path.write_text(
+                "\ufeff# header\nhttp://1.2.3.4:80\nhttp://1.2.3.4:80\n",
+                encoding="utf-8",
+            )
+            proxies = ProxyParser.parse_file(str(path))
+        self.assertEqual(len(proxies), 1)
+
 
 class TestProxyChecker(unittest.TestCase):
+    def test_only_transient_http_statuses_are_retryable(self):
+        self.assertTrue(ProxyChecker._is_retryable_status(429))
+        self.assertTrue(ProxyChecker._is_retryable_status(503))
+        self.assertFalse(ProxyChecker._is_retryable_status(400))
+        self.assertFalse(ProxyChecker._is_retryable_status(404))
+
     def test_check_all_empty_input_returns_without_workers(self):
         checker = ProxyChecker()
         self.assertEqual(asyncio.run(checker.check_all([])), [])
@@ -63,6 +79,10 @@ class TestProxyChecker(unittest.TestCase):
 
 
 class TestProxyScraper(unittest.TestCase):
+    def test_location_cleaning_does_not_remove_normal_text(self):
+        self.assertEqual(ProxyEntry("http", "1.2.3.4", "80", "已知地区 复制").location,
+                         "已知地区")
+
     def test_parse_table_deduplicates_entries(self):
         html = """
         <table><tr><th>Protocol</th><th>IP</th><th>Port</th></tr>

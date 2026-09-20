@@ -75,8 +75,8 @@ class ProxyEntry:
         """清理位置信息"""
         if not location:
             return ""
-        # 移除常见的无用文本
-        location = location.replace('复制', '').replace('已复制', '').replace('已', '')
+        # 只移除复制按钮文案，不要误删“已知”等正常地名/描述。
+        location = re.sub(r'(?:已复制|复制)', '', location)
         # 规范化空白
         location = ' '.join(location.split())
         return location
@@ -148,21 +148,24 @@ class ProxyScraper:
         """抓取页面内容，带重试机制"""
         session = self._get_session()
         
-        for attempt in range(self.config.MAX_RETRIES):
+        attempts = max(1, int(self.config.MAX_RETRIES))
+        for attempt in range(attempts):
             try:
-                logger.info(f"正在抓取: {url} (尝试 {attempt + 1}/{self.config.MAX_RETRIES})")
-                
-                response = session.get(url, timeout=self.config.REQUEST_TIMEOUT)
-                response.raise_for_status()
-                response.encoding = 'utf-8'
-                
-                return response.text
+                logger.info(f"正在抓取: {url} (尝试 {attempt + 1}/{attempts})")
+
+                with session.get(url, timeout=self.config.REQUEST_TIMEOUT) as response:
+                    response.raise_for_status()
+                    # 优先尊重服务器声明的编码，纯文本源没有声明时再回退。
+                    if not response.encoding:
+                        response.encoding = response.apparent_encoding or 'utf-8'
+                    return response.text
                 
             except requests.RequestException as e:
                 logger.warning(f"请求失败: {e}")
-                if attempt < self.config.MAX_RETRIES - 1:
-                    logger.info(f"等待 {self.config.RETRY_DELAY} 秒后重试...")
-                    time.sleep(self.config.RETRY_DELAY)
+                if attempt < attempts - 1:
+                    delay = max(0.0, float(self.config.RETRY_DELAY))
+                    logger.info(f"等待 {delay:g} 秒后重试...")
+                    time.sleep(delay)
         
         return None
     
@@ -309,7 +312,11 @@ class ProxyFileWriter:
                 # 按协议分组排序
                 proxies_sorted = sorted(
                     proxies,
-                    key=lambda x: (x.protocol, x.ip, int(x.port)),
+                    key=lambda x: (
+                        x.protocol,
+                        tuple(int(part) for part in x.ip.split('.')),
+                        int(x.port),
+                    ),
                 )
                 
                 # 写入代理列表

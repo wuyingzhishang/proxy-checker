@@ -45,6 +45,7 @@ class Config:
     # 并发配置
     MAX_CONCURRENT = 10  # 最大并发数
     REQUEST_DELAY = 0.5  # 请求间隔（秒）
+    RETRY_DELAY = 1.0  # 重试前等待时间（秒）
     
     # 文件配置
     INPUT_FILE = "proxy.txt"
@@ -234,11 +235,18 @@ class ProxyParser:
     def parse_file(cls, filename: str) -> List[ProxyInfo]:
         """解析代理文件"""
         proxies = []
+        seen = set()
         try:
-            with open(filename, 'r', encoding='utf-8') as f:
+            # 兼容 BOM，并避免同一代理重复检测。
+            with open(filename, 'r', encoding='utf-8-sig') as f:
                 for line in f:
                     proxy = cls.parse_line(line)
                     if proxy:
+                        key = (proxy.protocol, proxy.ip, proxy.port,
+                               proxy.username, proxy.password)
+                        if key in seen:
+                            continue
+                        seen.add(key)
                         proxies.append(proxy)
         except FileNotFoundError:
             print(f"❌ 文件不存在: {filename}")
@@ -324,6 +332,8 @@ class ProxyChecker:
 
                                 if response.status != 200:
                                     result.status = f"HTTP {response.status}"
+                                    if not self._is_retryable_status(response.status):
+                                        return result
                                 else:
                                     data = await response.json(content_type=None)
                                     if not isinstance(data, dict):
@@ -370,7 +380,9 @@ class ProxyChecker:
                             result.status = f"错误: {error_msg}"
 
                         if attempt < attempts - 1:
-                            await asyncio.sleep(1)
+                            await asyncio.sleep(
+                                max(0.0, float(self.config.RETRY_DELAY))
+                            )
             except RuntimeError as e:
                 result.status = str(e)
             except Exception as e:
@@ -389,6 +401,11 @@ class ProxyChecker:
     @classmethod
     def _parse_fraud_score(cls, value) -> int:
         return max(0, min(100, cls._parse_int(value)))
+
+    @staticmethod
+    def _is_retryable_status(status: int) -> bool:
+        """仅对临时性 HTTP 错误重试，避免 4xx 响应造成无意义流量。"""
+        return status in (408, 425, 429) or status >= 500
     
     async def check_all(self, proxies: List[ProxyInfo], 
                         progress_callback=None) -> List[ProxyCheckResult]:
@@ -447,17 +464,22 @@ class ProxyChecker:
                     ready[index].set()
 
         workers = [asyncio.create_task(worker()) for _ in range(worker_count)]
-        # 任务完成顺序可能不同，但对外仍按输入顺序报告，兼容已有调用方。
-        for index, event in enumerate(ready):
-            await event.wait()
-            result = results[index]
-            if result is None:  # 防御性兜底，避免异常导致返回列表缺项
-                result = ProxyCheckResult(proxy=proxies[index], status="未知错误")
-            self.results.append(result)
-            if progress_callback:
-                progress_callback(index + 1, total, result)
-
-        await asyncio.gather(*workers)
+        try:
+            # 任务完成顺序可能不同，但对外仍按输入顺序报告，兼容已有调用方。
+            for index, event in enumerate(ready):
+                await event.wait()
+                result = results[index]
+                if result is None:  # 防御性兜底，避免异常导致返回列表缺项
+                    result = ProxyCheckResult(proxy=proxies[index], status="未知错误")
+                self.results.append(result)
+                if progress_callback:
+                    progress_callback(index + 1, total, result)
+        finally:
+            # 调用方取消批量检测时，确保 worker 不会继续在后台请求。
+            if not all(worker.done() for worker in workers):
+                for worker in workers:
+                    worker.cancel()
+            await asyncio.gather(*workers, return_exceptions=True)
 
         return self.results
     
@@ -567,7 +589,7 @@ class ReportGenerator:
         return "\n".join(lines)
     
     @staticmethod
-    def save_report(content: str, filename: str):
+    def save_report(content: str, filename: str) -> bool:
         """保存报告到文件"""
         temp_name = None
         try:
@@ -583,6 +605,7 @@ class ReportGenerator:
             os.replace(temp_name, filename)
             temp_name = None
             print(f"✅ 报告已保存到 {filename}")
+            return True
         except Exception as e:
             if temp_name:
                 try:
@@ -590,6 +613,7 @@ class ReportGenerator:
                 except OSError:
                     pass
             print(f"❌ 保存报告失败: {e}")
+            return False
 
 
 # ================================
@@ -608,7 +632,7 @@ def print_progress(current: int, total: int, result: ProxyCheckResult):
         print(f"       {result.status}")
 
 
-async def main():
+async def main() -> int:
     """主函数"""
     print("=" * 60)
     print("🔍 代理质量检测工具 v2.0")
@@ -627,7 +651,7 @@ async def main():
     
     if not proxies:
         print(f"❌ 未找到有效代理，请检查 {Config.INPUT_FILE}")
-        return
+        return 1
     
     print(f"📋 发现 {len(proxies)} 个代理，开始检测...")
     print()
@@ -664,15 +688,17 @@ async def main():
     
     # 生成并保存报告
     report = ReportGenerator.generate_text_report(results, stats)
-    ReportGenerator.save_report(report, Config.OUTPUT_FILE)
+    if not ReportGenerator.save_report(report, Config.OUTPUT_FILE):
+        return 1
     
     print()
     print("✨ 检测完成!")
+    return 0
 
 
 if __name__ == "__main__":
     try:
-        asyncio.run(main())
+        sys.exit(asyncio.run(main()))
     except KeyboardInterrupt:
         print("\n⚠️ 检测被用户中断")
         sys.exit(1)
