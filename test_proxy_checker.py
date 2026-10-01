@@ -1,6 +1,8 @@
 import asyncio
 import unittest
 import tempfile
+import json
+import csv
 from pathlib import Path
 
 from generate_proxy_list import ProxyEntry, ProxyScraper
@@ -76,6 +78,48 @@ class TestProxyChecker(unittest.TestCase):
         results, peak = asyncio.run(scenario())
         self.assertGreaterEqual(peak, 2)
         self.assertEqual([r.proxy.original_line for r in results], ["1", "2", "3", "4"])
+
+    def test_machine_readable_report_excludes_credentials(self):
+        from ipcheck import ReportGenerator
+
+        with tempfile.TemporaryDirectory() as tmpdir:
+            result = ProxyCheckResult(
+                proxy=ProxyInfo(
+                    "http://secret:password@1.2.3.4:80",
+                    protocol="http", ip="1.2.3.4", port="80",
+                    username="secret", password="password",
+                ),
+                status="success", exit_ip="1.2.3.4", fraud_score=4,
+                country="US", response_time_ms=120,
+            )
+            stats = {"total": 1, "success": 1, "failed": 0, "success_rate": "100.0%",
+                     "quality_distribution": {"优秀": 1}, "ip_type_distribution": {"机房IP": 1},
+                     "country_distribution": {"US": 1}}
+            self.assertTrue(ReportGenerator.save_machine_readable(
+                [result], stats,
+                str(Path(tmpdir) / "results.json"), str(Path(tmpdir) / "results.csv"),
+                str(Path(tmpdir) / "health.json"), input_count=1,
+            ))
+            content = (Path(tmpdir) / "results.json").read_text(encoding="utf-8")
+            self.assertNotIn("password", content)
+            self.assertEqual(json.loads(content)["proxies"][0]["response_time_ms"], 120)
+            with (Path(tmpdir) / "results.csv").open(encoding="utf-8", newline="") as handle:
+                rows = list(csv.DictReader(handle))
+            self.assertEqual(rows[0]["host"], "1.2.3.4")
+
+    def test_machine_readable_report_writes_csv_header_for_empty_results(self):
+        from ipcheck import ReportGenerator
+
+        with tempfile.TemporaryDirectory() as tmpdir:
+            stats = {"total": 0, "success": 0, "failed": 0, "success_rate": "0%",
+                     "quality_distribution": {}, "ip_type_distribution": {},
+                     "country_distribution": {}}
+            csv_path = Path(tmpdir) / "results.csv"
+            self.assertTrue(ReportGenerator.save_machine_readable(
+                [], stats, str(Path(tmpdir) / "results.json"), str(csv_path),
+                str(Path(tmpdir) / "health.json"), input_count=0,
+            ))
+            self.assertGreater(len(csv_path.read_text(encoding="utf-8")), 0)
 
 
 class TestProxyScraper(unittest.TestCase):
@@ -172,6 +216,19 @@ class TestProxyScraper(unittest.TestCase):
             ]
             self.assertEqual(lines, ["http://1.1.1.1:80", "http://1.1.1.1:8080"])
             self.assertIn("共 2 个来源", target.read_text(encoding="utf-8"))
+
+    def test_file_writer_outputs_json_and_protocol_splits(self):
+        from generate_proxy_list import ProxyEntry, ProxyFileWriter
+
+        with tempfile.TemporaryDirectory() as tmpdir:
+            entries = [ProxyEntry("http", "1.1.1.1", "80"), ProxyEntry("socks5", "2.2.2.2", "1080")]
+            self.assertTrue(ProxyFileWriter.save_json_and_protocol_files(
+                entries, str(Path(tmpdir) / "proxy.json"), str(Path(tmpdir) / "proxies")
+            ))
+            data = json.loads((Path(tmpdir) / "proxy.json").read_text(encoding="utf-8"))
+            self.assertEqual(data["count"], 2)
+            self.assertEqual((Path(tmpdir) / "proxies" / "http.txt").read_text(encoding="utf-8").strip(),
+                             "http://1.1.1.1:80")
 
 
 if __name__ == "__main__":

@@ -15,6 +15,7 @@ from datetime import datetime
 from typing import List, Optional, Tuple
 from dataclasses import dataclass
 import logging
+import json
 
 # 配置日志
 logging.basicConfig(
@@ -51,6 +52,8 @@ class Config:
     
     # 输出配置
     OUTPUT_FILE = "proxy.txt"
+    JSON_OUTPUT_FILE = "proxy.json"
+    PROTOCOL_OUTPUT_DIR = "proxies"
     
     # 有效协议
     VALID_PROTOCOLS = {"http", "https", "socks4", "socks5"}
@@ -338,6 +341,63 @@ class ProxyFileWriter:
             logger.error(f"保存文件失败: {e}")
             return False
 
+    @staticmethod
+    def save_json_and_protocol_files(
+        proxies: List[ProxyEntry], json_filename: str, protocol_dir: str
+    ) -> bool:
+        """Write a metadata index and protocol-specific text files atomically."""
+        try:
+            generated_at = datetime.now().astimezone().isoformat(timespec="seconds")
+            records = [
+                {
+                    "protocol": proxy.protocol,
+                    "host": proxy.ip,
+                    "port": int(proxy.port),
+                    "location_hint": proxy.location or None,
+                }
+                for proxy in proxies
+            ]
+            payload = {"generated_at": generated_at, "count": len(records), "proxies": records}
+            directory = os.path.dirname(os.path.abspath(json_filename)) or "."
+            fd, temp_name = tempfile.mkstemp(
+                prefix=f".{os.path.basename(json_filename)}.", suffix=".tmp", dir=directory, text=True
+            )
+            try:
+                with os.fdopen(fd, "w", encoding="utf-8") as output:
+                    json.dump(payload, output, ensure_ascii=False, indent=2)
+                    output.write("\n")
+                os.replace(temp_name, json_filename)
+            except Exception:
+                try:
+                    os.unlink(temp_name)
+                except OSError:
+                    pass
+                raise
+
+            os.makedirs(protocol_dir, exist_ok=True)
+            for protocol in sorted(Config.VALID_PROTOCOLS):
+                lines = [proxy.to_line() for proxy in proxies if proxy.protocol == protocol]
+                target = os.path.join(protocol_dir, f"{protocol}.txt")
+                fd, temp_name = tempfile.mkstemp(
+                    prefix=f".{protocol}.", suffix=".tmp", dir=protocol_dir, text=True
+                )
+                try:
+                    with os.fdopen(fd, "w", encoding="utf-8") as output:
+                        output.write("\n".join(lines))
+                        if lines:
+                            output.write("\n")
+                    os.replace(temp_name, target)
+                except Exception:
+                    try:
+                        os.unlink(temp_name)
+                    except OSError:
+                        pass
+                    raise
+            return True
+        except Exception as e:
+            logger.error(f"保存 JSON/协议分片失败: {e}")
+            return False
+
 
 # ================================
 # 统计
@@ -417,6 +477,10 @@ def main():
         )
         
         if success:
+            if not ProxyFileWriter.save_json_and_protocol_files(
+                proxies, Config.JSON_OUTPUT_FILE, Config.PROTOCOL_OUTPUT_DIR
+            ):
+                return 1
             print()
             print("✨ 抓取完成!")
             return 0

@@ -8,6 +8,7 @@
 
 import asyncio
 import aiohttp
+import csv
 import re
 import json
 import ipaddress
@@ -50,6 +51,9 @@ class Config:
     # 文件配置
     INPUT_FILE = "proxy.txt"
     OUTPUT_FILE = "proxy_checked.txt"
+    JSON_OUTPUT_FILE = "proxy_checked.json"
+    CSV_OUTPUT_FILE = "proxy_checked.csv"
+    HEALTH_OUTPUT_FILE = "proxy_health.json"
     
     # 重试配置
     MAX_RETRIES = 2
@@ -615,6 +619,114 @@ class ReportGenerator:
             print(f"❌ 保存报告失败: {e}")
             return False
 
+    @staticmethod
+    def _result_record(result: ProxyCheckResult, checked_at: str) -> dict:
+        return {
+            "checked_at": checked_at,
+            "protocol": result.proxy.protocol,
+            "host": result.proxy.ip,
+            "port": int(result.proxy.port),
+            "status": result.status,
+            "response_time_ms": result.response_time_ms,
+            "exit_ip": result.exit_ip or None,
+            "ip_match": result.ip_match if result.status == "success" else None,
+            "fraud_score": result.fraud_score if result.status == "success" else None,
+            "quality": result.quality.name.lower() if result.status == "success" else None,
+            "ip_type": result.ip_type.name.lower() if result.status == "success" else None,
+            "country": result.country or None,
+            "country_code": result.country_code or None,
+            "region": result.region or None,
+            "city": result.city or None,
+            "timezone": result.timezone or None,
+            "asn": result.asn or None,
+            "as_organization": result.as_organization or None,
+            "location_hint": result.proxy.location_hint or None,
+        }
+
+    @staticmethod
+    def _save_text(content: str, filename: str) -> bool:
+        temp_name = None
+        try:
+            directory = os.path.dirname(os.path.abspath(filename)) or "."
+            fd, temp_name = tempfile.mkstemp(
+                prefix=f".{os.path.basename(filename)}.",
+                suffix=".tmp",
+                dir=directory,
+                text=True,
+            )
+            with os.fdopen(fd, "w", encoding="utf-8", newline="") as output:
+                output.write(content)
+            os.replace(temp_name, filename)
+            return True
+        except Exception as e:
+            if temp_name:
+                try:
+                    os.unlink(temp_name)
+                except OSError:
+                    pass
+            print(f"❌ 保存文件失败 {filename}: {e}")
+            return False
+
+    @classmethod
+    def save_machine_readable(
+        cls,
+        results: List[ProxyCheckResult],
+        stats: dict,
+        json_filename: str,
+        csv_filename: str,
+        health_filename: str,
+        input_count: int,
+    ) -> bool:
+        checked_at = datetime.now().astimezone().isoformat(timespec="seconds")
+        records = [cls._result_record(result, checked_at) for result in results]
+        payload = {
+            "checked_at": checked_at,
+            "api": Config.API_URL,
+            "summary": {
+                "input": input_count,
+                "checked": len(results),
+                "total": stats["total"],
+                "success": stats["success"],
+                "failed": stats["failed"],
+                "success_rate": stats["success_rate"],
+                "protocols": {
+                    protocol: {
+                        "input": sum(1 for result in results if result.proxy.protocol == protocol),
+                        "success": sum(
+                            1 for result in results
+                            if result.proxy.protocol == protocol and result.status == "success"
+                        ),
+                    }
+                    for protocol in sorted({result.proxy.protocol for result in results})
+                },
+                "quality_distribution": stats["quality_distribution"],
+                "ip_type_distribution": stats["ip_type_distribution"],
+                "country_distribution": stats["country_distribution"],
+            },
+            "proxies": records,
+        }
+        if not cls._save_text(
+            json.dumps(payload, ensure_ascii=False, indent=2) + "\n", json_filename
+        ):
+            return False
+
+        csv_fields = list(records[0]) if records else list(cls._result_record(
+            ProxyCheckResult(proxy=ProxyInfo("", protocol="http", ip="0.0.0.0", port="1")),
+            checked_at,
+        ))
+        import io
+        output = io.StringIO(newline="")
+        writer = csv.DictWriter(output, fieldnames=csv_fields, extrasaction="ignore")
+        writer.writeheader()
+        writer.writerows(records)
+        if not cls._save_text(output.getvalue(), csv_filename):
+            return False
+
+        return cls._save_text(
+            json.dumps(payload["summary"], ensure_ascii=False, indent=2) + "\n",
+            health_filename,
+        )
+
 
 # ================================
 # 主程序
@@ -689,6 +801,16 @@ async def main() -> int:
     # 生成并保存报告
     report = ReportGenerator.generate_text_report(results, stats)
     if not ReportGenerator.save_report(report, Config.OUTPUT_FILE):
+        return 1
+
+    if not ReportGenerator.save_machine_readable(
+        results,
+        stats,
+        Config.JSON_OUTPUT_FILE,
+        Config.CSV_OUTPUT_FILE,
+        Config.HEALTH_OUTPUT_FILE,
+        input_count=len(proxies),
+    ):
         return 1
     
     print()
